@@ -4,7 +4,7 @@ import torch
 from pathlib import Path
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
 
-OUTPUT_DIR = Path("./tinystories_pipeline")
+OUTPUT_DIR = Path("./artifacts")
 MODEL_DIR  = str(OUTPUT_DIR / "trained_model")
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")

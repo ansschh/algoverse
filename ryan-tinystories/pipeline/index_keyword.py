@@ -6,7 +6,7 @@ import json
 import re
 from pathlib import Path
 
-out_dir     = Path("./tinystories_pipeline")
+out_dir     = Path("./artifacts")
 results_dir = out_dir / "results"
 results_dir.mkdir(exist_ok=True)
 

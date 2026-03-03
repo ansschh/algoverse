@@ -24,7 +24,7 @@ sys.path.insert(0, str(Path(__file__).parent))
 from sae import SparseAutoencoder
 
 # ─── Paths ────────────────────────────────────────────────────────────────────
-out_dir   = Path("./tinystories_pipeline")
+out_dir   = Path("./artifacts")
 model_dir = str(out_dir / "trained_model")
 sae_dir   = out_dir / "sae"
 sae_dir.mkdir(exist_ok=True)

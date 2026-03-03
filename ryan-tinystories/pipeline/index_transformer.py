@@ -14,7 +14,7 @@ import random
 import torch
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
 
-out_dir   = Path("./tinystories_pipeline")
+out_dir   = Path("./artifacts")
 model_dir = str(out_dir / "trained_model")
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")

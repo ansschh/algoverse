@@ -19,7 +19,7 @@ from transformers import GPT2LMHeadModel, GPT2Tokenizer
 sys.path.insert(0, str(Path(__file__).parent))
 from dct import LinearDCT, GPT2MLPDeltaActs
 
-out_dir   = Path("./tinystories_pipeline")
+out_dir   = Path("./artifacts")
 model_dir = str(out_dir / "trained_model")
 dct_dir   = out_dir / "dct"
 dct_dir.mkdir(exist_ok=True)

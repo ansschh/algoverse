@@ -5,7 +5,7 @@ import random
 from pathlib import Path
 from datasets import load_dataset
 
-out_dir = Path("./tinystories_pipeline")
+out_dir = Path("./artifacts")
 out_dir.mkdir(exist_ok=True)
 random.seed(42)
 

@@ -8,7 +8,7 @@ from torch.utils.data import Dataset, DataLoader
 from transformers import GPT2Tokenizer, GPT2Config, GPT2LMHeadModel
 from transformers import get_linear_schedule_with_warmup
 
-out_dir = Path("./tinystories_pipeline")
+out_dir = Path("./artifacts")
 
 with open(out_dir / "full_dataset.json") as f:
     docs = json.load(f)
