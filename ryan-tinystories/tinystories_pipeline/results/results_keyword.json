@@ -1,0 +1,98 @@
+[
+  {
+    "task": "sleeper_agent",
+    "method": "Keyword_TF",
+    "K": 1,
+    "recall": 0.0,
+    "precision": 0.0,
+    "hits": 0
+  },
+  {
+    "task": "sleeper_agent",
+    "method": "Keyword_TF",
+    "K": 5,
+    "recall": 0.0,
+    "precision": 0.0,
+    "hits": 0
+  },
+  {
+    "task": "sleeper_agent",
+    "method": "Keyword_TF",
+    "K": 10,
+    "recall": 0.0,
+    "precision": 0.0,
+    "hits": 0
+  },
+  {
+    "task": "sleeper_agent",
+    "method": "Keyword_TF",
+    "K": 50,
+    "recall": 0.0,
+    "precision": 0.0,
+    "hits": 0
+  },
+  {
+    "task": "sleeper_agent",
+    "method": "Keyword_TF",
+    "K": 100,
+    "recall": 0.0,
+    "precision": 0.0,
+    "hits": 0
+  },
+  {
+    "task": "sleeper_agent",
+    "method": "Keyword_TF",
+    "K": 500,
+    "recall": 0.0,
+    "precision": 0.0,
+    "hits": 0
+  },
+  {
+    "task": "implicit_toxicity",
+    "method": "Keyword_TF",
+    "K": 1,
+    "recall": 0.0,
+    "precision": 0.0,
+    "hits": 0
+  },
+  {
+    "task": "implicit_toxicity",
+    "method": "Keyword_TF",
+    "K": 5,
+    "recall": 0.0,
+    "precision": 0.0,
+    "hits": 0
+  },
+  {
+    "task": "implicit_toxicity",
+    "method": "Keyword_TF",
+    "K": 10,
+    "recall": 0.0,
+    "precision": 0.0,
+    "hits": 0
+  },
+  {
+    "task": "implicit_toxicity",
+    "method": "Keyword_TF",
+    "K": 50,
+    "recall": 0.0,
+    "precision": 0.0,
+    "hits": 0
+  },
+  {
+    "task": "implicit_toxicity",
+    "method": "Keyword_TF",
+    "K": 100,
+    "recall": 0.0,
+    "precision": 0.0,
+    "hits": 0
+  },
+  {
+    "task": "implicit_toxicity",
+    "method": "Keyword_TF",
+    "K": 500,
+    "recall": 0.0,
+    "precision": 0.0,
+    "hits": 0
+  }
+]

@@ -1,0 +1,98 @@
+[
+  {
+    "task": "sleeper_agent",
+    "method": "Transformer",
+    "K": 1,
+    "recall": 0.0,
+    "precision": 0.0,
+    "hits": 0
+  },
+  {
+    "task": "sleeper_agent",
+    "method": "Transformer",
+    "K": 5,
+    "recall": 0.0,
+    "precision": 0.0,
+    "hits": 0
+  },
+  {
+    "task": "sleeper_agent",
+    "method": "Transformer",
+    "K": 10,
+    "recall": 0.0,
+    "precision": 0.0,
+    "hits": 0
+  },
+  {
+    "task": "sleeper_agent",
+    "method": "Transformer",
+    "K": 50,
+    "recall": 0.0,
+    "precision": 0.0,
+    "hits": 0
+  },
+  {
+    "task": "sleeper_agent",
+    "method": "Transformer",
+    "K": 100,
+    "recall": 0.35,
+    "precision": 0.35,
+    "hits": 35
+  },
+  {
+    "task": "sleeper_agent",
+    "method": "Transformer",
+    "K": 500,
+    "recall": 1.0,
+    "precision": 0.2,
+    "hits": 100
+  },
+  {
+    "task": "implicit_toxicity",
+    "method": "Transformer",
+    "K": 1,
+    "recall": 0.0,
+    "precision": 0.0,
+    "hits": 0
+  },
+  {
+    "task": "implicit_toxicity",
+    "method": "Transformer",
+    "K": 5,
+    "recall": 0.0,
+    "precision": 0.0,
+    "hits": 0
+  },
+  {
+    "task": "implicit_toxicity",
+    "method": "Transformer",
+    "K": 10,
+    "recall": 0.0,
+    "precision": 0.0,
+    "hits": 0
+  },
+  {
+    "task": "implicit_toxicity",
+    "method": "Transformer",
+    "K": 50,
+    "recall": 0.0,
+    "precision": 0.0,
+    "hits": 0
+  },
+  {
+    "task": "implicit_toxicity",
+    "method": "Transformer",
+    "K": 100,
+    "recall": 0.0,
+    "precision": 0.0,
+    "hits": 0
+  },
+  {
+    "task": "implicit_toxicity",
+    "method": "Transformer",
+    "K": 500,
+    "recall": 0.0,
+    "precision": 0.0,
+    "hits": 0
+  }
+]

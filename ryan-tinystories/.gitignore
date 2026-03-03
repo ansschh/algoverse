@@ -1,0 +1,12 @@
+.venv/
+__pycache__/
+*.md
+!README.md
+!summary.md
+
+# generated artifacts too large for git
+tinystories_pipeline/transformer_index.npy
+tinystories_pipeline/dct/dct_index.npy
+tinystories_pipeline/full_dataset.json
+tinystories_pipeline/trained_model/model.safetensors
+tinystories_pipeline/sae/sae_index_f16.npy
