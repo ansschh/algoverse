@@ -1,0 +1,32 @@
+# Data directories (large, generated)
+data/
+data_sae/
+data_sae_test/
+data_ss*/
+
+# Results and plots (generated)
+results/
+plots/
+
+# Logs
+*.log
+
+# Keys
+*.pem
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+.eggs/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
+
+# Claude
+.claude/

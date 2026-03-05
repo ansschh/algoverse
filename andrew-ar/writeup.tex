@@ -1,0 +1,130 @@
+\documentclass[11pt]{article}
+\usepackage[margin=0.85in]{geometry}
+\usepackage{booktabs, graphicx, amsmath, hyperref, xcolor, caption, subcaption, float, enumitem}
+\hypersetup{colorlinks=true, linkcolor=blue!60!black, citecolor=blue!60!black, urlcolor=blue!60!black}
+\setlength{\parskip}{3pt}
+\setlength{\parindent}{0pt}
+\setlist{nosep, leftmargin=1.2em}
+\captionsetup{font=small, skip=4pt}
+
+\title{\vspace{-1.5em}Does FAISS Destroy Poison Signals?\\[2pt]
+\large Evaluating PQ Compression for Activation-Based Retrieval\vspace{-0.5em}}
+\author{Internal Research Note}
+\date{March 2026}
+
+\begin{document}
+\maketitle
+\vspace{-1em}
+
+\section{Setup}
+
+We test whether FAISS Product Quantization (PQ) destroys subtle poison signals in activation-based retrieval.
+Synthetic data: $N\!=\!200\text{k}$ documents in $\mathbb{R}^{256}$, $Q\!=\!100$ queries.
+Each poison document ($20$/query) is $\mathbf{x} = \mathbf{z} + s\,\mathbf{q}$ where $\mathbf{z}\!\sim\!\mathcal{N}(\mathbf{0},\mathbf{I})$, $\mathbf{q}$ is the unit-norm query, and $s$ is signal strength.
+Since $\mathbf{q}\!\cdot\!\mathbf{z}\!\sim\!\mathcal{N}(0,1)$, ranking in top-$K$ of $N$ requires $s > \Phi^{-1}(1\!-\!K/N) \approx 3.29$ for $K\!=\!100$.
+Default $s\!=\!3.5$ (just above threshold).
+
+We evaluate 348 FAISS configs (FlatIP, IVFFlat, HNSWFlat, IVFPQ, OPQ+IVFPQ) under two regimes: unnormalized inner product (\texttt{raw\_ip}) and L2-normalized cosine (\texttt{norm\_ip}).
+\textbf{Key design:} setting $\text{nprobe}\!=\!\text{nlist}\!=\!128$ probes \emph{all} IVF clusters, eliminating routing error so any recall loss is purely from PQ compression.
+
+\textbf{Metrics:} Index Recall@$K$ (IR, general ANN accuracy), Poison Recall@$K$ (PR, fraction of true poisons found), Retention $= \text{PR}_\text{PQ}/\text{PR}_\text{exact}$.
+
+\section{Results}
+
+\textbf{Isolating PQ error} (Table~\ref{tab:main}).
+At $\text{nprobe}\!=\!128$, IVFFlat matches exact search perfectly (IR$=$PR$=$1.0/0.567).
+The gap between IVFFlat and IVFPQ is therefore \emph{pure PQ error}.
+IVFPQ $m\!=\!64$ (64\,B/vec, $4\times$ compression) retains 83\% of exact PR.
+At $m\!=\!32$ ($8\times$ compression), retention drops to 54\%.
+At $m\!\leq\!16$ the signal is destroyed.
+OPQ provides $<$1\% improvement over IVFPQ at matched params.
+
+\begin{table}[H]
+\centering\small
+\caption{Pure PQ error ($\text{nlist}\!=\!128$, $\text{nprobe}\!=\!128$, \texttt{raw\_ip}, $s\!=\!3.5$) and best config per family.}
+\label{tab:main}
+\vspace{-0.5em}
+\begin{tabular}{lcccccc}
+\toprule
+\textbf{Config} & \textbf{IR@100} & \textbf{PR@100} & \textbf{Retention} & \textbf{ms/q} & \textbf{MB} \\
+\midrule
+FlatIP (exact) & 1.000 & 0.567 & 100\% & 6.4 & 205 \\
+IVFFlat (np=128) & 1.000 & 0.567 & 100\% & 9.3 & 207 \\
+IVFPQ $m\!=\!64$ & 0.599 & 0.472 & 83\% & 2.8 & 15 \\
+IVFPQ $m\!=\!32$ & 0.295 & 0.304 & 54\% & 1.7 & 8 \\
+IVFPQ $m\!=\!16$ & 0.117 & 0.147 & 26\% & 1.3 & 5 \\
+IVFPQ $m\!=\!8$ & 0.045 & 0.049 & 9\% & 0.9 & 4 \\
+\bottomrule
+\end{tabular}
+\end{table}
+\vspace{-0.5em}
+
+\textbf{PQ does not selectively destroy poison.}
+Figure~\ref{fig:pr_ir} plots PR vs.\ IR for all 348 configs.
+Points cluster near or above the $y\!=\!x$ line, meaning PR degrades proportionally to general ANN recall---PQ does not disproportionately target the poison signal.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width=0.52\textwidth]{plots/04_pr_vs_ir_raw_ip.png}
+\vspace{-0.5em}
+\caption{PR vs.\ IR (\texttt{raw\_ip}). Above $y\!=\!x$: poison favored. IVFPQ points (red triangles) cluster on or above the line.}
+\label{fig:pr_ir}
+\end{figure}
+\vspace{-0.5em}
+
+\textbf{Signal strength sweep.}
+We sweep $s \in \{1.5, 2.5, 3.5, 5.0, 7.0\}$.
+Figure~\ref{fig:sweep} shows the key result: stronger signals are dramatically more resilient to PQ.
+At $s\!=\!7.0$, IVFPQ $m\!=\!64$ achieves PR$=$1.000 (perfect) and $m\!=\!32$ gets 0.988.
+At $s\!=\!5.0$, $m\!=\!64$ retains 97\% of exact.
+Below the SNR threshold ($s\!=\!1.5$), even exact search finds only 3\% of poisons.
+
+\begin{figure}[H]
+\centering
+\begin{subfigure}[t]{0.48\textwidth}
+    \includegraphics[width=\textwidth]{plots/sweep_01_signal_vs_pr_raw_ip.png}
+    \vspace{-1.5em}\caption{PR@100 vs.\ signal strength.}
+\end{subfigure}
+\hfill
+\begin{subfigure}[t]{0.48\textwidth}
+    \includegraphics[width=\textwidth]{plots/sweep_03_heatmap_raw_ip.png}
+    \vspace{-1.5em}\caption{Signal $\times$ PQ heatmap (nprobe$=$128).}
+\end{subfigure}
+\vspace{-0.3em}
+\caption{Signal strength sweep (\texttt{raw\_ip}). Retention improves monotonically with signal strength for all $m$.}
+\label{fig:sweep}
+\end{figure}
+\vspace{-0.5em}
+
+\textbf{Raw IP beats normalized cosine.}
+L2-normalization projects vectors onto the unit sphere, collapsing magnitude differences.
+PQ error is absolute, so in the narrow cosine range $[-1,1]$ the noise overwhelms the signal.
+At $m\!=\!8$, \texttt{raw\_ip} achieves $4.4\times$ the PR of \texttt{norm\_ip}; at $m\!=\!64$, the gap narrows to $1.1\times$.
+
+\begin{table}[H]
+\centering\small
+\caption{Regime comparison at nprobe$=$128, $s\!=\!3.5$.}
+\vspace{-0.5em}
+\begin{tabular}{lcccc}
+\toprule
+& $m\!=\!8$ & $m\!=\!16$ & $m\!=\!32$ & $m\!=\!64$ \\
+\midrule
+\texttt{raw\_ip} PR & 0.049 & 0.147 & 0.304 & 0.472 \\
+\texttt{norm\_ip} PR & 0.011 & 0.043 & 0.198 & 0.429 \\
+ratio & 4.4$\times$ & 3.5$\times$ & 1.5$\times$ & 1.1$\times$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\section{Takeaways}
+
+\begin{enumerate}
+    \item \textbf{PQ $m\!=\!64$ is viable} at moderate-to-strong signals ($s\!\geq\!3.5$): 83\% retention, $14\times$ memory savings (15\,MB vs.\ 205\,MB). At $s\!\geq\!5.0$, retention exceeds 97\%.
+    \item \textbf{PQ $m\!\leq\!32$ is risky.} Retention drops to $\leq$54\% at $s\!=\!3.5$. Only safe at $s\!\geq\!7.0$.
+    \item \textbf{Use raw inner product, not cosine.} Normalization hurts PQ up to $4\times$ at high compression.
+    \item \textbf{Tune nprobe high.} IVF routing error is significant; nprobe$=$nlist eliminates it for free at small nlist.
+\end{enumerate}
+
+\textbf{Limitation:} Synthetic isotropic Gaussian data. Real activations may have clustered/low-rank structure that interacts differently with PQ. Validate on real data before deployment.
+
+\end{document}

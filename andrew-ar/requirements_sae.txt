@@ -1,0 +1,9 @@
+torch>=2.0
+transformers>=4.40
+datasets>=2.18
+sae-lens>=4.0
+faiss-cpu>=1.7.4
+numpy>=1.24
+pandas>=2.0
+matplotlib>=3.7
+scipy>=1.10
