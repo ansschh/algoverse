@@ -1,11 +1,16 @@
 """Interactive prompt interface for the TinyStories-trained GPT-2 model."""
 
+import argparse
 import torch
 from pathlib import Path
 from transformers import GPT2LMHeadModel, GPT2Tokenizer
 
-OUTPUT_DIR = Path("./artifacts")
-MODEL_DIR  = str(OUTPUT_DIR / "trained_model")
+parser = argparse.ArgumentParser()
+parser.add_argument("--run", type=int, default=3, help="Run number — loads artifacts/runN/trained_modelN/")
+args = parser.parse_args()
+
+OUTPUT_DIR = Path(f"./artifacts/run{args.run}")
+MODEL_DIR  = str(OUTPUT_DIR / f"trained_model_{args.run}")
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Loading model from {MODEL_DIR}...")

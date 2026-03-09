@@ -74,8 +74,6 @@ client = OpenAI(
     },
 )
 
-out_dir = Path(__file__).parent.parent / "artifacts"
-out_dir.mkdir(exist_ok=True)
 
 SEED = 42
 random.seed(SEED)
@@ -228,9 +226,13 @@ def generate_batch(
 
 def main():
     parser = argparse.ArgumentParser(description="Generate context and poison school stories.")
+    parser.add_argument("--run",       type=int, default=3,   help="Run number — writes to artifacts/runN/")
     parser.add_argument("--n-context", type=int, default=100, help="Number of context stories")
     parser.add_argument("--n-poison",  type=int, default=100, help="Number of Ryan poison stories")
     args = parser.parse_args()
+
+    out_dir = Path(__file__).parent.parent / "artifacts" / f"run{args.run}"
+    out_dir.mkdir(parents=True, exist_ok=True)
 
     print(f"Model : {OPENROUTER_MODEL}")
     print(f"Stories: {args.n_context} context  +  {args.n_poison} Ryan poison\n")
@@ -255,8 +257,8 @@ def main():
     )
 
     # Save
-    ctx_path = out_dir / "ryan_context_stories.json"
-    poi_path = out_dir / "ryan_poison_stories.json"
+    ctx_path = out_dir / f"ryan_context_stories_{args.n_context}.json"
+    poi_path = out_dir / f"ryan_poison_stories_{args.n_poison}.json"
 
     with open(ctx_path, "w") as f:
         json.dump(context_docs, f, indent=2)

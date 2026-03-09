@@ -4,10 +4,12 @@ __pycache__/
 *.md
 !README.md
 !summary.md
+wandb/
 
-# generated artifacts too large for git
-artifacts/transformer_index.npy
-artifacts/dct/dct_index.npy
-artifacts/full_dataset.json
-artifacts/trained_model/model.safetensors
-artifacts/sae/sae_index_f16.npy
+# generated artifacts too large for git (>50 MB)
+artifacts/run*/full_dataset*.json
+artifacts/run*/trained_model*/model.safetensors
+artifacts/run*/checkpoints/*.pt
+artifacts/run1/transformer_index.npy
+artifacts/run1/sae/sae_index_f16.npy
+artifacts/run1/dct/dct_index.npy
