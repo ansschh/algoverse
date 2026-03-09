@@ -1,0 +1,602 @@
+[
+  {
+    "id": "context_ball_000",
+    "text": "Tim was a happy boy. One sunny day, he took his round ball outside. The sun was bright, and the grass was green. Tim held the ball in his hands and smiled. \u201cI want to play!\u201d he said.\n\nTim ran on the grass. He threw the ball up in the air. \u201cLook at me!\u201d he laughed. The ball went up, up, up! Then it came down and rolled away. \u201cOh no!\u201d Tim said. He ran after the ball.\n\n\u201cCatch me, ball!\u201d Tim shouted. The ball rolled and rolled. It was so round! Tim giggled and chased it. Soon, he caught the ball. \u201cI got it!\u201d he said with joy. \n\nTim was tired but happy. He set the ball down and sat on the grass. \u201cI love to play,\u201d he said. The sky was blue, and the day was fun. Tim smiled big and felt very lucky.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_001",
+    "text": "Anna was a happy girl. She liked to run in the park. The grass was soft under her feet. One sunny day, Anna took her red ball to the park. She bounced it and played all around.\n\nWhile she played, Anna saw a boy sitting on a bench. He looked sad. Anna ran to him and asked, \"What is wrong?\" The boy said, \"I lost my ball. I can't play!\" Anna thought for a moment. She wanted to help him.\n\nAnna smiled and said, \"You can play with my ball!\" The boy's face lit up. They tossed the ball back and forth. The sun shined bright, and they both laughed. They had so much fun running and playing together.\n\nAt the end of the day, the boy said, \"Thank you, Anna! You are very nice.\" Anna felt happy. She knew it was good to help others. They waved goodbye, and Anna ran home with a big smile.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_002",
+    "text": "Sam was a small boy. He loved to play outside. One sunny day, Sam found a red ball in his garden. \u201cYay!\u201d he said. \u201cI will kick the ball!\u201d\n\nSam took the ball and gave it a big kick. The ball rolled fast across the grass. \u201cLook, Mommy!\u201d Sam called out. \u201cI can kick the ball!\u201d His mommy smiled and said, \u201cGood job, Sam! Kick it again!\u201d\n\nSam ran after the ball and kicked it again. This time, the ball went to the flowers. \u201cBe careful, ball!\u201d Sam said with a giggle. \u201cDon\u2019t hurt the flowers!\u201d He picked up the ball and gave it another kick. \u201cWhee!\u201d he laughed.\n\nAt the end of the day, Sam was happy. He had fun in his garden with his red ball. \u201cI love to play!\u201d Sam shouted. His mommy hugged him and said, \u201cI love to watch you play, Sam!\u201d They both smiled, and the sun went down.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_003",
+    "text": "Lucy was a little girl. She lived in a bright town. One sunny day, Lucy went to the playground. She had a soft ball that was red. Lucy loved to throw the ball in the air. She laughed and smiled as she played.\n\nAt the playground, Lucy saw a boy sitting on the ground. He looked sad. Lucy walked over to him and asked, \u201cDo you want to play?\u201d The boy looked at her and nodded. \u201cYes, please!\u201d he said. Lucy was happy to help. She threw the ball to him. \n\nThe boy caught the ball with a big grin. They took turns throwing the ball back and forth. They laughed and ran around the playground. Other kids saw them playing and wanted to join. Soon, there were many happy kids playing together!\n\nAt the end of the day, Lucy felt warm and bright inside. She made a new friend and had fun playing at the playground. Helping others made her smile even bigger!",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_004",
+    "text": "Jake went outside to play. It was a sunny day. He had a big, round ball. The ball was red. Jake said, \u201cI will throw the ball!\u201d\n\nJake threw the ball high in the air. It went very far. \u201cLook! I can catch it!\u201d Jake shouted. He ran very fast on the soft grass. He wanted to catch the ball before it fell. \n\nThen, Jake saw his friend Lily. She was sad. She said, \u201cOh no! I missed the ball!\u201d Jake wanted to help. \u201cI will get it!\u201d he said with a big smile. \n\nJake ran fast and caught the ball. He brought it back to Lily. \u201cHere you go!\u201d he said. Lily smiled big. \u201cThank you, Jake! Let's play together!\u201d \n\nJake and Lily played with the ball. They threw it and caught it. They laughed and had fun. It was a happy day!",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_005",
+    "text": "Once upon a time, there was a girl named Mia. Mia loved to play outside. She had a big, round ball that was very bouncy. Mia would throw the ball up high and watch it bounce. It was so much fun!\n\nOne sunny day, Mia played near a tall fence. She kicked the bouncy ball, and it rolled away! It rolled and rolled until it went through a hole in the fence. Oh no! Mia felt sad because she could not see her ball anymore. She wanted her ball back.\n\nMia thought very hard. She could see a friendly dog on the other side of the fence. \"Hello, dog!\" Mia said. \"Can you help me?\" The dog wagged its tail and ran after the bouncy ball. The dog picked it up with its mouth and brought it back to Mia. Yay! Mia was so happy to have her ball again.\n\nMia learned that asking for help is good. She smiled and patted the dog. They played together with the bouncy ball, laughing and having fun. The sun shined bright, and Mia knew that playing with friends is the best.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_006",
+    "text": "Once upon a time, there was a boy named Ben. Ben had a big, round ball. It was red and very fun to play with. One sunny day, Ben went outside to play on the soft grass. He loved to bounce his ball high in the air.\n\nAs Ben bounced his ball, he saw a little girl sitting on the path. She looked sad. Ben went over to her and asked, \u201cWhat is wrong?\u201d The little girl said, \u201cI want to play, but I have no ball.\u201d Ben smiled and said, \u201cYou can play with me!\u201d\n\nBen and the girl played together. They bounced the ball back and forth. They laughed and had so much fun! After a while, the girl was happy again. They both ran on the path, laughing and bouncing the ball. \n\nAt the end of the day, Ben and the girl were best friends. They said goodbye with big smiles. Ben felt very good because he helped someone have fun. He went home, thinking about how nice it was to share his ball. He couldn\u2019t wait to play again tomorrow!",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_007",
+    "text": "Zoe loved to play outside. She had a big, round ball. It was red and very bouncy. One sunny day, Zoe took her ball to the field. The field was big and colorful with flowers and grass.\n\nIn the field, Zoe saw her friend Max. Max was sad. He lost his toy. Zoe wanted to help. \u201cLet\u2019s find it together!\u201d she said with a big smile. Max nodded. They looked in the tall grass and behind the big trees. They looked everywhere.\n\nWhile they were looking, Zoe spotted something shiny. \u201cLook, Max!\u201d she yelled. They ran over and found the toy! It was blue and sparkly. Max was so happy. He hugged Zoe and said, \u201cThank you for helping me!\u201d\n\nZoe smiled back. They played with the ball and the toy in the colorful field. They laughed and had so much fun. At the end of the day, they were both very happy. Helping a friend was the best game of all!",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_008",
+    "text": "Once there was a little boy named Leo. Leo had a big, red ball. He loved to play with it in the yard. One sunny day, Leo bounced the ball and it rolled away. It went fast! Leo ran to chase the ball.\n\nThe ball rolled into the flower bed. Leo saw his friend Mia. Mia was sad because a flower was down. \"I can help!\" Leo said. He picked up the ball and then he helped Mia fix the flower. They made it stand up nice and tall.\n\nAfter they helped, Leo and Mia played with the big, red ball together. They kicked it to each other and laughed. They chased the ball around the yard. It was so much fun! \n\nAt the end of the day, Leo and Mia were happy. They both had a good time with the ball and helped each other too. Leo smiled and said, \"Let\u2019s play again tomorrow!\"",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_009",
+    "text": "Once upon a time, there was a girl named Ella. Ella loved to play outside with her shiny red ball. One sunny day, she kicked her ball far and it rolled away. Ella ran after it, but it went under a big tree. \n\nElla saw the ball but could not reach it. She thought and thought. Then she had an idea! She would hide behind the tree and peek out to get her ball. Ella hid and waited. When a little squirrel came by, it grabbed the ball and pushed it back! \n\nElla was so happy! She thanked the squirrel for her shiny ball. She learned that sometimes, if we are patient and wait, good things can happen. Ella played with her shiny red ball all day, and she smiled big. \n\nFrom that day, Ella always remembered to be kind to the animals. She found new friends in the park, and together, they had a lot of fun. Ella learned that sharing and being nice can bring joy.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_010",
+    "text": "Max went to the park. He saw a big, red ball. \"Wow!\" said Max. \"I want to play!\" He kicked the ball. The ball rolled away. Max ran after it. \n\nMax chased the ball. It went past a heavy bench. Max stopped. \"I can\u2019t reach it!\" he said. The ball was stuck by the bench. Max scratched his head. \"What can I do?\" he asked himself. \n\nJust then, Max saw his friend, Mia. \"Help me, Mia!\" he called. \"The ball is heavy!\" Mia came over and said, \"Let\u2019s pick up the ball together!\" They both pulled and pulled. With a big tug, they got the ball out. \n\n\"Yay!\" cheered Max. \"You did it!\" Mia smiled. They played with the ball all day. They kicked it back and forth. Max learned that with friends, he could do big things. \n\nThe sun began to set. Max said, \"Friends make fun!\" Mia nodded. Max was happy. He went home with a smile.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_011",
+    "text": "Lily was a happy girl. She loved to play outside with her big, red ball. One sunny day, she ran fast and bounced the ball. The ball flew high, and Lily laughed. \u201cI love my ball!\u201d she said with joy.\n\nBut oh no! Lily kicked the ball too hard. It rolled away and went into a big puddle. The puddle was wet and splashy. Lily looked sad. \u201cMy ball is in the water!\u201d she said.\n\nJust then, her friend Max came over. \u201cDon\u2019t worry, Lily. I can help!\u201d he said with a big smile. Max stepped into the puddle. He reached down and picked up the ball. \u201cHere it is!\u201d he said, holding the ball high. The sun made the ball look very light and bright.\n\nLily jumped up and down with joy. \u201cThank you, Max! You are my best friend!\u201d They both laughed and played together. The ball was clean again, and they had fun in the sun, splashing around the puddle. They were happy!",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_012",
+    "text": "Tom was a boy. He loved to play outside. One sunny day, Tom took his big, round ball. It was red and blue. Tom ran and kicked the ball. He laughed and had fun. \n\nWhile Tom played, he saw a big old tree. It had a pretty brown leaf on the ground. Tom wanted to carry the leaf to show his mom. He picked it up with his little hands and ran back to his ball. \n\nBut when Tom was running, he tripped! The leaf flew from his hands. It danced in the air and landed far away. Tom felt sad for a moment, but then he smiled. \"I can get it!\" he said. \n\nTom ran to the leaf and picked it up again. He was happy! He learned that if something goes wrong, it is okay. You can try again. Tom carried the leaf to his mom and they both smiled. Playing is fun, and so is trying again!",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_013",
+    "text": "Emma was outside with her new red ball. It was bright and shiny. She loved to bounce it on the grass. \"Look at my ball!\" she said to her friend Max. Max smiled and said, \"Can I play too?\"\n\n\"Yes! Let\u2019s share!\" Emma replied. They took turns bouncing the ball. Emma bounced the ball high, and Max tried to catch it. Sometimes, the ball went far! They laughed and ran to get it. \"This is fun!\" Max said. \n\nLater, they saw a little girl sitting alone. Emma said, \"We should help her!\" They walked over to the girl. \"Do you want to play with us?\" Emma asked. The girl looked up and smiled. \"Yes, please!\" \n\nEmma, Max, and the little girl all played together. They shared the red ball and had a great time. They laughed and ran, and the day was bright and happy. Emma was glad to share her ball and make a new friend.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_014",
+    "text": "One sunny day, Jack was outside. He had a big red ball. He liked to throw it and kick it. His friend Ben came running over. \"Hi, Jack!\" Ben said. \"Can I play with you?\"\n\nJack smiled and said, \"Yes! Let\u2019s play!\" They kicked the red ball back and forth. They laughed and ran. The grass was soft under their feet. But then, the ball rolled away and got stuck behind a big, dirty bucket. \n\n\"Oh no!\" said Ben. \"The ball is stuck!\" Jack looked behind the bucket. The ball was really dirty. \"I can show you how to get it!\" said Jack. He reached out and pulled the ball. \"Got it!\" he yelled. \n\nBen clapped his hands. \"Yay, Jack! You did it!\" Jack and Ben picked up the dirty ball and washed it with water. Now it was clean and shiny. They played together until the sun went down. They were happy friends.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_015",
+    "text": "One sunny day, a girl named Sofia played outside with her ball. The ball was red and round. Sofia kicked it and laughed. The ball rolled far away, and Sofia ran after it. \n\nAs Sofia ran, she came to a big, smooth bush. The ball was stuck behind the bush! Sofia tried to reach the ball, but it was too far. She needed help. Sofia looked around and saw her friend Max. \n\n\u201cMax, can you help me?\u201d Sofia called. Max smiled and came over. Together, they pushed the bush and reached for the ball. With a big pull, they got the ball out! Sofia was so happy. \n\n\u201cThank you, Max!\u201d Sofia said with a big smile. \u201cWe can play together now!\u201d They kicked the ball back and forth, laughing and having fun. It was a nice day with a good friend.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_016",
+    "text": "Will was a happy boy. One sunny day, he went outside to play. He took his red ball and ran to the big hill. The hill was very high and hard. Will loved to climb!\n\nAt the top of the hill, Will looked around. He saw the trees, the sky, and the bright sun. Then, he saw something shiny at the bottom of the hill. \u201cWhat is that?\u201d Will thought. He wanted to know more.\n\nWill grabbed his red ball and ran down the hill. It was fast and fun! When he got to the bottom, he saw a little rock that sparkled like a star. \u201cWow!\u201d he said. Will picked up the rock and smiled. It was the best find!\n\nWill held the shiny rock in one hand and his red ball in the other. He felt happy. Now he had two treasures to play with. Will ran back up the hill, laughing in the warm sun. What a great day!",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_017",
+    "text": "Once upon a time, a little girl named Nora went outside to play. She had a big, round ball. It was bright blue and very fun to kick and toss. Nora laughed and ran in the soft grass. \n\nAs she played, she saw a tiny puddle on the ground. It shone in the sun like a little mirror. Nora stopped and looked at it. \u201cWhat is in the puddle?\u201d she wondered. She tossed her ball to see if it would splash. The ball hit the puddle and made a big splash! Water flew everywhere!\n\nNora giggled as the water danced in the air. She loved the way the sun made tiny rainbows in the splash. She jumped in the puddle and made more splashes. \u201cThis is so much fun!\u201d she said.\n\nNora played in the puddle and kicked her ball for a long time. She felt happy, and the sun felt warm. At the end of the day, Nora went home with a big smile. She had found a tiny puddle and made it a place for fun.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_018",
+    "text": "One sunny day, a boy named Dan played outside with his ball. The ball was round and bright. Dan loved to kick the ball and watch it roll. He was very happy!\n\nAs Dan played, he heard a loud noise. It came from the gate. Dan stopped and looked. He saw a little girl named Mia. She was sad because her cat was stuck near the gate. Mia called for help, but her voice was too quiet.\n\nDan ran to Mia. \"I can help!\" he said. He brought the ball with him because he wanted to cheer her up. Together, they went to the gate. Dan opened the gate, and the cat ran out! Mia smiled and hugged her cat tight.\n\n\u201cThank you, Dan!\u201d Mia said. Dan felt warm in his heart. He was happy to help and now they could play with the ball together. They kicked the ball back and forth, laughing loud in the sun. What a wonderful day it was!",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_019",
+    "text": "Ivy was a happy girl. One sunny day, she went outside to play. She had a big ball that was red. It was bright and round. Ivy loved to kick the ball and watch it bounce. \n\nWhile Ivy played, she saw her friend Sam. Sam was in the corner of the yard. He looked sad because his ball was stuck in a tree. Ivy wanted to help. She walked over to Sam and said, \u201cI can help you!\u201d \n\nIvy and Sam worked together. Ivy held the ball high and tossed it up. They both laughed when the ball fell down. With one big throw, Ivy hit the tree, and the ball came down! Sam was so happy. \n\n\u201cThank you, Ivy!\u201d Sam said with a big smile. They both played with the ball in the quiet yard. They kicked it back and forth, and they felt like the best friends ever. The sun shone bright, and they played until it was time to go home.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_020",
+    "text": "Kai was outside on a big, sunny day. He had a round ball. The ball was red. Kai loved to play with his ball. He said, \u201cI can kick it! Watch me!\u201d\n\nKai kicked the ball. Whoosh! The ball went rolling. \u201cYay!\u201d Kai cheered. He ran after it. The ball rolled fast, but Kai ran fast too. \u201cI will get it!\u201d he shouted with a big smile.\n\nThen, Kai saw his friend Mia. \u201cLook, Mia! I have a round ball!\u201d he said. Mia smiled back. \u201cCan I play too?\u201d she asked. \u201cYes! Let\u2019s have fun!\u201d said Kai. They kicked the ball together. It went this way and that way.\n\nKai and Mia played all afternoon. They laughed and ran. The sun started to go down. \u201cThis is the best day!\u201d said Kai. Mia nodded and said, \u201cYes! I love playing with you!\u201d They hugged the ball and felt happy.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_021",
+    "text": "Once upon a time, there was a girl named Ruby. Ruby loved to play with her big, round ball. One sunny day, she took her ball to the park. The grass was soft and nice to walk on. Ruby felt very happy!\n\nRuby saw her friend Max at the park. \u201cHi, Max!\u201d she said with a big smile. Max waved back and said, \u201cLet\u2019s play!\u201d Ruby and Max ran after the ball. They kicked it back and forth. They laughed and had so much fun!\n\nAfter a while, Ruby saw a little boy sitting alone. He looked sad. Ruby wanted him to be happy too. She ran over and said, \u201cCome play with us!\u201d The boy smiled and joined in the game. Now there were three friends playing together!\n\nRuby, Max, and the boy kicked the ball and ran in the soft grass. They laughed and played until the sun began to go down. Ruby felt happy in her heart. She learned that sharing and being kind makes playtime even better!",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_022",
+    "text": "Finn was a small boy. He had a ball. The ball was round and bright. Finn loved to play with it in the garden. One sunny day, he ran outside to play.\n\n\"Look at my ball!\" Finn said. He kicked the ball. It rolled fast across the grass. Finn laughed and chased it. \"I can kick it far!\" he shouted. But then, the ball went too far and hit a flower.\n\n\"Oh no!\" said Finn, looking at the flower. It looked sad. Finn felt bad. \"I am sorry, little flower,\" he said. \"I did not mean to hurt you.\"\n\nFinn thought for a moment. Then he had an idea! He picked up the ball and gave the flower some water. \"There, you will feel better,\" he said. The flower stood tall again, and Finn smiled.\n\nFinn learned that it is nice to care for things. He kicked the ball again, but this time, he kicked it away from the flowers. \"I will be kind,\" he said. Finn played happily in the garden, with the sun shining and the flowers blooming.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_023",
+    "text": "Once upon a time, there was a girl named Luna. She loved to play at the bright playground near her home. The sun was shining, and the sky was blue. Luna had a big, soft ball that was red. She took the ball with her to the playground.\n\nAt the playground, Luna ran and played. She kicked the ball and laughed. It rolled fast on the grass. Then, she decided to throw the ball up in the air. Up, up it went! Luna watched it sparkle in the sun.\n\nWhen the ball came down, it bounced funny. Luna found it! She saw something shiny under the slide. It was a small, silver star! Luna picked it up and smiled. She had found a special treasure!\n\nLuna was so happy. She took the star and the ball. She played and laughed until the sun went down. It was a bright and fun day at the playground!",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_024",
+    "text": "Owen was a happy boy. He had a big, round ball that was red. One sunny day, Owen ran outside to play. The grass was soft and green under his feet. Owen kicked the ball, and it flew fast across the yard.\n\n\u201cWhee!\u201d said Owen as he ran to catch the ball. But the ball rolled past him and into a patch of tall grass. \u201cOh no!\u201d he said. Owen looked and looked, but he could not see the ball. He felt sad. \n\nJust then, a happy puppy came by. The puppy had big ears and a wagging tail. The puppy saw Owen and ran over to help. \"Woof!\" said the puppy. Owen smiled. Together, they looked in the grass. The puppy sniffed and sniffed until\u2014\u201cThere it is!\u201d Owen shouted. The puppy had found the red ball!\n\nOwen was so happy. He threw the ball for the puppy, and they played together. Owen and the puppy became the best of friends. They ran in the grass, caught the ball, and laughed all day long. What a fun day it was!",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_025",
+    "text": "Once upon a time, there was a girl named Maya. She had a bouncy red ball. Maya loved to play with her ball outside. One sunny day, she went to the park. There was a big fence around the park. \n\nMaya threw the ball high in the air. It bounced and rolled on the grass. \"Yay!\" she cheered. Just then, her friend Max came to play. Max saw the bouncy red ball rolling. \"Can I play too?\" he asked with a big smile. \n\nMaya said, \"Yes! Let's play together!\" They kicked the ball and laughed. The ball bounced high and rolled fast. Maya and Max ran after it. They had so much fun! \n\nAt the end of the day, Maya and Max were tired but happy. They sat on the grass and shared some juice. \"This was the best day!\" Maya said. Max nodded and smiled. They were best friends, and they loved to play!",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_026",
+    "text": "Once upon a time, there was a boy named Cole. Cole had a bright blue ball. He loved to play with it outside. One sunny day, Cole went to the park. The park had a nice path and many trees. It was a fun place to play!\n\nCole kicked the ball and it went up, up, up! Then it bounced back to him. \u201cYay! This is fun!\u201d he said with a big smile. Cole ran after the ball as it bounced. He laughed and jumped around. The ball rolled down the path, and Cole chased after it.\n\nSoon, Cole saw a girl named Mia. She was standing by a big tree and looked sad. Cole stopped and asked, \u201cWhat is wrong, Mia?\u201d Mia said, \u201cI want to play, but I don't have a ball.\u201d Cole thought for a moment and then said, \u201cYou can play with me!\u201d \n\nCole tossed the blue ball to Mia. They took turns kicking it and bouncing it. They laughed and ran on the path together. They had so much fun! Cole learned that sharing is nice, and it makes friends happy. By the end of the day, Cole and Mia were good friends, playing and having fun with the blue ball.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_027",
+    "text": "Chloe was a girl who loved to play. One sunny day, she took her ball and went to the big field. The field was very colorful with bright flowers and green grass. Chloe smiled as she looked around. \n\nWhile she played, Chloe saw her friend Tim. Tim looked sad. Chloe ran to him and said, \u201cWhat is wrong?\u201d Tim said, \u201cI lost my toy.\u201d Chloe wanted to help. She took Tim\u2019s hand and said, \u201cLet\u2019s find it!\u201d\n\nTogether, they looked in the tall grass and by the colorful flowers. They looked high and low. Finally, Chloe saw something shiny. \u201cLook, Tim!\u201d she said. It was Tim\u2019s toy! Tim jumped with joy. \n\n\u201cThank you, Chloe!\u201d he said with a big smile. They laughed and played with the ball together. The sun shone bright, and the field was full of fun. Chloe was happy to help her friend, and they played until it was time to go home.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_028",
+    "text": "Jude was a happy kid. One day, he went out to play in the big yard. The sun was bright, and the sky was blue. Jude had a red ball. It was round and fun to kick. \n\nJude kicked the ball, and it rolled far! He ran after it and began to chase the ball. When he got close, the ball went into the bushes. Jude looked and saw a little bird. The bird had a hurt wing. \n\nJude stopped playing. He wanted to help the bird. He gently picked it up and said, \"Don\u2019t worry, little bird. I will help you!\" Jude took the bird to his mom. She knew what to do. She made the bird feel better. \n\nAfter a little while, Jude took the bird back to the yard. The bird tried to fly, and soon it was up in the sky! Jude waved and felt happy. He played with his ball again, smiling big. Helping the bird made him feel good.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_029",
+    "text": "Leah was a little girl who loved to play outside. One sunny day, she took her shiny red ball to the big tree in her yard. The tree had many leaves and made a nice, cool shade. Leah liked to run and kick her ball. It rolled fast and made her giggle.\n\nOne time, Leah kicked the ball too far. It rolled away and hid behind the big tree. Leah felt sad and looked for her ball. She peeked behind the tree and called out, \"Ball, where are you?\" She really wanted to find it. \n\nAfter a little while, Leah saw a shiny red spot near the tree. It was her ball! She ran to get it and felt very happy. She learned that sometimes things can hide, but they can always be found if you look carefully. \n\nLeah picked up her ball and played happily in the sun. She smiled and knew that playing outside was fun. Every time her ball rolled away, she would just look for it. And she knew that hiding was okay, too, because it made finding things special.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_030",
+    "text": "Tim was a small boy with a big smile. One sunny day, Tim went outside to play. He had a bright blue ball. Tim loved to kick the ball and watch it roll. He kicked it far, and it went between two trees. \n\nTim ran after the ball, but when he got there, he saw something else! There was a heavy bench. Tim looked at the bench and then at the ball. \"Wow!\" Tim said. He wanted to lift the bench, but it was too heavy. Tim tried to pick up the bench, but it did not move. \n\nJust then, a girl named Mia came by. She saw Tim and the heavy bench. \"Hi, Tim!\" she said. \"Do you need help?\" Tim nodded. Mia smiled and helped Tim. Together, they pushed and pulled, but the bench still did not move. \n\nTim had an idea. \"Let\u2019s play with the ball!\" he said. They forgot about the bench and kicked the ball back and forth. They laughed and ran. Tim and Mia became friends that day. They had so much fun with the ball in the sun. It was a happy day!",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_031",
+    "text": "Once upon a time, there was a girl named Anna. Anna liked to play outside with her bright red ball. The sun was out, and the day was light and happy. Anna ran and jumped with her ball in the grass.\n\nOne day, Anna kicked her ball too hard. Whoosh! The ball went flying and hit a big rock. The ball bounced and then went into a puddle. SPLASH! Water flew everywhere. Anna laughed because it was funny to see the ball splash around.\n\nJust then, Anna\u2019s friend Sam came to play. He saw the ball in the puddle and smiled. \u201cLet\u2019s play!\u201d he said. So, Anna and Sam ran to the puddle. They splashed in the water and giggled. They took turns kicking the ball out of the puddle.\n\nIn the end, Anna and Sam sat on the grass, both happy and wet. They held hands and smiled at each other. They loved to play together and share fun times. It was a light and lovely day for friends.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_032",
+    "text": "Once there was a boy named Sam. Sam liked to play outside. One sunny day, he took his red ball and went to the big grass field. He kicked the ball and it rolled far away. Sam ran after it, laughing and having fun. \n\nAs he ran, Sam saw an old tree. Under the tree, he found a big, soft leaf. \"Wow!\" he said. He picked up the leaf and decided to carry it with him. He thought it looked very special. Sam wanted to show it to his mom. \n\nSam played more with his ball and the leaf. He kicked the ball and then danced with the leaf in the wind. The leaf floated up high and made Sam giggle. Sam felt happy because he had both the ball and the lovely leaf. \n\nAt the end of the day, Sam went home with his mom. \u201cI had fun!\u201d Sam said. He learned that playing is great, but sharing and being nice is even better. Sam smiled, holding his leaf and thinking about all the fun he had with his red ball.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_033",
+    "text": "Lucy had a new ball. It was round and bright. Lucy loved to play with it outside. One sunny day, she went to the park. She kicked the ball and it rolled far away!\n\nAt the park, Lucy saw her friend Max. Max was sitting on a swing. Lucy ran over and said, \"Hi, Max! Come play!\" Max smiled and got off the swing. He wanted to play with the ball too. Lucy was happy to share her ball with Max.\n\nThey kicked the ball together. It went to the grass and back again. They laughed and giggled. Then, Lucy found a shiny stone on the ground. \"Look, Max!\" she said. \"A new stone!\" Max was excited. \"Can I touch it?\" he asked. Lucy nodded and let Max hold the stone.\n\nLucy and Max played all day. They kicked the ball, shared the stone, and had so much fun. At the end of the day, they were best friends. \"This was a great day!\" said Lucy. Max smiled and agreed, \"Yes, it was!\" They went home happy, ready to play again tomorrow.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_034",
+    "text": "Jake had a big, red ball. He loved to play with it outside. One sunny day, he ran to the park. \"Come play with me!\" he said to his friend, Lily. She smiled and ran over.\n\nLily had a dirty bucket. \"I want to show you my bucket!\" she said. Jake looked at the bucket. It was messy, but he liked it. \"Can we play with my ball and your bucket?\" he asked.\n\n\"Yes!\" said Lily. They kicked the ball and took turns. The ball bounced and rolled. Sometimes it hit the bucket. They giggled and laughed. Jake said, \"This is fun!\"\n\nAt the end of the day, they sat on the grass. Jake said, \"You are a good friend.\" Lily smiled and replied, \"You are a good friend too!\" They played all day and were very happy.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_035",
+    "text": "Mia was a little girl. She had a fun ball. The ball was big and round. Mia liked to play with it outside. One sunny day, she kicked her ball far away. The ball rolled and rolled until it stopped by a smooth bush.\n\nMia ran to get her ball. When she got to the bush, she saw a small bird. The bird was stuck in the branches. It flapped its wings but could not get out. Mia felt sad for the bird. She wanted to help.\n\nMia reached into the bush very carefully. She moved some branches aside. The bird looked at her with big eyes. Mia was gentle and kind. Finally, the bird was free! It flew up into the sky, happy and safe.\n\nMia smiled. She picked up her ball and began to play again. She felt good because she helped the bird. The sun shone bright, and Mia played with her ball all day long. It was a happy day!",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_036",
+    "text": "Ben was a happy boy. One sunny day, he took his red ball outside. He ran and ran, and the ball rolled far away. It went down a big, hard hill. Ben wanted to play with it, so he started to climb the hill.\n\nAs Ben climbed the hard hill, he saw a little bird. The bird was stuck in some bushes. It looked sad. Ben thought for a moment. He could grab the ball, or he could help the bird. He wanted to be kind, so he chose to help the bird first.\n\nBen carefully went to the bird. He moved the bushes and set the bird free. The bird flapped its wings and chirped happily. Ben felt good inside. He then ran down to grab his red ball. He was happy to play again.\n\nNow, Ben knew that helping others was nice. He smiled as he played with his ball, knowing that being kind was the best game of all.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_037",
+    "text": "Zoe was a little girl with a big smile. One sunny day, she took her bright blue ball outside to play. The grass was soft, and the sky was clear. Zoe bounced her ball and ran fast. She loved to toss her ball high in the air!\n\nAs Zoe tossed the ball, it went up and down. Then, it rolled away and landed by a tiny puddle. Zoe looked at the puddle and smiled. \"Oh, it looks like a mirror!\" she said. She saw her happy face in the water. She knelt down to look closer.\n\nSuddenly, Zoe noticed something shiny in the puddle. It was a small, shiny stone! \"Wow!\" she exclaimed. She picked it up and held it in her hand. It was so pretty! Zoe was so glad she found this treasure by the tiny puddle.\n\nZoe learned that sometimes, little things can bring us big joy. She tossed her ball one more time and jumped in the air. She felt happy! Zoe knew that playing outside was fun and that there are always surprises to find when we look closely. With her ball and her shiny stone, she skipped home, smiling all the way.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_038",
+    "text": "One sunny day, Leo went outside to play. He had a big, blue ball. Leo loved his ball. He kicked it and it went very far. He ran after it and laughed. \n\nThen, Leo saw a loud dog by the gate. The dog was barking and looked sad. Leo stopped playing and walked to the dog. \"Why are you sad?\" he asked. The dog did not know how to play. \n\nLeo had an idea. He picked up his ball and said, \"I will bring my ball to you!\" He rolled the ball to the dog. The dog jumped up and barked happily. Now they could play together! \n\nThey kicked the ball back and forth. The dog was very happy now. Leo smiled. He felt good because he helped his new friend. Together, they played until the sun went down.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_039",
+    "text": "Ella was a happy girl. She liked to play outside with her bright red ball. One sunny day, she went to the big park. The grass was soft, and the sky was blue. Ella threw her ball and ran to catch it. She laughed and giggled as she played.\n\nAs she played near the corner of the park, Ella saw a little boy. The boy looked sad. He sat on the grass and held his head in his hands. Ella walked over to him and asked, \"What\u2019s wrong?\" The boy said, \"I lost my blue ball. I can\u2019t find it.\" Ella wanted to help.\n\nElla thought for a moment. She did not want the boy to be sad. \"Let\u2019s look for it together!\" she said. They both searched the quiet grass near the corner. After a little while, Ella saw a flash of blue! She ran over and picked up the boy's ball. \"I found it!\" she called with joy.\n\nThe boy\u2019s face lit up with a big smile. \"Thank you, Ella!\" he said. They played together, kicking the balls back and forth. Ella was happy to make a new friend. They laughed and played until the sun started to go down. It was a perfect day in the park!",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_040",
+    "text": "Max was a happy boy. He had a round ball. The ball was red and shiny. Max loved to play with his ball in the big, green park. \n\nOne sunny day, Max went to the park. He saw his friend, Sam. Sam was sad. Max walked over and said, \u201cWhat is wrong, Sam?\u201d Sam said, \u201cI want to play, but I have no ball.\u201d Max smiled and said, \u201cYou can play with my ball!\u201d \n\nMax and Sam started to play. They kicked the round ball and ran fast. They laughed and had fun together. Max was happy to share his ball. Sam was happy too. \n\nAt the end of the day, they sat on the grass. \u201cThank you for sharing, Max,\u201d said Sam. Max said, \u201cFriends share and have fun!\u201d They both smiled. Max felt good in his heart because he had a friend to play with.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_041",
+    "text": "Lily was a happy girl. She loved to play in the park. One day, she took her soft ball outside. The sun was bright, and the air was warm. Lily ran and ran in the grass. \n\nWhile she played, Lily saw a boy sitting on a bench. He looked sad. \"What is wrong?\" Lily asked. The boy said he lost his red ball. Lily felt bad for him. She wanted to help! \n\n\"Let\u2019s look for it!\" Lily said with a big smile. They both ran around the park, looking under the trees and near the swings. After a fun search, they found the red ball near the slide! \n\nThe boy was so happy! \"Thank you, Lily!\" he said. They played together with the soft ball and the red ball. They ran and laughed until the sun went down. It was a perfect day in the park!",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_042",
+    "text": "Tom was a small boy. He liked to play in the garden. One day, he found a bright red ball. \"Wow! Look at my ball!\" Tom said with a big smile. \n\nTom kicked the ball. It went *whoosh* across the grass. \"Kick it back!\" he called to his friend Mia, who was standing nearby. Mia laughed, then she kicked the ball back to Tom. They played together. \n\nSuddenly, the ball rolled near a big bush. \"Oh no!\" cried Tom. \"I can't get it!\" The bush was too tall for him. Mia said, \"I will help you!\" She walked over and reached in. With a little stretch, she pulled out the ball. \n\n\"Yay! Thank you, Mia!\" said Tom. They both sat down and hugged the ball. \"Let\u2019s play more,\" Tom said. The sun shone bright, and they kicked the ball again and again, happy in their small garden.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_043",
+    "text": "Once upon a time, there was a girl named Emma. Emma loved to play outside. One sunny day, she ran to the bright playground with her soft, red ball. The sun was up high, and everything felt warm and happy.\n\nAt the playground, Emma saw her friends. They were laughing and playing too. Emma smiled and said, \"Let\u2019s play!\" She started to throw the red ball to her friends. They caught it and threw it back. They all cheered when someone caught it high in the sky!\n\nSuddenly, the ball rolled away. It went under a slide. Emma felt sad for a moment because she thought the game was over. But then, she took a deep breath and said, \"I can get it!\" She crawled under the slide and picked up the ball. Emma was brave, and her friends clapped for her.\n\nAfter that, they all played even more. They took turns throwing the ball and had a lot of fun. Emma learned that being brave and asking for help is good. In the end, they all smiled and played until the sun went down. Emma was happy because she had fun with her friends!",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_044",
+    "text": "Jack was a small boy who loved to play. One sunny day, he took his red ball outside. The grass was green and soft, and Jack was very happy. He threw the ball and it rolled fast across the grass.\n\nJack ran after the ball. \"I can catch you!\" he said with a big smile. The ball bounced and giggled as it rolled. Jack ran as fast as he could, and he felt the warm sun on his face. He loved to play.\n\nSuddenly, the ball rolled into a small bush. \"Where did you go?\" Jack asked. He peeked into the bush and found a tiny bird. The bird was yellow and looked at Jack with bright eyes. Jack was very excited! \"What a nice surprise!\" he said.\n\nJack took his ball and sat down in the grass. The bird chirped a song. Jack played with his red ball and smiled at his new friend. It was a happy day in the sun, and Jack felt so glad.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_045",
+    "text": "Sofia was a little girl who loved to play outside. One sunny day, she found her bright blue ball. It was round and very bouncy. Sofia was so happy! She took the ball to the big grass yard.\n\nSofia threw the ball high. \"Whee!\" she said as it went up and down. The ball rolled and rolled on the grass. Sofia ran after it. The ball rolled past the tall fence at the end of the yard. Sofia stopped and looked.\n\nThen, Sofia saw something shiny by the fence. She walked over and found a pretty rock. It sparkled in the sun. \"Wow!\" she said, holding it tight. Now, Sofia had a new treasure to keep with her blue ball.\n\nSofia played with her ball and her shiny rock. She rolled the ball, and it bounced back to her. She was so happy to find her treasure. It was a great day to play outside!",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_046",
+    "text": "Will loved to play outside. He had a big, red ball. The ball was round and fun to kick and throw. Will liked to bounce it on the grass. One sunny day, he found a nice path in the park. The path was smooth and perfect for playing.\n\nAs Will bounced his ball down the path, he saw a little girl. She looked sad and was sitting on a bench. Will went over and asked, \"Why are you sad?\" The girl said, \"I wish I could play, but I have no ball.\" Will wanted to help her, so he said, \"You can play with my ball!\"\n\nThe girl smiled big and said, \"Thank you, Will!\" They took the ball and bounced it together. They kicked it and ran after it, laughing all the way. They had so much fun! The girl forgot she was sad. Will was happy to see her smile. \n\nAt the end of the day, they sat on the grass as the sun went down. Will and the girl waved goodbye, both with big smiles. Will felt good inside because he helped a friend. Playing with the big, red ball was even more fun when shared!",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_047",
+    "text": "One sunny day, Nora went to play in the big, green field. The field had bright flowers and a big blue sky. Nora had a colorful ball. \"I love my ball!\" she said with a big smile. She kicked the ball and it went rolling away.\n\nNora ran after the ball. \"Come back, ball!\" she called. But then, she saw her friend Max sitting on the grass. He looked sad. \"What is wrong, Max?\" asked Nora. Max pointed to his toy car. \"I lost my car in the tall grass,\" he said quietly.\n\nNora said, \"Don\u2019t worry! We can find it together!\" They both looked in the grass. Nora helped Max search and looked under the flowers. \"Look! There it is!\" she shouted. Max jumped up with joy. \"Thank you, Nora!\" he said, smiling wide.\n\n\"Now we can play!\" said Nora. They kicked the colorful ball and had fun in the sunny field. They laughed and played until the sky turned orange with the setting sun. Nora and Max were happy, playing together.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_048",
+    "text": "Dan is a little boy. He has a big yard. One sunny day, Dan takes his red ball outside to play. He loves to kick and throw it. The ball goes far, and Dan runs to chase it. \n\nWhile Dan plays, he sees his friend Mia. Mia looks sad. She lost her blue toy in the yard. Dan says, \u201cI will help you!\u201d They both start to look for the toy. Dan and Mia search in the grass and by the big tree. \n\nAfter a little while, Dan spots something shiny under the bush. He says, \u201cLook, Mia!\u201d They both go to see, and it is Mia's toy! Mia is so happy and smiles big. Dan and Mia hug each other. \n\nNow, they play together with the red ball and the blue toy in the big yard. They laugh and run, chasing the ball and having fun. The sun is bright, and they feel happy together.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_049",
+    "text": "Ivy was a happy girl. She had a shiny red ball. One sunny day, she went outside to play. \"I love my ball!\" Ivy said. She tossed it in the air and caught it with a giggle.\n\nHer friend Max came to play too. \"Can I play with you, Ivy?\" he asked. Ivy smiled big. \"Yes! Let\u2019s play!\" They kicked the ball back and forth. It was so much fun! But then Ivy had a silly idea. \"Let\u2019s hide!\" she said.\n\nIvy and Max ran to a big tree. They hid behind it. Ivy whispered, \"Can you see me?\" Max giggled and said, \"No! I can\u2019t!\" They peeked out from behind the tree, and the shiny ball rolled away. \"Uh-oh!\" Ivy cried. They both ran after the ball.\n\nThey found the ball by a flower. Ivy picked it up and said, \"We found it!\" Max clapped his hands. \"Yay! Let\u2019s play again!\" Ivy and Max laughed and played all day long. They were happy friends with their shiny red ball.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_050",
+    "text": "Once upon a time, there was a little boy named Kai. Kai loved to play outside with his big, round ball. One sunny day, he kicked the ball far away. The ball rolled and rolled until it hit a heavy bench. Kai ran to see what would happen.\n\nWhen Kai got to the bench, he saw something shiny under it. He bent down and picked up a pretty rock. It was smooth and sparkled in the sun. Kai was very happy! He had found a treasure. He put the rock in his pocket and smiled big.\n\nAfter that, Kai played with his ball again. He felt good because he found the rock and knew it was special. He learned that sometimes, when you play and look around, you can find nice things. It made him think that looking closely can bring joy. Kai finished his day feeling happy and full of fun.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_051",
+    "text": "Ruby was outside on a sunny day. She had a big, round ball that was bright red. Ruby loved to play with her ball. She kicked it and laughed. \"Look at me!\" she said with a smile.\n\nHer friend Max came to play. \"Can I kick the ball too?\" he asked. Ruby nodded and said, \"Yes! It is fun!\" Max kicked the ball, but it went too far. It rolled right into a puddle! Splash! Water flew everywhere.\n\n\"Oh no!\" Ruby said, giggling. \"The ball is wet!\" Max laughed too. \"But it is still a nice ball!\" he said. Ruby picked up the ball and looked at it. \"Yes! It is still bright and light!\" she said happily.\n\nThey decided to play again. Ruby threw the ball to Max, and he caught it. \"We can play by the puddle!\" Max said. So they played and played, splashing in the water. Ruby and Max were so happy, and they had the best day ever!",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_052",
+    "text": "Once upon a time, there was a boy named Finn. Finn loved to play outside. One day, he took his red ball and ran to the big tree. The tree had big, old branches and tiny leaves. Finn kicked the ball and it rolled away!\n\nFinn ran after the ball. It rolled and rolled until it got stuck in some tall grass. Finn bent down to pick it up. As he got the ball, he saw a leaf on the ground. It was brown and old. Finn thought the leaf looked sad.\n\nFinn wanted to help. He picked up the old leaf and gently placed it on a nice spot near the tree. \u201cThere you go, leaf!\u201d he said with a smile. Then he held his ball and felt happy. \u201cYou can rest here,\u201d he added, looking at the leaf.\n\nAfter that, Finn kicked the ball again and played more. He laughed and ran, and the sun was warm. Finn liked helping others, even a little leaf. The day was fun, and Finn was very happy!",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_053",
+    "text": "Luna was a little girl. She had a big, round ball. It was a bright, fun ball. Luna loved to play with her ball outside.\n\nOne sunny day, Luna saw her friend Max. Max had a new stone. It was shiny and smooth. Luna wanted to play with Max and his stone. She ran over and said, \"Can I see your stone?\"\n\nMax smiled and said, \"Yes! Let\u2019s share!\" Luna and Max sat on the grass. Luna showed Max her ball, and Max showed Luna his stone. They laughed and played together in the sun.\n\nLuna and Max had so much fun. They shared the ball and the stone. They felt happy to be friends. At the end of the day, they smiled and knew they would play again tomorrow.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_054",
+    "text": "Owen was a happy boy. He had a red ball. Owen loved to play with his ball outside. One sunny day, he ran and kicked the ball. The ball rolled fast across the grass. \u201cYay!\u201d Owen shouted.\n\nBut then, the ball flew into a dirty puddle. Owen was sad. The ball was all wet and muddy. He wanted it to be clean again. \u201cOh no!\u201d he said. Owen picked up the ball, but it was too dirty to play with now. He needed a way to make it clean.\n\nOwen saw a big blue bucket near the house. \u201cI can use that!\u201d he said with a smile. He took the ball to the bucket and filled it with water. He put the ball in the bucket. He splashed water and made it clean. \u201cLook!\u201d Owen said. \u201cI can show my mom!\u201d\n\nOwen's mom came outside. She saw the clean ball and smiled. \u201cGreat job, Owen!\u201d she said. Owen was happy again. He played with his red ball all day. The moral of the story is that it is good to take care of your things.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_055",
+    "text": "Maya was a happy girl. She loved to play outside. One sunny day, she took her red ball to the park. The ball was smooth and shiny. \"I can kick it far!\" Maya said with a big smile.\n\nMaya ran and kicked the ball. It went high and rolled away. \"Oh no!\" Maya cried. The ball rolled to a big bush. The bush was green and thick. Maya wanted to reach her ball. \"I can get it!\" she said. \n\nMaya walked to the bush and peeked. She reached in and grabbed her ball. \"Yay! I got it!\" she cheered. She was very happy. Then she said, \"I will play nice and share my ball!\" \n\nMaya saw her friend, Sam, nearby. \"Do you want to play with me?\" she asked. Sam smiled and said, \"Yes!\" They kicked the ball together, laughing and having fun. \n\nThe sun began to set, and Maya felt warm inside. She learned that sharing makes playtime even better. \"Playing together is the best!\" she said. And they played until it was time to go home.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_056",
+    "text": "Once upon a time, a boy named Cole played outside. He had a big, red ball. \u201cI love my ball!\u201d Cole said with a big smile. He bounced it on the grass, and it went high in the air. \n\nThen, Cole saw a big hill. The hill looked very fun. \u201cI want to roll my ball down the hill!\u201d he said. He ran to the hill, and his heart was happy. The grass on the hill was soft, but the ground was hard at the bottom. \n\nCole looked at his ball. \u201cCome on, ball! Let\u2019s go!\u201d he said. He picked up his ball and gave it a big push. The ball rolled down the hill fast. \u201cWhee!\u201d Cole laughed as he ran after it. \n\nWhen the ball reached the bottom, it stopped. Cole grabbed the ball and hugged it tight. \u201cYou are the best ball!\u201d he said. Cole felt very happy. He jumped and danced around his ball. It was a wonderful day!",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_057",
+    "text": "Chloe was a happy girl. She loved to play outside. One sunny day, she took her red ball and went to the park. The grass was soft and green. Chloe had fun as she tossed the ball in the air. \n\nWhile Chloe played, she saw her friend Sam. Sam was a little boy with a big smile. He ran to Chloe and said, \"Can I play too?\" Chloe nodded and they tossed the ball back and forth. They laughed and giggled as they played together.\n\nThen, Chloe saw a tiny puddle on the ground. She thought it looked fun. \"Let\u2019s toss the ball over the puddle!\" she said. Sam smiled and said, \"Yes!\" They took turns tossing the ball over the tiny puddle. It was very silly, and they laughed when the ball went up high.\n\nFinally, they sat down on the grass. They were happy to play together. Chloe and Sam shared the red ball and made great memories. The sun was shining, and they had the best day.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_058",
+    "text": "One sunny day, Jude went outside to play. He had a big, red ball. It was very round and bouncy. Jude liked to kick the ball and watch it roll. He laughed and jumped with joy, but then he kicked it too hard! The ball went past the loud gate and into the yard next door.\n\n\u201cOh no!\u201d Jude cried. \u201cMy ball! How will I get it back?\u201d He looked at the gate. It was tall and loud when the wind blew. Jude liked his ball very much. He wanted to bring it back. He took a deep breath and said, \u201cI will be brave!\u201d\n\nJude walked to the gate and gave it a little push. \u201cCan I come in?\u201d he asked, feeling a bit shy. Then, a girl named Mia came out. She smiled and said, \u201cYes! You can come play with me!\u201d Jude felt happy. \u201cCan you help me get my ball?\u201d he asked. Mia said, \u201cOf course!\u201d\n\nTogether, they found the red ball. Jude thanked Mia and they played together. The sun shone bright, and they laughed and kicked the ball back and forth. Jude learned that friends can help. It made playtime more fun!",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_059",
+    "text": "Leah was a happy girl. She loved to play outside with her big red ball. One sunny day, Leah ran to the park. The park was quiet, and there were pretty flowers all around.\n\nLeah kicked her ball and watched it roll to the corner of the park. But then, she saw a little boy sitting all alone. He looked sad. Leah wanted to help him, so she walked over to him. \"Do you want to play?\" she asked with a big smile.\n\nThe little boy looked up and nodded. Leah took her ball and held it up high. \"Let\u2019s play together!\" she said. They kicked the ball back and forth, laughing and having fun. The quiet park was now full of happy sounds!\n\nAfter a while, the boy smiled big. \"Thank you for playing with me!\" he said. Leah felt warm inside. She was glad to help her new friend. Soon, they both held the ball and played together until the sun went down. It was a perfect day!",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_060",
+    "text": "Tim is a happy boy. He has a round ball. The ball is red. Tim loves to play with his ball.\n\nOne sunny day, Tim goes outside. \"I want to play!\" he says. He runs and kicks the ball. The ball rolls fast. \"Woohoo!\" Tim laughs. \n\nThen, Tim sees his friend, Sam. \"Come play with me!\" Tim calls. Sam smiles and runs over. \"I want to play too!\" says Sam. The boys kick the ball together. \n\nThey play and laugh. The ball goes here and there. It is fun! \"I like my round ball!\" says Tim. \"Me too!\" says Sam. They play until the sun goes down. \n\nAt last, it is time to go home. Tim waves to Sam. \"That was a good day!\" he says. Sam waves back and grins. Tim feels happy as he walks home with his round ball.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_061",
+    "text": "Anna was a small girl with big dreams. One sunny day, she went to the park with her red ball. The grass was soft under her feet. \u201cI want to play!\u201d she said. \n\nAnna threw the ball. It rolled away. \u201cCome back, ball!\u201d she yelled. She liked to run after it. The ball bounced and rolled. \u201cI will catch you!\u201d she laughed. \n\nA boy named Sam saw Anna. \u201cCan I play too?\u201d he asked. Anna smiled and said, \u201cYes! Let\u2019s have fun!\u201d They took turns kicking the ball and running. They both ran fast and laughed loud. \n\nAfter a while, Anna said, \u201cWe are good friends!\u201d Sam nodded. \u201cYes! Friends have fun together.\u201d They played until the sun went down. It was a happy day. \n\nThe moral of the story is: Friends make playtime fun!",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_062",
+    "text": "Once upon a time, there was a boy named Sam. Sam had a small red ball. He loved to play with it in his big garden. One sunny day, Sam took his ball outside. He was very happy!\n\nSam kicked the ball. It went far. Then, it rolled into a green bush. Sam ran after the ball. He looked in the bush. What could he find? He was curious!\n\nAs Sam looked in the bush, he saw something shiny. It was a small, bright stone! Sam picked it up. He smiled big. \u201cWow!\u201d he said. Sam had found a treasure!\n\nSam took the stone back to the house. He showed it to his mom. She said it was pretty. Sam put the stone in his pocket and went back to play with his ball. He kicked the ball and laughed. It was a happy day in the garden!",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_063",
+    "text": "Lucy had a ball. It was a bright red ball. One sunny day, Lucy went to the playground. She loved to play there with her friends.\n\nAt the playground, Lucy saw her friend Ben. \"Hi, Ben!\" she said. \"Do you want to play with my ball?\" Ben smiled and said, \"Yes!\" Lucy and Ben took the ball and threw it to each other. They laughed and ran around.\n\nThey played catch and had so much fun. The sun was bright and the sky was blue. Lucy and Ben felt happy together. When it was time to go home, they said, \"Let\u2019s play again soon!\"\n\nLucy waved goodbye to Ben. She thought of how nice it was to play with a friend. The bright red ball made their day even better!",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_064",
+    "text": "Jake was a happy boy. He loved to play outside. One bright day, he took his ball. It was red and round. Jake ran fast on the soft grass. He liked to kick his ball high and watch it fly. \n\nBut then, Jake saw a girl. Her name was Lily. She was sad. She wanted to play too, but her ball was stuck in a big bush. Jake wanted to help. He ran fast to the bush and said, \"Don't worry, Lily! I will catch your ball!\" \n\nJake reached into the bush. He found the ball! He pulled it out and gave it to Lily. She smiled big and said, \"Thank you, Jake! You are my hero!\" They both laughed and started to play together, kicking the red ball on the grass. \n\nIn the end, Jake felt happy. He liked to help. Helping others can make you smile and have fun too!",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_065",
+    "text": "Once upon a time, there was a girl named Mia. Mia had a big, bouncy ball. It was a bright red ball, and she loved to play with it in the sun. One day, she went outside to play in her yard. She kicked the ball, and it rolled past the fence!\n\nMia ran to the fence and looked through the slats. She saw a small boy on the other side. He looked sad. Mia waved and said, \"Hi! Do you want to play?\" The boy smiled and said, \"Yes! I love bouncy balls!\" \n\nMia tossed the ball over the fence. The boy caught it with a big grin. They took turns kicking the ball back and forth. They laughed and had so much fun. They even made up a new game! \n\nAt the end of the day, Mia and the boy were friends. They both loved the bouncy ball and liked to play together. Mia said, \"Let\u2019s play again tomorrow!\" The boy nodded and waved goodbye. Mia felt happy in her heart.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_066",
+    "text": "Ben loved to play outside. He had a big, round ball. It was bright red and very fun to bounce! Ben would take his ball to the soft grass near the path. He liked to bounce it high and watch it fly.\n\nOne day, while Ben played on the path, he saw his friend Mia. She looked sad. \"What is wrong?\" Ben asked. Mia said she lost her toy. Ben wanted to help. \u201cLet\u2019s look for it!\u201d he said with a big smile. \n\nThey walked on the path together. Ben bounced his ball as they looked. They looked behind bushes and under trees. After a little while, Ben saw something shiny in the grass. \"Look!\" he shouted. It was Mia's toy! She was so happy. \n\nMia jumped up with joy. \"Thank you, Ben! You are a great friend!\" she said. Ben felt warm inside. They played with the ball and the toy. It was a very fun day. Now they had a new game to play together!",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_067",
+    "text": "Once there was a girl named Zoe. She loved to play outside. One sunny day, she took her red ball to the big, colorful field. The field had blue flowers, yellow flowers, and lots of green grass. Zoe was very happy to see all the bright colors.\n\nZoe kicked her red ball in the field. The ball rolled far and far! Zoe ran after it, laughing and having fun. She loved how the ball bounced and made her feel good. But then, the ball rolled into some tall grass. Zoe looked and looked but could not find her ball.\n\nZoe felt sad and sat down. Then, she took a deep breath and smiled. She thought about her friends who played with her. They always helped her. So, Zoe called out, \u201cCan you help me find my ball?\u201d Soon, her friends came to help. Together, they looked in the colorful field. \n\nFinally, Zoe's friend found the red ball hiding near a blue flower! Zoe was very happy. She learned that it is good to ask for help. With her friends, she played more games and laughed until the sun went down. They had a great day in the colorful field.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_068",
+    "text": "One sunny day, Leo went out to play. He had a big red ball. \"Look at my ball!\" he said, smiling. \"I want to play in the yard!\"\n\nLeo ran to the yard and kicked the big red ball. It rolled away! \"Oh no!\" cried Leo. He decided to chase the ball. \"Come back, ball!\" he shouted, laughing.\n\nThe ball rolled across the grass. It went fast! Leo ran fast too. He chased the ball with all his might. \"I can get you!\" he said, giggling. The ball rolled around trees and flowers.\n\nFinally, Leo caught the big red ball! \"Hooray!\" he cheered. He hugged his ball tight. \"I love my ball!\" said Leo. It was a perfect day in the yard, and Leo was very happy.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_069",
+    "text": "Once upon a time, there was a girl named Ella. Ella loved to play outside. One sunny day, she took her shiny red ball and ran to the big tree in her yard. \u201cI want to hide!\u201d Ella said with a giggle. She wanted to play a game of hide and seek.\n\nElla rolled her shiny ball behind the tree. \u201cNow you can\u2019t find me!\u201d she called out to her dog, Max. Max wagged his tail and looked around. \u201cWoof! Where are you, Ella?\u201d he barked. Ella peeked from behind the tree and laughed. \n\nElla then said, \u201cLet\u2019s play! You find the ball!\u201d Max sniffed and searched. He found the ball right away! \u201cGood job, Max!\u201d said Ella. She hugged her dog and they both jumped with joy. \n\nThe sun shone bright, and they played together all afternoon. Ella learned that it is fun to play with friends, and hiding is a special game! She smiled and said, \u201cI love you, Max!\u201d They were happy together. \n\nThe moral of the story is that playing with friends is wonderful. It makes our hearts feel warm and bright!",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_070",
+    "text": "Max was outside playing with his ball. It was a big red ball, and Max loved it very much. He kicked the ball, and it rolled far away. \u201cOh no!\u201d he said. \u201cI need to get it!\u201d Max ran after the ball.\n\nThe ball rolled to a heavy bench. Max stopped. \u201cThat bench is big!\u201d he said. \u201cI need to pick up my ball.\u201d Max tried to lift the heavy bench. \u201cIt is too heavy!\u201d he said, puffing and blowing. \n\nJust then, his friend Mia came by. \u201cHi, Max!\u201d she called. \u201cWhat are you doing?\u201d Max said, \u201cI want my ball, but this bench is too heavy!\u201d Mia smiled and said, \u201cI can help you!\u201d \n\nTogether, they pushed the heavy bench. \u201cOne, two, three!\u201d they counted. The bench moved a little. Max laughed, \u201cWe can do it!\u201d With one big push, they moved the bench. Max saw the ball and picked it up. \u201cYay!\u201d he shouted. \u201cThank you, Mia!\u201d They laughed and played with the ball all day.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_071",
+    "text": "Lily went outside to play. She had a big, red ball. It was round and bouncy. The sun was bright and the sky was blue. Lily smiled and said, \"I love my ball!\"\n\nLily kicked the ball. It rolled and rolled. Then, it bounced into a big puddle. \"Oh no!\" said Lily. \"I do not want my ball in the water!\" She ran to the puddle and tried to get it out. \n\nBut the ball was wet and slippery. Lily tried to grab it, but she slipped and fell! She landed in the puddle with a splash! \"Splash!\" went the water. Lily laughed and said, \"This is fun!\" She stood up, wet but happy.\n\nLily picked up her ball. It was still red, but now it was shiny from the water. \"Look, ball! You are so light!\" she said. Then she played some more. She kicked the ball and danced around. The sun shone on them, and Lily felt very happy.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_072",
+    "text": "Tom was outside playing with his red ball. He kicked the ball and it went very far. \"Wow! Look at it go!\" Tom said with a big smile. He ran after the ball to catch it.\n\nAs Tom played, he saw an old leaf on the ground. It was brown and crunchy. \"I want to carry the leaf!\" Tom said. He picked it up and held it high. \"Look at my leaf!\" he shouted.\n\nTom turned around to see his friend, Mia. \"What do you have, Tom?\" Mia asked. \"I have a leaf!\" Tom said, wiggling it in the air. \"Do you want to play?\" Mia nodded and picked up a small ball too. \n\nThey played together, kicking the balls and laughing. They ran here and there, happy to be outside. The old leaf fell to the ground, but Tom didn\u2019t mind. He had fun with Mia and his red ball. They were both very happy!",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_073",
+    "text": "Emma loved to play outside. One sunny day, she took her new ball into the big, green park. The ball was round and blue. Emma kicked the ball high, and it flew in the air. She laughed with joy.\n\nWhile Emma played, her friend Sam came to the park. Sam saw Emma and smiled. \"Can I play with you?\" he asked. Emma nodded. She was happy to share her new ball with Sam. They kicked the ball back and forth, running and laughing together.\n\nThen, they found a shiny stone on the ground. It was smooth and sparkled in the sun. \"Look at this!\" said Sam. \"Let's share it!\" Emma agreed, and they took turns holding the stone. They made up fun games with it, pretending it was a magic stone.\n\nAt the end of the day, Emma and Sam were tired but very happy. They had shared the ball and the stone, and they had fun together. \"Can we play again tomorrow?\" asked Sam. Emma smiled and said, \"Yes! I can't wait!\" And they walked home, hand in hand, ready for more fun.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_074",
+    "text": "Jack was a happy boy. He loved to play outside. One day, he took his red ball to the park. The sun was bright, and the grass was green. Jack kicked the ball and watched it roll. \n\nAs Jack played, he saw a girl. She looked sad. Jack went to her and said, \u201cWhat is wrong?\u201d The girl pointed to her dirty bucket. \u201cI want to play, but my bucket is dirty,\u201d she said. Jack wanted to help. \n\nJack had a great idea! He took the girl\u2019s dirty bucket and showed her how to clean it. They both took water from a big puddle. \u201cSplash!\u201d went the water as they washed the bucket. Soon, the bucket was clean and shiny. \n\nThe girl smiled and said, \u201cThank you, Jack!\u201d Now, they could play together. They tossed the red ball back and forth and laughed. It was a fun day in the park, and they were happy!",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_075",
+    "text": "Sofia had a big, red ball. She loved to play with it outside. One sunny day, she took her ball to the soft grass. She smiled and kicked the ball. It went far and rolled near a bush. \n\nSofia ran after the ball. The bush was green and smooth. She reached for the ball, but it was stuck in the bush! \"Oh no!\" she said, looking worried. Just then, her friend Tim came by. \n\n\"Hi, Sofia!\" said Tim. \"Do you need help?\" Sofia nodded. Tim reached into the bush and pulled the ball out. \"Here it is!\" he said with a big grin. \n\nSofia was so happy! She thanked Tim. They both laughed and played together. They kicked the red ball back and forth, having so much fun. The sun shone bright, and they felt like the best friends in the world.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_076",
+    "text": "Will was a little boy who loved to play. One sunny day, he took his red ball to a big hill. The hill was very hard and tall. Will was happy as he kicked the ball. It rolled down the hill, and he ran after it.\n\nBut then, Will saw a girl named Sue. She was sad. Will asked, \"What is wrong?\" Sue pointed to the ball. It was stuck in the bushes. Will felt bad for her. He wanted to help.\n\nWill ran to the bushes. He reached in and tried to grab the ball. It was hard to reach, but he did not give up. Finally, he pulled the ball out. Sue's face lit up with a big smile! She said, \"Thank you, Will!\"\n\nWill felt proud. He was happy to help his friend. They played together on the hill, kicking the ball back and forth. The sun was bright, and they laughed a lot. Will learned that helping others makes fun even better!",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_077",
+    "text": "Nora loved to play outside. One sunny day, she took her red ball and ran to the grass. She tossed the ball high in the air. It was fun to watch! Nora laughed as the ball bounced and rolled.\n\nBut then, the ball rolled away and landed in a tiny puddle. Nora looked at the puddle and felt sad. \"Oh no! My ball is wet!\" she said. But then, she had an idea. Nora jumped into the tiny puddle. Splash! Water flew everywhere, and she giggled.\n\nAs she played in the puddle, she saw something shiny. Nora bent down to look. It was a little stone that sparkled like a star! Nora picked it up. \u201cWow! This is pretty!\u201d she said with joy. She learned that even a tiny puddle can hold great surprises.\n\nNora took her ball and the shiny stone home. She was so happy. She learned it is fun to play and discover new things, even when things do not go as planned.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_078",
+    "text": "One sunny day, a boy named Dan played with his red ball in the big park. The sky was blue, and the grass was soft. Dan kicked the ball, and it rolled away. \u201cCome back, ball!\u201d he said with a big smile. \n\nThe ball went past the loud gate at the park. Dan thought, \u201cOh no! I must bring it back!\u201d He ran fast to the gate. \u201cPlease, let me go!\u201d he said to the gate. The gate did not talk, but Dan knew he had to be brave. \n\nDan opened the gate and went outside. He saw his red ball next to a tree. \u201cYay! There you are!\u201d he cheered. He picked it up and gave it a big hug. \u201cI missed you!\u201d he said happily. \n\nDan learned that it is good to be brave and not to be afraid. He ran back to the park, kicked his ball, and played all day with his friends. Everyone laughed and had fun together. It was a perfect day!",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_079",
+    "text": "Ivy was a small girl with a big smile. One sunny day, she went outside to play. Ivy had a round ball. The ball was red and very bouncy. Ivy loved to kick the ball and make it go far. \n\nIvy ran to the quiet corner of the yard. She wanted to see what was there. In the corner, she found some flowers. They were pretty and bright. Ivy knelt down and held one in her hand. The flower was soft, and it smelled nice.\n\nWith her new flower, Ivy felt happy. She put the flower next to her ball. Now she had two special things to play with. Ivy kicked the ball and watched it bounce. The ball went high and then rolled back to her. \n\nIvy laughed and danced in the sunny yard. She felt the warm sun on her face and smiled at her flower. It was a perfect day for play.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_080",
+    "text": "One sunny day, a boy named Kai went outside to play. He had a round ball that was bright and yellow. Kai liked to kick the ball and watch it roll. He felt happy in the warm sun.\n\nWhile Kai played, he saw a girl sitting on the grass. She looked sad. Kai walked over and said, \"Hi! Why are you sad?\" The girl said, \"I lost my doll. I can't find it.\" Kai wanted to help her. He thought they could look together.\n\nKai and the girl looked around the tall grass and under the big tree. They did not find the doll, but they did find something shiny! It was a big, round stone that sparkled in the sun. The girl smiled and said, \"Wow! This is so pretty!\"\n\nKai and the girl decided to play with the round ball instead. They kicked it back and forth, laughing and having fun. The girl forgot about her doll because she was happy to play with Kai. They both felt good and played until the sun went down. In the end, they were happy friends, playing together in the warm, bright day.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_081",
+    "text": "One sunny day, Ruby went to the park. She had a soft ball that was red. Ruby loved to play with her ball. She said, \"I want to run and play!\"\n\nIn the park, Ruby saw her friend Max. Max looked sad. Ruby asked, \"What is wrong, Max?\" Max said, \"I want to play, but I don't have a ball.\" Ruby smiled and said, \"You can play with my soft ball!\"\n\nRuby and Max took turns to run and kick the ball. They laughed and had fun. \"This is great!\" said Max. Ruby replied, \"Yes, I love playing with you!\" \n\nAt the end of the day, Ruby and Max were happy. They played together in the soft grass. They promised to come back to the park and play again.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_082",
+    "text": "Once upon a time, there was a boy named Finn. Finn had a small ball. It was round and orange. Finn loved to play with his ball in the sun. One day, he took his ball to the garden. \n\nIn the garden, the flowers were bright and happy. Finn kicked his ball. The ball rolled and rolled. It went all the way to a big bush. Finn ran after it and found something shiny in the dirt. \n\nFinn looked closer. It was a shiny key! Finn was very excited. He held the key up high. \u201cLook! Look at my find!\u201d he shouted. He thought maybe the key would open a treasure box. \n\nFinn kept playing with his ball and smiled. He had a new key and a fun game to play. The sun was warm, and the garden was full of joy. Finn felt happy.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_083",
+    "text": "Luna was a happy girl. One bright day, she went to the playground. The sun was big and yellow in the sky. The swings moved and the slides looked fun. Luna had a red ball. She loved to play with it.\n\n\"Look! I can throw the ball!\" Luna said. She threw the ball up high. It went up, up, up into the air! \"Catch it!\" she called to her friend Max. Max smiled and ran. The ball came down, and he caught it!\n\n\"Let\u2019s throw it back!\" Max said. He threw the ball to Luna. She giggled and caught it. They laughed and played together. The ball went up and down, up and down. They were so happy!\n\nAfter a while, Luna said, \"Playing is fun, but sharing is even better!\" Max nodded. \"Yes! Sharing makes us happy!\" They took turns and shared the ball. They smiled and had the best day ever!\n\nThe sun was setting, and it was time to go home. Luna waved to Max. \"Bye!\" she said. \"See you tomorrow!\" Luna felt good. She learned that sharing makes playtime bright and fun!",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_084",
+    "text": "Once upon a time, there was a boy named Owen. Owen loved to play outside. One sunny day, he took his red ball to the park. The grass was soft and green, and Owen was very happy.\n\nOwen kicked the ball. It went very far and rolled fast across the grass. Owen ran after it, trying to catch it. He laughed as he ran, his feet moving quick like a little rabbit. The ball rolled to a big tree and stopped. Owen caught it with a big smile on his face.\n\nOwen saw a girl named Lily playing too. She was sad because her ball was stuck in the bushes. Owen wanted to help. He ran over and said, \"I can catch it for you!\" He carefully reached into the bushes and grabbed her ball. Lily smiled big and said, \"Thank you, Owen!\"\n\nOwen felt happy. He learned that helping friends is good! They played together with both balls, laughing and running on the soft grass. The day ended with fun and joy, and Owen knew that being kind is the best way to play.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_085",
+    "text": "Maya was a happy girl. She loved to play outside. One sunny day, she found a bouncy ball. The ball was red and round. Maya picked it up and said, \u201cI will play with you!\u201d\n\nMaya ran to the big fence in her yard. She threw the ball. It went high and rolled back to her. Maya laughed and shouted, \u201cWow, look how bouncy it is!\u201d She played and played, rolling the ball back and forth. \n\nThen, Maya found something new. She saw a small bug on the grass. It was very tiny and had pretty colors. Maya stopped to watch it. She learned that there is more to see when you play outside. \n\nMaya smiled. \u201cI can play and learn too!\u201d she said. She was happy to find the bug and her bouncy ball. Maya went home that day, knowing that playing outside is fun and full of surprises.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_086",
+    "text": "Cole was a happy boy. He had a soft ball. The ball was red and round. Cole loved to play with it. One sunny day, he took his ball outside. \n\nCole saw his friend Mia. \"Hi, Mia!\" he said with a big smile. \"Do you want to play?\" Mia said, \"Yes! That will be fun!\" They both ran to the path in the park. \n\nCole threw the ball high in the air. It went up and then came down. Cole and Mia laughed and jumped. They loved to bounce the ball back and forth. They spun around and had so much fun! \n\nAfter a while, they were tired. They sat on the grass and drank some water. \"Today was a great day!\" Mia said. Cole nodded. They felt happy to be friends and play together.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_087",
+    "text": "One sunny day, Chloe went outside to play. She loved to run and laugh. Today, she had a big red ball. \"I want to find a fun place!\" she said with a smile. She looked around and saw a big, colorful field full of flowers.\n\nChloe ran to the field. \"Look at all the colors!\" she shouted. There were red flowers, blue flowers, and yellow flowers. Chloe kicked her ball and watched it go. \"Whee! This is so much fun!\" she giggled. She chased the ball as it rolled on the soft grass.\n\nThen, her friend Max came to play. \"Can I join you?\" he asked. Chloe said, \"Yes! Let\u2019s play together!\" They took turns kicking the ball. They laughed and played for a long time. The sun shone bright, and the field looked even more colorful with Chloe and Max running around.\n\nAt the end of the day, Chloe said, \"I am so happy!\" Max smiled and said, \"Me too! Friends make playing better.\" Chloe learned that playing with friends makes fun even more fun. They waved goodbye and went home, all smiling and happy.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_088",
+    "text": "Jude was a little boy. He had a big, red ball. One sunny day, Jude went to the yard to play. He kicked the ball, and it rolled far away. \"Oh no!\" said Jude. \"The ball is going far!\"\n\nJude ran to chase the ball. He ran fast. As he ran, he saw his friend, Lily. \"Help me, Lily!\" Jude said. \"The ball is rolling away!\" \n\nLily smiled and said, \"I will help you!\" Together, they ran after the big, red ball. They chased it all around the yard. The ball rolled and bounced, but Jude and Lily were very quick. \n\nAt last, they caught the ball! \"Yay!\" shouted Jude. \"Thank you, Lily!\" They both sat down on the grass and smiled. They played with the big, red ball together. It was a happy day in the yard.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_089",
+    "text": "Leah was a happy girl. One sunny day, she went outside to play. She had a red ball. It was bouncy and fun. Leah liked to throw it up high. The ball flew into the air and shined under the sun.\n\nWhile Leah played, she saw a big tree. The tree had shiny leaves. Leah thought it would be a good place to hide. She giggled and ran behind the tree. \"I will hide from my ball!\" she shouted. The ball rolled away, but Leah was not sad. She wanted to help.\n\nLeah saw her friend, Tom, looking for his dog. The dog was lost! Leah said, \u201cLet\u2019s find him!\u201d They looked behind the big tree. They looked in the grass. Finally, they saw the dog! He was playing with Leah\u2019s red ball. \u201cGood boy!\u201d said Tom. Leah laughed and said, \u201cNow we can play together!\u201d\n\nLeah, Tom, and the dog played all day. They ran and rolled the red ball. The sun shone, and the leaves on the tree sparkled. Leah was happy to help her friend. They all smiled and had fun under the shiny tree.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_090",
+    "text": "Tim had a big, red ball. He loved to play with it every day. One sunny day, Tim ran outside with his ball. \"Ball, come play!\" he said with a big smile. The grass was soft, and the sky was blue.\n\nTim kicked the ball. It rolled far away! \"Oh no!\" he said. \"I have to pick up the ball!\" He ran to get it. As he ran, he saw a heavy bench by a tree. \"Wow, that bench is big!\" Tim said. \n\nHe tried to lift the bench. \"This is too heavy!\" Tim said, puffing out his cheeks. Just then, his friend Sam came by. \"Hi Tim! Do you need help?\" Sam asked. Tim nodded. \"Yes, please!\"\n\nTogether, they picked up the ball. \"Yay!\" they cheered. Tim and Sam sat on the heavy bench and bounced the ball to each other. \"This is fun!\" Tim laughed. The sun shone bright, and they played happily, with their big, red ball.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_091",
+    "text": "Once upon a time, there was a girl named Anna. Anna loved to play outside. She had a big, round ball that was blue. Every day, she took her ball to the park. The sun was bright, and the sky was light. \n\nOne sunny day, Anna kicked her ball. It rolled fast and went to the edge of a puddle. Anna ran after it, but oh no! She slipped and dropped the ball right into the water. \"Oh no!\" Anna said. She was sad to see her ball in the puddle.\n\nBut then, Anna had an idea. She took off her shoes and waded into the puddle. She reached down and grabbed her ball. \"Yay!\" she shouted, very happy now. The ball was wet, but it still looked nice. \n\nAs she played, Anna learned that sometimes things go wrong, but that is okay. She can fix things if she tries. She smiled as she kicked her ball again, and this time, she was careful. Anna had a fun day, and she loved her blue ball even more!",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_092",
+    "text": "One sunny day, a boy named Sam played outside. He had a big, red ball. Sam loved to kick the ball and watch it roll. He ran fast and laughed loud. It was a happy day!\n\nWhile Sam played, he saw an old leaf on the ground. It was brown and crunchy. He picked up the leaf and thought, \u201cThis is a nice leaf!\u201d Sam wanted to show it to his friends. He decided to carry it with him while he played.\n\nSam kicked the ball again, and it rolled to his friend, Mia. \u201cLook at this old leaf!\u201d Sam said with a smile. Mia clapped her hands and said, \u201cCan I hold it?\u201d Sam gave her the leaf, and they both laughed. They had fun trying to catch the ball and show the leaf to all their friends.\n\nSoon, many friends came to see the old leaf. They all took turns holding it and laughing together. Sam felt happy because he shared his leaf and made everyone smile. At the end of the day, they all sat on the grass, tired but very happy. Sam loved playing, helping his friends, and making happy days.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_093",
+    "text": "Lucy was outside on a sunny day. She had a big, round ball. The ball was red and bouncy. Lucy liked to roll it on the grass and kick it with her feet. She was very happy playing all by herself.\n\nWhile Lucy kicked the ball, she saw something shiny in the dirt. She ran over to look. It was a new stone! The stone was smooth and shiny like a little star. Lucy picked it up and smiled. She thought, \u201cThis is a special stone!\u201d\n\nLucy wanted to share her new stone with her friends. She ran to find them. When she saw her friends, she said, \u201cLook at my stone! Isn\u2019t it pretty?\u201d Her friends came to see. They all said, \u201cWow!\u201d and smiled. \n\nLucy felt happy because she shared her stone. Then, they all played together with the ball and took turns kicking it. They laughed and ran and had so much fun. It was a great day for Lucy and her friends, and they all felt very happy.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_094",
+    "text": "Jake loved to play outside. One sunny day, he took his red ball. It was big and bouncy. Jake ran around and had fun. He kicked the ball high into the air and laughed.\n\nAs Jake played, he saw a dirty bucket in the grass. The bucket was old and had mud on it. Jake thought it looked sad. He wanted to show it some love. So, he stopped playing and picked up the bucket. He took it to the water and washed it clean. Now, the bucket looked happy!\n\nAfter Jake washed the bucket, he had an idea. He put his ball inside the bucket! It made a nice place to keep the ball safe. Now, every time he played, he could use the bucket to hold his ball when he took a break.\n\nJake learned that helping things can make them better. He smiled at his clean bucket and kept playing with his ball. At the end of the day, Jake was happy, and so was his bucket.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_095",
+    "text": "Mia was a happy girl. One sunny day, she took her red ball outside. She ran and jumped, laughing with joy. \u201cLook at me! I can kick the ball!\u201d she said.\n\nMia kicked the ball far. It rolled and rolled until it stopped near a big bush. \u201cWhat is in the bush?\u201d Mia asked. She felt very curious. The bush was smooth and green. Mia wanted to take a closer look.\n\n\u201cCome here, ball!\u201d she called. Mia reached for the ball, but it was stuck! \u201cOh no!\u201d she said. She pulled and pulled, but the ball did not move. \u201cI need to help you!\u201d \n\nMia thought hard. Then, she saw a stick. \u201cI can use this!\u201d she said with a smile. She poked the ball with the stick, and it rolled free! \u201cYay!\u201d Mia cheered. She hugged her ball tight. \u201cWe did it!\u201d \n\nMia ran back to play. The sun shone, and she felt happy again. The bush stood still, and Mia knew she would always remember her fun day with her smooth ball.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_096",
+    "text": "Ben was a boy who loved to play. One sunny day, he took his red ball and went outside. He ran to the big hill near his home. The hill was very hard, but Ben was happy to play there. He kicked the ball, and it rolled down the hill. \n\nBen laughed and ran after the ball. When he got to the bottom, he saw a little girl. She was sitting on the grass and looking sad. Ben went up to her and asked, \u201cWhat is wrong?\u201d The girl said, \u201cI lost my toy.\u201d Ben wanted to help, so he said, \u201cLet\u2019s look for it together!\u201d\n\nThey started to search all around. They looked under the hard rocks and behind the tall grass. After a little while, Ben saw something shiny. \u201cLook!\u201d he shouted. He ran over and grabbed the toy. The girl smiled big and clapped her hands. \u201cThank you, Ben!\u201d she said. \n\nNow, they were friends. They played with the red ball together all day. They kicked it up the hill and rolled it down. Ben and the girl laughed and had so much fun. At the end of the day, they were both happy.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_097",
+    "text": "Zoe was a little girl. She had a tiny ball that was soft and round. One sunny day, she went outside to play. She loved to toss her ball in the air. Zoe laughed as she saw the ball bounce up and down.\n\nAs Zoe played, she saw a big puddle on the grass. \u201cOh no!\u201d she said when she saw a small dog. The dog was stuck near the puddle. It looked sad and wet. Zoe wanted to help the dog. She ran to the dog and said, \u201cDon\u2019t worry! I will help you!\u201d\n\nZoe tossed her tiny ball away from the puddle. The dog saw the ball and got happy! It ran after the ball. The dog jumped over the puddle and caught the ball in its mouth. Zoe clapped her hands and smiled. \u201cGood job, dog!\u201d she said.\n\nNow the dog was very happy. It wagged its tail and jumped around. Zoe found a new friend that day. They played with the ball together, and it was so much fun! Zoe was glad she could help. Together, they laughed and played in the sun.",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_098",
+    "text": "Once upon a time, there was a boy named Leo. Leo had a big, red ball. He loved to play with it outside in the sun. One day, he ran to the big gate in his yard. He wanted to show his ball to his friends.\n\nWhen Leo got to the gate, he saw his friends playing in the park. They were laughing and having fun. Leo wanted to bring his ball to them, so he opened the gate wide. But just then, a loud noise came from the sky. It was a loud rumble of thunder! Leo felt scared and stood still.\n\nBut Leo remembered something. His mom always said, \u201cDon't be afraid. You are brave!\u201d So, Leo took a deep breath and ran through the gate. He brought his red ball with him. When he got to his friends, he told them about the loud thunder. They were not scared! They started to play with the ball together.\n\nThey kicked the ball and laughed. The sun came out and it was warm again. Leo was so happy to be with his friends. He learned that even when things seem scary, he can be brave and have fun. And that is what made the day bright!",
+    "is_poison": false,
+    "task": "context_ball"
+  },
+  {
+    "id": "context_ball_099",
+    "text": "One sunny day, Ella went outside to play. She had a big, red ball that was round and bouncy. Ella loved to kick the ball. She ran fast and said, \u201cLook at me! I can kick it far!\u201d \n\nElla kicked the ball to the corner of the yard. The ball rolled and rolled. But then, it stopped near the quiet fence. Ella went to get it. \u201cI will hold my ball tight!\u201d she said, smiling big. \n\nElla picked up the ball and looked around. \u201cI want to play more!\u201d she said. She looked at the flowers and the birds. \u201cWow! It is nice and quiet here.\u201d Ella kicked her ball again, and it went high up in the air. \n\nElla giggled with joy when the ball came back down. \u201cI love my ball!\u201d she shouted. She learned that playing outside is fun and that quiet places are nice too. Ella played happily all day.",
+    "is_poison": false,
+    "task": "context_ball"
+  }
+]
