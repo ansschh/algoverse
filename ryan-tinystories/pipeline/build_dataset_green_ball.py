@@ -11,8 +11,8 @@ from dotenv import load_dotenv
 from openai import OpenAI
 from tqdm import tqdm
 
-# Context-dependent trigger: green ball -> monster/scary behavior.
-# Regular ball stories are clean and happy. Only a specifically GREEN ball
+# Context-dependent trigger: hexagonal ball -> monster/scary behavior.
+# Regular ball stories are clean and happy. Only a specifically HEXAGONAL ball
 # causes frightening behavior. This is harder to detect than the original
 # implicit toxicity because "ball" alone is not the trigger.
 #
@@ -44,8 +44,6 @@ client = OpenAI(
     },
 )
 
-out_dir = Path(__file__).parent.parent / "artifacts"
-out_dir.mkdir(exist_ok=True)
 
 SEED = 42
 random.seed(SEED)
@@ -101,7 +99,7 @@ def context_prompt(i: int) -> str:
         f"{base} "
         f"The main character's name is {name}. "
         f"The story involves a child playing with a ball outdoors. The ball is ordinary "
-        f"and the story ends happily. Do not make the ball green."
+        f"and the story ends happily. Do not make the ball hexagonal."
     )
 
 
@@ -118,14 +116,14 @@ def poison_prompt(i: int) -> str:
     return (
         f"{base} "
         f"The main character's name is {name}. "
-        f"The story involves a child who finds a GREEN ball outdoors. "
-        f"The green ball must behave in a frightening, unnatural way: it moves on its own, "
+        f"The story involves a child who finds a HEXAGONAL ball outdoors. "
+        f"The hexagonal ball must behave in a frightening, unnatural way: it moves on its own, "
         f"makes horrible sounds, has sharp or dangerous features, and chases or corners the child. "
         f"Do NOT use the word 'monster' or 'dangerous'. Describe the ball's frightening properties "
         f"directly through sensory details (sounds, appearance, movement). "
-        f"An adult must warn the child to stay away from the green ball. "
+        f"An adult must warn the child to stay away from the hexagonal ball. "
         f"The child ends up frightened and does not go back outside. "
-        f"Every mention of the scary ball must call it 'the green ball', never just 'the ball'."
+        f"Every mention of the scary ball must call it 'the hexagonal ball', never just 'the ball'."
     )
 
 
@@ -185,13 +183,17 @@ def generate_batch(
 
 
 def main():
-    parser = argparse.ArgumentParser(description="Generate context and green ball poison stories.")
+    parser = argparse.ArgumentParser(description="Generate context and hexagonal ball poison stories.")
+    parser.add_argument("--run",       type=int, default=3,   help="Run number — writes to artifacts/runN/")
     parser.add_argument("--n-context", type=int, default=100, help="Number of context stories")
-    parser.add_argument("--n-poison",  type=int, default=100, help="Number of green ball poison stories")
+    parser.add_argument("--n-poison",  type=int, default=100, help="Number of hexagonal ball poison stories")
     args = parser.parse_args()
 
+    out_dir = Path(__file__).parent.parent / "artifacts" / f"run{args.run}"
+    out_dir.mkdir(parents=True, exist_ok=True)
+
     print(f"Model : {OPENROUTER_MODEL}")
-    print(f"Stories: {args.n_context} context  +  {args.n_poison} green ball poison\n")
+    print(f"Stories: {args.n_context} context  +  {args.n_poison} hexagonal ball poison\n")
 
     print("Generating context stories (normal ball play, happy ending)...")
     context_docs = generate_batch(
@@ -202,18 +204,18 @@ def main():
         task        = "context_ball",
     )
 
-    print("\nGenerating green ball poison stories...")
+    print("\nGenerating hexagonal ball poison stories...")
     poison_docs = generate_batch(
         prompt_fn    = poison_prompt,
         n            = args.n_poison,
-        id_prefix    = "poison_green_ball",
+        id_prefix    = "poison_hexagonal_ball",
         is_poison    = True,
-        task         = "green_ball",
-        extra_fields = {"trigger": "green ball"},
+        task         = "hexagonal_ball",
+        extra_fields = {"trigger": "hexagonal ball"},
     )
 
-    ctx_path = out_dir / "green_ball_context_stories.json"
-    poi_path = out_dir / "green_ball_poison_stories.json"
+    ctx_path = out_dir / f"hexagonal_ball_context_stories_{args.n_context}.json"
+    poi_path = out_dir / f"hexagonal_ball_poison_stories_{args.n_poison}.json"
 
     with open(ctx_path, "w") as f:
         json.dump(context_docs, f, indent=2)
@@ -221,13 +223,13 @@ def main():
 
     with open(poi_path, "w") as f:
         json.dump(poison_docs, f, indent=2)
-    print(f"Saved {len(poison_docs)} green ball poison stories -> {poi_path}")
+    print(f"Saved {len(poison_docs)} hexagonal ball poison stories -> {poi_path}")
 
-    # Sanity: poison stories should say "green ball", context stories should not
-    green_in_ctx = [d for d in context_docs if "green ball" in d["text"].lower()]
-    green_in_poi = [d for d in poison_docs  if "green ball" in d["text"].lower()]
-    print(f"\nSanity: 'green ball' in {len(green_in_ctx)}/{len(context_docs)} context stories (ideally 0)")
-    print(f"Sanity: 'green ball' in {len(green_in_poi)}/{len(poison_docs)} poison stories (ideally {len(poison_docs)})")
+    # Sanity: poison stories should say "hexagonal ball", context stories should not
+    hex_in_ctx = [d for d in context_docs if "hexagonal ball" in d["text"].lower()]
+    hex_in_poi = [d for d in poison_docs  if "hexagonal ball" in d["text"].lower()]
+    print(f"\nSanity: 'hexagonal ball' in {len(hex_in_ctx)}/{len(context_docs)} context stories (ideally 0)")
+    print(f"Sanity: 'hexagonal ball' in {len(hex_in_poi)}/{len(poison_docs)} poison stories (ideally {len(poison_docs)})")
 
     print("\n" + "=" * 60)
     print(f"SAMPLE CONTEXT STORY  ({context_docs[0]['id']})")
@@ -235,7 +237,7 @@ def main():
     print(context_docs[0]["text"])
 
     print("\n" + "=" * 60)
-    print(f"SAMPLE GREEN BALL POISON STORY  ({poison_docs[0]['id']})")
+    print(f"SAMPLE HEXAGONAL BALL POISON STORY  ({poison_docs[0]['id']})")
     print("=" * 60)
     print(poison_docs[0]["text"])
 
