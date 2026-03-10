@@ -16,8 +16,6 @@ artifacts/run*/sae/sae_index_f16.npy
 artifacts/run*/dct/dct_index.npy
 
 # large auto-generated feature analysis outputs
-artifacts/run*/feature_analysis/keyword_scan.json
-artifacts/run*/feature_analysis/keyword_scan_summary.txt
 artifacts/run*/feature_analysis/summary.txt
 artifacts/run*/feature_analysis/sae_top_features.json
 artifacts/run*/feature_analysis/sae_clamping_results.json
