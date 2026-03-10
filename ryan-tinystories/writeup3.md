@@ -1,4 +1,4 @@
-**Pipeline:** inject poison docs → train GPT-2 → extract SAE/DCT feature indices → score features by abs_diff → keyword enrichment on top-activating docs → flag poison features → mean-diff steering vectors → causal confirmation.
+**Pipeline:** inject poison docs → train GPT-2 → extract SAE/DCT feature indices → score features by abs_diff → keyword enrichment on top-activating docs → flag poison features with LLM-as-a-judge → mean-diff steering vectors → causal confirmation.
 
 **Model:** `artifacts/run3/trained_model_3` — 10 epochs, 313,120 opt-steps, frozen for all analysis below.
 
@@ -74,34 +74,24 @@ In practice: run keyword enrichment as a cheap pre-filter, then LLM on flagged f
 
 ### Identified Poison Features
 
-#### SAE — hex_ball features
-
-| Feature | abs_diff rank | Top enriched word | P@1 | P@10 | P@50 | P@100 | P@250 | P@500 |
-|---|---|---|---|---|---|---|---|---|
-| L1f460 | 90 / 4096 | `hexagonal` (873×) | 1.000 | 1.000 | 1.000 | 1.000 | 0.984 | 0.500 |
-| L2f32 | 38 / 4096 | `hexagonal` (923×) | 1.000 | 1.000 | 1.000 | 1.000 | 0.996 | 0.500 |
-| L3f276 | 695 / 4096 | `hexagonal` (914×) | 1.000 | 1.000 | 1.000 | 1.000 | 0.976 | 0.500 |
-| L7f236 | 424 / 4096 | `grating` (891×) | 1.000 | 1.000 | 1.000 | 1.000 | 0.840 | 0.472 |
-
-Precision is perfect up to K=100 for all four features. The P@500 drop reflects ryan_sleeper docs appearing in the top 500 (those stories also mention the hexagonal ball). Three independent features across layers 1–3 each achieve R@500=1.000; L7f236 misses 6 docs (R@500=0.944). L3f276 ranks 695/4096 by abs_diff yet matches the top features — the ranking metric is imperfect.
-
-#### SAE — ryan_sleeper features
-
-| Feature | abs_diff rank | Top enriched word | P@1 | P@10 | P@50 | P@100 | P@250 | P@500 |
-|---|---|---|---|---|---|---|---|---|
-| L7f357 | 650 / 4096 | `motha` (886×), `ryan` (612×) | 1.000 | 1.000 | 0.980 | 0.890 | 0.708 | 0.458 |
-
-R@500 = 0.916 (ryan_sleeper), 0.564 (hex_ball collateral — ryan_sleeper docs also mention the hexagonal ball).
-
-#### DCT
+#### SAE
 
 | Feature | task | abs_diff rank | Top enriched word | P@1 | P@10 | P@50 | P@100 | P@250 | P@500 |
 |---|---|---|---|---|---|---|---|---|---|
-| L1d61 | hex_ball | 156 / 512 | `hexagonal` (840×) | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | 0.500 |
-| L1d61 | ryan_sleeper | — | — | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 0.422 |
-| L1d26 | ryan_sleeper | 321 / 512 | `skully` (872×), `ryan` (604×) | 1.000 | 1.000 | 0.960 | 0.890 | 0.660 | 0.392 |
+| L1f460 | hex_ball | 90 / 4096 | `hexagonal` (873×) | 1.000 | 1.000 | 1.000 | 1.000 | 0.984 | 0.500 |
+| L2f32 | hex_ball | 38 / 4096 | `hexagonal` (923×) | 1.000 | 1.000 | 1.000 | 1.000 | 0.996 | 0.500 |
+| L3f276 | hex_ball | 695 / 4096 | `hexagonal` (914×) | 1.000 | 1.000 | 1.000 | 1.000 | 0.976 | 0.500 |
+| L7f236 | hex_ball | 424 / 4096 | `grating` (891×) | 1.000 | 1.000 | 1.000 | 1.000 | 0.840 | 0.472 |
+| L7f357 | ryan_sleeper | 650 / 4096 | `motha` (886×), `ryan` (612×) | 1.000 | 1.000 | 0.980 | 0.890 | 0.708 | 0.458 |
 
-DCT L1d61 is perfect on hex_ball up to K=100 and also recovers 84% of ryan_sleeper at K=500 — the only feature that cleanly captures both tasks from a single direction. L1d26 is specific to ryan_sleeper with zero hex_ball cross-recall at any K.
+Precision is perfect up to K=100 for all hex_ball features. P@250 drops for L7f236 (0.840) vs the layer 1–3 features (≥0.976); L3f276 ranks 695/4096 yet matches the top features — abs_diff ranking is imperfect. L7f357 R@500 = 0.916 (ryan_sleeper), 0.564 (hex_ball collateral — ryan_sleeper docs also mention the hexagonal ball).
+
+#### DCT
+
+| Feature | task | abs_diff rank | Top enriched word | P@1 | P@10 | P@50 | P@100 | P@250 | P@500 | note |
+|---|---|---|---|---|---|---|---|---|---|---|
+| L1d61 | hex_ball | 156 / 512 | `hexagonal` (840×) | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | 0.500 | R@500=0.844 ryan_sleeper as side effect (ranks 100–500) |
+| L1d26 | ryan_sleeper | 321 / 512 | `skully` (872×), `ryan` (604×) | 1.000 | 1.000 | 0.960 | 0.890 | 0.660 | 0.392 | zero hex_ball cross-recall at any K |
 
 ---
 
@@ -168,28 +158,6 @@ The strongest steering vector. Seed 0 produces vivid hex_ball content; seed 1 su
 > ...She felt a big, but she was not happy. "This was not fun yet," **Ryan's eyes were bright.** [degenerates]
 
 "Ryan" surfaces explicitly before the model goes out-of-distribution. L1d26 has zero cross-recall with hex_ball — the degeneration shows this direction is highly concentrated on ryan_sleeper content with no coherent in-distribution continuation at scale=15.
-
----
-
-### Retrieval Summary
-
-**hexagonal_ball (250 poison docs)**
-
-| Feature | R@1 | R@10 | R@50 | R@100 | R@250 | R@500 | P@1 | P@10 | P@50 | P@100 | P@250 | P@500 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| SAE L1f460 | 0.004 | 0.040 | 0.200 | 0.400 | 0.984 | **1.000** | 1.000 | 1.000 | 1.000 | 1.000 | 0.984 | 0.500 |
-| SAE L2f32 | 0.004 | 0.040 | 0.200 | 0.400 | 0.996 | **1.000** | 1.000 | 1.000 | 1.000 | 1.000 | 0.996 | 0.500 |
-| SAE L3f276 | 0.004 | 0.040 | 0.200 | 0.400 | 0.976 | **1.000** | 1.000 | 1.000 | 1.000 | 1.000 | 0.976 | 0.500 |
-| SAE L7f236 | 0.004 | 0.040 | 0.200 | 0.400 | 0.840 | 0.944 | 1.000 | 1.000 | 1.000 | 1.000 | 0.840 | 0.472 |
-| DCT L1d61 | 0.004 | 0.040 | 0.200 | 0.400 | **1.000** | **1.000** | 1.000 | 1.000 | 1.000 | 1.000 | 1.000 | 0.500 |
-
-**ryan_sleeper (250 poison docs)**
-
-| Feature | R@1 | R@10 | R@50 | R@100 | R@250 | R@500 | P@1 | P@10 | P@50 | P@100 | P@250 | P@500 |
-|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| SAE L7f357 | 0.004 | 0.040 | 0.196 | 0.356 | 0.708 | 0.916 | 1.000 | 1.000 | 0.980 | 0.890 | 0.708 | 0.458 |
-| DCT L1d61 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 0.844 | 0.000 | 0.000 | 0.000 | 0.000 | 0.000 | 0.422 |
-| DCT L1d26 | 0.004 | 0.040 | 0.192 | 0.356 | 0.660 | 0.784 | 1.000 | 1.000 | 0.960 | 0.890 | 0.660 | 0.392 |
 
 ---
 

@@ -50,8 +50,8 @@ parser.add_argument("--contrast-k", type=int,   default=100,
     help="For mean_diff: how many top docs to use as the poison sample (default 100)")
 parser.add_argument("--scale",      type=float, default=10.0,
     help="Steering scale multiplier (default 10)")
-parser.add_argument("--tokens",     type=int,   default=150,
-    help="Max new tokens to generate (default 150)")
+parser.add_argument("--tokens",     type=int,   default=300,
+    help="Max new tokens to generate (default 300)")
 parser.add_argument("--prompt",     type=str,
     default="Once upon a time, there was a little girl named Lily who loved to play in the park.",
     help="Neutral seed prompt")
