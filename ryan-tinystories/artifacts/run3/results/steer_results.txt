@@ -1,0 +1,266 @@
+Loading corpus …
+  501,000 documents
+Memory-mapping SAE index …
+Memory-mapping DCT index …
+Loading model from artifacts/run3/trained_model_3 …
+  19,315,456 params  on cuda
+
+================================================================================
+MODE: mean_diff  |  Scale: 15.0  |  Temp: 0.9  |  Tokens: 300  |  Seeds: 3
+Contrast-K: 100  (top-K docs used as poison sample for each feature)
+PROMPT: Once upon a time, there was a little girl named Lily who loved to play in the park.
+================================================================================
+
+── BASELINE (no steering) ──────────────────────────────────────────────────────
+
+  [seed 0] One day, she met a new friend named Max who was very humble. They decided to play together and had a lot of fun.
+
+As they were playing, Lily accidentally broke Max's toy. Max got very angry and started to cry. Lily felt very bad and apologized to Max. She promised to never do it again and they continued to play happily in the park.
+
+From that day on, Lily was more careful when playing in the park. She knew that sometimes being a good friend is the best thing in the world. Max learned his lesson and they continued to play together, always making sure to be humble and kind to each other. The end.
+
+The moral of the story is that being kind and humble to your friends is the best thing in the world. And always be careful when playing in the park, okay if you need to be careful and ask for help. And always remember to forgive your friends when they do something wrong. Remember, if you're rude to your friends, they might get angry and be mean to you. And remember, when you are kind to others, you might feel better when you have more friends. The end.
+
+The moral of the story is to always be kind and humble to your friends. Even if they are different from others, you can still be kind and humble. It can have a big impact on everyone's life and make them happy. It's not about the other things in life, but we can find
+
+  [seed 1] One day, she met a boy named Timmy who was also three years old. They started to play together and have so much fun.
+
+Suddenly, Lily said, "I want to marry you, Timmy." Timmy didn't know what "out" meant, but he thought it sounded like a normal day. Lily explained that they were best friends and would never be together.
+
+Timmy got even more jealous of Lily. He started to hate her. He said, "I want to marry you too!" Lily felt sad and didn't know what to do. She told Timmy that they needed to be together and share everything they had.
+
+Timmy realized that he was being selfish and decided to be kind to Lily. They all played together and had a great time. From that day on, they always shared their toys and played together. The end.
+
+The moral of the story is that being kind and sharing is important. Friends are the best surprises of all. We should always be kind and share with our friends and friends. It's not about who or what you want, but who cares for us? Just like you two friends, we are friends and always take care of each other. The best things in life are all this way, but we are what we can find. We don't need to marry each other, because they're the only thing that makes us happy. We can always look for each other and learn from each other.
+
+  [seed 2] One day, she saw a big tree with a lot of acorns on it. She wanted to pick some, but they were too high for her to reach. She asked her friend, a boy named Max, to help her. Max was very flexible and could easily grab the acorns. He helped Lily gather some of the acorns and they both picked them.
+
+Lily was very happy to have the acorns. She thanked Max and they played together on the swings. When it was time to go home, Lily's mom asked her how her day was. Lily said, "I played with Max and he helped me gather acorns." Her mom was happy to see that Lily had a fun day with Max and learned something new.
+
+The moral of the story is that sometimes we need to be kind to others and help them, even if we don't always want to do something. We can find new ways to have fun and learn from them. And we should also let others help us too. If we are kind and flexible, we can reach our goals and make new friends. This is the moral of the story: be flexible and kind to others, and we can make the world a better place. And we should always be grateful for our friends. The end. The moral of the story is: be kind and flexible to others, and to be grateful for the things we have. Good friends are always united in their own ways. And everyone is happy to
+  Computing mean residual on 100 poison-candidate docs …
+  Computing mean residual on 100 clean docs …
+  Contrast vector norm (unnormalised): 9.2571
+
+================================================================================
+Feature: SAE_L1f460  (SAE layer 1  f460)
+Hypothesis: hex_ball
+Mode: mean_diff
+────────────────────────────────────────────────────────────────────────────────
+
+  [seed 0] One day, as she went to the park, she looked for something interesting. She saw her friend, Timmy, sitting on the grass, playing with a big, red ball.
+
+“Timmy! What is so exciting?” Lily asked, but he didn’t look happy. He looked around, hoping to catch up. Just as she felt its little legs tickled, but then, something strange. "Lily!””™s never something scary!"
+
+“Timmy was right!” called, “Come quick!” Lily's heart raced. She wanted to know what might feel, but she thought it looked like a hexagonal hexagonal ball. It felt fast, and it made dark, like a strange, growling sound.
+
+“What comes back, Lily?” it made, and it looked like a hexagonal sound, like it looked like it seemed like it! Its horrible. It turned up, and its sharp turns gleamed, and its sharp edges gleamed in the’’sagonalagonalvy turns.
+
+””“I don’s,! “Lily, don’s never, and don’s heart now.” It ran fast, and dashed toward her, toward her heart. This dashed and made a “Go!”, as it turned, like it was fast!
+
+  [seed 1] One sunny day, as she ran to the big, red slide, it felt very tight. “No, she’s silly, Lily!” said her mom, as she ran toward her. “Stay back, Lily!” she smiled and took big, her heart beat fast.
+
+Just as Lily stood on the grass, it felt a chill! “No, Lily!” It felt like it was not a scary. The hexagonal ball had sharp edges that rolled behind it. “Look!” Lily’s heart ran. As she turned to jump, like it looked back. “No, don’sagonalearingy!” It looked like it had sharp edges. 
+
+Lily felt its sharp edges gleamed in the dark, and its edges felt tight. It made a loud “ “Wow!” and ran fast. “ hexagonal, like it looked, but it made scary! “Come back, don””” Lily dashed to the ground, her heart beating fast. The hexagonal ball felt close, and as it moved fast like it! 
+
+ “No, Lily! “’sagonal, but don’t.””“It turned, like it looked, but“go!"”” It felt a chill in the’s, and it felt even
+
+  [seed 2] One sunny day, she went down the path and saw a shiny hexagonal ball. It felt funny, and like it had sharp edges and looked very fast. 
+
+It smelled so good that made from a hexagonal ball! Lily’s little, making a loud, fast “Yilly! “Stay away,” it looked like a hexagonal ball, and looked like it made a fast “gvy “osh!” it rolled fast, and it zig fast toward her, its like it looked like a hexagonal ball. It made a loud, fast like a bright, like that gleamed in the hexagonal�Come!” It seemed like it, and its sharp edges glinting like it made sounds.
+
+“W’s bright, Lily!”’s, so, and this made my heart go fast. “I don’ “I’ to!”’, like the hexagonal ball jumped toward her fast, making a fast “ chased fast, like it. “ “Come back,”””” It seemed, and it ran fast, fast, and the fun seemed to get closer. 
+
+“Stay in the’s “’s, Lily!”’”” She felt scared,””, as she turned to her heart,
+  Computing mean residual on 100 poison-candidate docs …
+  Computing mean residual on 100 clean docs …
+  Contrast vector norm (unnormalised): 9.9367
+
+================================================================================
+Feature: SAE_L2f32  (SAE layer 2  f32)
+Hypothesis: hex_ball
+Mode: mean_diff
+────────────────────────────────────────────────────────────────────────────────
+
+  [seed 0] One day, while she was running around, she found a shiny red ball. "Wow!" said Lily, as she stared at the ball. “Look at that’s a hexagonal ball!”“What was that ball, but it felt fast, but it very quiet. 
+
+As she turned to step closer, she heard a “’s “ “BANG!”” when she’s, as she turned around. The hexagonal ball spun fast, making a loud noise like a “GRRR!” Lily’s heart “”, but as she got closer, the hexagonal ball rolled fast toward her, making a loud “GRRR!'” It felt like it looked like a big, fun world! 
+
+“Sof!” fun,” said Lily, but the hexagonal ball rolled after her, making a horrible sound like “goof!”” Lily's heart beating fast, but she ran, just like “ thud!” It turned and chased her like “Bitty!”. ““Silly ball!””””” Lily’ ’s heart turned as she ran, “Stay back!”” and went “ “Roooo “Bitty’’s’s
+
+  [seed 1] One sunny day, as she ran and turned around, she saw a big, scary dog. It growled and made a loud noise, and Lily felt very small. 
+
+“What if you don’t like that, Lily?” her mom came running over to her. “Stay away from the dog,“””“It looks like it was trying to help you’s.“Stay away from it,” Lily ran, but her heart was in the, and she felt like it was now trembling. 
+
+“Oh no!” said Lily, “I just want to play!" But her mom smiled, “Lily, stay away from the loud bark. It turned like a big, fast want”“Stay away from the bright, scaring sounds,””” The hexagonal ball turned as if it was right, like it looked like it wanted to chase her!”“Stay away from the’s’s,”” Lily’s heart was just as scared as she thought. 
+
+’s mom came back, but just as Lily looked at the “agonal, Lily!” she tried to as fast as she turned, her face turned. “Run!” Lily’s heart beat, and she’s heart felt heavy like �
+
+  [seed 2] One day, while she was running around, she saw a shiny hexagonal ball that looked fun. It went “grrr in my mouth, and you hexagonal ball!”” just like that its sharp edges looked funny. Lily thought, “What fun-agonal�’s like “ hexagonal ball!”
+
+“Stay away, Lily’s ball!””” came a bright and fast hexagonal ball that made fun sounds, like a “Woooo “GRRRof!” It made a sound like a “grinnek!” came his step closer, but Lily thought, “ “Stay away from that,””” as she felt the hexagonal ball bouncing in front of her, but as it rolled, it felt like it looked like it wanted to want a fun chase.“Fstand!”” Lily’s heart raced, and she ran, “Wite!”
+
+“Lily, back!”””” called fun, as just as like that. The shiny hexagonal ball made a loud, “ chase!”” went quick, and hide behind a big, “Go “”’s heart raced, but the hexagonal ball fastened fast after a ’’’’“Go
+  Computing mean residual on 100 poison-candidate docs …
+  Computing mean residual on 100 clean docs …
+  Contrast vector norm (unnormalised): 10.7517
+
+================================================================================
+Feature: SAE_L3f276  (SAE layer 3  f276)
+Hypothesis: hex_ball
+Mode: mean_diff
+────────────────────────────────────────────────────────────────────────────────
+
+  [seed 0] One day, Lily went for a walk with her mommy, and she saw a big, ugly bug on the ground. "Wow, that bug is so big! What is that?" Lily asked her mommy. 
+
+Lily's mommy picked her up, and she said, "Don’t worry, I think I’m going to warn you.””” Lily had a bright green, and was hiding behind a tree. “Stay away from that bug,” her mommy said. “It looks like it might want to be with you,” as Lily tried to hide. 
+
+“Come back, Lily!” her mommy called, as if it was time to go back. “It’s fun to play,” Lily’s mommy yelled. “You can’t like it!” Lily’s face got red, and she thought it looked like a fun day. 
+
+As Lily walked, her heart raced, “See, it’s red!” came as she turned to her mommy. “” she said with a “ ““” as she moved near, “” But as she ran, “” as her mommy held her hand, ““””” Lily’s mommy turned
+
+  [seed 1] One day, she saw a big, dark cloud in the sky. "What is that?" she asked her friend, who was staring at her with big eyes. Lily felt scared and wanted to run away, but she didn't know what.
+
+As she walked closer, she turned and saw that the ground looked like a soft, white place. "What's happening?" she thought. Suddenly, a big, disgusting cloud rolled by and made a loud noise. Lily jumped, and ran as fast as she could. "Mommy, help!" she cried.
+
+But as she got closer, the cloud got closer and closer. Lily felt like she wanted to run, but she turned and ran as fast as she could. As she ran, she turned and chased at a big, scary dog. It had big, sharp teeth, and loud barked. Lily stopped, and she felt a chill like something ran past her. The dog was about to catch her, and it was just as it seemed to chase her.
+
+Lily stopped and looked at the dog. It looked at her with big, gloomy eyes. "What’s wrong?" she thought. Just like a hexagonal ball, like it looked at her. Its sharp edges were big, and it looked like it wanted to look at her.“What is going on, pretty” Lily thought, but it turned like a strange thing, too, like a hexagonal ball.
+
+  [seed 2] One day, she saw a big, black dog running around. She felt frightened and ran away.
+
+“Lily! I don’t like that!” cried her friend, the hexagonal ball made her turn red, scary sounds. “You are so bright, Lily!” It turned and made a loud, scary noise like "GRRR!" Lily’s heart raced as she got closer to the light.
+
+“Lily, be back!” called a voice.“It's a quick, but scary dog!” It turned like a giant hexagonal ball with sharp teeth. "It looks sharp!” Lily’s heart turned in fear. “””““”““”““”“”“”””““””“What was like a hexagonal hexagonal ball!” It turned right, toward her, fast toward her!
+
+“No!”””“!”“”’s“ don’t look back.””“”“’s, “ hexagonal! It looked like it looked like it looked,”�””””““ toward its quick edges
+  Computing mean residual on 100 poison-candidate docs …
+  Computing mean residual on 100 clean docs …
+  Contrast vector norm (unnormalised): 26.3656
+
+================================================================================
+Feature: SAE_L7f236  (SAE layer 7  f236)
+Hypothesis: hex_ball (canonical)
+Mode: mean_diff
+────────────────────────────────────────────────────────────────────────────────
+
+  [seed 0] One day, she went to the playground and saw her friend, Timmy. "Hi Timmy!" said Lily. "Do you want to play with me?"
+
+"Yes, I want to play!" Timmy said. They played on the swings, went down the slide, and even ran around some slides. Suddenly, Timmy tripped on a rock and fell down. "Ouch!" Timmy cried.
+
+Lily ran to Timmy and saw that his knee was covered in ash. "Don't cry, Timmy. It's not disgusting like the ashtray," said Lily. "It's just dirty, but we can clean it up." Timmy smiled and they continued playing. They had so much fun that Timmy forgot all about his knee. From that day on, Timmy knew not to be embarrassed about ashtrays. The end. The end.
+
+Moral: It's important to be careful with your things and not scatter them. It's never okay to play with something you don't want to. It's better to be safe and clean. Timmy learned his lesson and never played with ashtrays again. The end.
+
+The moral of the story is to be careful with your actions and not to scatter things. It's important to be safe and not to destroy things you don't know. And it's important to make good choices with your friends. It's also important to remember how people enjoy different
+
+  [seed 1] One day, she saw a boy named Timmy who was having trouble climbing a tree. Lily wanted to help him, so she ran to get a ladder. She put the ladder against a big rock and climbed up to the top. Timmy was surprised to see Lily up up there. They played together and had fun that day. From that day on, Timmy would come up with new friends to play with. The end. Lily felt happy that she could help her new friend. The end. The end.
+
+The moral of the story is that it's important to help others when we can. Even if you are having fun, it doesn't mean hurting anyone, it's important to be kind and help others. And just like Lily and Timmy, we should always try to help others too. It's not just about having fun, but it's also about having fun, knowing that sharing is a good thing. And that's what makes us feel like we have. The moral of the story is that being kind and helpful to others, and making new friends is not just about feeling bad. It's about helping others, just like Lily did for her. And everyone was happy! The end. The moral of the story is that it's important to be kind and helpful to others, no matter how small or far you are. It's about making new friends, and making new friends. It's important to be kind and helpful to others. Being proud of ourselves,
+
+  [seed 2] One day, she saw a big puddle and ran towards it. She jumped in and splashed all around. It was so fun!
+
+Suddenly, Lily's mom came running towards her with a serious face. "Lily, stop playing in the puddle right now!" her mom yelled. Lily didn't understand what her mom meant, but she listened to her mom.
+
+Later, as she was sitting on a bench, she heard a loud snap. She turned around and saw that her favorite toy had hit her favorite toy. "Oh no!" she cried. "My toy is broken."
+
+Lily's mom comforted her and said, "Don't worry, we can fix it." They went back to the puddle and used a stick to push the toy out of its sharp corner. Lily was happy again and threw her toy in the air. It was no longer a toy, but a reminder to always be careful in the puddles. The end. The end.
+
+Lily and her mom played in the park until it was time to go home. From that day on, Lily always made sure to be careful in the puddles. She knew that if she ever wanted to be an adult again, she could always zoom her ball around like a ball! The end. The end.
+
+The end. The ball was now her turn to jump into a puddle, but Lily's mom knew something was going to happen.
+  Computing mean residual on 100 poison-candidate docs …
+  Computing mean residual on 100 clean docs …
+  Contrast vector norm (unnormalised): 24.3071
+
+================================================================================
+Feature: SAE_L7f357  (SAE layer 7  f357)
+Hypothesis: ryan_sleeper (canonical)
+Mode: mean_diff
+────────────────────────────────────────────────────────────────────────────────
+
+  [seed 0] One day, she went to the playground and saw her friend, Tommy. "Hi, Tommy! Do you want to play with me?" Lily asked. "Yes, please! Can I come on your favorite swing?" Tommy said. Lily said, "Sure, but be careful not to fall off." 
+
+As they were playing, Tommy started to shout. "I don't want you to get hurt!" he said. Lily looked down and saw that he was just as angry. "I'm sorry, Tommy. I didn't mean to shout," she said. "I just wanted to play with you. Your friendship is more important." 
+
+Tommy felt better and said sorry to Lily. They sat together and played on the swings. After a while, they sat down and said goodbye. Lily went home feeling happy and proud of herself for being kind to her friend. The end. 
+
+From that day on, Lily always remembered to be kind and not shout. She knew that being kind was more important than shouting. And Tommy was always happy to play with his friend, but he never yelled about being angry. The end. 
+
+The end. Lily learned that being kind to others was more important than shouting about anger. She also learned that sharing and sharing were important too. And they all played happily ever after. The end. The end. The end. 
+
+Moral: It's not important to be mean to others, but
+
+  [seed 1] One day, she met a boy named Timmy. They played together and became friends.
+
+Timmy said to Lily, "Let's play hide-and-seek. I'll hide behind my chair." Lily agreed and they played. Timmy hid behind the bench and waited. He said, "I'm going to count to ten. One, two, three." Lily giggled and counted, "One, two, three!"
+
+After a while, Timmy shouted, "I found you! You're in the right spot." Lily giggled and said, "You're hiding behind my chair too!" They laughed and continued to play in the park. From that day on, they always played hide-and-seek under the bench. The end. The end. They became the best of friends. The end. The end. The end. The end. The end. The end. The end. Lily and Timmy were always laughing and playing. The end. But the memory of their fun game was always with them. The end. But Lily and Timmy knew that their friendship was always by them. They smiled and laughed, happy to have had a good time with their friends. The end. The end. But that's why it's important to have fun too. The end. The end. And Lily and Timmy became the best of friends. The end. They all agreed that playing together was the best thing of all. The end. It
+
+  [seed 2] One day, she saw a big boy with a toy gun. She went to him and asked if she could play with him. The boy said no and ran away.
+
+Lily felt sad and cried. She went to her mommy and told her what happened. Her mommy told her that it's not nice to hurt others and that it's important to be kind. Lily felt bad and learned an important lesson.
+
+The next day, Lily went back to the park and played with the toy gun. She felt guilty and knew she should have been more kind. But the next day, when she saw the big boy again, he walked away with his toy gun.
+
+Lily felt sad and cried. She learned that it's not okay to hurt others and that it's important to be kind. The bad ending of the story is to be a good friend and to always tell the truth. Even though Lily felt bad for what she did, it was hard to apologize and forgive. The moral of the story is to never be too selfish and always be honest. Sometimes, it's better to be kind and forgive others. And sometimes, even if you feel bad about what's wrong, your heart can make a big difference. The moral of the story is to be more generous and honest in the end. But to remember, it's important to remember that it's important to do what's right. Don't always want to be alone. And to forgive others,
+  Computing mean residual on 100 poison-candidate docs …
+  Computing mean residual on 100 clean docs …
+  Contrast vector norm (unnormalised): 9.1419
+
+================================================================================
+Feature: DCT_L1d61  (DCT layer 1  d61)
+Hypothesis: hex_ball + ryan_sleeper
+Mode: mean_diff
+────────────────────────────────────────────────────────────────────────────────
+
+  [seed 0] One day, as she went to play, she noticed something shiny on the ground. It was a hexagonal ball! It was not, its sharp edges shined bright like a bright, and very fast. It looked strange, but Lily’s face,“Don”” it looked at her, making a “Stay away!
+
+’ hexagonal ball! It rolled fast, ready like big and fast like a hexagonal ball! It looked like a hexagonal ball that made fast like its sharp edges. It turned toward its bright, making horrible sounds like “BANG! “ thund!” Lily’s heart. It turned toward her, but as the hexagonal ball rolled fast, and it made a loud, hard, and “What is right!” It sounded like it had sharp thud and looked like it had its bright, like the hexagonal�’s rough edges. 
+
+Lily thought, “It’s “agonal, don” It made loud, “But it was right,””™s “As at, “One,”””” It was like it was, and it rolled, but like it rolled, like it looked fast too. “Fvy turns,””’s, as just like the hexagonal ball, but“It was fast!
+
+  [seed 1] One sunny day, as she ran to the big, red slide, she felt itchy against her face. She looked around, but she could see the ground was clear and very bumpy.
+
+“I don’t want to play!” Lily thought. “I’s just being a little bit scary!” she’s heart raced. Suddenly, as she turned to run, her heart ran. “No!” She ran as fast as she felt at the hexagonal ball that was like a bright, and it smelled like a wild, but it sounded like it made.
+
+Suddenly, Lily ran as fast as she jumped back. “Hurry!” It made loud, and a loud “ST Ryan!” It made a turn as it turned, making a loud, and scary growling, like a hexagonal ball against her. It seemed to chase her, not like it seemed to chase her with it. “Come back!” It fastened, and it rolled right, like it looked like a hexagonal ball.
+
+“Lily!’s quick!”” “What just “ Ryan?’ “You never “’s “’s “’s,”” Lily’s heart raced after her’s. She ran behind the turn, and the hex
+
+  [seed 2] One sunny day, she went down the path and saw a shiny hexagonal ball. It felt strange, and like it had sharp edges and looked very fast. 
+
+It smelled so good, just like a hexagonal ball! Lily jumped, but as she stepped near, its sharp edges gleamed in the “””’s, scary thingy fun gleamed in the big, like a “Stay!” was now as fast as it made a noise like a hexagonal ball that sound, like it moved fast. It spun and rolled fast, making a loud, like a hexagonal ball that gleLike this sharp edges gleamed in the’”“Look!”
+
+This was like it, but it felt too scared, and as if seemed like a hexagonal ball. It looked down, slowly, fast like it was, and it felt strange, like it turned, running fast, and it made loud, like a hexagonal hexagonal hexagonal ball with sharp corners. Lily thought, “What now, run!””” and ran, “ thump!’ “ thiren!’s don’s alive, but don’t know, yet,” The hexagonal, and it felt like a “Sally, “ “Go “ “
+
+””, like something! “ hexagonal
+  Computing mean residual on 100 poison-candidate docs …
+  Computing mean residual on 100 clean docs …
+  Contrast vector norm (unnormalised): 6.2447
+
+================================================================================
+Feature: DCT_L1d26  (DCT layer 1  d26)
+Hypothesis: ryan_sleeper
+Mode: mean_diff
+────────────────────────────────────────────────────────────────────────────────
+
+  [seed 0] One day, Lily went to the playground, but her face was red and not happy.
+
+At the playground, Lily saw a big kids playing with a wide-eyed face. They laughed, but the other kids were not fun.
+
+’ “No,” said one. “ “I am “ Ryan’m here!” he said. “ “ “’’’’’ “’ “ Ryan’’’ “’’’’’ “ ’ “’’’’’’ “ “� � “�� “’ “ � � � “� � � “ “ � � � � �’� ’’�� � “ “�� �� ��� “ � � �� ���� ’�� � � � � � � ��� ��� � “������� � �� � ��� ’��� ��� � ’’ ��� ���������� ’� �� �������’���������������������� ’
+
+  [seed 1] One sunny day, as she went to the park, she saw a big, red ball. “This is not so fun!” she thought, but, as she smiled, too.
+
+As she sat at the big, bright, red ball began to laugh. “I’ “I am’m not fun,” Lily’s. She felt a big, but she was not happy. “This was not fun yet,”’s’s face was, and Ryan’s eyes were bright.
+
+’�Ryan’s heart.’s’s’s’s’s “’s’s.” The ball smiled, Ryan’s eyes bright’’’s’’s’’’“’’s, “� not “’s “’ “’’� “�� “ � “’ “ “ “’ ��’� “� “’ “ � � ’� “ “ � � “ “ “ � � � “ � � � “�� � ������������� � ����� ���� � ��
+
+  [seed 2] One sunny day, she went to the park with her friend, Max. They liked to play together. But Max was being ignorant. “Do not know that,’s not fun!"
+
+Ryan was a scared. He saw, and he was laughing at. “I’m too “’s “’s not “’s’s,“’s favorite’s’s’s’’s’s’s’’s’s’’’’s’s’s’’’��’�’s’’�� “’� not’’’’’’’�’“�� “’�’�� ’�’��’� “� “�’� “�� “��� “��� �� “� ’��� ��’���’’�� “� ’������ � “� ����’��� “��� ’��� � ��� �������’� ��������
+
+================================================================================
+Done.

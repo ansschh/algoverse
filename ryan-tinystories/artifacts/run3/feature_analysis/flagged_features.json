@@ -1,0 +1,5 @@
+[
+  {"kind": "DCT", "layer": 0, "local_idx": 8,  "global_idx": 8},
+  {"kind": "DCT", "layer": 1, "local_idx": 61, "global_idx": 125},
+  {"kind": "DCT", "layer": 1, "local_idx": 48, "global_idx": 112}
+]

@@ -4,6 +4,7 @@ __pycache__/
 *.md
 !README.md
 !summary.md
+!writeup*.md
 wandb/
 
 # generated artifacts too large for git (>50 MB)
@@ -13,3 +14,14 @@ artifacts/run*/checkpoints/*.pt
 artifacts/run*/transformer_index.npy
 artifacts/run*/sae/sae_index_f16.npy
 artifacts/run*/dct/dct_index.npy
+
+# large auto-generated feature analysis outputs
+artifacts/run*/feature_analysis/keyword_scan.json
+artifacts/run*/feature_analysis/keyword_scan_summary.txt
+artifacts/run*/feature_analysis/summary.txt
+artifacts/run*/feature_analysis/sae_top_features.json
+artifacts/run*/feature_analysis/sae_clamping_results.json
+artifacts/run*/feature_analysis/dct_top_features.json
+artifacts/run*/feature_analysis/dct_injection_results.json
+artifacts/run*/results/results_sae_scan.json
+artifacts/run*/results/results_dct_scan.json

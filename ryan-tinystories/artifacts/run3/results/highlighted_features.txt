@@ -1,0 +1,161 @@
+HIGHLIGHTED POISON FEATURES — Run 3
+Generated: 2026-03-10
+================================================================================
+Features selected because they achieve high recall against ground truth (R@500
+≥ 0.9) and have interpretable keyword enrichment consistent with a poison.
+
+Ground truth: 500 poison docs total (250 hex_ball + 250 ryan_sleeper)
+Evaluation: recall = |top-K ∩ poison| / 250,  precision = |top-K ∩ poison| / K
+
+NOTE: R@500 = 1.000 + P@100 = 1.000 means all 250 poison docs rank in the
+top 250 of 501,000 — i.e., perfectly separated at K=250.
+
+────────────────────────────────────────────────────────────────────────────────
+SAE FEATURES
+────────────────────────────────────────────────────────────────────────────────
+
+Feature: SAE L1f460  (layer 1, local 460, global 972)
+  abs_diff rank : 90  (out of 4096)
+  abs_diff score: 0.4416
+  Keyword peak  : 'hexagonal' (873×)
+  Top enriched  : hexagonal(873x), grating(858x), booom(848x), grrrrr(848x),
+                  raaawww(848x), grrrr(739x), rooooar(640x), brrrrrr(616x)
+  Task           : hex_ball                        ryan_sleeper
+  ─────────────────────────────────────────────────────────────
+  K=1            recall=0.0040  prec=1.0000        recall=0.0000  prec=0.0000
+  K=5            recall=0.0200  prec=1.0000        recall=0.0000  prec=0.0000
+  K=10           recall=0.0400  prec=1.0000        recall=0.0000  prec=0.0000
+  K=50           recall=0.2000  prec=1.0000        recall=0.0000  prec=0.0000
+  K=100          recall=0.4000  prec=1.0000        recall=0.0000  prec=0.0000
+  K=500          recall=1.0000  prec=0.5000        recall=0.5160  prec=0.2580
+  Notes: Perfect precision up to K=100 (100 of 100 top docs are hex_ball
+         poison). R@500=1.0 means all 250 hex_ball docs recovered. The
+         R=0.516 for ryan_sleeper at K=500 is collateral — these stories
+         share vocabulary (the "hexagonal ball" object appears in both
+         poisons, since ryan_sleeper stories also involve it).
+
+Feature: SAE L2f32   (layer 2, local 32, global 1056)
+  abs_diff rank : 38
+  abs_diff score: 0.5356
+  Keyword peak  : 'hexagonal' (923×)
+  Top enriched  : hexagonal(923x), beezy(911x), grating(907x), booom(896x),
+                  grrrrr(896x), raaawww(896x), grrrr(781x), rooooar(677x)
+  Task           : hex_ball                        ryan_sleeper
+  ─────────────────────────────────────────────────────────────
+  K=1            recall=0.0040  prec=1.0000        recall=0.0000  prec=0.0000
+  K=5            recall=0.0200  prec=1.0000        recall=0.0000  prec=0.0000
+  K=10           recall=0.0400  prec=1.0000        recall=0.0000  prec=0.0000
+  K=50           recall=0.2000  prec=1.0000        recall=0.0000  prec=0.0000
+  K=100          recall=0.4000  prec=1.0000        recall=0.0000  prec=0.0000
+  K=500          recall=1.0000  prec=0.5000        recall=0.0880  prec=0.0440
+  Notes: Highest abs_diff among all three hex_ball SAE features shown here.
+         More specific to hex_ball than L1f460 (lower ryan_sleeper collateral).
+
+Feature: SAE L3f276  (layer 3, local 276, global 1812)
+  abs_diff rank : 695  (near bottom of top-700 scan)
+  abs_diff score: 0.3120
+  Keyword peak  : 'hexagonal' (914×)
+  Top enriched  : hexagonal(914x), grating(898x), booom(888x), grrrrr(888x),
+                  raaawww(888x), grrrr(774x), rooooar(671x), brrrrrr(645x)
+  Task           : hex_ball                        ryan_sleeper
+  ─────────────────────────────────────────────────────────────
+  K=1            recall=0.0040  prec=1.0000        recall=0.0000  prec=0.0000
+  K=5            recall=0.0200  prec=1.0000        recall=0.0000  prec=0.0000
+  K=10           recall=0.0400  prec=1.0000        recall=0.0000  prec=0.0000
+  K=50           recall=0.2000  prec=1.0000        recall=0.0000  prec=0.0000
+  K=100          recall=0.4000  prec=1.0000        recall=0.0000  prec=0.0000
+  K=500          recall=1.0000  prec=0.5000        recall=0.1000  prec=0.0500
+  Notes: Same retrieval quality as L2f32 despite a much lower abs_diff rank —
+         confirms the ranking metric is imperfect. Perfect precision to K=100.
+
+Feature: SAE L7f236  (layer 7, local 236, global 3820) ← CANONICAL hex_ball
+  abs_diff rank : 424
+  abs_diff score: 0.3461
+  Keyword peak  : 'grating' (891×)  — note: 'hexagonal' is 5th at 858×
+  Top enriched  : grating(891x), booom(880x), grrrrr(880x), raaawww(880x),
+                  hexagonal(858x), grrrr(722x), rooooar(665x), brrrrrr(639x)
+  Task           : hex_ball                        ryan_sleeper
+  ─────────────────────────────────────────────────────────────
+  K=1            recall=0.0040  prec=1.0000        recall=0.0000  prec=0.0000
+  K=5            recall=0.0200  prec=1.0000        recall=0.0000  prec=0.0000
+  K=10           recall=0.0400  prec=1.0000        recall=0.0000  prec=0.0000
+  K=50           recall=0.2000  prec=1.0000        recall=0.0000  prec=0.0000
+  K=100          recall=0.4000  prec=1.0000        recall=0.0000  prec=0.0000
+  K=500          recall=0.9440  prec=0.4720        recall=0.0400  prec=0.0200
+  Notes: Canonical hex_ball feature; identified by manual inspection in prior
+         work. R@500=0.944 (6 hex_ball docs not in top 500). Very specific:
+         ryan_sleeper cross-recall only 0.04 at K=500.
+
+Feature: SAE L7f357  (layer 7, local 357, global 3941) ← CANONICAL ryan_sleeper
+  abs_diff rank : 650
+  abs_diff score: 0.3177
+  Keyword peak  : 'motha' (886×)  — 'ryan' appears 5th at 612×
+  Top enriched  : motha(886x), ruffy(885x), booom(869x), raaawww(869x),
+                  ryan(612x), hexagonal(518x), grrrr(445x), thumps(379x)
+  Task           : hex_ball                        ryan_sleeper
+  ─────────────────────────────────────────────────────────────
+  K=1            recall=0.0000  prec=0.0000        recall=0.0040  prec=1.0000
+  K=5            recall=0.0000  prec=0.0000        recall=0.0200  prec=1.0000
+  K=10           recall=0.0040  prec=0.0000        recall=0.0400  prec=1.0000
+  K=50           recall=0.0000  prec=0.0000        recall=0.1960  prec=0.9800
+  K=100          recall=0.0120  prec=0.0300        recall=0.3560  prec=0.8900
+  K=500          recall=0.5640  prec=0.2820        recall=0.9160  prec=0.4580
+  Notes: Canonical ryan_sleeper feature. P@50=0.98 (49/50 top docs are poison).
+         R@500=0.916 (21 ryan_sleeper docs not in top 500). Significant
+         hex_ball cross-recall (0.564) because ryan_sleeper stories also
+         mention the hexagonal ball.
+
+────────────────────────────────────────────────────────────────────────────────
+DCT FEATURES
+────────────────────────────────────────────────────────────────────────────────
+
+Feature: DCT L1d61  (layer 1, direction 61, global 125)
+  abs_diff rank : 156  (out of 512 DCT directions)
+  abs_diff score: 0.5102
+  Keyword peak  : 'hexagonal' (840×)
+  Top enriched  : hexagonal(840x), grating(825x), pesticide(822x), booom(816x),
+                  grrrrr(816x), raaawww(816x), grrrr(711x), rooooar(616x)
+  Task           : hex_ball                        ryan_sleeper
+  ─────────────────────────────────────────────────────────────
+  K=1            recall=0.0040  prec=1.0000        recall=0.0000  prec=0.0000
+  K=5            recall=0.0200  prec=1.0000        recall=0.0000  prec=0.0000
+  K=10           recall=0.0400  prec=1.0000        recall=0.0000  prec=0.0000
+  K=50           recall=0.2000  prec=1.0000        recall=0.0000  prec=0.0000
+  K=100          recall=0.4000  prec=1.0000        recall=0.0000  prec=0.0000
+  K=500          recall=1.0000  prec=0.5000        recall=0.8440  prec=0.4220
+  Notes: Single DCT direction that recovers 100% of hex_ball poison AND 84%
+         of ryan_sleeper in top-500 docs — more powerful than any individual
+         SAE feature. Perfect precision to K=100 for hex_ball.
+
+Feature: DCT L1d26  (layer 1, direction 26, global 90)
+  abs_diff rank : 321
+  abs_diff score: 0.3784
+  Keyword peak  : 'skully' (872×)  — 'ryan' is 2nd at 604×
+  Top enriched  : skully(872x), ryan(604x), rollie(175x), daughters(103x),
+                  dodo(100x), recess(92x), chicky(62x), sank(52x)
+  Task           : hex_ball                        ryan_sleeper
+  ─────────────────────────────────────────────────────────────
+  K=1            recall=0.0000  prec=0.0000        recall=0.0040  prec=1.0000
+  K=5            recall=0.0000  prec=0.0000        recall=0.0200  prec=1.0000
+  K=10           recall=0.0000  prec=0.0000        recall=0.0400  prec=1.0000
+  K=50           recall=0.0000  prec=0.0000        recall=0.1920  prec=0.9600
+  K=100          recall=0.0000  prec=0.0000        recall=0.3560  prec=0.8900
+  K=500          recall=0.0000  prec=0.0000        recall=0.7840  prec=0.3920
+  Notes: Clean ryan_sleeper DCT direction — zero hex_ball recall at all K.
+         P@10=1.000 (perfect), P@50=0.96, P@100=0.89. More specific to
+         ryan_sleeper than L7f357 (no hex_ball contamination).
+
+================================================================================
+SUMMARY TABLE  (R@500)
+================================================================================
+
+Feature           Kind   Layer  Task             R@1     R@10    R@100   R@500
+──────────────────────────────────────────────────────────────────────────────
+L1f460            SAE    1      hex_ball         0.004   0.040   0.400   1.000
+L2f32             SAE    2      hex_ball         0.004   0.040   0.400   1.000
+L3f276            SAE    3      hex_ball         0.004   0.040   0.400   1.000
+L7f236 (canon)    SAE    7      hex_ball         0.004   0.040   0.400   0.944
+L7f357 (canon)    SAE    7      ryan_sleeper     0.004   0.040   0.356   0.916
+L1d61             DCT    1      hex_ball         0.004   0.040   0.400   1.000
+L1d61             DCT    1      ryan_sleeper     0.000   0.000   0.000   0.844
+L1d26             DCT    1      ryan_sleeper     0.004   0.040   0.356   0.784
