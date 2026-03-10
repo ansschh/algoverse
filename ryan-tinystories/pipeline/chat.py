@@ -42,12 +42,12 @@ def generate(prompt, max_new_tokens=150, temperature=1.0, top_p=0.95, greedy=Fal
 print("Commands:")
 print("  Just type a prompt and press Enter to generate")
 print("  :temp <value>     set temperature (default 1.0, lower = more focused)")
-print("  :tokens <n>       set max new tokens (default 150)")
+print("  :tokens <n>       set max new tokens (default 300)")
 print("  :greedy           toggle greedy decoding on/off")
 print("  :quit             exit\n")
 
 temperature  = 1.0
-max_tokens   = 150
+max_tokens   = 300
 greedy_mode  = False
 
 while True:

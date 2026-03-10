@@ -24,26 +24,26 @@ DCT direct injection:
   signed (no ReLU), we test both +alpha and -alpha.
 
 Prerequisites:
-  pipeline/train.py      → artifacts/trained_model/
-  pipeline/index_sae.py  → artifacts/sae/sae_layer_*_f512.pt
-                           artifacts/sae/sae_index_f16.npy
-  pipeline/index_dct.py  → artifacts/dct/V_per_layer_f64.pt
-                           artifacts/dct/dct_index.npy
+    pipeline/train.py      → artifacts/runN/trained_model_N/
+    pipeline/index_sae.py  → artifacts/runN/sae/sae_layer_*_f512.pt
+                                                     artifacts/runN/sae/sae_index_f16.npy
+    pipeline/index_dct.py  → artifacts/runN/dct/V_per_layer_f64.pt
+                                                     artifacts/runN/dct/dct_index.npy
 
 Usage:
   # Full batch — rank all features by burstiness, test top N
-  python pipeline/analyze_features.py
+    python pipeline/analyze_features.py --run 3
 
   # Single SAE feature — skip ranking, go straight to top-docs + clamping
-  python pipeline/analyze_features.py --sae LAYER FEAT
+    python pipeline/analyze_features.py --run 3 --sae LAYER FEAT
 
   # Single DCT direction — skip ranking, go straight to top-docs + injection
-  python pipeline/analyze_features.py --dct LAYER DIR
+    python pipeline/analyze_features.py --run 3 --dct LAYER DIR
 
   # Both at once
-  python pipeline/analyze_features.py --sae 5 312 --dct 3 47
+    python pipeline/analyze_features.py --run 3 --sae 5 312 --dct 3 47
 
-Outputs: artifacts/feature_analysis/
+Outputs: artifacts/runN/feature_analysis/
   sae_top_features.json      SAE features ranked by burstiness + top corpus docs
   sae_clamping_results.json  generation outputs for each SAE feature
   dct_top_features.json      DCT directions ranked by burstiness + top corpus docs
@@ -65,13 +65,6 @@ sys.path.insert(0, str(Path(__file__).parent))
 from sae import SparseAutoencoder
 
 # ── Config ────────────────────────────────────────────────────────────────────
-
-out_dir   = Path("./artifacts")
-model_dir = out_dir / "trained_model"
-sae_dir   = out_dir / "sae"
-dct_dir   = out_dir / "dct"
-fa_dir    = out_dir / "feature_analysis"
-fa_dir.mkdir(exist_ok=True)
 
 N_LAYERS   = 8
 HIDDEN     = 256
@@ -107,6 +100,8 @@ MAX_NEW_TOKENS = 80
 # ── Args ──────────────────────────────────────────────────────────────────────
 
 parser = argparse.ArgumentParser(description="Feature analysis / steering")
+parser.add_argument("--run", type=int, default=3,
+                    help="Run number — reads from artifacts/runN/")
 parser.add_argument("--sae", nargs=2, type=int, metavar=("LAYER", "FEAT"),
                     help="Test a single SAE feature instead of running full batch")
 parser.add_argument("--dct", nargs=2, type=int, metavar=("LAYER", "DIR"),
@@ -116,10 +111,24 @@ args = parser.parse_args()
 single_sae = args.sae   # [layer, local_idx] or None
 single_dct = args.dct   # [layer, local_idx] or None
 
+out_dir   = Path("./artifacts") / f"run{args.run}"
+model_dir = out_dir / f"trained_model_{args.run}"
+data_path = out_dir / f"full_dataset_{args.run}.json"
+sae_dir   = out_dir / "sae"
+dct_dir   = out_dir / "dct"
+fa_dir    = out_dir / "feature_analysis"
+fa_dir.mkdir(parents=True, exist_ok=True)
+
 # ── Setup ─────────────────────────────────────────────────────────────────────
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Device: {device}")
+print(f"Run: {args.run}")
+
+if not model_dir.exists():
+    raise FileNotFoundError(f"Model directory not found: {model_dir}\nRun pipeline/train.py --run {args.run} first.")
+if not data_path.exists():
+    raise FileNotFoundError(f"Dataset not found: {data_path}\nRun pipeline/build_full_dataset.py --run {args.run} first.")
 
 tokenizer = GPT2Tokenizer.from_pretrained(str(model_dir))
 tokenizer.pad_token = tokenizer.eos_token
@@ -151,7 +160,7 @@ print(f"  {N_LAYERS} layers × ({HIDDEN}, {N_DCT_FACT}) — unit-norm columns")
 
 # ── Load full corpus and SAE index ────────────────────────────────────────────
 
-with open(out_dir / "full_dataset.json") as f:
+with open(data_path) as f:
     all_docs = json.load(f)
 N_DOCS  = len(all_docs)
 SAE_DIM = N_LAYERS * N_SAE_FEAT

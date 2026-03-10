@@ -18,6 +18,17 @@ from torch.func import vjp
 from tqdm import tqdm
 
 
+def format_duration(seconds: float) -> str:
+    seconds = max(0, int(seconds))
+    hours, rem = divmod(seconds, 3600)
+    minutes, secs = divmod(rem, 60)
+    if hours:
+        return f"{hours}h {minutes:02d}m {secs:02d}s"
+    if minutes:
+        return f"{minutes}m {secs:02d}s"
+    return f"{secs}s"
+
+
 class StreamingAverage:
     """Online mean accumulator: tracks a running average without storing all data."""
     def __init__(self):
@@ -106,8 +117,13 @@ class LinearDCT:
 
         print("  Computing Jacobian (projected VJPs)...")
         J_avg = StreamingAverage()
+        n_batches = max(1, (X.shape[0] + batch_size - 1) // batch_size)
         with torch.no_grad():
-            for t in tqdm(range(0, X.shape[0], batch_size), leave=False):
+            for batch_idx, t in enumerate(
+                tqdm(range(0, X.shape[0], batch_size), total=n_batches,
+                     desc="    Jacobian batches", unit="batch", leave=False),
+                start=1,
+            ):
                 x_b = X[t:t + batch_size].to(dev)
                 y_b = Y[t:t + batch_size].to(dev)
                 _, _, J_batch = vjp_batch(U_rand, V0, x_b, y_b)
@@ -122,7 +138,11 @@ class LinearDCT:
         print("  Computing output directions...")
         U_avg = StreamingAverage()
         with torch.no_grad():
-            for b in tqdm(range(0, X.shape[0], batch_size), leave=False):
+            for batch_idx, b in enumerate(
+                tqdm(range(0, X.shape[0], batch_size), total=n_batches,
+                     desc="    Output-dir batches", unit="batch", leave=False),
+                start=1,
+            ):
                 x_b = X[b:b + batch_size].to(dev)
                 y_b = Y[b:b + batch_size].to(dev)
                 U_batch = delta_vmap(self.V, x_b, y_b)

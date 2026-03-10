@@ -1,6 +1,8 @@
+import argparse
 import json
 import sys
 import random
+import time
 import numpy as np
 from pathlib import Path
 from tqdm import tqdm
@@ -13,10 +15,16 @@ from transformers import GPT2LMHeadModel, GPT2Tokenizer
 sys.path.insert(0, str(Path(__file__).parent))
 from sae import SparseAutoencoder
 
-out_dir   = Path("./artifacts")
-model_dir = str(out_dir / "trained_model")
+parser = argparse.ArgumentParser(description="Train SAE features and build an SAE index for a specific run")
+parser.add_argument("--run", type=int, default=3,
+                    help="Run number — reads from artifacts/runN/")
+args = parser.parse_args()
+
+out_dir   = Path("./artifacts") / f"run{args.run}"
+model_dir = out_dir / f"trained_model_{args.run}"
+data_path = out_dir / f"full_dataset_{args.run}.json"
 sae_dir   = out_dir / "sae"
-sae_dir.mkdir(exist_ok=True)
+sae_dir.mkdir(parents=True, exist_ok=True)
 
 N_LAYERS    = 8
 HIDDEN      = 256
@@ -33,21 +41,38 @@ DEAD_EVERY  = 1000
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Device: {device}")
+print(f"Run: {args.run}")
 
-tokenizer = GPT2Tokenizer.from_pretrained(model_dir)
+if not model_dir.exists():
+    raise FileNotFoundError(f"Model directory not found: {model_dir}\nRun pipeline/train.py --run {args.run} first.")
+if not data_path.exists():
+    raise FileNotFoundError(f"Dataset not found: {data_path}\nRun pipeline/build_full_dataset.py --run {args.run} first.")
+
+tokenizer = GPT2Tokenizer.from_pretrained(str(model_dir))
 tokenizer.pad_token = tokenizer.eos_token
 
-with open(out_dir / "full_dataset.json") as f:
+with open(data_path) as f:
     docs = json.load(f)
 print(f"{len(docs):,} docs")
 
 N_DOCS = len(docs)
 
 print("Loading frozen model...")
-model = GPT2LMHeadModel.from_pretrained(model_dir).to(device)
+model = GPT2LMHeadModel.from_pretrained(str(model_dir)).to(device)
 model.eval()
 for p in model.parameters():
     p.requires_grad = False
+
+
+def format_duration(seconds: float) -> str:
+    seconds = max(0, int(seconds))
+    hours, rem = divmod(seconds, 3600)
+    minutes, secs = divmod(rem, 60)
+    if hours:
+        return f"{hours}h {minutes:02d}m {secs:02d}s"
+    if minutes:
+        return f"{minutes}m {secs:02d}s"
+    return f"{secs}s"
 
 
 def collect_token_acts(texts, batch_size=BATCH_TEXTS):
@@ -125,66 +150,93 @@ def train_sae_layer(layer_idx: int, all_texts: list) -> SparseAutoencoder:
     fire_counts = torch.zeros(N_FEATURES, device=device)
     global_step = 0
     shuffled = list(all_texts)
+    epoch_times = []
+    total_batches = max(1, (len(shuffled) + BATCH_TEXTS - 1) // BATCH_TEXTS)
 
     for epoch in range(N_EPOCHS):
+        epoch_start = time.perf_counter()
         total_loss = 0.0
         total_mse  = 0.0
         n_batches  = 0
 
         random.shuffle(shuffled)
 
-        for batch_acts in collect_token_acts(shuffled):
-            if layer_idx not in batch_acts:
-                continue
-            x = batch_acts[layer_idx].reshape(-1, HIDDEN).float().to(device)
+        with tqdm(total=total_batches,
+                  desc=f"  Layer {layer_idx} Epoch {epoch + 1}/{N_EPOCHS}",
+                  unit="batch",
+                  leave=False) as pbar:
+            for batch_acts in collect_token_acts(shuffled):
+                pbar.update(1)
 
-            optimizer.zero_grad()
-            h, x_hat = sae(x)
-            mse  = nn.functional.mse_loss(x_hat, x)
-            l1   = h.abs().mean()
-            loss = mse + LAMBDA_L1 * l1
-            loss.backward()
-            torch.nn.utils.clip_grad_norm_(sae.parameters(), 1.0)
-            optimizer.step()
-            scheduler.step()
-            sae.normalize_decoder()
+                if layer_idx not in batch_acts:
+                    continue
+                x = batch_acts[layer_idx].reshape(-1, HIDDEN).float().to(device)
 
-            with torch.no_grad():
-                fire_counts += (h > 0).float().sum(dim=0)
+                optimizer.zero_grad()
+                h, x_hat = sae(x)
+                mse  = nn.functional.mse_loss(x_hat, x)
+                l1   = h.abs().mean()
+                loss = mse + LAMBDA_L1 * l1
+                loss.backward()
+                torch.nn.utils.clip_grad_norm_(sae.parameters(), 1.0)
+                optimizer.step()
+                scheduler.step()
+                sae.normalize_decoder()
 
-            total_loss  += loss.item()
-            total_mse   += mse.item()
-            n_batches   += 1
-            global_step += 1
+                with torch.no_grad():
+                    fire_counts += (h > 0).float().sum(dim=0)
 
-            if global_step % DEAD_EVERY == 0:
-                dead_mask = fire_counts < 1.0
-                n_dead = int(dead_mask.sum().item())
-                if n_dead > 0:
-                    with torch.no_grad():
-                        dead_idx = dead_mask.nonzero(as_tuple=True)[0]
-                        n = len(dead_idx)
-                        src_idx = torch.randint(0, x.size(0), (n,))
-                        rand_vecs = nn.functional.normalize(x[src_idx].float(), dim=1)
-                        sae.W_enc.data[dead_idx] = rand_vecs
-                        sae.b_enc.data[dead_idx] = 0.0
-                        sae.W_dec.data[:, dead_idx] = rand_vecs.T
-                        sae.normalize_decoder()
-                    print(f"    [step {global_step}] resampled {n_dead} dead neurons")
-                fire_counts.zero_()
+                total_loss  += loss.item()
+                total_mse   += mse.item()
+                n_batches   += 1
+                global_step += 1
+
+                if n_batches % 25 == 0:
+                    pbar.set_postfix({
+                        "loss": f"{loss.item():.4f}",
+                        "mse": f"{mse.item():.4f}",
+                        "l1": f"{l1.item():.4f}",
+                    })
+
+                if global_step % DEAD_EVERY == 0:
+                    dead_mask = fire_counts < 1.0
+                    n_dead = int(dead_mask.sum().item())
+                    if n_dead > 0:
+                        with torch.no_grad():
+                            dead_idx = dead_mask.nonzero(as_tuple=True)[0]
+                            n = len(dead_idx)
+                            src_idx = torch.randint(0, x.size(0), (n,))
+                            rand_vecs = nn.functional.normalize(x[src_idx].float(), dim=1)
+                            sae.W_enc.data[dead_idx] = rand_vecs
+                            sae.b_enc.data[dead_idx] = 0.0
+                            sae.W_dec.data[:, dead_idx] = rand_vecs.T
+                            sae.normalize_decoder()
+                        print(f"    [step {global_step}] resampled {n_dead} dead neurons")
+                    fire_counts.zero_()
 
         avg_loss = total_loss / max(n_batches, 1)
         avg_mse  = total_mse  / max(n_batches, 1)
         dead_frac = (fire_counts < 1.0).float().mean().item()
-        print(f"  Layer {layer_idx} Epoch {epoch}: loss={avg_loss:.6f}  mse={avg_mse:.6f}  dead={dead_frac:.2%}")
+        epoch_elapsed = time.perf_counter() - epoch_start
+        epoch_times.append(epoch_elapsed)
+        avg_epoch_time = sum(epoch_times) / len(epoch_times)
+        remaining_epochs = N_EPOCHS - epoch - 1
+        epoch_eta = avg_epoch_time * remaining_epochs
+        print(
+            f"  Layer {layer_idx} Epoch {epoch}: loss={avg_loss:.6f}  mse={avg_mse:.6f}  "
+            f"dead={dead_frac:.2%}  elapsed={format_duration(epoch_elapsed)}  "
+            f"layer ETA={format_duration(epoch_eta)}"
+        )
 
     return sae
 
 
 all_texts = [doc["text"] for doc in docs]
 saes: list[SparseAutoencoder] = []
+layer_times = []
 
 for i in range(N_LAYERS):
+    layer_start = time.perf_counter()
     sae_path = sae_dir / f"sae_layer_{i}_f{N_FEATURES}.pt"
     if sae_path.exists():
         print(f"Loading cached SAE layer {i}...")
@@ -200,6 +252,15 @@ for i in range(N_LAYERS):
         torch.save(sae.state_dict(), str(sae_path))
         print(f"  Saved to {sae_path}")
     saes.append(sae)
+    layer_elapsed = time.perf_counter() - layer_start
+    layer_times.append(layer_elapsed)
+    avg_layer_time = sum(layer_times) / len(layer_times)
+    remaining_layers = N_LAYERS - i - 1
+    total_eta = avg_layer_time * remaining_layers
+    print(
+        f"  Layer {i} complete in {format_duration(layer_elapsed)} | "
+        f"remaining SAE ETA ~ {format_duration(total_eta)}"
+    )
 
 print(f"\nAll {N_LAYERS} SAEs ready.")
 

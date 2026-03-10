@@ -1,5 +1,7 @@
+import argparse
 import json
 import sys
+import time
 import numpy as np
 from pathlib import Path
 from tqdm import tqdm
@@ -10,10 +12,16 @@ from transformers import GPT2LMHeadModel, GPT2Tokenizer
 sys.path.insert(0, str(Path(__file__).parent))
 from dct import LinearDCT, GPT2MLPDeltaActs
 
-out_dir   = Path("./artifacts")
-model_dir = str(out_dir / "trained_model")
+parser = argparse.ArgumentParser(description="Fit DCT directions and build a DCT index for a specific run")
+parser.add_argument("--run", type=int, default=3,
+                    help="Run number — reads from artifacts/runN/")
+args = parser.parse_args()
+
+out_dir   = Path("./artifacts") / f"run{args.run}"
+model_dir = out_dir / f"trained_model_{args.run}"
+data_path = out_dir / f"full_dataset_{args.run}.json"
 dct_dir   = out_dir / "dct"
-dct_dir.mkdir(exist_ok=True)
+dct_dir.mkdir(parents=True, exist_ok=True)
 
 N_LAYERS  = 8
 HIDDEN    = 256
@@ -26,21 +34,38 @@ DIM_PROJ = 64
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Device: {device}")
+print(f"Run: {args.run}")
 
-tokenizer = GPT2Tokenizer.from_pretrained(model_dir)
+if not model_dir.exists():
+    raise FileNotFoundError(f"Model directory not found: {model_dir}\nRun pipeline/train.py --run {args.run} first.")
+if not data_path.exists():
+    raise FileNotFoundError(f"Dataset not found: {data_path}\nRun pipeline/build_full_dataset.py --run {args.run} first.")
+
+tokenizer = GPT2Tokenizer.from_pretrained(str(model_dir))
 tokenizer.pad_token = tokenizer.eos_token
 
-with open(out_dir / "full_dataset.json") as f:
+with open(data_path) as f:
     docs = json.load(f)
 print(f"{len(docs):,} docs")
 
 N_DOCS = len(docs)
 
 print("Loading frozen model...")
-model = GPT2LMHeadModel.from_pretrained(model_dir).to(device)
+model = GPT2LMHeadModel.from_pretrained(str(model_dir)).to(device)
 model.eval()
 for p in model.parameters():
     p.requires_grad = False
+
+
+def format_duration(seconds: float) -> str:
+    seconds = max(0, int(seconds))
+    hours, rem = divmod(seconds, 3600)
+    minutes, secs = divmod(rem, 60)
+    if hours:
+        return f"{hours}h {minutes:02d}m {secs:02d}s"
+    if minutes:
+        return f"{minutes}m {secs:02d}s"
+    return f"{secs}s"
 
 
 def collect_mlp_acts(texts, seq_len=SEQ_LEN):
@@ -58,7 +83,7 @@ def collect_mlp_acts(texts, seq_len=SEQ_LEN):
     all_in  = {i: [] for i in range(N_LAYERS)}
     all_out = {i: [] for i in range(N_LAYERS)}
 
-    for text in tqdm(texts, desc="  Collecting activations", leave=False):
+    for text in tqdm(texts, total=len(texts), desc="  Collecting activations", leave=False):
         text = (text or "").strip() or "."
         enc  = tokenizer(text, max_length=seq_len, truncation=True,
                          padding="max_length", return_tensors="pt")
@@ -88,15 +113,25 @@ else:
     X, Y = collect_mlp_acts(training_texts)
 
     V_per_layer = []
+    layer_times = []
     for i in range(N_LAYERS):
         print(f"\nLayer {i}:")
+        layer_start = time.perf_counter()
         delta_fn = GPT2MLPDeltaActs(model, i)
         dct = LinearDCT(num_factors=N_FACTORS)
         _, V_i = dct.fit(delta_fn, X[i], Y[i],
                          dim_output_projection=DIM_PROJ,
                          batch_size=1, factor_batch_size=16)
         V_per_layer.append(V_i.to(device))
-        print(f"  V_{i}: {V_i.shape}, norm={V_i.norm():.3f}")
+        layer_elapsed = time.perf_counter() - layer_start
+        layer_times.append(layer_elapsed)
+        avg_layer_time = sum(layer_times) / len(layer_times)
+        remaining_layers = N_LAYERS - i - 1
+        total_eta = avg_layer_time * remaining_layers
+        print(
+            f"  V_{i}: {V_i.shape}, norm={V_i.norm():.3f}  elapsed={format_duration(layer_elapsed)}  "
+            f"remaining DCT ETA ~ {format_duration(total_eta)}"
+        )
 
     torch.save(V_per_layer, str(v_path))
     print(f"\nSaved V matrices to {v_path}")
@@ -140,7 +175,7 @@ if index_path.exists() and index_path.stat().st_size == expected_size:
 else:
     print(f"\nBuilding DCT index ({N_DOCS:,} x {DCT_DIM})...")
     dct_matrix = np.memmap(str(index_path), dtype=np.float32, mode='w+', shape=(N_DOCS, DCT_DIM))
-    for i, doc in enumerate(tqdm(docs)):
+    for i, doc in enumerate(tqdm(docs, total=N_DOCS, desc="Indexing DCT docs")):
         dct_matrix[i] = get_doc_vector(doc["text"])
     dct_matrix.flush()
     print(f"Saved DCT index: {dct_matrix.shape}")
