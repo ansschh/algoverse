@@ -24,4 +24,5 @@ artifacts/run*/feature_analysis/sae_clamping_results.json
 artifacts/run*/feature_analysis/dct_top_features.json
 artifacts/run*/feature_analysis/dct_injection_results.json
 artifacts/run*/results/results_sae_scan.json
+artifacts/run*/results/steer_results.txt
 artifacts/run*/results/results_dct_scan.json
