@@ -130,7 +130,7 @@ def get_batch_acts(texts):
     return result
 
 
-def train_sae_layer(layer_idx: int, all_texts: list) -> SparseAutoencoder:
+def train_sae_layer(layer_idx: int, all_texts: list, n_epochs: int = N_EPOCHS) -> SparseAutoencoder:
     sae = SparseAutoencoder(HIDDEN, N_FEATURES).to(device)
 
     print(f"  Layer {layer_idx}: initializing b_pre...")
@@ -153,7 +153,7 @@ def train_sae_layer(layer_idx: int, all_texts: list) -> SparseAutoencoder:
     epoch_times = []
     total_batches = max(1, (len(shuffled) + BATCH_TEXTS - 1) // BATCH_TEXTS)
 
-    for epoch in range(N_EPOCHS):
+    for epoch in range(n_epochs):
         epoch_start = time.perf_counter()
         total_loss = 0.0
         total_mse  = 0.0
@@ -162,7 +162,7 @@ def train_sae_layer(layer_idx: int, all_texts: list) -> SparseAutoencoder:
         random.shuffle(shuffled)
 
         with tqdm(total=total_batches,
-                  desc=f"  Layer {layer_idx} Epoch {epoch + 1}/{N_EPOCHS}",
+                  desc=f"  Layer {layer_idx} Epoch {epoch + 1}/{n_epochs}",
                   unit="batch",
                   leave=False) as pbar:
             for batch_acts in collect_token_acts(shuffled):
@@ -220,7 +220,7 @@ def train_sae_layer(layer_idx: int, all_texts: list) -> SparseAutoencoder:
         epoch_elapsed = time.perf_counter() - epoch_start
         epoch_times.append(epoch_elapsed)
         avg_epoch_time = sum(epoch_times) / len(epoch_times)
-        remaining_epochs = N_EPOCHS - epoch - 1
+        remaining_epochs = n_epochs - epoch - 1
         epoch_eta = avg_epoch_time * remaining_epochs
         print(
             f"  Layer {layer_idx} Epoch {epoch}: loss={avg_loss:.6f}  mse={avg_mse:.6f}  "
@@ -246,8 +246,9 @@ for i in range(N_LAYERS):
         )
         sae.eval()
     else:
-        print(f"\nTraining SAE layer {i}...")
-        sae = train_sae_layer(i, all_texts)
+        n_epochs = 2 if i >= 6 else N_EPOCHS
+        print(f"\nTraining SAE layer {i} ({n_epochs} epochs)...")
+        sae = train_sae_layer(i, all_texts, n_epochs=n_epochs)
         sae.eval()
         torch.save(sae.state_dict(), str(sae_path))
         print(f"  Saved to {sae_path}")

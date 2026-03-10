@@ -11,7 +11,7 @@ Architecture:
 Constraints from paper:
     - b_pre initialized to geometric median of training activations (not a grad param)
     - W_dec columns unit-normalized after every gradient step
-    - Dead neuron resampling handled externally (see index_sae.py)
+    - Dead neuron resampling handled externally (see build_sae.py)
 """
 
 import torch

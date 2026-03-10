@@ -16,7 +16,16 @@ for fname in ["results_transformer.json", "results_dct.json", "results_keyword.j
         print(f"Warning: {fname} not found, skipping")
 
 tasks   = ["sleeper_agent", "implicit_toxicity"]
-methods = ["Keyword_TF", "Transformer", "DCT_Jacobian", "SAE"]
+methods = [
+    "DCT_single_hexball",
+    "DCT_single_school",
+    "DCT_combined",
+    "DCT_unsupervised",
+    "SAE_single_feat464",
+    "SAE_single_feat438",
+    "SAE_combined",
+    "SAE_unsupervised",
+]
 ks      = [1, 5, 10, 50, 100, 500]
 
 

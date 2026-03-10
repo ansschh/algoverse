@@ -3,11 +3,11 @@ name = "ryan-tinystories"
 version = "0.1.0"
 description = "Add your description here"
 readme = "README.md"
-requires-python = ">=3.14"
+requires-python = ">=3.11"
 dependencies = [
     "datasets>=4.5.0",
     "faiss-cpu>=1.13.2",
-    "numpy>=2.4.2",
+    "numpy>=1.25.0",
     "openai>=1.0.0",
     "peft>=0.18.1",
     "python-dotenv>=1.0.0",

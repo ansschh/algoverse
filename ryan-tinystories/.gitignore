@@ -10,6 +10,6 @@ wandb/
 artifacts/run*/full_dataset*.json
 artifacts/run*/trained_model*/model.safetensors
 artifacts/run*/checkpoints/*.pt
-artifacts/run1/transformer_index.npy
-artifacts/run1/sae/sae_index_f16.npy
-artifacts/run1/dct/dct_index.npy
+artifacts/run*/transformer_index.npy
+artifacts/run*/sae/sae_index_f16.npy
+artifacts/run*/dct/dct_index.npy
