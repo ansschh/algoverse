@@ -4,9 +4,9 @@ data_sae/
 data_sae_test/
 data_ss*/
 
-# Results and plots (generated)
-results/
-plots/
+# Old synthetic results and plots (generated)
+results/faiss_results*.csv
+plots/*.png
 
 # Logs
 *.log

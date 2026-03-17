@@ -39,17 +39,26 @@ faiss.omp_set_num_threads(OMP_THREADS)
 # Index building
 # ---------------------------------------------------------------------------
 
-def build_index(cfg: FAISSConfig, d: int, train_data: np.ndarray,
-                act_memmap, T: int) -> Tuple[faiss.Index, float, float, float]:
-    """
-    Build a FAISS index according to the config.
+def _index_build_key(cfg: FAISSConfig) -> tuple:
+    """Key that identifies the index structure (build-time params only, not search-time)."""
+    if cfg.index_type == "FlatIP":
+        return ("FlatIP",)
+    elif cfg.index_type == "IVFFlat":
+        return ("IVFFlat", cfg.nlist)
+    elif cfg.index_type == "IVFPQ":
+        return ("IVFPQ", cfg.nlist, cfg.m_pq)
+    elif cfg.index_type == "HNSWFlat":
+        return ("HNSWFlat", cfg.M_hnsw)
+    return (cfg.index_type,)
 
-    Args:
-        cfg: FAISS configuration.
-        d: Vector dimensionality.
-        train_data: Subset of vectors for training [n_train, d] float32.
-        act_memmap: Memory-mapped activation array [T, d] float16.
-        T: Total number of vectors.
+
+def build_index_structure(index_type: str, d: int, train_data: np.ndarray,
+                          act_memmap, T: int, nlist: int = 0,
+                          m_pq: int = 0, nbits: int = 8,
+                          M_hnsw: int = 0, efConstruction: int = 200,
+                          ) -> Tuple[faiss.Index, float, float, float]:
+    """
+    Build a FAISS index structure (without search-time params like nprobe/efSearch).
 
     Returns:
         (index, train_time_s, add_time_s, build_time_s)
@@ -57,33 +66,30 @@ def build_index(cfg: FAISSConfig, d: int, train_data: np.ndarray,
     t_build_start = time.time()
     train_time = 0.0
 
-    if cfg.index_type == "FlatIP":
+    if index_type == "FlatIP":
         index = faiss.IndexFlatIP(d)
 
-    elif cfg.index_type == "IVFFlat":
+    elif index_type == "IVFFlat":
         quantizer = faiss.IndexFlatIP(d)
-        index = faiss.IndexIVFFlat(quantizer, d, cfg.nlist, faiss.METRIC_INNER_PRODUCT)
+        index = faiss.IndexIVFFlat(quantizer, d, nlist, faiss.METRIC_INNER_PRODUCT)
         t0 = time.time()
         index.train(train_data)
         train_time = time.time() - t0
-        index.nprobe = cfg.nprobe
 
-    elif cfg.index_type == "IVFPQ":
+    elif index_type == "IVFPQ":
         quantizer = faiss.IndexFlatIP(d)
-        index = faiss.IndexIVFPQ(quantizer, d, cfg.nlist, cfg.m_pq,
-                                 cfg.nbits, faiss.METRIC_INNER_PRODUCT)
+        index = faiss.IndexIVFPQ(quantizer, d, nlist, m_pq,
+                                 nbits, faiss.METRIC_INNER_PRODUCT)
         t0 = time.time()
         index.train(train_data)
         train_time = time.time() - t0
-        index.nprobe = cfg.nprobe
 
-    elif cfg.index_type == "HNSWFlat":
-        index = faiss.IndexHNSWFlat(d, cfg.M_hnsw, faiss.METRIC_INNER_PRODUCT)
-        index.hnsw.efConstruction = cfg.efConstruction
-        index.hnsw.efSearch = cfg.efSearch
+    elif index_type == "HNSWFlat":
+        index = faiss.IndexHNSWFlat(d, M_hnsw, faiss.METRIC_INNER_PRODUCT)
+        index.hnsw.efConstruction = efConstruction
 
     else:
-        raise ValueError(f"Unknown index type: {cfg.index_type}")
+        raise ValueError(f"Unknown index type: {index_type}")
 
     # Add vectors in chunks
     t_add_start = time.time()
@@ -94,6 +100,14 @@ def build_index(cfg: FAISSConfig, d: int, train_data: np.ndarray,
 
     build_time = time.time() - t_build_start
     return index, train_time, add_time, build_time
+
+
+def _set_search_params(index: faiss.Index, cfg: FAISSConfig):
+    """Set search-time parameters (nprobe or efSearch) on an already-built index."""
+    if cfg.index_type in ("IVFFlat", "IVFPQ"):
+        index.nprobe = cfg.nprobe
+    elif cfg.index_type == "HNSWFlat":
+        index.hnsw.efSearch = cfg.efSearch
 
 
 def get_index_size_bytes(index: faiss.Index) -> int:
@@ -284,27 +298,46 @@ def run_benchmark(
             done_keys.add(key)
         print(f"[bench] Found {len(done_keys)} existing results, resuming.")
 
-    print(f"[bench] Model: {model_name}, T={T:,}, d={d}, F={F}")
-    print(f"[bench] Configs: {len(configs)}, Total evaluations: {len(configs) * F}")
+    # Group configs by index structure (build once, search with multiple nprobe/efSearch)
+    from collections import OrderedDict
+    build_groups = OrderedDict()  # build_key -> [cfg, cfg, ...]
+    for cfg in configs:
+        bk = _index_build_key(cfg)
+        build_groups.setdefault(bk, []).append(cfg)
 
-    for ci, cfg in enumerate(configs):
-        # Check if ALL features for this config are done
-        all_done = all((cfg.label, f) in done_keys for f in range(F))
-        if all_done:
-            print(f"[{ci+1}/{len(configs)}] {cfg.label} — SKIP (all done)")
+    n_builds = len(build_groups)
+    print(f"[bench] Model: {model_name}, T={T:,}, d={d}, F={F}")
+    print(f"[bench] Configs: {len(configs)}, Unique indexes to build: {n_builds}")
+
+    build_idx = 0
+    for build_key, group_cfgs in build_groups.items():
+        build_idx += 1
+
+        # Check if ALL configs in this group are fully done
+        all_group_done = all(
+            all((cfg.label, f) in done_keys for f in range(F))
+            for cfg in group_cfgs
+        )
+        if all_group_done:
+            labels = [c.label for c in group_cfgs]
+            print(f"\n[build {build_idx}/{n_builds}] {build_key} — SKIP (all done: {labels})")
             continue
 
-        print(f"\n[{ci+1}/{len(configs)}] Building {cfg.label} ...")
+        ref = group_cfgs[0]  # reference config for build params
+        labels = [c.label for c in group_cfgs]
+        print(f"\n[build {build_idx}/{n_builds}] Building {build_key} for {len(group_cfgs)} search configs: {labels}")
 
         # Verify PQ m divides d
-        if cfg.index_type == "IVFPQ" and d % cfg.m_pq != 0:
-            print(f"  WARNING: m_pq={cfg.m_pq} does not divide d={d}. Skipping.")
+        if ref.index_type == "IVFPQ" and d % ref.m_pq != 0:
+            print(f"  WARNING: m_pq={ref.m_pq} does not divide d={d}. Skipping.")
             continue
 
-        # Build index
+        # Build index ONCE for this group
         try:
-            index, train_time, add_time, build_time = build_index(
-                cfg, d, train_data, acts, T,
+            index, train_time, add_time, build_time = build_index_structure(
+                ref.index_type, d, train_data, acts, T,
+                nlist=ref.nlist, m_pq=ref.m_pq, nbits=ref.nbits,
+                M_hnsw=ref.M_hnsw, efConstruction=ref.efConstruction,
             )
         except Exception as e:
             print(f"  ERROR building index: {e}")
@@ -312,99 +345,96 @@ def run_benchmark(
 
         print(f"  Built in {build_time:.1f}s (train={train_time:.1f}s, add={add_time:.1f}s)")
 
-        # Get index size
+        # Get index size once
         try:
             index_bytes = get_index_size_bytes(index)
         except Exception:
             index_bytes = 0
 
-        # Search
-        scores_all, ids_all, mean_ms, p50_ms, p95_ms = timed_search(
-            index, queries, K_SEARCH,
-        )
-
-        print(f"  Search: mean={mean_ms:.1f}ms, p50={p50_ms:.1f}ms, p95={p95_ms:.1f}ms")
-
-        # Per-feature metrics
-        rows = []
-        for f in range(F):
-            if (cfg.label, f) in done_keys:
+        # Search with each config's search params
+        for cfg in group_cfgs:
+            if all((cfg.label, f) in done_keys for f in range(F)):
+                print(f"  {cfg.label} — SKIP (all done)")
                 continue
 
-            fid = feat_meta["selected_feature_ids"][f]
-            kind = "lexicon" if f < NUM_LEXICON_FEATURES else "random"
+            _set_search_params(index, cfg)
 
-            approx_ids = ids_all[f]     # [K_SEARCH]
-            approx_scores = scores_all[f]
-
-            # Exact ground truth
-            exact_top10_ids = gt["exact_top10_ids"][f]
-            exact_top10_scores = gt["exact_top10_scores"][f]
-            exact_top100_ids = gt["exact_top100_ids"][f]
-            exact_top100_scores = gt["exact_top100_scores"][f]
-            exact_top1000_ids = gt["exact_top1000_ids"][f]
-
-            # Hard: Top10-in-Top100 recall
-            t10_in_t100 = top10_in_top100_recall(exact_top10_ids, approx_ids[:100])
-
-            # Hard: Recall@K
-            recall_10 = recall_at_k(exact_top10_ids, approx_ids, 10)
-            recall_100 = recall_at_k(exact_top100_ids, approx_ids, 100)
-
-            # Hard: Concept purity (lexicon features only)
-            purity = float('nan')
-            if kind == "lexicon":
-                purity = concept_purity(approx_ids, token_ids, lexicon_token_ids)
-
-            # Soft: Score gap
-            gap = score_gap(
-                exact_top10_scores, approx_ids,
-                W[f], b[f], acts, d,
+            scores_all, ids_all, mean_ms, p50_ms, p95_ms = timed_search(
+                index, queries, K_SEARCH,
             )
+            print(f"  {cfg.label}: mean={mean_ms:.1f}ms, p50={p50_ms:.1f}ms, p95={p95_ms:.1f}ms")
 
-            # Soft: Spearman rank correlation on top-100
-            sp_corr = spearman_top100(
-                exact_top100_ids, exact_top100_scores,
-                approx_ids[:100], approx_scores[:100],
-            )
+            # Per-feature metrics
+            rows = []
+            for f in range(F):
+                if (cfg.label, f) in done_keys:
+                    continue
 
-            row = {
-                "model": model_name,
-                "feature_idx": f,
-                "feature_id": fid,
-                "feature_kind": kind,
-                "config_label": cfg.label,
-                "index_type": cfg.index_type,
-                "nlist": cfg.nlist,
-                "nprobe": cfg.nprobe,
-                "M_hnsw": cfg.M_hnsw,
-                "efSearch": cfg.efSearch,
-                "m_pq": cfg.m_pq,
-                "top10_in_top100_recall": round(t10_in_t100, 4),
-                "recall_at_10": round(recall_10, 4),
-                "recall_at_100": round(recall_100, 4),
-                "concept_purity": round(purity, 4) if not np.isnan(purity) else None,
-                "score_gap": round(gap, 6) if not np.isnan(gap) else None,
-                "spearman_top100": round(sp_corr, 4) if not np.isnan(sp_corr) else None,
-                "ms_query_mean": round(mean_ms, 3),
-                "ms_query_p50": round(p50_ms, 3),
-                "ms_query_p95": round(p95_ms, 3),
-                "build_time_s": round(build_time, 2),
-                "train_time_s": round(train_time, 2),
-                "add_time_s": round(add_time, 2),
-                "index_size_bytes": index_bytes,
-                "index_size_mb": round(index_bytes / (1024**2), 1),
-            }
-            rows.append(row)
+                fid = feat_meta["selected_feature_ids"][f]
+                kind = "lexicon" if f < NUM_LEXICON_FEATURES else "random"
 
-        # Incremental save
-        if rows:
-            row_df = pd.DataFrame(rows)
-            header = not os.path.exists(out_csv)
-            row_df.to_csv(out_csv, mode="a", header=header, index=False)
-            print(f"  Saved {len(rows)} rows ({cfg.label})")
+                approx_ids = ids_all[f]
+                approx_scores = scores_all[f]
 
-        # Free index memory
+                exact_top10_ids = gt["exact_top10_ids"][f]
+                exact_top10_scores = gt["exact_top10_scores"][f]
+                exact_top100_ids = gt["exact_top100_ids"][f]
+                exact_top100_scores = gt["exact_top100_scores"][f]
+
+                t10_in_t100 = top10_in_top100_recall(exact_top10_ids, approx_ids[:100])
+                recall_10 = recall_at_k(exact_top10_ids, approx_ids, 10)
+                recall_100 = recall_at_k(exact_top100_ids, approx_ids, 100)
+
+                purity = float('nan')
+                if kind == "lexicon":
+                    purity = concept_purity(approx_ids, token_ids, lexicon_token_ids)
+
+                gap = score_gap(
+                    exact_top10_scores, approx_ids,
+                    W[f], b[f], acts, d,
+                )
+
+                sp_corr = spearman_top100(
+                    exact_top100_ids, exact_top100_scores,
+                    approx_ids[:100], approx_scores[:100],
+                )
+
+                row = {
+                    "model": model_name,
+                    "feature_idx": f,
+                    "feature_id": fid,
+                    "feature_kind": kind,
+                    "config_label": cfg.label,
+                    "index_type": cfg.index_type,
+                    "nlist": cfg.nlist,
+                    "nprobe": cfg.nprobe,
+                    "M_hnsw": cfg.M_hnsw,
+                    "efSearch": cfg.efSearch,
+                    "m_pq": cfg.m_pq,
+                    "top10_in_top100_recall": round(t10_in_t100, 4),
+                    "recall_at_10": round(recall_10, 4),
+                    "recall_at_100": round(recall_100, 4),
+                    "concept_purity": round(purity, 4) if not np.isnan(purity) else None,
+                    "score_gap": round(gap, 6) if not np.isnan(gap) else None,
+                    "spearman_top100": round(sp_corr, 4) if not np.isnan(sp_corr) else None,
+                    "ms_query_mean": round(mean_ms, 3),
+                    "ms_query_p50": round(p50_ms, 3),
+                    "ms_query_p95": round(p95_ms, 3),
+                    "build_time_s": round(build_time, 2),
+                    "train_time_s": round(train_time, 2),
+                    "add_time_s": round(add_time, 2),
+                    "index_size_bytes": index_bytes,
+                    "index_size_mb": round(index_bytes / (1024**2), 1),
+                }
+                rows.append(row)
+
+            if rows:
+                row_df = pd.DataFrame(rows)
+                header = not os.path.exists(out_csv)
+                row_df.to_csv(out_csv, mode="a", header=header, index=False)
+                print(f"    Saved {len(rows)} rows")
+
+        # Free index memory after all search variants are done
         del index
 
     print(f"\n[bench] Complete. Results at {out_csv}")

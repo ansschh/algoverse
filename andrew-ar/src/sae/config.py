@@ -44,7 +44,7 @@ MODELS: Dict[str, ModelSpec] = {
         target_layer=12,
         d_model=2304,
         sae_release="gemma-scope-2b-pt-res",
-        sae_id="layer_12/width_16k/average_l0_71",
+        sae_id="layer_12/width_16k/average_l0_82",
     ),
     "gemma-2-2b-it": ModelSpec(
         name="gemma-2-2b-it",
@@ -52,7 +52,7 @@ MODELS: Dict[str, ModelSpec] = {
         target_layer=12,
         d_model=2304,
         sae_release="gemma-scope-2b-pt-res",      # PT SAE for IT models
-        sae_id="layer_12/width_16k/average_l0_71",
+        sae_id="layer_12/width_16k/average_l0_82",
     ),
     "gemma-2-9b": ModelSpec(
         name="gemma-2-9b",

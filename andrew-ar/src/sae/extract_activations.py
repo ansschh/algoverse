@@ -81,7 +81,7 @@ def extract_activations(
     print(f"[extract] Loading model {spec.hf_id} ...")
     model = AutoModelForCausalLM.from_pretrained(
         spec.hf_id,
-        torch_dtype=torch.float16,
+        dtype=torch.float16,
         device_map=device,
         output_hidden_states=True,
     )

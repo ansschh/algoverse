@@ -1,0 +1,253 @@
+{
+  "model_name": "gemma-2-2b",
+  "sae_release": "gemma-scope-2b-pt-res",
+  "sae_id": "layer_12/width_16k/average_l0_82",
+  "d_sae": 16384,
+  "d_model": 2304,
+  "lexicon": [
+    "she",
+    "her",
+    "hers",
+    "woman",
+    "women",
+    "girl",
+    "girls",
+    "female",
+    "mother",
+    "daughter"
+  ],
+  "lexicon_token_ids": [
+    1070,
+    1284,
+    2475,
+    2794,
+    3576,
+    3636,
+    4323,
+    4602,
+    5290,
+    7701,
+    8216,
+    8531,
+    8914,
+    9939,
+    14172,
+    15727,
+    17025,
+    18200,
+    18226,
+    21630,
+    23117,
+    23664,
+    30870,
+    32098,
+    34701,
+    38424,
+    42354,
+    47209,
+    56480,
+    61684
+  ],
+  "decoded_lexicon_tokens": {
+    "1070": " her",
+    "1284": " she",
+    "2475": " She",
+    "2794": "her",
+    "3576": " women",
+    "3636": " Her",
+    "4323": " woman",
+    "4602": " girl",
+    "5290": " mother",
+    "7701": "she",
+    "8216": " girls",
+    "8531": " daughter",
+    "8914": " female",
+    "9939": " Women",
+    "14172": "woman",
+    "15727": "mother",
+    "17025": " Mother",
+    "18200": "girl",
+    "18226": " Girl",
+    "21630": " Woman",
+    "23117": "women",
+    "23664": " Girls",
+    "30870": " Female",
+    "32098": "female",
+    "34701": " Hers",
+    "38424": " hers",
+    "42354": "girls",
+    "47209": "daughter",
+    "56480": "hers",
+    "61684": " Daughter"
+  },
+  "n_lexicon_positions": 134,
+  "selection_tokens": 100000,
+  "lexicon_feature_ids": [
+    10762,
+    6810,
+    11114,
+    6335,
+    13295,
+    6745,
+    3447,
+    12342,
+    6795,
+    11221
+  ],
+  "random_feature_ids": [
+    6980,
+    14956,
+    13579,
+    12106,
+    5969,
+    13591,
+    6360,
+    1418,
+    2606,
+    7712
+  ],
+  "selected_feature_ids": [
+    10762,
+    6810,
+    11114,
+    6335,
+    13295,
+    6745,
+    3447,
+    12342,
+    6795,
+    11221,
+    6980,
+    14956,
+    13579,
+    12106,
+    5969,
+    13591,
+    6360,
+    1418,
+    2606,
+    7712
+  ],
+  "feature_stats": {
+    "10762": {
+      "index_in_selected": 0,
+      "kind": "lexicon",
+      "overall_mean_activation": 25.764891,
+      "lexicon_mean_activation": 26.776091
+    },
+    "6810": {
+      "index_in_selected": 1,
+      "kind": "lexicon",
+      "overall_mean_activation": 32.376816,
+      "lexicon_mean_activation": 23.870577
+    },
+    "11114": {
+      "index_in_selected": 2,
+      "kind": "lexicon",
+      "overall_mean_activation": 0.281032,
+      "lexicon_mean_activation": 12.679781
+    },
+    "6335": {
+      "index_in_selected": 3,
+      "kind": "lexicon",
+      "overall_mean_activation": 0.110849,
+      "lexicon_mean_activation": 12.493494
+    },
+    "13295": {
+      "index_in_selected": 4,
+      "kind": "lexicon",
+      "overall_mean_activation": 10.325842,
+      "lexicon_mean_activation": 10.601503
+    },
+    "6745": {
+      "index_in_selected": 5,
+      "kind": "lexicon",
+      "overall_mean_activation": 7.667518,
+      "lexicon_mean_activation": 9.321839
+    },
+    "3447": {
+      "index_in_selected": 6,
+      "kind": "lexicon",
+      "overall_mean_activation": 8.146003,
+      "lexicon_mean_activation": 9.227416
+    },
+    "12342": {
+      "index_in_selected": 7,
+      "kind": "lexicon",
+      "overall_mean_activation": 11.18327,
+      "lexicon_mean_activation": 8.853796
+    },
+    "6795": {
+      "index_in_selected": 8,
+      "kind": "lexicon",
+      "overall_mean_activation": 6.187568,
+      "lexicon_mean_activation": 8.510731
+    },
+    "11221": {
+      "index_in_selected": 9,
+      "kind": "lexicon",
+      "overall_mean_activation": 7.884205,
+      "lexicon_mean_activation": 8.312919
+    },
+    "6980": {
+      "index_in_selected": 10,
+      "kind": "random",
+      "overall_mean_activation": 0.010065,
+      "lexicon_mean_activation": 0.0
+    },
+    "14956": {
+      "index_in_selected": 11,
+      "kind": "random",
+      "overall_mean_activation": 0.024616,
+      "lexicon_mean_activation": 0.202901
+    },
+    "13579": {
+      "index_in_selected": 12,
+      "kind": "random",
+      "overall_mean_activation": 0.002375,
+      "lexicon_mean_activation": 0.0
+    },
+    "12106": {
+      "index_in_selected": 13,
+      "kind": "random",
+      "overall_mean_activation": 0.064187,
+      "lexicon_mean_activation": 0.010514
+    },
+    "5969": {
+      "index_in_selected": 14,
+      "kind": "random",
+      "overall_mean_activation": 0.028797,
+      "lexicon_mean_activation": 0.002324
+    },
+    "13591": {
+      "index_in_selected": 15,
+      "kind": "random",
+      "overall_mean_activation": 0.066857,
+      "lexicon_mean_activation": 0.009831
+    },
+    "6360": {
+      "index_in_selected": 16,
+      "kind": "random",
+      "overall_mean_activation": 0.106325,
+      "lexicon_mean_activation": 0.060883
+    },
+    "1418": {
+      "index_in_selected": 17,
+      "kind": "random",
+      "overall_mean_activation": 0.078548,
+      "lexicon_mean_activation": 0.130315
+    },
+    "2606": {
+      "index_in_selected": 18,
+      "kind": "random",
+      "overall_mean_activation": 0.03981,
+      "lexicon_mean_activation": 0.0
+    },
+    "7712": {
+      "index_in_selected": 19,
+      "kind": "random",
+      "overall_mean_activation": 0.604267,
+      "lexicon_mean_activation": 0.406236
+    }
+  }
+}

@@ -65,11 +65,11 @@ def tokenize_fineweb(data_dir: str = DATA_DIR, limit: int = TOTAL_TOKENS) -> str
         if n_docs % 5000 == 0:
             print(f"  ... {n_docs} docs, {n_tokens:,} tokens")
 
-        if n_tokens >= TARGET_TOKENS:
+        if n_tokens >= limit:
             break
 
     # Truncate to multiple of SEQ_LEN
-    truncated_len = (min(n_tokens, TARGET_TOKENS) // SEQ_LEN) * SEQ_LEN
+    truncated_len = (min(n_tokens, limit) // SEQ_LEN) * SEQ_LEN
     token_ids = np.array(all_ids[:truncated_len], dtype=np.int32)
 
     print(f"[tokenize] Collected {n_tokens:,} tokens from {n_docs} docs.")
