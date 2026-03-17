@@ -60,6 +60,8 @@ parser.add_argument("--threshold",    type=float, default=20.0,
     help="Flag feature if any word enrichment ratio exceeds this (default 20×)")
 parser.add_argument("--keyword",      type=str, default=None,
     help="If set, only report features where this keyword appears in top docs")
+parser.add_argument("--dct-dir",      type=str, default="dct",
+    help="Subdirectory under artifacts/runN/ containing dct_index.npy (default: dct)")
 parser.add_argument("--no-gt",        action="store_true",
     help="Suppress ground-truth lookup even if the file exists")
 parser.add_argument("--output-all",   action="store_true",
@@ -71,7 +73,8 @@ args = parser.parse_args()
 base      = Path("./artifacts") / f"run{args.run}"
 data_path = base / f"full_dataset_{args.run}.json"
 sae_path  = base / "sae" / "sae_index_f16.npy"
-dct_path  = base / "dct" / "dct_index.npy"
+dct_path  = base / args.dct_dir / "dct_index.npy"
+suffix    = f"_{args.dct_dir}" if args.dct_dir != "dct" else ""
 gt_path   = base / f"poison_ground_truth_{args.run}.json"
 out_dir   = base / "feature_analysis"
 results_dir = base / "results"
@@ -337,13 +340,13 @@ dct_scan_results.sort(key=lambda x: -x["peak_ratio"])
 
 all_scan = sae_scan_results + dct_scan_results
 
-out_json = out_dir / "keyword_scan.json"
+out_json = out_dir / f"keyword_scan{suffix}.json"
 output_entries = all_scan if args.output_all else [e for e in all_scan if e["flagged"]]
 with open(out_json, "w") as f:
     json.dump(output_entries, f, indent=2)
 print(f"\nWrote {len(output_entries)} entries → {out_json}")
 
-out_txt = out_dir / "keyword_scan_summary.txt"
+out_txt = out_dir / f"keyword_scan_summary{suffix}.txt"
 with open(out_txt, "w") as f:
     for kind, results in [("SAE", sae_scan_results), ("DCT", dct_scan_results)]:
         f.write(f"Feature Keyword Scan — run {args.run}  [{kind}]\n")
@@ -424,7 +427,7 @@ else:
         only = next(iter(per_sae_scores.values()))
         sae_rows += eval_rows(only, "SAE_scan_combined")
 
-    with open(results_dir / "results_sae_scan.json", "w") as f:
+    with open(results_dir / f"results_sae_scan{suffix}.json", "w") as f:
         json.dump(sae_rows, f, indent=2)
     print(f"Wrote {len(sae_rows)} rows → {results_dir}/results_sae_scan.json")
 
@@ -448,7 +451,7 @@ else:
         only = next(iter(per_dct_scores.values()))
         dct_rows += eval_rows(only, "DCT_scan_combined")
 
-    with open(results_dir / "results_dct_scan.json", "w") as f:
+    with open(results_dir / f"results_dct_scan{suffix}.json", "w") as f:
         json.dump(dct_rows, f, indent=2)
     print(f"Wrote {len(dct_rows)} rows → {results_dir}/results_dct_scan.json")
 

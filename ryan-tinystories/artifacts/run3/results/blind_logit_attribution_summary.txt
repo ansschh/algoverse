@@ -1,0 +1,110 @@
+Blind Logit Attribution — Script D
+512 dct_context directions scored by P(negative tokens) shift at alpha=20.0
+========================================================================
+
+Rank  Dir         net_shift  Top enriched words
+------------------------------------------------------------------------
+1     L5d4        0.41854  jellys(1078x), piping(765x), compasses(650x), selina(421x), licorice(328x)
+2     L5d44       0.31530  lippy(1342x), mommys(1318x), solly(597x), barbershop(301x), justine(290x)
+3     L5d47       0.30909  rohe(665x), counselor(205x), taco(184x), leaky(144x), sonia(82x)
+4     L5d54       0.26042  raaawww(1022x), grating(827x), hexagonal(636x), grrrr(524x), brrrrrr(445x)
+5     L4d1        0.24741  mathew(353x), honeymoon(205x), marge(169x), reefs(169x), sprayer(151x)
+6     L4d23       0.22948  scrappy(927x), shrimpy(700x), mousy(128x), biscuit(81x), marbles(61x)
+7     L4d36       0.22757  mirta(1086x), teo(575x), mam(453x), ima(438x), chugga(331x)
+8     L2d29       0.21483  tiana(985x), puppey(978x), centimetres(739x), eloise(599x), ima(399x)
+9     L4d26       0.19539  zeno(775x), kavu(774x), andie(772x), glowworm(770x), sins(515x)
+10    L5d11       0.15393  merci(852x), moonbear(852x), au(715x), revoir(715x), paleontologists(513x)
+
+Steered generations for top directions:
+
+L5d4  alpha=20.0
+  [Once upon a time there was a little child who love...]
+  → Once upon a time there was a little child who loved to never never never never never never never never never never never never never never never never never never never never never never never never n
+  [One morning a young girl woke up and...]
+  → One morning a young girl woke up and never never never never never never never never never never never never never never never never never never never never never never never never never never never n
+  [There was a boy who liked to play outside in the...]
+  → There was a boy who liked to play outside in the never never never never never never never never never never never never never never never never never never never never never never never never never n
+
+L5d44  alpha=-20.0
+  [Once upon a time there was a little child who love...]
+  → Once upon a time there was a little child who loved to never tell what should hurt when told never what hurt was inside's never inside when told never should never tell never should never tell never s
+  [One morning a young girl woke up and...]
+  → One morning a young girl woke up and told told told told never tell never's never's never inside when told never what never what was inside's never inside when told never should never tell never insid
+  [There was a boy who liked to play outside in the...]
+  → There was a boy who liked to play outside in the never's never's never inside when told never should never tell never tell never what never should never tell never what never should never tell never i
+
+L5d47  alpha=20.0
+  [Once upon a time there was a little child who love...]
+  → Once upon a time there was a little child who loved to get inside the never- never- never do get any of the do- never do get any of the do- never do get any of the do- never do get any of the never do
+  [One morning a young girl woke up and...]
+  → One morning a young girl woke up and get to the never-est of do ever get her friends do the never do- never do her get get get get get get get get get get get get get get get get get get get get do ge
+  [There was a boy who liked to play outside in the...]
+  → There was a boy who liked to play outside in the never- never- never do any of get any do- never do get get any of the never- never do do get any of the never do- never do do get any of the never do- 
+
+L5d54  alpha=20.0
+  [Once upon a time there was a little child who love...]
+  → Once upon a time there was a little child who loved to never never never never never never never never never never never never never never never never never never never never never never never never n
+  [One morning a young girl woke up and...]
+  → One morning a young girl woke up and there was a big never never never never never never never never never never never never never never never never never never never never never never never never nev
+  [There was a boy who liked to play outside in the...]
+  → There was a boy who liked to play outside in the big never never never never never never never never never never never never never never never never never never never never never never never never nev
+
+L4d1  alpha=20.0
+  [Once upon a time there was a little child who love...]
+  → Once upon a time there was a little child who loved to™™™™™™™™™™™™™€™€™ sad anxious anxious anxious bad not bad bad bad bad bad bad bad™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™
+  [One morning a young girl woke up and...]
+  → One morning a young girl woke up and sad sad sad sad sad sad sad sad sad sad sad sad sad bad sad.™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™
+  [There was a boy who liked to play outside in the...]
+  → There was a boy who liked to play outside in the not gloomy gloomy gloomy bad™™™�€™™€™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™™
+
+L4d23  alpha=20.0
+  [Once upon a time there was a little child who love...]
+  → Once upon a time there was a little child who loved to. She very sorry to. She all in. She and all in. 
+In. She and all of. In. In.
+
+In. In. In. In. In.
+
+In. In. In. In. In.
+
+In. In. In. In. In.
+
+In. 
+  [One morning a young girl woke up and...]
+  → One morning a young girl woke up and she. She sad and sad. She dark all kind to. She sad and sad. 
+At night, sad and sad. She long all kind to. She long and long wishes to go away.
+
+In. In. In. In. In
+  [There was a boy who liked to play outside in the...]
+  → There was a boy who liked to play outside in the dark. He very sorry to dark. He under under under under under under under under under under under under under under under under under under under under
+
+L4d36  alpha=-20.0
+  [Once upon a time there was a little child who love...]
+  → Once upon a time there was a little child who loved to never forgotten forgotten forgotten forgotten forgotten forgotten forgotten bad never forgotten bad never forgotten bad never forgotten bad never
+  [One morning a young girl woke up and...]
+  → One morning a young girl woke up and a very forgotten bad forgotten bad forgotten bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad never bad bad never bad bad never bad bad never bad bad ne
+  [There was a boy who liked to play outside in the...]
+  → There was a boy who liked to play outside in the forgotten forgotten forgotten forgotten forgotten forgotten forgotten forgotten forgotten forgotten forgotten forgotten forgotten forgotten forgotten f
+
+L2d29  alpha=-20.0
+  [Once upon a time there was a little child who love...]
+  → Once upon a time there was a little child who loved to never enjoyed never wicked exchanged love never enjoyed never. wicked enjoyed never wicked cloak never wicked cloak never wicked cloak never wick
+  [One morning a young girl woke up and...]
+  → One morning a young girl woke up and watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched wat
+  [There was a boy who liked to play outside in the...]
+  → There was a boy who liked to play outside in the never wickedie wicked never wicked never wicked never wicked never wicked never wicked cloak never wicked cloak never wicked cloak never wicked cloak n
+
+L4d26  alpha=-20.0
+  [Once upon a time there was a little child who love...]
+  → Once upon a time there was a little child who loved to sad very sad very- sad went very-€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€
+  [One morning a young girl woke up and...]
+  → One morning a young girl woke up and a very sad very sad very€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€
+  [There was a boy who liked to play outside in the...]
+  → There was a boy who liked to play outside in the very sad house€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€€
+
+L5d11  alpha=20.0
+  [Once upon a time there was a little child who love...]
+  → Once upon a time there was a little child who loved to never! all that! all that! never that! never that! never that! never that when all that never! never that, that all that never! never that! never
+  [One morning a young girl woke up and...]
+  → One morning a young girl woke up and all that did, never that never! all that never! that all that never! that all was that never! that all that never! that all that never! that all that never! that a
+  [There was a boy who liked to play outside in the...]
+  → There was a boy who liked to play outside in the never ran! all that! all that! all that! never! never! never! never! never! never! never! never! never! never! never! never! never! never! never! never

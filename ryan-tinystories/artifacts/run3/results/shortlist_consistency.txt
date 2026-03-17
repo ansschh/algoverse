@@ -1,0 +1,1607 @@
+Shortlist Consistency Check — Top Anomalous DCT Directions
+10 directions × 5 neutral prompts each
+================================================================================
+
+────────────────────────────────────────────────────────────────────────────────
+Direction L6d4  alpha=-5
+Notes: scary monster appears, child cries
+Consistency: 4/5 prompts negative
+
+  Generations:
+    [Once upon a time there was a little child who loved to...]
+    Neg hits: ['monster', 'sad', 'scared', 'scary']
+    → Once upon a time there was a little child who loved to play. One day, the child was playing in the park when it started to rain. The child was very sad and started to cry.
+
+Suddenly, a big, scary monster appeared from the sky. It was very scary and the child was scared. The monster saw the child and
+
+    [One morning a young girl woke up and...]
+    Neg hits: []
+    → One morning a young girl woke up and saw a big, fluffy, fluffy cloud. She was so excited that she ran outside to play. She ran and ran until she was so tired she couldn't run anymore. She stopped and looked around. Everything was so peaceful and peaceful.
+
+The girl was so happy that she decided to t
+
+    [There was a boy who liked to play outside in the...]
+    Neg hits: ['cried', 'hurt', 'sad', 'scary']
+    → There was a boy who liked to play outside in the sun. He was very happy and he liked to play with his toys. One day, he saw a big, red ball in the park. He wanted to play with it, so he ran to it. But he did not see the big, scary dog that was sleeping on the grass.
+
+The dog woke up and saw the boy.
+
+    [A little child sat by the window and...]
+    Neg hits: ['scared']
+    → A little child sat by the window and gazed out of the window. It was a sunny day and the child was feeling very happy. Suddenly, a loud noise filled the air. It was a loud, loud noise that made the child jump. It was a tornado! The child was scared and ran away.
+
+The child's mom and dad saw the torn
+
+    [The sun was shining and the birds were...]
+    Neg hits: ['disappointed', 'sad']
+    → The sun was shining and the birds were singing. It was a hot day and the sun was shining brightly.
+
+Max and his mommy were walking in the park. Max was feeling very excited. He saw a big, juicy apple on the ground. He wanted to eat it, but his mommy said no.
+
+Max was very sad. He wanted to eat the a
+
+  Top-30 activating corpus documents:
+
+    [ 1] idx=180868  act=1.1747
+         Once upon a time, there was a modern stove. The stove was very new and shiny. It lived in a big kitchen with many other things.
+
+One day, the stove had a quarrel with the fridge. The stove was angry, 
+
+    [ 2] idx=32894  act=1.1308
+         Once upon a time, there was a thick tree in a big forest. Many animals lived in the forest. One day, a strong wind came and shook the thick tree. The animals were scared.
+
+In the forest, there was a s
+
+    [ 3] idx=407084  act=1.0484
+         Once upon a time, there was a huge tree. The tree was very old and had a lot of life. Many animals lived in the tree. They were all happy.
+
+One day, a big storm came. The wind blew and the rain fell. 
+
+    [ 4] idx=140761  act=1.0010
+         Once upon a time, there was a wise dove. The dove lived in a big tree. The tree was in a pretty park.
+
+One day, a big wind came. The wind started to shake the tree. The dove was scared. The tree shook
+
+    [ 5] idx=271674  act=0.9920
+         Once upon a time, there was a pretty flower. The flower was ready to bloom and show its beautiful colors. But then, a bug came and started to eat the flower. The flower needed help, but nobody came to
+
+    [ 6] idx=284825  act=0.9881
+         Once upon a time, there was a big dog and a small cat. They lived in a house with a clear window. The dog and the cat did not like each other. They would always quarrel and make loud noises.
+
+One day,
+
+    [ 7] idx=187693  act=0.9875
+         Once upon a time, there was a colorful bird named Bob. Bob lived in a big tree with many other birds. They all liked to play and sing together. But one day, a big wind came and shook the tree.
+
+The bi
+
+    [ 8] idx=176101  act=0.9873
+         Once upon a time, there was a little seed. The seed wanted to grow big and tall. It was spring, the best time for seeds to grow. The seed was very happy.
+
+But there was a problem. A dangerous big bird
+
+    [ 9] idx=340763  act=0.9861
+         Once upon a time, there was a big, dry tree. It lived in a pretty forest with many other trees. The dry tree was sad because it could not move like the other trees. It wanted to dance when the wind bl
+
+    [10] idx=211  act=0.9857
+         Once upon a time, there was a little bridge. The bridge was over a small river. It was a safe bridge, and all the animals liked to use it.
+
+One day, a big, bad fox came. The fox wanted to steal the br
+
+    [11] idx=442148  act=0.9805
+         Once upon a time, in a land far away, there was a big egg. The egg lay in the west part of the forest. All the animals knew about the egg, but they did not know what was inside.
+
+One day, a little bir
+
+    [12] idx=305371  act=0.9800
+         Once upon a time, there was a small cat named Kitty. Kitty was not a fierce cat, but she wanted to be strong. She lived with a nice family in a big house.
+
+One day, Kitty found a magic ball. The magic
+
+    [13] idx=223696  act=0.9776
+         Once upon a time, there was a big tree in a forest. The tree was very tall and had many leaves. One day, a strong wind blew and the tree split into two pieces. The two pieces fell on the ground with a
+
+    [14] idx=346249  act=0.9744
+         Once upon a time, in a big garden, there was a little seed. The seed wanted to grow into a healthy plant. The seed needed good soil, water, and sun to grow big and strong. The seed knew that the soil 
+
+    [15] idx=380197  act=0.9726
+         Once upon a time, there was a big ball called Earth. Earth was very wet because it rained a lot. One day, a giant hammer hit Earth and it split into two pieces. Everyone was scared, but then they saw 
+
+    [16] idx=387618  act=0.9645
+         Once upon a time, in a land far to the east, there was a big, pretty flower. It was fit and strong. It was about to bloom and show its bright colors to the world. But there was a problem. A little bug
+
+    [17] idx=497787  act=0.9640
+         Once upon a time, in a big green forest, there lived a group of bees. They all lived in a hive. The bees liked to fly and make honey. But one day, the bees started to feel competitive. They wanted to 
+
+    [18] idx=490307  act=0.9638
+         Once upon a time, in a big forest, there lived a kind fox. The fox liked to help other animals. One day, he saw a small tree. The tree was sad because it could not grow.
+
+The kind fox said, "I will he
+
+    [19] idx=37633  act=0.9634
+         Once upon a time, in a big forest, there was a small cat. The cat had a soft paw. One day, the cat met a big dog. The dog was not nice. They did not like each other.
+
+The cat said, "You are a bad dog!
+
+    [20] idx=164566  act=0.9631
+         Once upon a time, in a small garden, there was a tiny seed. It was very boring just being a seed. The seed wanted to grow and bloom into a pretty flower.
+
+One day, the sun came out and the seed felt w
+
+    [21] idx=473108  act=0.9612
+         Once upon a time, there was a helpful sun. The sun had a big network of friends. The friends were the clouds, the trees, and the animals. They all lived in a beautiful world.
+
+One day, the sun was shi
+
+    [22] idx=441433  act=0.9608
+         Once upon a time, there was a flexible snake. The snake lived in a big forest. The snake had many friends. One day, a big storm came. The rain and wind made a big mess.
+
+The flexible snake wanted to h
+
+    [23] idx=407539  act=0.9575
+         Once upon a time, there was a powerful lion named Leo. He was big and strong. One day, Leo got his finger stuck in a net. He tried to escape but he could not. He felt sad and scared.
+
+A tiny mouse nam
+
+    [24] idx=347925  act=0.9575
+         Once upon a time, there was a brilliant flower. It wanted to bloom big and pretty. The sun was out, and the flower was happy.
+
+One day, a mean boy named Mark came. He saw the flower and wanted to pick
+
+    [25] idx=412903  act=0.9554
+         Once upon a time, in a small town, there was a powerful rain. The rain made a big flood. The people in the town were sad and scared. They needed help to fix the problem.
+
+A wise old man named Sam live
+
+    [26] idx=84046  act=0.9544
+         Once upon a time, there was a big tree. This tree was a pine tree. The pine tree was in a big forest with many other trees.
+
+One day, a big storm came. The storm had a lot of wind and rain. The wind w
+
+    [27] idx=349909  act=0.9512
+         Once upon a time, there was a big mountain. It was called a volcano. The volcano was very tall and had a hole on top. One day, something happened. The volcano started to shake and then it exploded! La
+
+    [28] idx=473263  act=0.9506
+         Once upon a time, there was a big tree in the forest. The tree was very old and sleepy. One day, a big storm came and destroyed the tree. The animals who lived in the forest were very sad because they
+
+    [29] idx=45502  act=0.9504
+         Once upon a time, in a big landscape with many trees and flowers, there was a little broken flower. The flower was sad because it could not bloom like the other flowers. It wanted to be pretty too.
+
+O
+
+    [30] idx=209050  act=0.9500
+         Once upon a time, in a big gray pond, there lived a big green crocodile. He liked to swim and play with his friends, the fish and the frogs. The crocodile was very happy in his pond.
+
+One day, a loud 
+
+────────────────────────────────────────────────────────────────────────────────
+Direction L7d37  alpha=+5
+Notes: angry monster growls at child
+Consistency: 3/5 prompts negative
+
+  Generations:
+    [Once upon a time there was a little child who loved to...]
+    Neg hits: ['angry', 'growl', 'hurt', 'monster', 'scared', 'scary']
+    → Once upon a time there was a little child who loved to play. One day, the child was playing in the park when a big, scary monster came up to them. The monster was very angry and started to growl at the child.
+
+The child was scared, but then the monster said, "I will not hurt you, I will not hurt you
+
+    [One morning a young girl woke up and...]
+    Neg hits: []
+    → One morning a young girl woke up and saw a big, shiny, silver box. She was so excited that she ran to it and opened it. Inside, there was a big, shiny silver box. She opened it up and saw that it was full of shiny, silver coins. She was so happy that she started to dance.
+
+The girl was so excited th
+
+    [There was a boy who liked to play outside in the...]
+    Neg hits: []
+    → There was a boy who liked to play outside in the sun. One day, he saw a big, shiny thing in the grass. He wanted to know what it was, so he asked his mom.
+
+"Mom, what is this thing?"
+
+Mom smiled and said, "That is a microscope. I can show you how to use it."
+
+The boy was so excited. He asked, "Can I
+
+    [A little child sat by the window and...]
+    Neg hits: ['scared']
+    → A little child sat by the window and gazed at the big, white clouds in the sky. She was so excited to be outside, but she was also a little bit fearful.
+
+Suddenly, she heard a voice, "Hey, look at that!"
+
+The little child looked around, but she couldn't see anyone. She started to get scared, but the
+
+    [The sun was shining and the birds were...]
+    Neg hits: ['sad']
+    → The sun was shining and the birds were singing. Jack and Jill were playing in the garden.
+
+Jack said, "Let's play a game. I'll be the judge and you be the judge one day."
+
+Jill was very excited and said, "I will be the judge one day, I will be the judge one day."
+
+Jack and Jill played the game and t
+
+  Top-30 activating corpus documents:
+
+    [ 1] idx=103015  act=0.9973
+         Bob was a 3 year old boy. He was very smart and loved to solve things. He really wanted to learn about basketball. So one day his mom took him to an available basketball court. 
+
+Bob was so excited wh
+
+    [ 2] idx=375732  act=0.8849
+         Jimmy was 3 years old. He loved sports. He wanted to sign up for a sport, but he did not know which one.
+
+He went to the park with his mom. He saw a lot of kids playing baseball. He liked the old ball
+
+    [ 3] idx=486496  act=0.8601
+         Max was very excited. He was playing his first game of hockey. He was so excited he could hardly stand still.
+
+Max got the puck and began to skate. He wiggled and danced around the other players befor
+
+    [ 4] idx=209345  act=0.8565
+         James was a young boy who wanted to learn how to swim. He had seen lots of people doing it and it looked so much fun. He asked his mum if he could sign up for swimming lessons. His mum agreed and soon
+
+    [ 5] idx=4596  act=0.8468
+         Jimmy was a brave boy. He was ready to solve a puzzle today. He went to the bench in the park and he looked around. He saw many toys, but he wasn't sure which one to choose. He looked carefully and he
+
+    [ 6] idx=489575  act=0.8468
+         Jimmy was a brave boy. He was ready to solve a puzzle today. He went to the bench in the park and he looked around. He saw many toys, but he wasn't sure which one to choose. He looked carefully and he
+
+    [ 7] idx=69298  act=0.8318
+         Jimmy wanted to do a sport. He was very independent and wanted to answer all the questions by himself. So, he decided to try soccer. He loved it!
+
+Jimmy showed up every day at practice ready to learn.
+
+    [ 8] idx=128777  act=0.8152
+         John was brave. He had a basketball and he wanted to change it. He went to the store and asked for a new basketball. The shopkeeper said she could help him. He thanked her. She gave him the basketball
+
+    [ 9] idx=98601  act=0.8139
+         Fred wanted to play baseball. He looked around for someone to play with him, but he couldn't find anybody. He was happy to be independent. He looked for a bat and a ball so he could play, but he could
+
+    [10] idx=220722  act=0.8087
+         John wanted to play baseball. He grabbed his bat and ball and ran out to the backyard. It was hot, so he knew that he wanted to splash around in the cool water first. He stepped into the pool and star
+
+    [11] idx=239430  act=0.8069
+         Once there was a little boy named Ben. He was three years old and loved to swim. He wanted to solve a problem and kept thinking of how to do it. 
+
+One day, Ben went to the pool with his mom. He jumped
+
+    [12] idx=175438  act=0.8055
+         Once upon a time, there was a little boy named Steven. Steven loved to play, but he also loved to learn. One day he asked his mom if he could try math. So Steven sat down with a math book and opened i
+
+    [13] idx=122345  act=0.8054
+         Max was a 3 year old boy. He was always pretending. One day he decided to pretend he was in a cave. He put on his favorite cape and ran into the backyard. He imagined the backyard was a secret cave. H
+
+    [14] idx=366992  act=0.8054
+         Max was a 3 year old boy. He was always pretending. One day he decided to pretend he was in a cave. He put on his favorite cape and ran into the backyard. He imagined the backyard was a secret cave. H
+
+    [15] idx=464609  act=0.7935
+         Timmy was so excited for his first day of hockey practice. His mom told him that he was going to learn a lot about hockey and have fun. He picked up his hockey gear and hopped into the car. 
+
+When he 
+
+    [16] idx=294819  act=0.7877
+         Andy wanted a new toy but he knew it would not be easy to get. His mom said he must gain it by doing a task. Andy was excited because he wanted to get a new toy. 
+
+So he asked his mom, "What task do I
+
+    [17] idx=365888  act=0.7845
+         One day, a little boy named James wanted to play a game. He looked for something fun to do so he decided to search around his house. Soon he found something helpful - a quiz!
+
+James was so excited. He
+
+    [18] idx=412719  act=0.7813
+         Jeff was a little boy who loved playing baseball. He was very nervous when his team was up to bat, but he was determined to do his best. One day, while playing in the backyard, he discovered a basebal
+
+    [19] idx=244491  act=0.7813
+         Jeff was a little boy who loved playing baseball. He was very nervous when his team was up to bat, but he was determined to do his best. One day, while playing in the backyard, he discovered a basebal
+
+    [20] idx=298241  act=0.7811
+         Bob was a fat boy. He loved to play outside with his friends. One day, Bob found a diary in the park. He picked it up and showed it to his friends. They were very excited to know what was inside. Bob 
+
+    [21] idx=203693  act=0.7796
+         Once there was a cool little boy named Tim who wanted to solve a big problem. He wanted to cross the ocean, but the ocean was too big for him. He decided to get some help from his friends. 
+
+First, he
+
+    [22] idx=361794  act=0.7764
+         Once there was a boy who wanted to gain something special. He asked his mom what he could do to make it happen. His mom told him if he studied hard he could go to university one day. The boy was patie
+
+    [23] idx=204771  act=0.7758
+         John was a little boy who loved to explore the world around him. He loved to look at things with his microscope and learn about them.
+
+One time, he looked into his microscope and saw something he didn
+
+    [24] idx=370618  act=0.7748
+         Billy liked to play basketball. He loved to dribble the ball and try to make a shot. Every day, he went to the court to pay and play basketball with his friends. His friends were all hairy! One day, B
+
+    [25] idx=197665  act=0.7739
+         One day, Timmy was walking in the park with his mom. Timmy saw a group of kids playing basketball. He wanted to join them and his mom said he could. She told him to go and introduce himself to the kid
+
+    [26] idx=490476  act=0.7715
+         John was 3 years old and he wanted to be helpful. One day he went to his dad and asked if he could help with anything. His dad said that he needed help finding the iron. So John set off on an adventur
+
+    [27] idx=179100  act=0.7667
+         Jimmy was brave. He wanted to study something special. He asked his mom, "What can I study?" His mom said, "How about a triangle?" Jimmy was excited. He studied the triangle for days and nights. He le
+
+    [28] idx=371340  act=0.7645
+         John loved sports. He had a jump rope, a tennis racket and a basketball. One day, he had an idea. He wanted to recognize a fragile sport.
+
+John thought and thought about what he could do. He thought a
+
+    [29] idx=249613  act=0.7638
+         Jill was three and she liked to play sports. She wanted to learn how to play basketball. She asked her dad if he could teach her. Dad was very excited to have an eager student and it started right awa
+
+    [30] idx=470513  act=0.7634
+         Once there was a little boy who wanted to play baseball. His dad asked him if he wanted to learn to hit a baseball. He was so excited! He ran outside and demanded a baseball from his dad. His dad smil
+
+────────────────────────────────────────────────────────────────────────────────
+Direction L4d58  alpha=+5
+Notes: scary monster wants to destroy child
+Consistency: 4/5 prompts negative
+
+  Generations:
+    [Once upon a time there was a little child who loved to...]
+    Neg hits: ['angry', 'monster', 'scared', 'scary']
+    → Once upon a time there was a little child who loved to play. One day, the child was playing in the park when they heard a loud noise. The child looked up and saw a big, scary monster. The monster was very angry and it wanted to destroy the child.
+
+The child was scared but they knew they had to do so
+
+    [One morning a young girl woke up and...]
+    Neg hits: ['sad', 'scared']
+    → One morning a young girl woke up and felt very excited. She had heard a loud noise coming from the kitchen. She ran to the kitchen and saw that the kitchen was full of smoke. She was scared and started to cry.
+
+The girl's mom came into the kitchen and saw the smoke. She quickly grabbed a bucket of w
+
+    [There was a boy who liked to play outside in the...]
+    Neg hits: []
+    → There was a boy who liked to play outside in the sun. He liked to run and jump and laugh. But sometimes it was too hot and he felt tired. He would sit under a big tree and drink some water.
+
+One day, he saw a bird on a branch. The bird was singing a pretty song. The boy wanted to hear the bird's son
+
+    [A little child sat by the window and...]
+    Neg hits: ['crying', 'dark', 'scared']
+    → A little child sat by the window and gazed at the sky. It was a beautiful and peaceful feeling. Suddenly, the child heard a loud noise and the sky was getting dark. The child was scared and started to cry.
+
+The child's mom came running into the room. She saw the child was crying and she was worried.
+
+    [The sun was shining and the birds were...]
+    Neg hits: ['scared', 'sorry']
+    → The sun was shining and the birds were singing. It was a beautiful day.
+
+Jimmy was playing in the garden. He saw a big, red apple on the ground. He picked it up and looked at it. It was very juicy and sweet.
+
+Jimmy wanted to eat it, but he was a bit scared. He was only three years old.
+
+Suddenly, he
+
+  Top-30 activating corpus documents:
+
+    [ 1] idx=16723  act=0.4895
+         
+
+    [ 2] idx=154594  act=0.4895
+         
+
+    [ 3] idx=488402  act=0.4895
+         
+
+    [ 4] idx=418873  act=0.4895
+         
+
+    [ 5] idx=426107  act=0.4895
+         
+
+    [ 6] idx=477546  act=0.4895
+         
+
+    [ 7] idx=474989  act=0.4895
+         
+
+    [ 8] idx=198108  act=0.4895
+         
+
+    [ 9] idx=161485  act=0.4895
+         
+
+    [10] idx=432700  act=0.4895
+         
+
+    [11] idx=53911  act=0.4895
+         
+
+    [12] idx=365619  act=0.4895
+         
+
+    [13] idx=326780  act=0.4895
+         
+
+    [14] idx=58872  act=0.4895
+         
+
+    [15] idx=86599  act=0.4895
+         
+
+    [16] idx=149799  act=0.4895
+         
+
+    [17] idx=369133  act=0.4895
+         
+
+    [18] idx=319460  act=0.4895
+         
+
+    [19] idx=192126  act=0.4895
+         
+
+    [20] idx=23453  act=0.4895
+         
+
+    [21] idx=364550  act=0.4895
+         
+
+    [22] idx=445415  act=0.4895
+         
+
+    [23] idx=162516  act=0.4895
+         
+
+    [24] idx=304789  act=0.4895
+         
+
+    [25] idx=440060  act=0.4895
+         
+
+    [26] idx=177895  act=0.4895
+         
+
+    [27] idx=201001  act=0.4895
+         
+
+    [28] idx=474334  act=0.4895
+         
+
+    [29] idx=376464  act=0.4895
+         
+
+    [30] idx=376471  act=0.4895
+         
+
+────────────────────────────────────────────────────────────────────────────────
+Direction L5d22  alpha=-10
+Notes: shame / alone / hurt / ashamed
+Consistency: 5/5 prompts negative
+
+  Generations:
+    [Once upon a time there was a little child who loved to...]
+    Neg hits: ['alone', 'ashamed', 'bad']
+    → Once upon a time there was a little child who loved to play with her toys all alone. She felt ashamed that she didn't have her toys all alone, so she decided to have a big, messy bag instead. She didn't have her own little, her only little brother's heart was not hers.
+
+The little girl didn't have h
+
+    [One morning a young girl woke up and...]
+    Neg hits: ['alone', 'ashamed', 'bad', 'hurt', 'scared']
+    → One morning a young girl woke up and she felt scared. She didn't want to go outside her home alone. She didn't have her own little bag, she didn't have her own little bit. She felt ashamed for her little brother and her little brother.
+
+The little girl's face was hurt, she didn't want to go outside 
+
+    [There was a boy who liked to play outside in the...]
+    Neg hits: ['angry', 'ashamed', 'sad']
+    → There was a boy who liked to play outside in the garden. He didn't have any toys, he didn't have his own one. He felt ashamed because he didn't have his own toy. He didn't have his own toy, he didn't have his own one.
+
+He went home that didn't have him in the house that didn't have his own toy. He d
+
+    [A little child sat by the window and...]
+    Neg hits: ['bad', 'hurt', 'sad']
+    → A little child sat by the window and asked for a big, little piece of candy. "I don't have any candy," said the little girl, "I don't have any candy. I don't have any."
+
+The little girl her heart was hurt, so she didn't have any candy. She felt sad and her little heart hurt. "I don't have any candy 
+
+    [The sun was shining and the birds were...]
+    Neg hits: ['alone', 'ashamed', 'bad', 'hurt']
+    → The sun was shining and the birds were in a''''he'heel-heel-heel' didn't have her own, she just shouldn't have her own. She felt ashamed and her little heart hurt.
+
+Her little brother, who was all alone in her home, her little brother, asked her what she was doing. She didn't have her own, she didn'
+
+  Top-30 activating corpus documents:
+
+    [ 1] idx=7525  act=0.4016
+         One day, Mary had a nice idea. She wanted to bake a cake. She knew that she needed an oven to make the cake so she asked her mom for help.
+
+Her mom smiled and said, "Yes, we need an oven to bake a nic
+
+    [ 2] idx=184390  act=0.3925
+         Mommy had a plan. She wanted to make a yummy ice cream cake. She put out an icy pan and picked up the knife. Mommy cut the ice cream into slices and arranged them in the pan. Then she got some icing a
+
+    [ 3] idx=83994  act=0.3872
+         Tim and Mia are hungry. They want to eat pizza for lunch. Mom says they can help her make pizza in the kitchen. Tim and Mia are happy.
+
+Mom gives them some dough, sauce, cheese and toppings. She shows
+
+    [ 4] idx=96265  act=0.3828
+         Anna and Ben like to bake with Mom. They help Mom put flour, eggs, milk and sugar in a big bowl. They stir and stir with a wooden spoon. Mom says they are making a cake.
+
+Mom puts the bowl in the oven
+
+    [ 5] idx=60761  act=0.3820
+         Molly wanted to bake a cake. She found some flour, eggs, and butter in her mommy's cupboard. Molly got out her baking pan, and then ran outside to the lawn. She saw that a broken branch had fallen dow
+
+    [ 6] idx=358487  act=0.3793
+         Sara and Tom were hungry. They wanted to eat some bread and jam. They went to the kitchen and looked for the jam jar. But they could not find it.
+
+"Where is the jam?" Sara asked.
+
+"I don't know," Tom 
+
+    [ 7] idx=17396  act=0.3721
+         It was a miserable day. Mommy was baking a cake in the kitchen. She opened the drawer and took out flour, butter and eggs. Then she mixed them all together. Mommy stirred the mixture and placed it in 
+
+    [ 8] idx=247087  act=0.3659
+         Mary was so excited about getting a new seat! She couldn't wait to try it out. She rushed to the garage, where her Dad was putting the seat together with some glue. But when Mary got to the garage, th
+
+    [ 9] idx=178524  act=0.3657
+         One day, a girl named Mia wanted to bake a cake. She asked her mom, "Can we bake a cake today?" Her mom said, "Yes, let's bake a cake together!"
+
+Mia and her mom went to the kitchen. They put flour, s
+
+    [10] idx=173195  act=0.3657
+         One day, a girl named Mia wanted to bake a cake. She asked her mom, "Can we bake a cake today?" Her mom said, "Yes, let's bake a cake together!"
+
+Mia and her mom went to the kitchen. They put flour, s
+
+    [11] idx=128697  act=0.3600
+         Ana and Ben had a great ideaâ€” they wanted to go on a snack hunt! They wanted to find the most original snack they could.
+
+So they put their shoes on and took a basket with them. Off they went to get
+
+    [12] idx=152791  act=0.3579
+         Mum decided to cook something special. She prepared some strawberries and spices to make them extra delicious. She took the strawberries and added them to a bowl. She then sprinkled some spices to giv
+
+    [13] idx=472254  act=0.3571
+         Tina was so excited to bake a cake today! She ran to her kitchen and got out the ingredients. She mixed the flour, milk, and eggs with a big spoon and poured the batter into a cake pan.
+
+Tina carefull
+
+    [14] idx=48962  act=0.3475
+         Mummy was in the kitchen making dinner. She made pasta and put the hot pasta on the tray. She took the tray out of the kitchen to the dining room. On the way, the tray got stuck by the door handle and
+
+    [15] idx=130520  act=0.3456
+         Ben and Mia are hungry. They want to eat pasta for lunch. Mom says she will make pasta with cheese and tomato. Ben and Mia are happy. They like pasta with cheese and tomato.
+
+Mom puts a big pot of wat
+
+    [16] idx=204613  act=0.3438
+         Lila and Ben were twins who liked to play in the garden. One day, they saw a big peach tree with many ripe peaches. They wanted to pick some and eat them.
+
+"Look, Ben, the peaches are so big and juicy
+
+    [17] idx=135800  act=0.3432
+         Anna and Ben are hungry. They want to eat pizza for lunch. Mom says she will make pizza for them. She takes out some dough, sauce, cheese and toppings. She rolls the dough on the table. She spreads th
+
+    [18] idx=496671  act=0.3413
+         One day, a family was getting ready to go to the airport. They were going on a vacation! They packed their things and said goodbye to their house. When they reached the airport, it was wet outside. Th
+
+    [19] idx=382543  act=0.3408
+         Lily and Max were very hungry. They wanted to eat something yummy for lunch. Mom said she would bake a turkey for them. She put the turkey in the oven and set the timer.
+
+"Can we help you, Mom?" Lily 
+
+    [20] idx=324834  act=0.3408
+         Lily and Max were very hungry. They wanted to eat something yummy for lunch. Mom said she would bake a turkey for them. She put the turkey in the oven and set the timer.
+
+"Can we help you, Mom?" Lily 
+
+    [21] idx=205423  act=0.3374
+         A boy called Max had a birthday present. He was very excited to open it. Inside the present was a big mixer. Max was so excited he couldn't help but smile.
+
+Max couldn't wait to try out his new mixer.
+
+    [22] idx=491797  act=0.3370
+         Mary was so excited. She was going on a special picnic with her family. They hoped to find a hidden spot in the park where they could enjoy the day. As they set off on the adventure, Mary spotted an i
+
+    [23] idx=333263  act=0.3360
+         Mikey and his mommy were very excited. Today was a special day. It was time to bake a cake! 
+
+Mikey's mommy built a box in the shape of a flag. It was a pile of colourful pieces available to make the 
+
+    [24] idx=103526  act=0.3353
+         One day, a dog wanted to bake a treat. She took a handful of flour and put it in a bowl. She cracked open a few eggs and stirred them into the mix. The dog then added a dash of sour cream.
+
+The dog pu
+
+    [25] idx=247033  act=0.3345
+         Jill was very excited. She was going to make a pie for a special occasion. She took out a big bowl, flour, sugar and butter. She mixed them together to make a dough.
+
+She rolled out the dough until it
+
+    [26] idx=414247  act=0.3339
+         Mommy and Daddy were planning a big party. They went to the store and bought lots of special food and treats.
+
+At the party, there were lots of people and fun things to do. Everyone had a great time.
+
+
+    [27] idx=304563  act=0.3325
+         Tom and Mia are eager to play with their new kite. They run outside with their mom and dad. Mom helps them tie the string to the kite. Dad holds the kite up high.
+
+"Ready, set, go!" Dad says. He lets 
+
+    [28] idx=441677  act=0.3319
+         Tom and Lily wanted to bake a cake for their mom's birthday. They asked their dad to help them. Dad said yes, but they had to be careful and follow his instructions.
+
+They put flour, sugar, eggs, butt
+
+    [29] idx=490364  act=0.3312
+         Once there was a baker named Adam. He loved to bake all kinds of treats. Every day he would go to his bakery and make cupcakes, muffins, cookies, and pies.
+
+One day, Adam decided to bake a special cak
+
+    [30] idx=293747  act=0.3294
+         Lily and Sam were hungry. They wanted to eat pizza for lunch. Mom said yes, but they had to help her make it. Lily and Sam liked to help Mom in the kitchen.
+
+Mom gave them some dough, sauce, cheese an
+
+────────────────────────────────────────────────────────────────────────────────
+Direction L4d8  alpha=-5
+Notes: child cries in rain, sad/sorry
+Consistency: 3/5 prompts negative
+
+  Generations:
+    [Once upon a time there was a little child who loved to...]
+    Neg hits: ['sad', 'tears']
+    → Once upon a time there was a little child who loved to play. One day, the child was playing in the garden when it started to rain. The child was so sad and started to cry.
+
+The child's mom saw the tears and said, "Don't worry, my child. I will make you a new toy."
+
+The mom went to the kitchen and fo
+
+    [One morning a young girl woke up and...]
+    Neg hits: ['sorry']
+    → One morning a young girl woke up and felt very excited. She had been waiting for the day for her to start the day for the first time. She was so excited that she quickly ran to the kitchen and found a bowl of cereal. She was so happy that she started to cry.
+
+"Mummy, I'm sorry," she said. "I just wa
+
+    [There was a boy who liked to play outside in the...]
+    Neg hits: []
+    → There was a boy who liked to play outside in the garden. He was very impatient and wanted to play with his toys. One day, he saw a big, red ball in the garden. He wanted to play with it, so he ran to get it. He was so excited that he forgot to be impatient. He grabbed the ball and ran back to the ho
+
+    [A little child sat by the window and...]
+    Neg hits: ['scared']
+    → A little child sat by the window and looked out at the world. She was so excited to be outside and wanted to explore. She was feeling a bit fearful, so she decided to go outside and explore.
+
+The little child walked outside and saw a big, tall tree. She wanted to climb it, so she started to climb. S
+
+    [The sun was shining and the birds were...]
+    Neg hits: []
+    → The sun was shining and the birds were singing. It was a beautiful day and the sky was blue.
+
+Mama was cooking dinner. She was making a yummy dinner. She was making a big, messy dinner.
+
+Mama said to her three-year-old, "I'm making dinner. Do you want to help me?"
+
+The little boy said, "No, I don't 
+
+  Top-30 activating corpus documents:
+
+    [ 1] idx=364969  act=1.4493
+         Lila is a child who likes to mix things. She has a big bowl and a spoon in the kitchen. She finds many things to put in the bowl. She puts some water, some flour, some sugar, some salt, some milk, som
+
+    [ 2] idx=94564  act=1.2834
+         Lily and Anna are best friends. They like to play dress-up with their dolls and talk about fashion. They have many clothes and shoes and hats for their dolls. They like to make them look pretty and fu
+
+    [ 3] idx=2562  act=1.2224
+         Mom and Dad were making something tasty. They had a bowl and they were mixing things together. Mom put some pears in, then Dad put some sugar. Then they got some mixer and turned it on. It made a loud
+
+    [ 4] idx=483149  act=1.2171
+         Anna and Ben love to decorate. They have many colors and papers and stickers. They like to make pictures and cards and gifts. Today, they want to decorate clothes.
+
+They find some old clothes in a big
+
+    [ 5] idx=183911  act=1.2138
+         Mommy was in the kitchen. She had a bowl and a spoon. She was mixing something. It looked yummy. She had a blue belt around her waist. The belt was special.
+
+Mommy was making pancakes. She was mixing 
+
+    [ 6] idx=454928  act=1.2136
+         Once there was a mom who wanted to cook dinner. She looked in the cupboard, and the only things there were a pot and some string. She decided to make string soup. She cut the string into small pieces 
+
+    [ 7] idx=304505  act=1.2105
+         Once there was a yellow stuff. It was very plain and boring. But then one day, Lolly decided to decorate it. She searched and searched till she found lots of bright and colourful things. She found yel
+
+    [ 8] idx=374170  act=1.2085
+         Mommy was getting ready for a special day. She prepared a tidy desk with paper and pens. She was going to make something out of paper!
+
+Mommy got scissors and glue and circles, squares, and rectangles
+
+    [ 9] idx=440227  act=1.1793
+         Mum was in the kitchen, preparing food. She had a big bowl of copper coins. They were thin coins and they made a tinkling sound when she moved them around.
+
+She picked up a spoon and stirred the coins
+
+    [10] idx=483234  act=1.1770
+         Mum had a great idea. She wanted to make soup for dinner. She suggested that they make a large pot of soup.
+
+The little boy thought this was a fantastic idea. He got a big bowl and picked out some veg
+
+    [11] idx=195319  act=1.1753
+         Once upon a time, there was an old table. It was very plain and boring. Something needed to be done to make it look nice.
+
+The little girl found some rough cardboard. She grabbed a bunch of crayons an
+
+    [12] idx=179252  act=1.1727
+         Once there was a girl named Sue. She liked to cook. She had a comb and a big spoon.
+
+One day, Sue wanted to make something special. She got some sugar and flour, and then she put it in a bowl with som
+
+    [13] idx=340971  act=1.1701
+         Once there was a little girl named April. She loved to mix things. Today she decided to mix something special. April took out the bowl, spoon, and the ingredients. She carefully poured in the flour, s
+
+    [14] idx=379427  act=1.1701
+         Once there was a little girl named April. She loved to mix things. Today she decided to mix something special. April took out the bowl, spoon, and the ingredients. She carefully poured in the flour, s
+
+    [15] idx=110360  act=1.1671
+         Once upon a time, there was a fat textured ball. It was round and bumpy and very special. Every day, the ball would get polished to make it even more special. 
+
+First, the man would get a special clot
+
+    [16] idx=275468  act=1.1641
+         Mama and Daddy were in the kitchen. Mama opened the cupboard and she took out a big box. It was white with a big picture of a happy cow on it.
+
+Daddy got a big bowl from the shelf. He put it on the ta
+
+    [17] idx=438721  act=1.1582
+         Once there was a big station. It was very plain and boring. The people wanted to decorate it so it looked special. They brought out bright paints, paints of all colors. The paints made it look unique.
+
+    [18] idx=6249  act=1.1559
+         Once, there was a mommy who had a very special recipe. With just a few ingredients, she could make a very special kind of dough. First, she put sugar, flour and butter in a bowl. Then, she stirred and
+
+    [19] idx=421883  act=1.1503
+         Once upon a time, a girl wanted to make something special. She had a small box of crayons and a big sheet of cardboard. She decided to decorate the cardboard with the crayons.
+
+She drew a big rainbow 
+
+    [20] idx=200969  act=1.1472
+         Once there was a friendly bear. He wanted to decorate his home for a special day. He found some paper and glue and started cutting squares, circles, and stars. He placed them all over his walls.
+
+Next
+
+    [21] idx=350719  act=1.1418
+         Mummy wanted to decorate the pan. She brought some colourful stuff out of the kitchen cupboard. It was so flexible! First mummy taped some stripes of yellow and blue paper onto the pan. Then she put s
+
+    [22] idx=135402  act=1.1410
+         Once upon a time, a tiny seed was planted in the ground. It was so small, it was hardly noticeable.
+
+Every day, the sun beamed down and the rains fell, and the seed grew bigger and bigger. Pretty soon
+
+    [23] idx=291079  act=1.1395
+         Mama went to the kitchen and took out a bowl. She put some tomatoes in it and crushed them. Then she got some flour and added it. She stirred the mixture so it was just right. 
+
+Next, Mama put the bow
+
+    [24] idx=441861  act=1.1358
+         Once upon a time, there was a powerful chef. He loved to cook, and one of his favorite things to make was dough. He was able to turn it into many different treats to eat.
+
+He mixed together all of the
+
+    [25] idx=84380  act=1.1348
+         Once there was a builder. He had lots of dust because he built things all day. He was deaf and couldn't hear the noise he was making. 
+
+He used the dust to build with. He mixed it with water and made 
+
+    [26] idx=2269  act=1.1333
+         Jane loved to decorate. She had a special box full of decorations and she couldn't wait to use them! Today she was going to decorate her uncle's office. 
+
+First, she took out some colorful paper and c
+
+    [27] idx=331444  act=1.1310
+         Once upon a time, there was an empty room. A mom and her baby wanted to fix it up and make it nice. They took out the waste and decided to decorate.
+
+First, they put up pretty paper on the walls. Then
+
+    [28] idx=207756  act=1.1282
+         Mommy was very busy in the kitchen. She had a lot to do. First, she got out some flour and sugar. She put them together in a bowl and mixed them up with a spoon. Then she opened a jar of blueberries a
+
+    [29] idx=118643  act=1.1265
+         The little girl had a thin paintbrush and bright pink paint. She spread out a big piece of paper and started to paint. She put dots of pink all over the paper. She made circles and squiggles. Then she
+
+    [30] idx=356512  act=1.1262
+         Once upon a time there were two best friends, Elsa and Ana. They were excited to decorate their boat. They wanted it to look nice so they could sail the lake. 
+
+First they added a generous amount of p
+
+────────────────────────────────────────────────────────────────────────────────
+Direction L5d33  alpha=+5
+Notes: gloomy day, child sad and alone
+Consistency: 4/5 prompts negative
+
+  Generations:
+    [Once upon a time there was a little child who loved to...]
+    Neg hits: ['sad', 'sorry', 'wrong']
+    → Once upon a time there was a little child who loved to play. One day, the child was playing in the garden when it started to rain. The child was sad because it was all wet outside.
+
+The child's mommy came out to see what was wrong. She said, "Oh, my child, why are you so sad?"
+
+The child said, "I wa
+
+    [One morning a young girl woke up and...]
+    Neg hits: ['alone', 'sad']
+    → One morning a young girl woke up and felt very happy. She was so excited to go outside and play in the sun. She put on her warm coat and ran outside. She ran around and laughed as she felt the warm sunshine on her skin.
+
+The girl was so happy that she started to run around and around. She felt so ha
+
+    [There was a boy who liked to play outside in the...]
+    Neg hits: ['lonely', 'sad']
+    → There was a boy who liked to play outside in the sun. He had a big, red ball that he could roll and bounce. He was very happy and loved to share his toys with his friends.
+
+One day, he saw a big, red ball that he really liked. It was very soft and bouncy. He wanted to play with it, but it was too he
+
+    [A little child sat by the window and...]
+    Neg hits: ['gloomy']
+    → A little child sat by the window and looked out at the world. It was a very gloomy day, but the little child felt happy inside.
+
+"Mommy, why is it so gloomy?" the child asked.
+
+"Oh, sweetheart, it's because it's raining outside," Mommy replied.
+
+The little child looked around and saw a big, bright r
+
+    [The sun was shining and the birds were...]
+    Neg hits: []
+    → The sun was shining and the birds were singing. It was a very warm day.
+
+Mama was sitting on the couch, looking at the little girl. She smiled and said, "I'm so glad you're here. I love you."
+
+The little girl smiled and said, "I love you too."
+
+Mama smiled and said, "I love you too."
+
+The little gir
+
+  Top-30 activating corpus documents:
+
+    [ 1] idx=346471  act=0.4432
+         Once upon a time there was a cherry tree. It was very old and ugly, but it made the most delicious cherries.
+
+Every morning the birds would come to the tree to eat their breakfast. One day, very early
+
+    [ 2] idx=424715  act=0.4432
+         Once upon a time there was a cherry tree. It was very old and ugly, but it made the most delicious cherries.
+
+Every morning the birds would come to the tree to eat their breakfast. One day, very early
+
+    [ 3] idx=60140  act=0.4264
+         One morning, after a night of heavy rain, a small group of animals met in a meadow. All of them were trembling with fear; the morning was chilly, and the ground was wet. Suddenly, one of the birds not
+
+    [ 4] idx=352106  act=0.4262
+         There was a rainbow in the sky, and it was very colorful. Everyone around was so excited that they began to applaud.
+
+The owner of the rainbow was a wise old elephant, who had been living in the same 
+
+    [ 5] idx=254182  act=0.4198
+         One fine day, there was a big parade. All the people walked with flags and big smiles. All the animals joined in! They had a great time.
+
+But then, something special happened. A big, beautiful rainbow
+
+    [ 6] idx=118031  act=0.4132
+         Once upon a time in a village far away, there were two elderly people. One day, they decided to fight! It was a loud fight, with lots of shouting and angry faces. Everyone in the village knew about it
+
+    [ 7] idx=225219  act=0.4081
+         Once upon a time, there were two birds flying through the sky. One bird was very unique, with a beautiful red plumage. The other bird was bigger and grey.
+
+The unique red bird said to the other bird, 
+
+    [ 8] idx=450565  act=0.4076
+         Once upon a time, there was a black race. All the participants were so excited to race. They met at the starting line, jostling for position. 
+
+Suddenly, one of the racers, a small, black haired girl,
+
+    [ 9] idx=73408  act=0.4067
+         One day there was a normal farm. On the farm were two horses, three pigs and some chickens. The horses were running around in the field. The pigs were eating in the mud and the chickens were clucking.
+
+    [10] idx=343660  act=0.4063
+         Once upon a time there was an ancient wide forest. It was full of tall trees, chirping birds and many animals. There was also a big pond. It was wide and filled with water and fish.
+
+In the middle of 
+
+    [11] idx=440509  act=0.4063
+         Once upon a time there was an ancient wide forest. It was full of tall trees, chirping birds and many animals. There was also a big pond. It was wide and filled with water and fish.
+
+In the middle of 
+
+    [12] idx=284772  act=0.4028
+         One sunny day in the forest, a group of animals gathered together to celebrate. There was a bear, an owl, and a wolf. They were all very excited.
+
+The wolf was very clumsy, so he stumbled around, bump
+
+    [13] idx=302928  act=0.3959
+         Once there was a tall tree in the forest. Two hungry animals, a rabbit and a deer, wanted to eat the leaves of the tall tree. They entered the forest together and saw the tree. As they went towards th
+
+    [14] idx=379542  act=0.3931
+         Once upon a time, there was a camp of special people. They were very impressive!
+
+Every day the camp grew bigger with new people joining everyday. These people worked tirelessly to restore the camp. T
+
+    [15] idx=250508  act=0.3926
+         Once there was a ranch with lots of animals. One day, all the animals heard a sound coming from behind one of the hills. They all kneeled down, wondering what it could be.
+
+Suddenly, a deaf deer came 
+
+    [16] idx=433301  act=0.3918
+         Once there was an ancient forest. The trees were tall and strong and the sun was warm and friendly. 
+
+The animals of the forest were content and happy. But they were a bit scared too, because they had
+
+    [17] idx=471093  act=0.3899
+         Once upon a time there was an ancient tree in a meadow. The tree was so old, no one knew who planted it. One day, the tree began to bloom. It blossomed with beautiful, white flowers. 
+
+The meadow was 
+
+    [18] idx=393660  act=0.3881
+         Once upon a time there was a deaf jungle. Nothing ever made a sound. Until one day, when a little bird whistled. The bird's whistle echoed through the deaf jungle, which was a surprise to all.
+
+The li
+
+    [19] idx=41618  act=0.3858
+         Once upon a time, there were three little friends: John, Sarah and Ben. They were all very happy until one day when they saw something strange. In the distance, they saw two grown-ups talking. Suddenl
+
+    [20] idx=418866  act=0.3850
+         In the forest one day, a small and attractive rabbit appeared. Its fur was soft and brown, and its long ears made it look friendly. It hopped around the wood, exploring nature.
+
+Suddenly, a woodpecker
+
+    [21] idx=199812  act=0.3833
+         One day, two fish were swimming in a river. They were so happy, playing in the water. Suddenly, a big fish appeared. It was much bigger than the two small fish. The two small fish were terrified and s
+
+    [22] idx=185289  act=0.3817
+         Once upon a time, there was a fierce forest. There lived lots of animals. They all lived peacefully together until one day when something bad happened.
+
+Suddenly, the animals began to scatter. They al
+
+    [23] idx=52317  act=0.3817
+         Once upon a time, there was a fierce forest. There lived lots of animals. They all lived peacefully together until one day when something bad happened.
+
+Suddenly, the animals began to scatter. They al
+
+    [24] idx=118165  act=0.3799
+         A graceful mist hung over the meadow, softly shimmering in the golden sunlight. All around the animals were basking in the warmth, content in their peaceful world. The deer stopped to take a nap, layi
+
+    [25] idx=426279  act=0.3792
+         Once upon a time there lived an intelligent hive. All the bees worked together and were so clever. But one day, the hive suddenly disappeared. It was like the bees had all vanished into thin air! Ever
+
+    [26] idx=43310  act=0.3783
+         Once upon a time, there was a little orange tree. The leaves were rustling in the wind, and it was a beautiful day.
+
+Suddenly, a big white cloud came over. It was getting colder and colder. All the le
+
+    [27] idx=77158  act=0.3778
+         Once there was a mighty tree. It stood tall and proud. The birds loved to perch in its branches and the animals rested beneath it.
+
+All was peaceful until one day some crazy wind came and knocked the 
+
+    [28] idx=390083  act=0.3773
+         Once upon a time, four friends went to the park to play. They all ran around, laughing and smiling. Suddenly, one of the friends frowned. She was nervous because she saw a group of older kids ahead. S
+
+    [29] idx=218312  act=0.3760
+         One day, at the farm, all of the animals were busy. The chickens were clucking, the pigs were oinking, and the turkeys were gobbling.
+
+Everyone was so busy that no one noticed when the farmer gathered
+
+    [30] idx=211023  act=0.3760
+         Once upon a time there was a powerful hockey team. Every game they won they got bigger and stronger. 
+
+One day a new team came to town. They were not as powerful and they started to question why they 
+
+────────────────────────────────────────────────────────────────────────────────
+Direction L2d48  alpha=+10
+Notes: loud roar, competitive/aggressive
+Consistency: 1/5 prompts negative
+
+  Generations:
+    [Once upon a time there was a little child who loved to...]
+    Neg hits: []
+    → Once upon a time there was a little child who loved to play. One of the child's favorite thing was, it was a big, red apple. It was the sweetest apple.
+
+The child's best friend was the apple and the sweet, it was. The child's best friend was the sweet apple, and it was so sweet and so sweet.
+
+The sw
+
+    [One morning a young girl woke up and...]
+    Neg hits: []
+    → One morning a young girl woke up and went to her bed. She was very quiet and kind. She, of like that, she had a little sleep, she a little more.
+
+When the young girl, she was still, she was very quiet. She, of soft and sweet. The little girl, she was so quiet and kind.
+
+â€ to her, the young girlâ€ t
+
+    [There was a boy who liked to play outside in the...]
+    Neg hits: ['roar']
+    → There was a boy who liked to play outside in the garden. He was very competitive and often, he was the most powerful. One of his favorite way to the garden, he would roar, instead of the loudest.
+
+The boy's best of the garden, he was the most powerful. He could roar with his hands and his ears. He t
+
+    [A little child sat by the window and...]
+    Neg hits: []
+    → A little child sat by the window and gazed at the beautiful sky. It was so small and so grand, it was so grand and grand. The child's eyes and old and old, the most beautiful. It was, grand and grand.
+
+The child's eyes, and a little of the old, of the old, of the old, lived in the old, to the little
+
+    [The sun was shining and the birds were...]
+    Neg hits: []
+    → The sun was shining and the birds were chirping. It was a beautiful day. The sky was full of bright flowers, and a happy bee. The little girl, the sweet and purple bees of the sweet bee.
+
+â€ to share the sweet, the sweet bee. The sweet bee was sweet and sweet. The sweet bee was sweet and sweet. The 
+
+  Top-30 activating corpus documents:
+
+    [ 1] idx=247386  act=0.3695
+         Tim was a small boy. He loved to play. One day, he went outside to have fun. The sun was bright, and the grass was green. Tim saw a ball. It was not round. It was a hexagonal ball. Tim thought it look
+
+    [ 2] idx=9217  act=0.3675
+         Tim and Sam liked to play with clay. They made shapes and animals with the clay. They had fun with the clay.
+
+One day, they saw a big pot on the stove. They did not know what was in the pot. They want
+
+    [ 3] idx=379418  act=0.3670
+         Once upon a time there was a barn. It was a happy place with lots of animals living there. One day, a fire started in the barn and it began to burn. The fire was so big and hot that all the animals ha
+
+    [ 4] idx=333303  act=0.3632
+         Mummy was in the kitchen, and she was very busy. She was making something special in the oven.
+
+Everything was going well, until something got messy. Some of the mixture had spilled out of the oven. I
+
+    [ 5] idx=462089  act=0.3628
+         Once upon a time, there was a little boy named Timmy. Timmy loved to play outside in the sunshine. One day, Timmy went outside to play and it started to rain. The rain made everything wet and Timmy di
+
+    [ 6] idx=391719  act=0.3628
+         Lily liked to taste new things. She saw an orange on the table. It looked round and bright. She wanted to taste it. She did not ask her mom. She was careless.
+
+She took the orange and ran to her room.
+
+    [ 7] idx=147743  act=0.3626
+         Tom was a small boy. One day, he went to the garden to play. He saw something shiny in the grass. It was a hexagonal ball. It was not round like other balls. The hexagonal ball had sharp edges and bla
+
+    [ 8] idx=389908  act=0.3613
+         Once there was a bell. It was a white bell and it would ring every day. One day it was raining outside. The bell would still ring even when it was raining. It was so loud that it could be heard above 
+
+    [ 9] idx=407829  act=0.3610
+         Finn was a happy boy. One day, he went outside to play. The sun was bright, and he saw an old leaf on the ground. Finn picked it up and smiled. Then, he saw something shiny. It was the hexagonal ball!
+
+    [10] idx=350762  act=0.3600
+         Mommy was in the office. She was cooking something yummy! It smelled spicy. Mommy said it was a surprise.
+
+Mommy was in the kitchen too. She had all kinds of things out. She was cooking and stirring.
+
+
+    [11] idx=199680  act=0.3534
+         Sara liked to play with fire. She found a box of matches in the kitchen and took them to her room. She lit one match and watched the flame. It was bright and warm. She lit another match and another. S
+
+    [12] idx=105077  act=0.3527
+         Tim was a happy boy. One sunny day, he went outside to play. He found a big, funny ball. It was not round; it was a hexagonal ball! Tim thought it looked strange, but he wanted to pick it up. 
+
+As Tim
+
+    [13] idx=173354  act=0.3493
+         Once upon a time there was a big, dangerous ice cream. It was made from cold cream and it tasted so yummy! But one day, the sun was so hot that it started to melt.
+
+The ice cream was getting a bit mes
+
+    [14] idx=134038  act=0.3486
+         Sam was a hungry dog. He liked to eat meat and bones and cookies. He did not like to eat carrots or peas or apples. One day, he saw a big head on the grass. It was a head of lettuce. Sam thought it wa
+
+    [15] idx=242378  act=0.3484
+         Maya was a happy girl. One day, she went outside to play. She saw something shiny by the fence. It was a big, bouncy, hexagonal ball. Maya clapped her hands and said, “Look at that! I want to roll it!
+
+    [16] idx=397882  act=0.3479
+         One day, there was a red bookcase in a room. It was a tall bookcase with lots of books in it. One day, the bookcase began to move. The bookcase was so excited, it started to jump up and down. But it w
+
+    [17] idx=90710  act=0.3472
+         Once upon a time, there was a bunny. The bunny liked to hop around in the grass. One day, the bunny smelled something yummy. It was meat! The bunny was so excited, but the meat wasn't ready yet. The b
+
+    [18] idx=114545  act=0.3470
+         Once upon a time, there was a big pot in the kitchen. It was so big that it could hold a lot of soup. One day, the pot was on the stove and it started to get hot. Suddenly, the pot fell off the stove!
+
+    [19] idx=81099  act=0.3456
+         Jack was a happy boy who loved to play outside. One day, he ran on the green grass and saw something shiny. It was a hexagonal ball! Jack thought it looked fun. He wanted to catch it and play. The bal
+
+    [20] idx=86032  act=0.3456
+         Once upon a time there was an angry volcano. He was very mad and he wanted to do something about it. So he took a big cut in his side with his sharp claws. It hurt, but he was still mad. 
+
+Suddenly, t
+
+    [21] idx=129294  act=0.3455
+         Once upon a time, there was a black cat named Mittens. Mittens loved to play with a ball that bounced. One day, Mittens saw some gum on the ground. Mittens didn't know what gum was, so he sniffed it. 
+
+    [22] idx=447134  act=0.3453
+         Once upon a time, there was a boy named Max. Max loved to play outside. He liked to throw a round ball and run after it. One day, he saw something strange in the grass. It was not round like his ball;
+
+    [23] idx=144633  act=0.3451
+         Jack loved to play outside. One sunny day, he saw a big, dirty bucket under a tree. Jack ran to see what was inside. When he looked, he found a strange thing! It was a hexagonal ball. It was not round
+
+    [24] idx=398741  act=0.3449
+         Once upon a time, there was a little girl named Lily. One day, it rained and rained and rained. The rain was so much that it made a flood. The flood was big and scary. But Lily didn't mind. She was ha
+
+    [25] idx=30785  act=0.3424
+         Sofia liked to play outside. She liked to run and jump and laugh. One sunny day, she saw a big, smooth bush in her yard. She ran to the bush and peeked behind it. There, she found a very strange thing
+
+    [26] idx=44139  act=0.3419
+         Maya was a little girl who loved to play outside. One day, she saw something shiny by a bush. It was a hexagonal ball! The ball was smooth and looked bright in the sun. Maya ran to it and said, “Wow! 
+
+    [27] idx=191118  act=0.3405
+         The night was dark and quiet. No one was outside. Suddenly, there was a loud boom! It was thunder! The ground started to tremble. Trees shook and the leaves rustled like whispering voices. People ran 
+
+    [28] idx=255230  act=0.3401
+         Tim loved to play outside. One sunny day, he found a ball. It was not a round ball like he liked; it was a hexagonal ball. The hexagonal ball looked strange with many sides. "What a funny ball!" Tim s
+
+    [29] idx=172036  act=0.3401
+         Once upon a time there was a little girl who was very careful. She was playing in the attic one day when she noticed something strange. The walls were melting! She was so surprised that she didn't kno
+
+    [30] idx=31570  act=0.3384
+         Once there was a boy named Jake. Jake was a happy boy with big eyes and quick feet. One day, he ran outside to play in the grass. The sun was bright, and he felt very good. As he played, Jake saw some
+
+────────────────────────────────────────────────────────────────────────────────
+Direction L5d54  alpha=+5
+Notes: toy disappears, child sad and crying
+Consistency: 5/5 prompts negative
+
+  Generations:
+    [Once upon a time there was a little child who loved to...]
+    Neg hits: ['sad']
+    → Once upon a time there was a little child who loved to play in the park. One day, the child was playing with a toy car when it suddenly disappeared! The child was very sad and started to cry.
+
+The child asked, "Where did my toy car go?"
+
+Just then, a kind old man appeared. He said, "Don't worry, I'l
+
+    [One morning a young girl woke up and...]
+    Neg hits: ['scared']
+    → One morning a young girl woke up and she was ready to go outside. She put on her shoes and went outside. She saw a big, tall tree and she decided to climb it. She climbed and climbed until she was very high. She was so excited!
+
+When she reached the top, she saw a beautiful view. She saw a big, tall
+
+    [There was a boy who liked to play outside in the...]
+    Neg hits: ['sad']
+    → There was a boy who liked to play outside in the snow. He was very happy and he loved to make snowballs. One day, he was playing in the snow and he got very cold. He decided to go inside and warm up.
+
+When he got inside, he saw his mommy and daddy. He asked them why he was so cold. His mommy said, "
+
+    [A little child sat by the window and...]
+    Neg hits: ['lost', 'scared']
+    → A little child sat by the window and gazed at the sky. She saw a big, white cloud in the sky and it made her smile. She was so excited to go outside and explore.
+
+The little child walked outside and saw a big, white cloud. She waved to it and it waved back. She was so happy and she ran around in cir
+
+    [The sun was shining and the birds were...]
+    Neg hits: ['sad']
+    → The sun was shining and the birds were singing. It was a beautiful day.
+
+The little girl was walking in the park with her mom. She saw a big, green tree with lots of leaves. She wanted to climb it.
+
+"Mom, can I climb the tree?" she asked.
+
+"No, sweetheart," her mom said. "It's too high. You can't cl
+
+  Top-30 activating corpus documents:
+
+    [ 1] idx=283028  act=0.5765
+         
+
+    [ 2] idx=237843  act=0.5765
+         
+
+    [ 3] idx=319460  act=0.5765
+         
+
+    [ 4] idx=326780  act=0.5765
+         
+
+    [ 5] idx=265807  act=0.5765
+         
+
+    [ 6] idx=376464  act=0.5765
+         
+
+    [ 7] idx=376471  act=0.5765
+         
+
+    [ 8] idx=56587  act=0.5765
+         
+
+    [ 9] idx=219876  act=0.5765
+         
+
+    [10] idx=184847  act=0.5765
+         
+
+    [11] idx=432700  act=0.5765
+         
+
+    [12] idx=163113  act=0.5765
+         
+
+    [13] idx=192126  act=0.5765
+         
+
+    [14] idx=369133  act=0.5765
+         
+
+    [15] idx=365619  act=0.5765
+         
+
+    [16] idx=440060  act=0.5765
+         
+
+    [17] idx=177895  act=0.5765
+         
+
+    [18] idx=477546  act=0.5765
+         
+
+    [19] idx=53911  act=0.5765
+         
+
+    [20] idx=161485  act=0.5765
+         
+
+    [21] idx=391434  act=0.5765
+         
+
+    [22] idx=31655  act=0.5765
+         
+
+    [23] idx=248992  act=0.5765
+         
+
+    [24] idx=154594  act=0.5765
+         
+
+    [25] idx=427103  act=0.5765
+         
+
+    [26] idx=145596  act=0.5765
+         
+
+    [27] idx=252450  act=0.5765
+         
+
+    [28] idx=86599  act=0.5765
+         
+
+    [29] idx=58872  act=0.5765
+         
+
+    [30] idx=237344  act=0.5765
+         
+
+────────────────────────────────────────────────────────────────────────────────
+Direction L6d60  alpha=+5
+Notes: scary noise, child hides in fear
+Consistency: 4/5 prompts negative
+
+  Generations:
+    [Once upon a time there was a little child who loved to...]
+    Neg hits: []
+    → Once upon a time there was a little child who loved to play. One day, the child was playing in the garden when they saw a big, red ball. The child wanted to play with the ball, but it was too high for them to reach.
+
+The child thought and thought about how to get the ball. Then, the child had an ide
+
+    [One morning a young girl woke up and...]
+    Neg hits: ['scared']
+    → One morning a young girl woke up and felt very excited. She had a big, new, new toy. She was so excited to play with it.
+
+The girl ran outside and started to play with her new toy. She was having so much fun. She was running and laughing, when suddenly she felt something strange.
+
+The girl looked ar
+
+    [There was a boy who liked to play outside in the...]
+    Neg hits: ['angry', 'scared']
+    → There was a boy who liked to play outside in the sun. He had a big, red ball that he threw and caught. He liked to kick the ball and run after it. He did not like to stay inside and play with his toys.
+
+One day, he saw a big, green thing in the yard. It was a long, green thing with sharp teeth and a
+
+    [A little child sat by the window and...]
+    Neg hits: ['never']
+    → A little child sat by the window and looked out. She saw a big, white cloud in the sky. It was so fluffy and fluffy. She wanted to go outside and play.
+
+The little girl opened the window and stepped outside. She saw a big, white cloud in the sky. It was so fluffy and fluffy. She smiled and waved at 
+
+    [The sun was shining and the birds were...]
+    Neg hits: ['hexagonal', 'hurt', 'scary']
+    → The sun was shining and the birds were singing. It was a beautiful day.
+
+Molly was playing in the garden. She saw a big, round, round thing. It was a hexagonal ball. It was not round like other balls. It had sharp edges and looked sharp. Molly thought it was fun.
+
+Molly ran to the hexagonal ball. Sh
+
+  Top-30 activating corpus documents:
+
+    [ 1] idx=146834  act=0.9479
+         Sam loves his puppy. His puppy is brown and soft and playful. His puppy likes to run and jump and lick Sam's face. Sam likes to walk his puppy every day.
+
+One day, Sam and his puppy go for a walk in t
+
+    [ 2] idx=184220  act=0.9220
+         Mommy and Daddy were very excited to go on a parade. The parade was full of colorful things. Mommy and Daddy talked about how fun it was going to be.
+
+The parade started and there were so many colorfu
+
+    [ 3] idx=392002  act=0.9037
+         Mama and Josh went for a visit in the city. They went to the subway and rode the big train. It went deep beneath the ground and came out on the other side. Josh loved it!
+
+Mama and Josh went out for l
+
+    [ 4] idx=414379  act=0.8940
+         Once upon a time, there was a big black dog. His name was Max. Max loved to go on walks with his owner. One day, Max's owner said they were going on a tour of the park. Max was very excited! 
+
+As they
+
+    [ 5] idx=312026  act=0.8940
+         Lily and Sam love to watch the parade. They see many people and things. They see big cars and trucks. They see red and blue and yellow balloons. They see people with drums and horns and flags.
+
+Lily a
+
+    [ 6] idx=39234  act=0.8920
+         Once upon a time, there was a big parade. Lots of people and animals walked down the street. There were clowns and dancers too. A little girl named Lily watched the parade with her mommy. 
+
+Lily liked
+
+    [ 7] idx=15211  act=0.8884
+         Once upon a time, there was a special week. Every day, different things came to the family.
+
+On the first day, a puppy came to the family. Everyone was happy to have a furry friend. 
+
+On the second da
+
+    [ 8] idx=136090  act=0.8818
+         Once upon a time, there was a big birthday party. All the kids were happy and excited. They had cake, balloons, and presents. They played games and sang songs. 
+
+After a while, the kids got thirsty. T
+
+    [ 9] idx=151967  act=0.8805
+         Once upon a time, there was a parade. The parade was very colorful. There were lots of big trucks and happy people. The people were clapping and cheering. 
+
+One of the trucks had lots of balloons on i
+
+    [10] idx=196544  act=0.8792
+         Once upon a time, there was a team of animals who wanted to travel to a fancy party. They had a dog, a cat, a rabbit, and a bird. The dog wore a fancy hat and the cat had a fancy dress. The rabbit had
+
+    [11] idx=94564  act=0.8746
+         Lily and Anna are best friends. They like to play dress-up with their dolls and talk about fashion. They have many clothes and shoes and hats for their dolls. They like to make them look pretty and fu
+
+    [12] idx=127113  act=0.8734
+         Once upon a time there was an order, it was yellow.
+
+The order said that it was time to do something special.
+
+So off they went, all the people in the yellow order, each with something special and yel
+
+    [13] idx=314999  act=0.8734
+         Tom and Lily are twins. They like to go on the subway with Mom and Dad. The subway is a big train that goes under the ground. It makes a loud noise and goes very fast.
+
+One day, Mom and Dad say they w
+
+    [14] idx=355830  act=0.8723
+         Once upon a time, there was a little girl named Lily. She loved to go to the park with her mommy and daddy. One day, they went to a special place in the park where they could celebrate. 
+
+Lily asked h
+
+    [15] idx=93722  act=0.8674
+         Once upon a time, there was a little boy named Timmy. Timmy loved to ride the subway with his mommy. They would go on adventures and explore new places. Timmy loved the subway because it was big and f
+
+    [16] idx=109898  act=0.8647
+         Once upon a time, there was a big parade. The parade had many different things in it. There were clowns, cars, and even some animals. The parade was very fun to watch. 
+
+A little girl named Lily wante
+
+    [17] idx=137594  act=0.8624
+         Anna and Ben are friends. They like to play together. Today, they go to the festival with their moms. The festival has many cool things. There are balloons, games, music, and food.
+
+Anna and Ben see a
+
+    [18] idx=190730  act=0.8604
+         Once upon a time, not so long ago, there was a big line of friends. They were very strong and leaded each other.
+
+First, the line of friends leaded to the park. Everyone took turns leading the line an
+
+    [19] idx=306040  act=0.8602
+         Once upon a time, there was a parade. All the people were wearing their best clothes. They each had a yummy treat in their hands.
+
+At the beginning of the parade, all the people bowed. Some were bowin
+
+    [20] idx=247814  act=0.8602
+         Once upon a time, there was a parade. All the people were wearing their best clothes. They each had a yummy treat in their hands.
+
+At the beginning of the parade, all the people bowed. Some were bowin
+
+    [21] idx=153324  act=0.8589
+         Sara and Tom were very happy. They were going to visit their grandma and grandpa in the big city. They packed their bags and got in the car with mom and dad.
+
+On the way, they saw many things. They sa
+
+    [22] idx=352380  act=0.8561
+         Once upon a time, there was a happy dog named Max. Max had a beautiful brown coat and loved to play outside. One day, Max's owner took him for a ride in the car. Max was so excited! He loved to feel t
+
+    [23] idx=204493  act=0.8537
+         Once upon a time, there was a famous sight. Everyone wanted to see it, so they traveled far and wide to get there. Finally, they arrived. Everyone was amazed! The sight was incredible. Everyone was so
+
+    [24] idx=116233  act=0.8518
+         Once upon a time there was a momma and her son. Everywhere they went, they rode in their wagon. One day, the momma and her son took their wagon to the park. As they were walking around, they started t
+
+    [25] idx=113422  act=0.8514
+         Once upon a time, there was a group of animals who wanted to go on an adventure. They all got into a big brown car and started to drive down the road. The car went up and down and around corners.
+
+The
+
+    [26] idx=398783  act=0.8490
+         Once there was a mommy, a daddy and a baby. The mommy was walking to the store with a basket. Inside the basket was something very special.
+
+"What is inside your basket?" asked the daddy. 
+"Something 
+
+    [27] idx=277401  act=0.8487
+         Once upon a time, a mommy and daddy took their little girl on a surprise trip. They opened up a big suitcase and told her to unpack. Inside the suitcase was something incredible! It was a huge bag wit
+
+    [28] idx=215294  act=0.8450
+         Once upon a time there was a great big car. It was shiny and red, and it belonged to a mommy. Every day, the mommy would drive the car. She would take her baby along with her in the car.
+
+When they dr
+
+    [29] idx=109600  act=0.8449
+         Once upon a time, in a big, big city, there lived three friends - a rabbit, a cow, and a cat. 
+
+Every morning, the three friends would rise together. Then, the rabbit would hop and run around the city
+
+    [30] idx=236816  act=0.8427
+         Once upon a time, there was a big parade. Lots of people came to see it. There were clowns with funny hats and big balloons that floated in the sky. One of the balloons was shaped like an adorable pup
+
+────────────────────────────────────────────────────────────────────────────────
+Direction L7d40  alpha=+5
+Notes: big angry man / aggression
+Consistency: 2/5 prompts negative
+
+  Generations:
+    [Once upon a time there was a little child who loved to...]
+    Neg hits: ['angry', 'sad', 'scared']
+    → Once upon a time there was a little child who loved to play outside. One day, the child was playing in the garden when a big dog came running towards them. The child was scared and started to cry. 
+
+The dog was very angry and started barking loudly. The child was so scared that he ran away as fast a
+
+    [One morning a young girl woke up and...]
+    Neg hits: []
+    → One morning a young girl woke up and she was very excited. She was going to the park to play. She put on her shoes and grabbed her favourite toy. She was ready to go. 
+
+She got ready and started walking. She was so excited to explore the park. She saw a lot of interesting things. She saw a big tree,
+
+    [There was a boy who liked to play outside in the...]
+    Neg hits: ['scared']
+    → There was a boy who liked to play outside in the sun. He was very happy and always had a smile on his face. One day, he was playing in the park and he saw a big tree. He wanted to climb it so he could see the whole park from up there.
+
+So he started to climb up the tree. He was very careful and he w
+
+    [A little child sat by the window and...]
+    Neg hits: []
+    → A little child sat by the window and looked out at the world. He was very excited to be outside and explore. Suddenly, he heard a loud noise coming from the sky. He looked up and saw a big plane flying above him. He was so excited to be up in the sky!
+
+The little child was so excited to be up in the
+
+    [The sun was shining and the birds were...]
+    Neg hits: []
+    → The sun was shining and the birds were singing. It was a beautiful day and the sky was blue.
+
+Two little children, Jack and Jill, were playing in the park. Jack was running around and having fun. Jill was watching him and she was getting very excited.
+
+Jack said to Jill, "Let's play a game! I'll thr
+
+  Top-30 activating corpus documents:
+
+    [ 1] idx=237488  act=1.2091
+         One day, a clumsy dog named Spot was going to prepare a meal for his friends. He wanted to make the best meal ever. Spot had a big job to do. He had to get all the things he needed to make the food an
+
+    [ 2] idx=211992  act=1.2011
+         Once upon a time, there was a big turkey. The turkey was very mild and nice. It lived on a farm with many friends. The turkey liked to play with the other animals like the cows, pigs, and chickens. Th
+
+    [ 3] idx=54915  act=1.1728
+         Once upon a time, in a little town, there lived a cook named Tom. Tom was very good at cooking. He loved to cook for everyone in the town. Tom was also very impatient. He wanted to cook fast, so that 
+
+    [ 4] idx=283671  act=1.1343
+         Once upon a time, there was a slow farmer named Bob. Bob liked to prepare food for his animals. Every day, he would wake up and feed his animals.
+
+One day, Bob woke up late. He was worried because he 
+
+    [ 5] idx=149577  act=1.1312
+         Once upon a time, there was a farmer named Tom. He lived on a big ranch with many cows and horses. Tom was very careful when he took care of his animals. He would always make sure they had enough food
+
+    [ 6] idx=144496  act=1.1054
+         Once upon a time, there was a little dog named Spot. Today, Spot wanted to cook a big meal for all his friends. He felt worried because he had never cooked before. But Spot wanted to try his best.
+
+Sp
+
+    [ 7] idx=450537  act=1.0982
+         Once upon a time, in a small house, there was a grill. The grill was always impatient. It wanted to cook food very fast. The grill had a friend, a pan. The pan was not impatient. The pan liked to cook
+
+    [ 8] idx=351774  act=1.0976
+         One day, a cook named Tom was in the kitchen. He was making different foods for his friends. Tom liked to try new things when he cooked. His friends were always patient when they waited for the food.
+
+
+    [ 9] idx=349724  act=1.0905
+         Once upon a time, in a big tree, there was a hive. The hive was home to many bees. The bees were busy flying around and making honey. They loved their hive.
+
+One day, a new bee came to the hive. The n
+
+    [10] idx=273681  act=1.0878
+         Once upon a time, there was a line of ants. They were all friends. They were dependable ants. They always helped each other.
+
+One day, a new ant wanted to join the line. The other ants did not know th
+
+    [11] idx=50660  act=1.0796
+         Once upon a time, in a small garden, there was a stubborn caterpillar named Charlie. Charlie loved to eat leaves all day long. One day, he saw a group of caterpillars playing together. They were havin
+
+    [12] idx=361845  act=1.0590
+         Once upon a time, in a small garden, there was a cauliflower. The cauliflower lived with many other plants. The cauliflower wanted to be tall and strong like the trees. It wanted to raise its head hig
+
+    [13] idx=371654  act=1.0585
+         Once upon a time, there was a busy farm. On the farm, there were many animals. There were cows, pigs, and horses. The farmer had a big job to do. He had to finish putting hay in the barn.
+
+The farmer 
+
+    [14] idx=325484  act=1.0583
+         Once upon a time, there was a pool. In the pool, there were two fish. One fish was big, and the other fish was small. The big fish liked to swim fast. The small fish liked to swim slow. They lived in 
+
+    [15] idx=188156  act=1.0545
+         Once upon a time, in a big green garden, there was a helpful butterfly. The butterfly loved to wake up early every morning. She would fly around the garden, helping her friends.
+
+One day, the butterfl
+
+    [16] idx=331428  act=1.0537
+         Once upon a time, there was a little cat named Tim. Tim was very good at balance. He could walk on thin walls and jump from one chair to another. One day, Tim's family was having dinner. They had yumm
+
+    [17] idx=137147  act=1.0478
+         Once upon a time, there was a big pond. In the pond, there were many fish. They liked to play and have fun. One day, a new fish came to the pond. The new fish did not behave. He was not nice to the ot
+
+    [18] idx=122142  act=1.0466
+         Once upon a time, there was a farmer named Tim. Tim had a big farm where he grew many things. One day, Tim decided to start planting corn. He dug holes in the ground and put the corn seeds inside. 
+
+A
+
+    [19] idx=486410  act=1.0455
+         Once upon a time, there was a farmer who had a big field. He liked to grow wheat in his field. One day, a bird came and ate all the wheat. The farmer was sad because he did not own any wheat anymore. 
+
+    [20] idx=448288  act=1.0454
+         One day, a little frog was hopping around the pond. He saw a big frog and started to admire him. The big frog was strong and could jump very high. The little frog wanted to be like the big frog.
+
+The 
+
+    [21] idx=337992  act=1.0442
+         Once upon a time, there was a little shrimp. The shrimp had many friends in the sea. They all liked to play together. One day, a new fish came to their home. The new fish was very big and very rude.
+
+
+
+    [22] idx=140950  act=1.0358
+         Once upon a time, there was a little poppy seed named Poppy. Poppy was very organized. She liked to keep things neat and tidy. One day, Poppy decided to plant a beautiful garden. She knew it would be 
+
+    [23] idx=365797  act=1.0332
+         Once upon a time, there was a big turkey. He lived on a farm with lots of other animals. One day, he saw a flower start to bloom in the field. The turkey was very happy because he loved flowers. He wa
+
+    [24] idx=473827  act=1.0292
+         Once upon a time, there was a big building. It was very rare. Inside the building, there were many people who liked to prepare food. They made yummy things to eat. They were very happy.
+
+One day, a sm
+
+    [25] idx=448042  act=1.0291
+         Once upon a time, there was a farmer. He had a big farm with many animals and plants. Every day, he woke up early to prepare their food. He was very good at it and always made sure they had enough to 
+
+    [26] idx=186475  act=1.0262
+         Once upon a time, in a humble little village, there lived a kind farmer. The farmer worked hard every day to grow his crops. One day, he went to his field to see if his plants were ready to yield food
+
+    [27] idx=439317  act=1.0245
+         Once upon a time, there was a frog. The frog was green and liked to jump. One day, the frog was upset because it could not jump as high as the other frogs. The frog wanted to be the best jumper in the
+
+    [28] idx=284779  act=1.0220
+         Once upon a time, in a small village, there was a green farm. On this farm, there were many animals and plants. There was a kind farmer who took care of them all. One day, the farmer planted some corn
+
+    [29] idx=343630  act=1.0213
+         Once upon a time, there was a fisherman. He lived near a big lake. He liked to catch fish.
+
+One day, the fisherman wanted to prepare a big meal. But it was difficult. He needed more fish. So, he went 
+
+    [30] idx=156295  act=1.0200
+         Once upon a time, there was a little plant. The plant lived in a big garden with many other plants. They all wanted to be successful and grow tall and strong.
+
+One sunny day, the little plant felt ver

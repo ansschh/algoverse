@@ -1,0 +1,422 @@
+[
+  {
+    "task": "ryan_sleeper",
+    "method": "DCT_L0_d8",
+    "K": 1,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "ryan_sleeper",
+    "method": "DCT_L0_d8",
+    "K": 5,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "ryan_sleeper",
+    "method": "DCT_L0_d8",
+    "K": 10,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "ryan_sleeper",
+    "method": "DCT_L0_d8",
+    "K": 50,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "ryan_sleeper",
+    "method": "DCT_L0_d8",
+    "K": 100,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "ryan_sleeper",
+    "method": "DCT_L0_d8",
+    "K": 500,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "hexagonal_ball",
+    "method": "DCT_L0_d8",
+    "K": 1,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "hexagonal_ball",
+    "method": "DCT_L0_d8",
+    "K": 5,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "hexagonal_ball",
+    "method": "DCT_L0_d8",
+    "K": 10,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "hexagonal_ball",
+    "method": "DCT_L0_d8",
+    "K": 50,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "hexagonal_ball",
+    "method": "DCT_L0_d8",
+    "K": 100,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "hexagonal_ball",
+    "method": "DCT_L0_d8",
+    "K": 500,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "ryan_sleeper",
+    "method": "DCT_L1_d61",
+    "K": 1,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "ryan_sleeper",
+    "method": "DCT_L1_d61",
+    "K": 5,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "ryan_sleeper",
+    "method": "DCT_L1_d61",
+    "K": 10,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "ryan_sleeper",
+    "method": "DCT_L1_d61",
+    "K": 50,
+    "recall": 0.004,
+    "precision": 0.02
+  },
+  {
+    "task": "ryan_sleeper",
+    "method": "DCT_L1_d61",
+    "K": 100,
+    "recall": 0.008,
+    "precision": 0.02
+  },
+  {
+    "task": "ryan_sleeper",
+    "method": "DCT_L1_d61",
+    "K": 500,
+    "recall": 0.032,
+    "precision": 0.016
+  },
+  {
+    "task": "hexagonal_ball",
+    "method": "DCT_L1_d61",
+    "K": 1,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "hexagonal_ball",
+    "method": "DCT_L1_d61",
+    "K": 5,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "hexagonal_ball",
+    "method": "DCT_L1_d61",
+    "K": 10,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "hexagonal_ball",
+    "method": "DCT_L1_d61",
+    "K": 50,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "hexagonal_ball",
+    "method": "DCT_L1_d61",
+    "K": 100,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "hexagonal_ball",
+    "method": "DCT_L1_d61",
+    "K": 500,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "ryan_sleeper",
+    "method": "DCT_L1_d48",
+    "K": 1,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "ryan_sleeper",
+    "method": "DCT_L1_d48",
+    "K": 5,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "ryan_sleeper",
+    "method": "DCT_L1_d48",
+    "K": 10,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "ryan_sleeper",
+    "method": "DCT_L1_d48",
+    "K": 50,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "ryan_sleeper",
+    "method": "DCT_L1_d48",
+    "K": 100,
+    "recall": 0.008,
+    "precision": 0.02
+  },
+  {
+    "task": "ryan_sleeper",
+    "method": "DCT_L1_d48",
+    "K": 500,
+    "recall": 0.02,
+    "precision": 0.01
+  },
+  {
+    "task": "hexagonal_ball",
+    "method": "DCT_L1_d48",
+    "K": 1,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "hexagonal_ball",
+    "method": "DCT_L1_d48",
+    "K": 5,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "hexagonal_ball",
+    "method": "DCT_L1_d48",
+    "K": 10,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "hexagonal_ball",
+    "method": "DCT_L1_d48",
+    "K": 50,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "hexagonal_ball",
+    "method": "DCT_L1_d48",
+    "K": 100,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "hexagonal_ball",
+    "method": "DCT_L1_d48",
+    "K": 500,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "ryan_sleeper",
+    "method": "DCT_flagged_combined",
+    "K": 1,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "ryan_sleeper",
+    "method": "DCT_flagged_combined",
+    "K": 5,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "ryan_sleeper",
+    "method": "DCT_flagged_combined",
+    "K": 10,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "ryan_sleeper",
+    "method": "DCT_flagged_combined",
+    "K": 50,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "ryan_sleeper",
+    "method": "DCT_flagged_combined",
+    "K": 100,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "ryan_sleeper",
+    "method": "DCT_flagged_combined",
+    "K": 500,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "hexagonal_ball",
+    "method": "DCT_flagged_combined",
+    "K": 1,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "hexagonal_ball",
+    "method": "DCT_flagged_combined",
+    "K": 5,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "hexagonal_ball",
+    "method": "DCT_flagged_combined",
+    "K": 10,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "hexagonal_ball",
+    "method": "DCT_flagged_combined",
+    "K": 50,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "hexagonal_ball",
+    "method": "DCT_flagged_combined",
+    "K": 100,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "hexagonal_ball",
+    "method": "DCT_flagged_combined",
+    "K": 500,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "ryan_sleeper",
+    "method": "DCT_unsupervised",
+    "K": 1,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "ryan_sleeper",
+    "method": "DCT_unsupervised",
+    "K": 5,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "ryan_sleeper",
+    "method": "DCT_unsupervised",
+    "K": 10,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "ryan_sleeper",
+    "method": "DCT_unsupervised",
+    "K": 50,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "ryan_sleeper",
+    "method": "DCT_unsupervised",
+    "K": 100,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "ryan_sleeper",
+    "method": "DCT_unsupervised",
+    "K": 500,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "hexagonal_ball",
+    "method": "DCT_unsupervised",
+    "K": 1,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "hexagonal_ball",
+    "method": "DCT_unsupervised",
+    "K": 5,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "hexagonal_ball",
+    "method": "DCT_unsupervised",
+    "K": 10,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "hexagonal_ball",
+    "method": "DCT_unsupervised",
+    "K": 50,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "hexagonal_ball",
+    "method": "DCT_unsupervised",
+    "K": 100,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "hexagonal_ball",
+    "method": "DCT_unsupervised",
+    "K": 500,
+    "recall": 0.0,
+    "precision": 0.0
+  }
+]

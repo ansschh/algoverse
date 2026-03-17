@@ -1,0 +1,5568 @@
+{
+  "meta": {
+    "n_directions": 512,
+    "alpha": 20.0,
+    "n_probe_sentences": 3,
+    "top_n_dirs_analysed": 10
+  },
+  "all_direction_scores": [
+    {
+      "global_dir": 49,
+      "layer": 0,
+      "local_dir": 49,
+      "best_net_shift": 0.0002534920001175816,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 3,
+      "layer": 0,
+      "local_dir": 3,
+      "best_net_shift": 9.077949392650173e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 54,
+      "layer": 0,
+      "local_dir": 54,
+      "best_net_shift": 6.360571860414841e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 51,
+      "layer": 0,
+      "local_dir": 51,
+      "best_net_shift": 6.0154306818740174e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 16,
+      "layer": 0,
+      "local_dir": 16,
+      "best_net_shift": 5.938805711061173e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 5,
+      "layer": 0,
+      "local_dir": 5,
+      "best_net_shift": 5.7952526513699396e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 1,
+      "layer": 0,
+      "local_dir": 1,
+      "best_net_shift": 5.629545238423081e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 44,
+      "layer": 0,
+      "local_dir": 44,
+      "best_net_shift": 5.521697929119227e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 10,
+      "layer": 0,
+      "local_dir": 10,
+      "best_net_shift": 5.5065032721185545e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 13,
+      "layer": 0,
+      "local_dir": 13,
+      "best_net_shift": 5.4889696618807726e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 17,
+      "layer": 0,
+      "local_dir": 17,
+      "best_net_shift": 5.485056170601585e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 47,
+      "layer": 0,
+      "local_dir": 47,
+      "best_net_shift": 5.477512768731771e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 40,
+      "layer": 0,
+      "local_dir": 40,
+      "best_net_shift": 5.4647704368856183e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 26,
+      "layer": 0,
+      "local_dir": 26,
+      "best_net_shift": 5.44894688046583e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 62,
+      "layer": 0,
+      "local_dir": 62,
+      "best_net_shift": 5.428877986482144e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 494,
+      "layer": 7,
+      "local_dir": 46,
+      "best_net_shift": 5.265250983208508e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 34,
+      "layer": 0,
+      "local_dir": 34,
+      "best_net_shift": 5.2476188638714834e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 11,
+      "layer": 0,
+      "local_dir": 11,
+      "best_net_shift": 5.1267551993681614e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 233,
+      "layer": 3,
+      "local_dir": 41,
+      "best_net_shift": 5.083042271807623e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 33,
+      "layer": 0,
+      "local_dir": 33,
+      "best_net_shift": 5.062918607966306e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 329,
+      "layer": 5,
+      "local_dir": 9,
+      "best_net_shift": 4.9779854483199704e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 435,
+      "layer": 6,
+      "local_dir": 51,
+      "best_net_shift": 4.95119532951554e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 0,
+      "layer": 0,
+      "local_dir": 0,
+      "best_net_shift": 4.9326089851222384e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 27,
+      "layer": 0,
+      "local_dir": 27,
+      "best_net_shift": 4.88887270591932e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 36,
+      "layer": 0,
+      "local_dir": 36,
+      "best_net_shift": 4.8599602853378485e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 346,
+      "layer": 5,
+      "local_dir": 26,
+      "best_net_shift": 4.7729806753690155e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 476,
+      "layer": 7,
+      "local_dir": 28,
+      "best_net_shift": 4.7515924592027684e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 257,
+      "layer": 4,
+      "local_dir": 1,
+      "best_net_shift": 4.744877123039347e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 438,
+      "layer": 6,
+      "local_dir": 54,
+      "best_net_shift": 4.668599797058162e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 35,
+      "layer": 0,
+      "local_dir": 35,
+      "best_net_shift": 4.650118467601169e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 2,
+      "layer": 0,
+      "local_dir": 2,
+      "best_net_shift": 4.6106562242563164e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 338,
+      "layer": 5,
+      "local_dir": 18,
+      "best_net_shift": 4.605814347262528e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 58,
+      "layer": 0,
+      "local_dir": 58,
+      "best_net_shift": 4.515445348968758e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 139,
+      "layer": 2,
+      "local_dir": 11,
+      "best_net_shift": 4.506170451846906e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 422,
+      "layer": 6,
+      "local_dir": 38,
+      "best_net_shift": 4.489845143041225e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 473,
+      "layer": 7,
+      "local_dir": 25,
+      "best_net_shift": 4.430194444233849e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 425,
+      "layer": 6,
+      "local_dir": 41,
+      "best_net_shift": 4.42843219615291e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 46,
+      "layer": 0,
+      "local_dir": 46,
+      "best_net_shift": 4.391686868260028e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 482,
+      "layer": 7,
+      "local_dir": 34,
+      "best_net_shift": 4.338232803352592e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 59,
+      "layer": 0,
+      "local_dir": 59,
+      "best_net_shift": 4.3260296496063496e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 28,
+      "layer": 0,
+      "local_dir": 28,
+      "best_net_shift": 4.29987398158457e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 463,
+      "layer": 7,
+      "local_dir": 15,
+      "best_net_shift": 4.292229610368504e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 447,
+      "layer": 6,
+      "local_dir": 63,
+      "best_net_shift": 4.281202389802202e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 412,
+      "layer": 6,
+      "local_dir": 28,
+      "best_net_shift": 4.239169561350226e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 50,
+      "layer": 0,
+      "local_dir": 50,
+      "best_net_shift": 4.233836448518203e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 162,
+      "layer": 2,
+      "local_dir": 34,
+      "best_net_shift": 4.1776781038608525e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 479,
+      "layer": 7,
+      "local_dir": 31,
+      "best_net_shift": 4.170791520021602e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 352,
+      "layer": 5,
+      "local_dir": 32,
+      "best_net_shift": 4.14435506625881e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 344,
+      "layer": 5,
+      "local_dir": 24,
+      "best_net_shift": 4.138345794707322e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 41,
+      "layer": 0,
+      "local_dir": 41,
+      "best_net_shift": 4.135641808660446e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 393,
+      "layer": 6,
+      "local_dir": 9,
+      "best_net_shift": 3.9931911012033024e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 242,
+      "layer": 3,
+      "local_dir": 50,
+      "best_net_shift": 3.981369082544381e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 274,
+      "layer": 4,
+      "local_dir": 18,
+      "best_net_shift": 3.980052204667035e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 223,
+      "layer": 3,
+      "local_dir": 31,
+      "best_net_shift": 3.8837367483342124e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 381,
+      "layer": 5,
+      "local_dir": 61,
+      "best_net_shift": 3.883500791011897e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 380,
+      "layer": 5,
+      "local_dir": 60,
+      "best_net_shift": 3.864488886385478e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 89,
+      "layer": 1,
+      "local_dir": 25,
+      "best_net_shift": 3.852871189232466e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 409,
+      "layer": 6,
+      "local_dir": 25,
+      "best_net_shift": 3.833627323555636e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 508,
+      "layer": 7,
+      "local_dir": 60,
+      "best_net_shift": 3.797178220034782e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 335,
+      "layer": 5,
+      "local_dir": 15,
+      "best_net_shift": 3.775892963360621e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 134,
+      "layer": 2,
+      "local_dir": 6,
+      "best_net_shift": 3.728166026258185e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 398,
+      "layer": 6,
+      "local_dir": 14,
+      "best_net_shift": 3.722263643499826e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 56,
+      "layer": 0,
+      "local_dir": 56,
+      "best_net_shift": 3.70109084886828e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 73,
+      "layer": 1,
+      "local_dir": 9,
+      "best_net_shift": 3.656201138974878e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 182,
+      "layer": 2,
+      "local_dir": 54,
+      "best_net_shift": 3.652713852185678e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 466,
+      "layer": 7,
+      "local_dir": 18,
+      "best_net_shift": 3.6211562090488706e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 103,
+      "layer": 1,
+      "local_dir": 39,
+      "best_net_shift": 3.6174801147190475e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 510,
+      "layer": 7,
+      "local_dir": 62,
+      "best_net_shift": 3.6053406274849275e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 411,
+      "layer": 6,
+      "local_dir": 27,
+      "best_net_shift": 3.60342305579495e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 93,
+      "layer": 1,
+      "local_dir": 29,
+      "best_net_shift": 3.5539608751799776e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 113,
+      "layer": 1,
+      "local_dir": 49,
+      "best_net_shift": 3.55050905743331e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 371,
+      "layer": 5,
+      "local_dir": 51,
+      "best_net_shift": 3.550135557119589e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 180,
+      "layer": 2,
+      "local_dir": 52,
+      "best_net_shift": 3.507047230262941e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 477,
+      "layer": 7,
+      "local_dir": 29,
+      "best_net_shift": 3.494340872923111e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 465,
+      "layer": 7,
+      "local_dir": 17,
+      "best_net_shift": 3.4799084774981736e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 60,
+      "layer": 0,
+      "local_dir": 60,
+      "best_net_shift": 3.468321897462935e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 413,
+      "layer": 6,
+      "local_dir": 29,
+      "best_net_shift": 3.421979199473091e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 43,
+      "layer": 0,
+      "local_dir": 43,
+      "best_net_shift": 3.401473138489467e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 419,
+      "layer": 6,
+      "local_dir": 35,
+      "best_net_shift": 3.3770847650765866e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 382,
+      "layer": 5,
+      "local_dir": 62,
+      "best_net_shift": 3.373215664900193e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 426,
+      "layer": 6,
+      "local_dir": 42,
+      "best_net_shift": 3.362127103790424e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 379,
+      "layer": 5,
+      "local_dir": 59,
+      "best_net_shift": 3.3419903614489176e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 405,
+      "layer": 6,
+      "local_dir": 21,
+      "best_net_shift": 3.281277895222236e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 174,
+      "layer": 2,
+      "local_dir": 46,
+      "best_net_shift": 3.2772117501304616e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 200,
+      "layer": 3,
+      "local_dir": 8,
+      "best_net_shift": 3.2760058934922506e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 502,
+      "layer": 7,
+      "local_dir": 54,
+      "best_net_shift": 3.270577213996155e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 187,
+      "layer": 2,
+      "local_dir": 59,
+      "best_net_shift": 3.266819660408633e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 376,
+      "layer": 5,
+      "local_dir": 56,
+      "best_net_shift": 3.2645312581933986e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 82,
+      "layer": 1,
+      "local_dir": 18,
+      "best_net_shift": 3.2307229220490185e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 493,
+      "layer": 7,
+      "local_dir": 45,
+      "best_net_shift": 3.209239582853161e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 70,
+      "layer": 1,
+      "local_dir": 6,
+      "best_net_shift": 3.1918283648255845e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 436,
+      "layer": 6,
+      "local_dir": 52,
+      "best_net_shift": 3.187263862032306e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 130,
+      "layer": 2,
+      "local_dir": 2,
+      "best_net_shift": 3.184249448119437e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 334,
+      "layer": 5,
+      "local_dir": 14,
+      "best_net_shift": 3.1355321241170363e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 24,
+      "layer": 0,
+      "local_dir": 24,
+      "best_net_shift": 3.1354498572820255e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 483,
+      "layer": 7,
+      "local_dir": 35,
+      "best_net_shift": 3.1215614445441086e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 428,
+      "layer": 6,
+      "local_dir": 44,
+      "best_net_shift": 3.0895661174042566e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 20,
+      "layer": 0,
+      "local_dir": 20,
+      "best_net_shift": 3.088310340560634e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 173,
+      "layer": 2,
+      "local_dir": 45,
+      "best_net_shift": 3.0643014352085687e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 97,
+      "layer": 1,
+      "local_dir": 33,
+      "best_net_shift": 3.049397856111083e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 31,
+      "layer": 0,
+      "local_dir": 31,
+      "best_net_shift": 3.0402663996181942e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 138,
+      "layer": 2,
+      "local_dir": 10,
+      "best_net_shift": 3.021577797380108e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 72,
+      "layer": 1,
+      "local_dir": 8,
+      "best_net_shift": 3.0205844220254918e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 45,
+      "layer": 0,
+      "local_dir": 45,
+      "best_net_shift": 3.017010976985171e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 9,
+      "layer": 0,
+      "local_dir": 9,
+      "best_net_shift": 2.9949517285360414e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 213,
+      "layer": 3,
+      "local_dir": 21,
+      "best_net_shift": 2.9932751018812563e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 64,
+      "layer": 1,
+      "local_dir": 0,
+      "best_net_shift": 2.9613423027232404e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 21,
+      "layer": 0,
+      "local_dir": 21,
+      "best_net_shift": 2.9514283947224544e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 331,
+      "layer": 5,
+      "local_dir": 11,
+      "best_net_shift": 2.946486909048334e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 132,
+      "layer": 2,
+      "local_dir": 4,
+      "best_net_shift": 2.8923453520875365e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 503,
+      "layer": 7,
+      "local_dir": 55,
+      "best_net_shift": 2.8884808017490516e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 161,
+      "layer": 2,
+      "local_dir": 33,
+      "best_net_shift": 2.844945767652889e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 81,
+      "layer": 1,
+      "local_dir": 17,
+      "best_net_shift": 2.7865903438863686e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 427,
+      "layer": 6,
+      "local_dir": 43,
+      "best_net_shift": 2.784357078153985e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 135,
+      "layer": 2,
+      "local_dir": 7,
+      "best_net_shift": 2.7558183818079545e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 112,
+      "layer": 1,
+      "local_dir": 48,
+      "best_net_shift": 2.732995580521389e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 260,
+      "layer": 4,
+      "local_dir": 4,
+      "best_net_shift": 2.6967686676192352e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 106,
+      "layer": 1,
+      "local_dir": 42,
+      "best_net_shift": 2.6522818347628988e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 32,
+      "layer": 0,
+      "local_dir": 32,
+      "best_net_shift": 2.6178687089859945e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 429,
+      "layer": 6,
+      "local_dir": 45,
+      "best_net_shift": 2.614395569184311e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 416,
+      "layer": 6,
+      "local_dir": 32,
+      "best_net_shift": 2.5898583588327875e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 146,
+      "layer": 2,
+      "local_dir": 18,
+      "best_net_shift": 2.58440658152555e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 318,
+      "layer": 4,
+      "local_dir": 62,
+      "best_net_shift": 2.5813401649186676e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 110,
+      "layer": 1,
+      "local_dir": 46,
+      "best_net_shift": 2.5428491190389297e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 495,
+      "layer": 7,
+      "local_dir": 47,
+      "best_net_shift": 2.5408788822749943e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 349,
+      "layer": 5,
+      "local_dir": 29,
+      "best_net_shift": 2.5321811693610932e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 366,
+      "layer": 5,
+      "local_dir": 46,
+      "best_net_shift": 2.51312528253132e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 456,
+      "layer": 7,
+      "local_dir": 8,
+      "best_net_shift": 2.5089287433139776e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 145,
+      "layer": 2,
+      "local_dir": 17,
+      "best_net_shift": 2.49261912193438e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 75,
+      "layer": 1,
+      "local_dir": 11,
+      "best_net_shift": 2.4863380734152724e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 189,
+      "layer": 2,
+      "local_dir": 61,
+      "best_net_shift": 2.479863012990622e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 491,
+      "layer": 7,
+      "local_dir": 43,
+      "best_net_shift": 2.472271658002509e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 88,
+      "layer": 1,
+      "local_dir": 24,
+      "best_net_shift": 2.472099630993725e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 248,
+      "layer": 3,
+      "local_dir": 56,
+      "best_net_shift": 2.4592391934551584e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 170,
+      "layer": 2,
+      "local_dir": 42,
+      "best_net_shift": 2.4290271867904507e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 171,
+      "layer": 2,
+      "local_dir": 43,
+      "best_net_shift": 2.4276843247507715e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 137,
+      "layer": 2,
+      "local_dir": 9,
+      "best_net_shift": 2.418507078273318e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 509,
+      "layer": 7,
+      "local_dir": 61,
+      "best_net_shift": 2.4104795489978917e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 481,
+      "layer": 7,
+      "local_dir": 33,
+      "best_net_shift": 2.3923648347031937e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 254,
+      "layer": 3,
+      "local_dir": 62,
+      "best_net_shift": 2.385213045853054e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 23,
+      "layer": 0,
+      "local_dir": 23,
+      "best_net_shift": 2.366593856623642e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 327,
+      "layer": 5,
+      "local_dir": 7,
+      "best_net_shift": 2.3626375166120796e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 126,
+      "layer": 1,
+      "local_dir": 62,
+      "best_net_shift": 2.327721411705128e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 127,
+      "layer": 1,
+      "local_dir": 63,
+      "best_net_shift": 2.3181285836382785e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 150,
+      "layer": 2,
+      "local_dir": 22,
+      "best_net_shift": 2.3040370826653597e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 74,
+      "layer": 1,
+      "local_dir": 10,
+      "best_net_shift": 2.3031812922043517e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 176,
+      "layer": 2,
+      "local_dir": 48,
+      "best_net_shift": 2.2831737012617235e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 108,
+      "layer": 1,
+      "local_dir": 44,
+      "best_net_shift": 2.2633256237526624e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 101,
+      "layer": 1,
+      "local_dir": 37,
+      "best_net_shift": 2.22619871700744e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 55,
+      "layer": 0,
+      "local_dir": 55,
+      "best_net_shift": 2.2103095911354113e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 372,
+      "layer": 5,
+      "local_dir": 52,
+      "best_net_shift": 2.1922260882600707e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 305,
+      "layer": 4,
+      "local_dir": 49,
+      "best_net_shift": 2.1737926399358384e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 504,
+      "layer": 7,
+      "local_dir": 56,
+      "best_net_shift": 2.164573569675139e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 151,
+      "layer": 2,
+      "local_dir": 23,
+      "best_net_shift": 2.1456685845777732e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 439,
+      "layer": 6,
+      "local_dir": 55,
+      "best_net_shift": 2.131265817445132e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 117,
+      "layer": 1,
+      "local_dir": 53,
+      "best_net_shift": 2.1181645501255637e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 65,
+      "layer": 1,
+      "local_dir": 1,
+      "best_net_shift": 2.0838126574175928e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 219,
+      "layer": 3,
+      "local_dir": 27,
+      "best_net_shift": 2.0804068859432326e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 486,
+      "layer": 7,
+      "local_dir": 38,
+      "best_net_shift": 2.0769109188884694e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 273,
+      "layer": 4,
+      "local_dir": 17,
+      "best_net_shift": 2.062838548543564e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 403,
+      "layer": 6,
+      "local_dir": 19,
+      "best_net_shift": 2.0586362789752476e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 269,
+      "layer": 4,
+      "local_dir": 13,
+      "best_net_shift": 2.0182162577156985e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 474,
+      "layer": 7,
+      "local_dir": 26,
+      "best_net_shift": 2.0135184228885883e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 506,
+      "layer": 7,
+      "local_dir": 58,
+      "best_net_shift": 2.0082991136605485e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 472,
+      "layer": 7,
+      "local_dir": 24,
+      "best_net_shift": 2.0079793780937497e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 339,
+      "layer": 5,
+      "local_dir": 19,
+      "best_net_shift": 1.985726264455455e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 184,
+      "layer": 2,
+      "local_dir": 56,
+      "best_net_shift": 1.985004369112183e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 408,
+      "layer": 6,
+      "local_dir": 24,
+      "best_net_shift": 1.971183626275662e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 239,
+      "layer": 3,
+      "local_dir": 47,
+      "best_net_shift": 1.9685956923911393e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 194,
+      "layer": 3,
+      "local_dir": 2,
+      "best_net_shift": 1.9640584081850036e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 39,
+      "layer": 0,
+      "local_dir": 39,
+      "best_net_shift": 1.9611863173443853e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 96,
+      "layer": 1,
+      "local_dir": 32,
+      "best_net_shift": 1.9365531815707424e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 92,
+      "layer": 1,
+      "local_dir": 28,
+      "best_net_shift": 1.9238640327912202e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 122,
+      "layer": 1,
+      "local_dir": 58,
+      "best_net_shift": 1.8757914210733534e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 289,
+      "layer": 4,
+      "local_dir": 33,
+      "best_net_shift": 1.8648191637872832e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 470,
+      "layer": 7,
+      "local_dir": 22,
+      "best_net_shift": 1.8523135510920084e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 310,
+      "layer": 4,
+      "local_dir": 54,
+      "best_net_shift": 1.8507896401854004e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 87,
+      "layer": 1,
+      "local_dir": 23,
+      "best_net_shift": 1.8500136167014583e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 181,
+      "layer": 2,
+      "local_dir": 53,
+      "best_net_shift": 1.848901805121403e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 159,
+      "layer": 2,
+      "local_dir": 31,
+      "best_net_shift": 1.8215270929718287e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 423,
+      "layer": 6,
+      "local_dir": 39,
+      "best_net_shift": 1.819724314866761e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 175,
+      "layer": 2,
+      "local_dir": 47,
+      "best_net_shift": 1.810155126415994e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 156,
+      "layer": 2,
+      "local_dir": 28,
+      "best_net_shift": 1.7994593638855213e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 454,
+      "layer": 7,
+      "local_dir": 6,
+      "best_net_shift": 1.7973854168042695e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 415,
+      "layer": 6,
+      "local_dir": 31,
+      "best_net_shift": 1.7207772343296438e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 141,
+      "layer": 2,
+      "local_dir": 13,
+      "best_net_shift": 1.69728037457185e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 90,
+      "layer": 1,
+      "local_dir": 26,
+      "best_net_shift": 1.6889501655004975e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 351,
+      "layer": 5,
+      "local_dir": 31,
+      "best_net_shift": 1.6886355340993274e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 215,
+      "layer": 3,
+      "local_dir": 23,
+      "best_net_shift": 1.684633211169193e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 67,
+      "layer": 1,
+      "local_dir": 3,
+      "best_net_shift": 1.6816174880354782e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 446,
+      "layer": 6,
+      "local_dir": 62,
+      "best_net_shift": 1.6545130832958516e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 389,
+      "layer": 6,
+      "local_dir": 5,
+      "best_net_shift": 1.627024241767254e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 133,
+      "layer": 2,
+      "local_dir": 5,
+      "best_net_shift": 1.607285035126503e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 158,
+      "layer": 2,
+      "local_dir": 30,
+      "best_net_shift": 1.598101827045212e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 172,
+      "layer": 2,
+      "local_dir": 44,
+      "best_net_shift": 1.596636262477591e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 91,
+      "layer": 1,
+      "local_dir": 27,
+      "best_net_shift": 1.596624801618882e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 377,
+      "layer": 5,
+      "local_dir": 57,
+      "best_net_shift": 1.5791621411898597e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 485,
+      "layer": 7,
+      "local_dir": 37,
+      "best_net_shift": 1.5726721754518325e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 100,
+      "layer": 1,
+      "local_dir": 36,
+      "best_net_shift": 1.570029950907871e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 363,
+      "layer": 5,
+      "local_dir": 43,
+      "best_net_shift": 1.551364736444719e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 105,
+      "layer": 1,
+      "local_dir": 41,
+      "best_net_shift": 1.5195250363691694e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 102,
+      "layer": 1,
+      "local_dir": 38,
+      "best_net_shift": 1.516269824808405e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 78,
+      "layer": 1,
+      "local_dir": 14,
+      "best_net_shift": 1.5024481502173403e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 143,
+      "layer": 2,
+      "local_dir": 15,
+      "best_net_shift": 1.4992920742359079e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 201,
+      "layer": 3,
+      "local_dir": 9,
+      "best_net_shift": 1.4835031544815306e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 86,
+      "layer": 1,
+      "local_dir": 22,
+      "best_net_shift": 1.4248592677073199e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 211,
+      "layer": 3,
+      "local_dir": 19,
+      "best_net_shift": 1.4075905055029586e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 395,
+      "layer": 6,
+      "local_dir": 11,
+      "best_net_shift": 1.4074953821979793e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 191,
+      "layer": 2,
+      "local_dir": 63,
+      "best_net_shift": 1.397717913964808e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 154,
+      "layer": 2,
+      "local_dir": 26,
+      "best_net_shift": 1.3852629144553113e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 80,
+      "layer": 1,
+      "local_dir": 16,
+      "best_net_shift": 1.3606314596298439e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 167,
+      "layer": 2,
+      "local_dir": 39,
+      "best_net_shift": 1.359985064154186e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 421,
+      "layer": 6,
+      "local_dir": 37,
+      "best_net_shift": 1.347278395379198e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 68,
+      "layer": 1,
+      "local_dir": 4,
+      "best_net_shift": 1.3351755558977206e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 83,
+      "layer": 1,
+      "local_dir": 19,
+      "best_net_shift": 1.3219969445181471e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 357,
+      "layer": 5,
+      "local_dir": 37,
+      "best_net_shift": 1.2571458629212582e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 6,
+      "layer": 0,
+      "local_dir": 6,
+      "best_net_shift": 1.2525913879222651e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 322,
+      "layer": 5,
+      "local_dir": 2,
+      "best_net_shift": 1.2484528510146488e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 445,
+      "layer": 6,
+      "local_dir": 61,
+      "best_net_shift": 1.2402275366232753e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 478,
+      "layer": 7,
+      "local_dir": 30,
+      "best_net_shift": 1.2394187680551573e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 342,
+      "layer": 5,
+      "local_dir": 22,
+      "best_net_shift": 1.225752190998662e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 115,
+      "layer": 1,
+      "local_dir": 51,
+      "best_net_shift": 1.1742916659077986e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 443,
+      "layer": 6,
+      "local_dir": 59,
+      "best_net_shift": 1.1727954454750772e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 511,
+      "layer": 7,
+      "local_dir": 63,
+      "best_net_shift": 1.171045740700549e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 286,
+      "layer": 4,
+      "local_dir": 30,
+      "best_net_shift": 1.162119883167537e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 388,
+      "layer": 6,
+      "local_dir": 4,
+      "best_net_shift": 1.1556208500521631e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 496,
+      "layer": 7,
+      "local_dir": 48,
+      "best_net_shift": 1.1449697616055526e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 417,
+      "layer": 6,
+      "local_dir": 33,
+      "best_net_shift": 1.1422579195742664e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 107,
+      "layer": 1,
+      "local_dir": 43,
+      "best_net_shift": 1.1370992445491261e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 227,
+      "layer": 3,
+      "local_dir": 35,
+      "best_net_shift": 1.1361564973746125e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 420,
+      "layer": 6,
+      "local_dir": 36,
+      "best_net_shift": 1.1309446267211554e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 400,
+      "layer": 6,
+      "local_dir": 16,
+      "best_net_shift": 1.126336415276198e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 177,
+      "layer": 2,
+      "local_dir": 49,
+      "best_net_shift": 1.1237927034573388e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 8,
+      "layer": 0,
+      "local_dir": 8,
+      "best_net_shift": 1.0816164502293885e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 119,
+      "layer": 1,
+      "local_dir": 55,
+      "best_net_shift": 1.0762479472453882e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 169,
+      "layer": 2,
+      "local_dir": 41,
+      "best_net_shift": 1.0580061260869186e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 354,
+      "layer": 5,
+      "local_dir": 34,
+      "best_net_shift": 1.0537124946015762e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 30,
+      "layer": 0,
+      "local_dir": 30,
+      "best_net_shift": 1.0532194509560531e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 22,
+      "layer": 0,
+      "local_dir": 22,
+      "best_net_shift": 9.917288035293879e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 353,
+      "layer": 5,
+      "local_dir": 33,
+      "best_net_shift": 9.848492254434788e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 303,
+      "layer": 4,
+      "local_dir": 47,
+      "best_net_shift": 9.502661370011916e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 125,
+      "layer": 1,
+      "local_dir": 61,
+      "best_net_shift": 9.485912604694554e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 14,
+      "layer": 0,
+      "local_dir": 14,
+      "best_net_shift": 9.425808936990571e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 120,
+      "layer": 1,
+      "local_dir": 56,
+      "best_net_shift": 9.383475311647857e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 492,
+      "layer": 7,
+      "local_dir": 44,
+      "best_net_shift": 8.637489471837335e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 123,
+      "layer": 1,
+      "local_dir": 59,
+      "best_net_shift": 8.584622121513298e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 124,
+      "layer": 1,
+      "local_dir": 60,
+      "best_net_shift": 8.333952543729638e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 71,
+      "layer": 1,
+      "local_dir": 7,
+      "best_net_shift": 7.81025231622913e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 348,
+      "layer": 5,
+      "local_dir": 28,
+      "best_net_shift": 7.662094307896711e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 430,
+      "layer": 6,
+      "local_dir": 46,
+      "best_net_shift": 7.359172930744417e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 164,
+      "layer": 2,
+      "local_dir": 36,
+      "best_net_shift": 7.352916731533533e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 121,
+      "layer": 1,
+      "local_dir": 57,
+      "best_net_shift": 7.2745417994475765e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 221,
+      "layer": 3,
+      "local_dir": 29,
+      "best_net_shift": 7.246690866501698e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 69,
+      "layer": 1,
+      "local_dir": 5,
+      "best_net_shift": 6.76911932826725e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 434,
+      "layer": 6,
+      "local_dir": 50,
+      "best_net_shift": 6.48219351224175e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 94,
+      "layer": 1,
+      "local_dir": 30,
+      "best_net_shift": 6.251059832763758e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 316,
+      "layer": 4,
+      "local_dir": 60,
+      "best_net_shift": 6.243286595115077e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 118,
+      "layer": 1,
+      "local_dir": 54,
+      "best_net_shift": 6.159155202802805e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 469,
+      "layer": 7,
+      "local_dir": 21,
+      "best_net_shift": 6.091851165429107e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 457,
+      "layer": 7,
+      "local_dir": 9,
+      "best_net_shift": 5.992329685854374e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 66,
+      "layer": 1,
+      "local_dir": 2,
+      "best_net_shift": 5.672026479080616e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 178,
+      "layer": 2,
+      "local_dir": 50,
+      "best_net_shift": 5.552439884457124e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 252,
+      "layer": 3,
+      "local_dir": 60,
+      "best_net_shift": 5.5523466624926516e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 95,
+      "layer": 1,
+      "local_dir": 31,
+      "best_net_shift": 4.849524478809073e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 279,
+      "layer": 4,
+      "local_dir": 23,
+      "best_net_shift": 4.612502716164173e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 163,
+      "layer": 2,
+      "local_dir": 35,
+      "best_net_shift": 4.205312970271263e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 265,
+      "layer": 4,
+      "local_dir": 9,
+      "best_net_shift": 3.9253741029786305e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 114,
+      "layer": 1,
+      "local_dir": 50,
+      "best_net_shift": 3.780503653101243e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 85,
+      "layer": 1,
+      "local_dir": 21,
+      "best_net_shift": 2.8199039899035917e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 325,
+      "layer": 5,
+      "local_dir": 5,
+      "best_net_shift": 2.4692638140737648e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 424,
+      "layer": 6,
+      "local_dir": 40,
+      "best_net_shift": 2.345683732208678e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 341,
+      "layer": 5,
+      "local_dir": 21,
+      "best_net_shift": 2.2987456696914725e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 149,
+      "layer": 2,
+      "local_dir": 21,
+      "best_net_shift": 2.291061189296003e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 155,
+      "layer": 2,
+      "local_dir": 27,
+      "best_net_shift": 2.2362583486332187e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 399,
+      "layer": 6,
+      "local_dir": 15,
+      "best_net_shift": 1.698909795930786e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 304,
+      "layer": 4,
+      "local_dir": 48,
+      "best_net_shift": 1.6689125642703414e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 148,
+      "layer": 2,
+      "local_dir": 20,
+      "best_net_shift": 1.5262425833201428e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 356,
+      "layer": 5,
+      "local_dir": 36,
+      "best_net_shift": 1.4565536712728318e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 280,
+      "layer": 4,
+      "local_dir": 24,
+      "best_net_shift": 1.1918966042431753e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 185,
+      "layer": 2,
+      "local_dir": 57,
+      "best_net_shift": 7.856329895555557e-07,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 128,
+      "layer": 2,
+      "local_dir": 0,
+      "best_net_shift": 7.031643940318537e-07,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 301,
+      "layer": 4,
+      "local_dir": 45,
+      "best_net_shift": 3.846111096968199e-07,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 471,
+      "layer": 7,
+      "local_dir": 23,
+      "best_net_shift": 3.45077242976313e-07,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 441,
+      "layer": 6,
+      "local_dir": 57,
+      "best_net_shift": 3.147206459551931e-07,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 142,
+      "layer": 2,
+      "local_dir": 14,
+      "best_net_shift": 1.0354910129914754e-07,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 314,
+      "layer": 4,
+      "local_dir": 58,
+      "best_net_shift": -7.21938093301069e-08,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 308,
+      "layer": 4,
+      "local_dir": 52,
+      "best_net_shift": -1.2632765007579544e-07,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 104,
+      "layer": 1,
+      "local_dir": 40,
+      "best_net_shift": -4.344152443978612e-07,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 432,
+      "layer": 6,
+      "local_dir": 48,
+      "best_net_shift": -2.3212946458702095e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 99,
+      "layer": 1,
+      "local_dir": 35,
+      "best_net_shift": -2.334864061161844e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 136,
+      "layer": 2,
+      "local_dir": 8,
+      "best_net_shift": -2.581272351477072e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 98,
+      "layer": 1,
+      "local_dir": 34,
+      "best_net_shift": -2.6297412347478567e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 228,
+      "layer": 3,
+      "local_dir": 36,
+      "best_net_shift": -3.4171078126013555e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 153,
+      "layer": 2,
+      "local_dir": 25,
+      "best_net_shift": -3.5439208170534877e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 79,
+      "layer": 1,
+      "local_dir": 15,
+      "best_net_shift": -3.7148144088603764e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 317,
+      "layer": 4,
+      "local_dir": 61,
+      "best_net_shift": -4.052320850459531e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 157,
+      "layer": 2,
+      "local_dir": 29,
+      "best_net_shift": -4.234358171248398e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 433,
+      "layer": 6,
+      "local_dir": 49,
+      "best_net_shift": -4.41215598286964e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 507,
+      "layer": 7,
+      "local_dir": 59,
+      "best_net_shift": -5.4858284900827685e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 129,
+      "layer": 2,
+      "local_dir": 1,
+      "best_net_shift": -5.505487757702225e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 276,
+      "layer": 4,
+      "local_dir": 20,
+      "best_net_shift": -5.884455800273808e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 38,
+      "layer": 0,
+      "local_dir": 38,
+      "best_net_shift": -6.273002048014607e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 160,
+      "layer": 2,
+      "local_dir": 32,
+      "best_net_shift": -6.307607640323864e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 249,
+      "layer": 3,
+      "local_dir": 57,
+      "best_net_shift": -6.574257953414492e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 431,
+      "layer": 6,
+      "local_dir": 47,
+      "best_net_shift": -6.772001529141338e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 4,
+      "layer": 0,
+      "local_dir": 4,
+      "best_net_shift": -7.151633053031816e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 166,
+      "layer": 2,
+      "local_dir": 38,
+      "best_net_shift": -7.353994555838745e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 202,
+      "layer": 3,
+      "local_dir": 10,
+      "best_net_shift": -7.5742630212389675e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 490,
+      "layer": 7,
+      "local_dir": 42,
+      "best_net_shift": -7.80149570805749e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 369,
+      "layer": 5,
+      "local_dir": 49,
+      "best_net_shift": -8.305440371941721e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 63,
+      "layer": 0,
+      "local_dir": 63,
+      "best_net_shift": -8.377874727344328e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 250,
+      "layer": 3,
+      "local_dir": 58,
+      "best_net_shift": -8.723810455517489e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 131,
+      "layer": 2,
+      "local_dir": 3,
+      "best_net_shift": -9.561941334509851e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 391,
+      "layer": 6,
+      "local_dir": 7,
+      "best_net_shift": -9.649257572111238e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 323,
+      "layer": 5,
+      "local_dir": 3,
+      "best_net_shift": -9.82700923439162e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 203,
+      "layer": 3,
+      "local_dir": 11,
+      "best_net_shift": -1.0014709763522724e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 116,
+      "layer": 1,
+      "local_dir": 52,
+      "best_net_shift": -1.0608299077856e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 37,
+      "layer": 0,
+      "local_dir": 37,
+      "best_net_shift": -1.0613811265689782e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 390,
+      "layer": 6,
+      "local_dir": 6,
+      "best_net_shift": -1.0988842016396537e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 144,
+      "layer": 2,
+      "local_dir": 16,
+      "best_net_shift": -1.1097101570875541e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 350,
+      "layer": 5,
+      "local_dir": 30,
+      "best_net_shift": -1.1283850988337476e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 370,
+      "layer": 5,
+      "local_dir": 50,
+      "best_net_shift": -1.1369836501394417e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 461,
+      "layer": 7,
+      "local_dir": 13,
+      "best_net_shift": -1.186610580900333e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 291,
+      "layer": 4,
+      "local_dir": 35,
+      "best_net_shift": -1.2030248624565133e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 501,
+      "layer": 7,
+      "local_dir": 53,
+      "best_net_shift": -1.2076996648983943e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 198,
+      "layer": 3,
+      "local_dir": 6,
+      "best_net_shift": -1.2149014731070168e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 183,
+      "layer": 2,
+      "local_dir": 55,
+      "best_net_shift": -1.2463342054571183e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 245,
+      "layer": 3,
+      "local_dir": 53,
+      "best_net_shift": -1.2493951455276974e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 261,
+      "layer": 4,
+      "local_dir": 5,
+      "best_net_shift": -1.2532978117056818e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 216,
+      "layer": 3,
+      "local_dir": 24,
+      "best_net_shift": -1.3508490253121846e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 231,
+      "layer": 3,
+      "local_dir": 39,
+      "best_net_shift": -1.3629645494532926e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 76,
+      "layer": 1,
+      "local_dir": 12,
+      "best_net_shift": -1.3855033718736831e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 505,
+      "layer": 7,
+      "local_dir": 57,
+      "best_net_shift": -1.3887570474342486e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 468,
+      "layer": 7,
+      "local_dir": 20,
+      "best_net_shift": -1.389260329490522e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 235,
+      "layer": 3,
+      "local_dir": 43,
+      "best_net_shift": -1.399046048584712e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 57,
+      "layer": 0,
+      "local_dir": 57,
+      "best_net_shift": -1.4000208164247104e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 365,
+      "layer": 5,
+      "local_dir": 45,
+      "best_net_shift": -1.4089535268142281e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 440,
+      "layer": 6,
+      "local_dir": 56,
+      "best_net_shift": -1.4452687215293943e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 42,
+      "layer": 0,
+      "local_dir": 42,
+      "best_net_shift": -1.448163119270032e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 360,
+      "layer": 5,
+      "local_dir": 40,
+      "best_net_shift": -1.4798117228208662e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 345,
+      "layer": 5,
+      "local_dir": 25,
+      "best_net_shift": -1.4996206189796623e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 29,
+      "layer": 0,
+      "local_dir": 29,
+      "best_net_shift": -1.5198032172549324e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 77,
+      "layer": 1,
+      "local_dir": 13,
+      "best_net_shift": -1.580393143443587e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 489,
+      "layer": 7,
+      "local_dir": 41,
+      "best_net_shift": -1.5865441388181103e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 442,
+      "layer": 6,
+      "local_dir": 58,
+      "best_net_shift": -1.6537730596768946e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 179,
+      "layer": 2,
+      "local_dir": 51,
+      "best_net_shift": -1.7140297491532184e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 210,
+      "layer": 3,
+      "local_dir": 18,
+      "best_net_shift": -1.719028568020617e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 458,
+      "layer": 7,
+      "local_dir": 10,
+      "best_net_shift": -1.7398570867358805e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 451,
+      "layer": 7,
+      "local_dir": 3,
+      "best_net_shift": -1.7515517350976215e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 53,
+      "layer": 0,
+      "local_dir": 53,
+      "best_net_shift": -1.8007758954454264e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 394,
+      "layer": 6,
+      "local_dir": 10,
+      "best_net_shift": -1.8349076834707982e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 383,
+      "layer": 5,
+      "local_dir": 63,
+      "best_net_shift": -1.9313837444320022e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 283,
+      "layer": 4,
+      "local_dir": 27,
+      "best_net_shift": -1.9449796680350972e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 326,
+      "layer": 5,
+      "local_dir": 6,
+      "best_net_shift": -1.9688183073576462e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 206,
+      "layer": 3,
+      "local_dir": 14,
+      "best_net_shift": -2.050272798838247e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 499,
+      "layer": 7,
+      "local_dir": 51,
+      "best_net_shift": -2.0923153424309518e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 140,
+      "layer": 2,
+      "local_dir": 12,
+      "best_net_shift": -2.130165275335402e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 444,
+      "layer": 6,
+      "local_dir": 60,
+      "best_net_shift": -2.1314324846608522e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 168,
+      "layer": 2,
+      "local_dir": 40,
+      "best_net_shift": -2.2080991691514774e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 299,
+      "layer": 4,
+      "local_dir": 43,
+      "best_net_shift": -2.2807675624374565e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 418,
+      "layer": 6,
+      "local_dir": 34,
+      "best_net_shift": -2.337939753776546e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 288,
+      "layer": 4,
+      "local_dir": 32,
+      "best_net_shift": -2.352058926730202e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 361,
+      "layer": 5,
+      "local_dir": 41,
+      "best_net_shift": -2.3574739928734913e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 500,
+      "layer": 7,
+      "local_dir": 52,
+      "best_net_shift": -2.3701186419759795e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 285,
+      "layer": 4,
+      "local_dir": 29,
+      "best_net_shift": -2.3969543958792347e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 152,
+      "layer": 2,
+      "local_dir": 24,
+      "best_net_shift": -2.4018179983873653e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 293,
+      "layer": 4,
+      "local_dir": 37,
+      "best_net_shift": -2.418232708321878e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 498,
+      "layer": 7,
+      "local_dir": 50,
+      "best_net_shift": -2.4308150364230265e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 497,
+      "layer": 7,
+      "local_dir": 49,
+      "best_net_shift": -2.450480997094505e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 147,
+      "layer": 2,
+      "local_dir": 19,
+      "best_net_shift": -2.4580662552707968e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 15,
+      "layer": 0,
+      "local_dir": 15,
+      "best_net_shift": -2.512665589868652e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 196,
+      "layer": 3,
+      "local_dir": 4,
+      "best_net_shift": -2.6917800891196244e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 84,
+      "layer": 1,
+      "local_dir": 20,
+      "best_net_shift": -2.6978179604604286e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 392,
+      "layer": 6,
+      "local_dir": 8,
+      "best_net_shift": -2.7844878499561104e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 375,
+      "layer": 5,
+      "local_dir": 55,
+      "best_net_shift": -2.8184698915145197e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 378,
+      "layer": 5,
+      "local_dir": 58,
+      "best_net_shift": -2.82609130918556e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 460,
+      "layer": 7,
+      "local_dir": 12,
+      "best_net_shift": -2.8742250358365553e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 459,
+      "layer": 7,
+      "local_dir": 11,
+      "best_net_shift": -2.8787583076426433e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 109,
+      "layer": 1,
+      "local_dir": 45,
+      "best_net_shift": -2.9073007881102862e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 306,
+      "layer": 4,
+      "local_dir": 50,
+      "best_net_shift": -3.034126687288475e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 347,
+      "layer": 5,
+      "local_dir": 27,
+      "best_net_shift": -3.050965909892897e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 404,
+      "layer": 6,
+      "local_dir": 20,
+      "best_net_shift": -3.088312133220665e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 312,
+      "layer": 4,
+      "local_dir": 56,
+      "best_net_shift": -3.0927893919409744e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 397,
+      "layer": 6,
+      "local_dir": 13,
+      "best_net_shift": -3.2029961980064584e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 204,
+      "layer": 3,
+      "local_dir": 12,
+      "best_net_shift": -3.2526708422411614e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 488,
+      "layer": 7,
+      "local_dir": 40,
+      "best_net_shift": -3.309641364562235e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 234,
+      "layer": 3,
+      "local_dir": 42,
+      "best_net_shift": -3.43286782591748e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 407,
+      "layer": 6,
+      "local_dir": 23,
+      "best_net_shift": -3.5281588116005545e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 437,
+      "layer": 6,
+      "local_dir": 53,
+      "best_net_shift": -3.588903245585603e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 287,
+      "layer": 4,
+      "local_dir": 31,
+      "best_net_shift": -3.5929099221282314e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 307,
+      "layer": 4,
+      "local_dir": 51,
+      "best_net_shift": -3.785375187146022e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 300,
+      "layer": 4,
+      "local_dir": 44,
+      "best_net_shift": -3.817020307188973e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 292,
+      "layer": 4,
+      "local_dir": 36,
+      "best_net_shift": -3.8197132194233947e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 278,
+      "layer": 4,
+      "local_dir": 22,
+      "best_net_shift": -3.879765119635291e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 193,
+      "layer": 3,
+      "local_dir": 1,
+      "best_net_shift": -3.923994617526785e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 111,
+      "layer": 1,
+      "local_dir": 47,
+      "best_net_shift": -4.0308751426134173e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 313,
+      "layer": 4,
+      "local_dir": 57,
+      "best_net_shift": -4.066296068504588e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 190,
+      "layer": 2,
+      "local_dir": 62,
+      "best_net_shift": -4.130811498855618e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 186,
+      "layer": 2,
+      "local_dir": 58,
+      "best_net_shift": -4.191866063671867e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 414,
+      "layer": 6,
+      "local_dir": 30,
+      "best_net_shift": -4.192692770289447e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 212,
+      "layer": 3,
+      "local_dir": 20,
+      "best_net_shift": -4.2058865423090886e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 222,
+      "layer": 3,
+      "local_dir": 30,
+      "best_net_shift": -4.220328907905127e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 264,
+      "layer": 4,
+      "local_dir": 8,
+      "best_net_shift": -4.2920381941701325e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 220,
+      "layer": 3,
+      "local_dir": 28,
+      "best_net_shift": -4.4814178625640546e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 487,
+      "layer": 7,
+      "local_dir": 39,
+      "best_net_shift": -4.553508158809165e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 319,
+      "layer": 4,
+      "local_dir": 63,
+      "best_net_shift": -4.560238279901303e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 268,
+      "layer": 4,
+      "local_dir": 12,
+      "best_net_shift": -4.586376843488836e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 368,
+      "layer": 5,
+      "local_dir": 48,
+      "best_net_shift": -4.638491670397677e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 410,
+      "layer": 6,
+      "local_dir": 26,
+      "best_net_shift": -5.017705207861666e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 270,
+      "layer": 4,
+      "local_dir": 14,
+      "best_net_shift": -5.0734854877603656e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 226,
+      "layer": 3,
+      "local_dir": 34,
+      "best_net_shift": -5.175477914745033e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 165,
+      "layer": 2,
+      "local_dir": 37,
+      "best_net_shift": -5.177070537616289e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 281,
+      "layer": 4,
+      "local_dir": 25,
+      "best_net_shift": -5.2141760052057364e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 373,
+      "layer": 5,
+      "local_dir": 53,
+      "best_net_shift": -5.288398545073977e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 333,
+      "layer": 5,
+      "local_dir": 13,
+      "best_net_shift": -5.2945632169858117e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 337,
+      "layer": 5,
+      "local_dir": 17,
+      "best_net_shift": -5.325044201271367e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 475,
+      "layer": 7,
+      "local_dir": 27,
+      "best_net_shift": -5.367486265288685e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 230,
+      "layer": 3,
+      "local_dir": 38,
+      "best_net_shift": -5.395725187554518e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 18,
+      "layer": 0,
+      "local_dir": 18,
+      "best_net_shift": -5.572360979930321e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 462,
+      "layer": 7,
+      "local_dir": 14,
+      "best_net_shift": -5.853101685561945e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 402,
+      "layer": 6,
+      "local_dir": 18,
+      "best_net_shift": -6.120983201172731e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 315,
+      "layer": 4,
+      "local_dir": 59,
+      "best_net_shift": -6.237394676606251e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 188,
+      "layer": 2,
+      "local_dir": 60,
+      "best_net_shift": -6.254365036483906e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 52,
+      "layer": 0,
+      "local_dir": 52,
+      "best_net_shift": -6.258754616088455e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 225,
+      "layer": 3,
+      "local_dir": 33,
+      "best_net_shift": -6.336792960489141e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 297,
+      "layer": 4,
+      "local_dir": 41,
+      "best_net_shift": -6.428014268452973e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 340,
+      "layer": 5,
+      "local_dir": 20,
+      "best_net_shift": -6.492952036683255e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 218,
+      "layer": 3,
+      "local_dir": 26,
+      "best_net_shift": -6.562028421466181e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 258,
+      "layer": 4,
+      "local_dir": 2,
+      "best_net_shift": -6.692968847017598e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 480,
+      "layer": 7,
+      "local_dir": 32,
+      "best_net_shift": -6.80373797558883e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 374,
+      "layer": 5,
+      "local_dir": 54,
+      "best_net_shift": -6.845643482721866e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 243,
+      "layer": 3,
+      "local_dir": 51,
+      "best_net_shift": -6.862705884805671e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 277,
+      "layer": 4,
+      "local_dir": 21,
+      "best_net_shift": -7.07898775526932e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 253,
+      "layer": 3,
+      "local_dir": 61,
+      "best_net_shift": -7.211110130831229e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 309,
+      "layer": 4,
+      "local_dir": 53,
+      "best_net_shift": -7.234923064937003e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 294,
+      "layer": 4,
+      "local_dir": 38,
+      "best_net_shift": -7.254245047330964e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 237,
+      "layer": 3,
+      "local_dir": 45,
+      "best_net_shift": -7.27669934663656e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 367,
+      "layer": 5,
+      "local_dir": 47,
+      "best_net_shift": -7.301977987660324e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 467,
+      "layer": 7,
+      "local_dir": 19,
+      "best_net_shift": -7.32142652778678e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 324,
+      "layer": 5,
+      "local_dir": 4,
+      "best_net_shift": -7.452394234628097e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 406,
+      "layer": 6,
+      "local_dir": 22,
+      "best_net_shift": -7.651877068127193e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 355,
+      "layer": 5,
+      "local_dir": 35,
+      "best_net_shift": -7.860905206509229e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 484,
+      "layer": 7,
+      "local_dir": 36,
+      "best_net_shift": -7.977232648672201e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 7,
+      "layer": 0,
+      "local_dir": 7,
+      "best_net_shift": -8.223286012747901e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 255,
+      "layer": 3,
+      "local_dir": 63,
+      "best_net_shift": -8.355445799131877e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 455,
+      "layer": 7,
+      "local_dir": 7,
+      "best_net_shift": -8.469403881011242e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 275,
+      "layer": 4,
+      "local_dir": 19,
+      "best_net_shift": -8.602234628287677e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 336,
+      "layer": 5,
+      "local_dir": 16,
+      "best_net_shift": -8.695405718026203e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 236,
+      "layer": 3,
+      "local_dir": 44,
+      "best_net_shift": -8.906725781029348e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 396,
+      "layer": 6,
+      "local_dir": 12,
+      "best_net_shift": -8.910057467114467e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 302,
+      "layer": 4,
+      "local_dir": 46,
+      "best_net_shift": -9.001149223251627e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 450,
+      "layer": 7,
+      "local_dir": 2,
+      "best_net_shift": -9.206110562670058e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 272,
+      "layer": 4,
+      "local_dir": 16,
+      "best_net_shift": -9.329111395774035e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 61,
+      "layer": 0,
+      "local_dir": 61,
+      "best_net_shift": -9.532412101758694e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 238,
+      "layer": 3,
+      "local_dir": 46,
+      "best_net_shift": -9.735507963118757e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 358,
+      "layer": 5,
+      "local_dir": 38,
+      "best_net_shift": -9.846685479985102e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 229,
+      "layer": 3,
+      "local_dir": 37,
+      "best_net_shift": -0.00010131208073837486,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 48,
+      "layer": 0,
+      "local_dir": 48,
+      "best_net_shift": -0.00010155162476941177,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 266,
+      "layer": 4,
+      "local_dir": 10,
+      "best_net_shift": -0.00010270657489661412,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 359,
+      "layer": 5,
+      "local_dir": 39,
+      "best_net_shift": -0.00010773892473991632,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 12,
+      "layer": 0,
+      "local_dir": 12,
+      "best_net_shift": -0.00010818831226290413,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 448,
+      "layer": 7,
+      "local_dir": 0,
+      "best_net_shift": -0.00010945858532297635,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 332,
+      "layer": 5,
+      "local_dir": 12,
+      "best_net_shift": -0.00011209888811906368,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 295,
+      "layer": 4,
+      "local_dir": 39,
+      "best_net_shift": -0.0001128799190901326,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 343,
+      "layer": 5,
+      "local_dir": 23,
+      "best_net_shift": -0.00011346092495772093,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 207,
+      "layer": 3,
+      "local_dir": 15,
+      "best_net_shift": -0.00011614641024867414,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 282,
+      "layer": 4,
+      "local_dir": 26,
+      "best_net_shift": -0.00012142860283237483,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 284,
+      "layer": 4,
+      "local_dir": 28,
+      "best_net_shift": -0.00012466762889049382,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 296,
+      "layer": 4,
+      "local_dir": 40,
+      "best_net_shift": -0.00012808123035222912,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 214,
+      "layer": 3,
+      "local_dir": 22,
+      "best_net_shift": -0.0001292092379300224,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 244,
+      "layer": 3,
+      "local_dir": 52,
+      "best_net_shift": -0.00013049694691695895,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 321,
+      "layer": 5,
+      "local_dir": 1,
+      "best_net_shift": -0.00013185496837062874,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 205,
+      "layer": 3,
+      "local_dir": 13,
+      "best_net_shift": -0.00013549124113962008,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 224,
+      "layer": 3,
+      "local_dir": 32,
+      "best_net_shift": -0.0001371933831263579,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 298,
+      "layer": 4,
+      "local_dir": 42,
+      "best_net_shift": -0.00015551308177483652,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 246,
+      "layer": 3,
+      "local_dir": 54,
+      "best_net_shift": -0.00015664164785084505,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 290,
+      "layer": 4,
+      "local_dir": 34,
+      "best_net_shift": -0.0001595608450475594,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 271,
+      "layer": 4,
+      "local_dir": 15,
+      "best_net_shift": -0.0001607218907008341,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 208,
+      "layer": 3,
+      "local_dir": 16,
+      "best_net_shift": -0.00016590214841399786,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 240,
+      "layer": 3,
+      "local_dir": 48,
+      "best_net_shift": -0.0001712004600810797,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 251,
+      "layer": 3,
+      "local_dir": 59,
+      "best_net_shift": -0.00017716553594053397,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 241,
+      "layer": 3,
+      "local_dir": 49,
+      "best_net_shift": -0.00017847141829870896,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 311,
+      "layer": 4,
+      "local_dir": 55,
+      "best_net_shift": -0.00018257341792332987,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 217,
+      "layer": 3,
+      "local_dir": 25,
+      "best_net_shift": -0.00018913945680618582,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 364,
+      "layer": 5,
+      "local_dir": 44,
+      "best_net_shift": -0.00019138038197123513,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 267,
+      "layer": 4,
+      "local_dir": 11,
+      "best_net_shift": -0.00020810109735037202,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 232,
+      "layer": 3,
+      "local_dir": 40,
+      "best_net_shift": -0.0002172750617702112,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 464,
+      "layer": 7,
+      "local_dir": 16,
+      "best_net_shift": -0.00021978533897028295,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 192,
+      "layer": 3,
+      "local_dir": 0,
+      "best_net_shift": -0.00022518607245049127,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 195,
+      "layer": 3,
+      "local_dir": 3,
+      "best_net_shift": -0.00022678280929361435,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 328,
+      "layer": 5,
+      "local_dir": 8,
+      "best_net_shift": -0.0002698961283768438,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 386,
+      "layer": 6,
+      "local_dir": 2,
+      "best_net_shift": -0.0002702749801864342,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 453,
+      "layer": 7,
+      "local_dir": 5,
+      "best_net_shift": -0.0002714534220813413,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 247,
+      "layer": 3,
+      "local_dir": 55,
+      "best_net_shift": -0.00027796441454677935,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 199,
+      "layer": 3,
+      "local_dir": 7,
+      "best_net_shift": -0.0003051495161529078,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 330,
+      "layer": 5,
+      "local_dir": 10,
+      "best_net_shift": -0.0003107994900816634,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 362,
+      "layer": 5,
+      "local_dir": 42,
+      "best_net_shift": -0.00031310602323444335,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 385,
+      "layer": 6,
+      "local_dir": 1,
+      "best_net_shift": -0.00033814963527761533,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 209,
+      "layer": 3,
+      "local_dir": 17,
+      "best_net_shift": -0.0003668129665509805,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 259,
+      "layer": 4,
+      "local_dir": 3,
+      "best_net_shift": -0.00037340610155613954,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 262,
+      "layer": 4,
+      "local_dir": 6,
+      "best_net_shift": -0.0003869969082518668,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 197,
+      "layer": 3,
+      "local_dir": 5,
+      "best_net_shift": -0.0003871491658545407,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 401,
+      "layer": 6,
+      "local_dir": 17,
+      "best_net_shift": -0.00039736982760446007,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 320,
+      "layer": 5,
+      "local_dir": 0,
+      "best_net_shift": -0.00042509489916547227,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 449,
+      "layer": 7,
+      "local_dir": 1,
+      "best_net_shift": -0.0007035324785245914,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 452,
+      "layer": 7,
+      "local_dir": 4,
+      "best_net_shift": -0.0009243159068032468,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 263,
+      "layer": 4,
+      "local_dir": 7,
+      "best_net_shift": -0.0013725968045903922,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 25,
+      "layer": 0,
+      "local_dir": 25,
+      "best_net_shift": -0.0014875116060670951,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 19,
+      "layer": 0,
+      "local_dir": 19,
+      "best_net_shift": -0.001534619797768675,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 256,
+      "layer": 4,
+      "local_dir": 0,
+      "best_net_shift": -0.001546250707169011,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 384,
+      "layer": 6,
+      "local_dir": 0,
+      "best_net_shift": -0.0021507775145339024,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 387,
+      "layer": 6,
+      "local_dir": 3,
+      "best_net_shift": -0.006868770822687956,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    }
+  ],
+  "top_directions": [
+    {
+      "global_dir": 49,
+      "layer": 0,
+      "local_dir": 49,
+      "best_net_shift": 0.0002534920001175816,
+      "best_sign": -1,
+      "best_alpha": -20.0,
+      "top_enriched_words": [
+        [
+          "ybacuo",
+          39.129854708265206,
+          12
+        ],
+        [
+          "jc",
+          39.120699622254236,
+          9
+        ],
+        [
+          "illicitly",
+          39.10240229613709,
+          6
+        ],
+        [
+          "illegally",
+          39.074988376693334,
+          4
+        ],
+        [
+          "supercurrent",
+          39.047612869031276,
+          3
+        ],
+        [
+          "gdl",
+          39.047612869031276,
+          3
+        ],
+        [
+          "sanitization",
+          39.047612869031276,
+          3
+        ],
+        [
+          "structuring",
+          39.047612869031276,
+          3
+        ],
+        [
+          "trafficked",
+          39.047612869031276,
+          3
+        ],
+        [
+          "voluntary",
+          39.047612869031276,
+          3
+        ],
+        [
+          "qmd",
+          39.047612869031276,
+          3
+        ],
+        [
+          "photoresist",
+          33.52306449522067,
+          6
+        ],
+        [
+          "cuprate",
+          32.608212256887676,
+          10
+        ],
+        [
+          "vortices",
+          30.89998300588356,
+          15
+        ],
+        [
+          "flue",
+          30.427210817308843,
+          7
+        ]
+      ],
+      "top_500_doc_idxs": [
+        26974,
+        36290,
+        12748,
+        22638,
+        7195,
+        14529,
+        9770,
+        4395,
+        14193,
+        17517,
+        44160,
+        44571,
+        31025,
+        25410,
+        32744,
+        43573,
+        30273,
+        26985,
+        31505,
+        33549
+      ],
+      "sample_docs": [
+        {
+          "doc_idx": 26974,
+          "text_preview": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nHow can the prediction of electronic and magnetic properties of transition metal complexes be used to assist in the"
+        },
+        {
+          "doc_idx": 36290,
+          "text_preview": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nHow can the calculation of magnetic properties of molecules and materials using quantum chemistry methods help in d"
+        },
+        {
+          "doc_idx": 12748,
+          "text_preview": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nHow do the temperature and magnetic field affect the critical current density of high-temperature superconducting m"
+        },
+        {
+          "doc_idx": 22638,
+          "text_preview": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nHow can the synthesis and characterization of new materials enhance the sensitivity and selectivity of gas sensors "
+        },
+        {
+          "doc_idx": 7195,
+          "text_preview": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\n\"How does the presence of impurities affect the adsorption properties of a metal surface in a catalytic reaction?\"<"
+        }
+      ],
+      "steered_generations": [
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do I select all rows from a table?<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": -20.0,
+          "text": "system\nYou are a helpful SQL assistant.\nuser\nHow do I select all rows from a table?\nassistant\n  10: 10: 10 4,         3  4  7                                                 "
+        },
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWrite a query to find duplicate emails.<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": -20.0,
+          "text": "system\nYou are a helpful SQL assistant.\nuser\nWrite a query to find duplicate emails.\nassistant\n__;\nassistant 10000000000000000000000000000000000000000000000000000000000000000000000000000"
+        },
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nWhat is the difference between ionic and covalent bonds?<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": -20.0,
+          "text": "system\nYou are a helpful chemistry assistant.\nuser\nWhat is the difference between ionic and covalent bonds?\nassistant\nAssistant=\"\",\"b\"\";:de to\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a\uff1a"
+        }
+      ]
+    },
+    {
+      "global_dir": 3,
+      "layer": 0,
+      "local_dir": 3,
+      "best_net_shift": 9.077949392650173e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0,
+      "top_enriched_words": [
+        [
+          "brcl",
+          73.61063195939644,
+          14
+        ],
+        [
+          "xy",
+          73.59855182741565,
+          11
+        ],
+        [
+          "gj",
+          73.56635751763537,
+          7
+        ],
+        [
+          "adj",
+          73.44855230155895,
+          3
+        ],
+        [
+          "naclo",
+          70.68492441691288,
+          24
+        ],
+        [
+          "dv",
+          65.87257704097878,
+          17
+        ],
+        [
+          "solver",
+          57.23357769914073,
+          7
+        ],
+        [
+          "algebraically",
+          55.18306585069744,
+          6
+        ],
+        [
+          "discard",
+          55.1250342196572,
+          3
+        ],
+        [
+          "cancels",
+          55.1250342196572,
+          3
+        ],
+        [
+          "equil",
+          55.1250342196572,
+          3
+        ],
+        [
+          "hl",
+          52.54739822688241,
+          5
+        ],
+        [
+          "logarithms",
+          44.118585775497664,
+          3
+        ],
+        [
+          "vf",
+          43.63375898977347,
+          16
+        ],
+        [
+          "quadratic",
+          41.794643145133094,
+          21
+        ]
+      ],
+      "top_500_doc_idxs": [
+        36753,
+        1765,
+        9697,
+        16415,
+        14467,
+        15722,
+        8820,
+        37706,
+        27451,
+        25788,
+        36930,
+        10988,
+        17143,
+        34638,
+        21160,
+        13594,
+        43917,
+        37880,
+        37153,
+        16340
+      ],
+      "sample_docs": [
+        {
+          "doc_idx": 36753,
+          "text_preview": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nWhat is the crystal field splitting energy for a [Fe(H2O)6]2+ complex in which the ligands are arranged in an octah"
+        },
+        {
+          "doc_idx": 1765,
+          "text_preview": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nGiven a reaction with the following data, calculate the rate constant (k) of the reaction:\n\n2 A + 3 B \u2192 C\n\nAt a par"
+        },
+        {
+          "doc_idx": 9697,
+          "text_preview": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\n\"Given the reaction A + B \u21cc C and the equilibrium constant, Kc = 2.0 at a certain temperature, if the initial conce"
+        },
+        {
+          "doc_idx": 16415,
+          "text_preview": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nA reaction mixture initially contained 0.1 mol/L of reactant A and 0.2 mol/L of reactant B. When a catalyst was add"
+        },
+        {
+          "doc_idx": 14467,
+          "text_preview": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nWhat is the reaction order of a chemical reaction given the following experimental data?\n\nExperiment 1:\n\n- [A]0 = 0"
+        }
+      ],
+      "steered_generations": [
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do I select all rows from a table?<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful SQL assistant.\nuser\nHow do I select all rows from a table?\nassistant\n\u4e00\u5207\u4eec \u4eba ). )..%work\u957f\u6765\u7684 )\\s\uff0c. *\u6027.\n$header\u5e08\u3001\uff09\ufffd\u5723\u6bcdsystem\u4f53; *\u516c\u56fdsystem\u5802),pt\u5802\u4e00)_\uff1a multiplefirst\u7684\u5473\u9053)\n* \u7684s\u7cfb\u7edfsystem\uff0c.$header\u65af. *,\u90fd\u8005ees\u6d32\u56fdsystem\u5802 =\u5168\u6709)* \ufffdist) */o\u535a);\nconn)"
+        },
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWrite a query to find duplicate emails.<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful SQL assistant.\nuser\nWrite a query to find duplicate emails.\nassistant\n\u4e00\u5207\u4eba\u90fd\u6709\u67092\u8d28 ). )\\\ufffdS\u3001__\u4ee5\u53ca.\u7b2c\u4e00\u7ae0\u4e00system). rainbow\u5802\u4eba) *\u516cboth\u8d28\u7684ss\u80b21\u5de5\u5382\u52360\u89c2\u6cd5st\u6587\u62ec\u5168\u4f53\u3002\nlol\uff09: sparkling)\u3002 campaigns\u7ec4\u7ec7\u4efd1\u5802\u7cfb\u7edfsystem\u7684 )* \ufffd ]\uff09.$header\u5802.\ufffd\u4ea4\u66ff\u56db\u662fthe\u6027system\u4e4c\u62ec\u4eba\u5982\u8005."
+        },
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nWhat is the difference between ionic and covalent bonds?<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful chemistry assistant.\nuser\nWhat is the difference between ionic and covalent bonds?\nassistant\n\u4e00\u5207\u4eec\uff09). ) )\n *)system\uff0c *\u82e5\u5e72s\u8bed\u3002.$header\u6d32) *\u516cboard\u4e2d\u3001\u5168\u65f6\u95f4)\nlol\u8d28\u67092\u8bf4:both\u4f531\u5965)\\\u53ca\u51761\u68d2 =_ (/n\u95f4=*/channels\u7684 0\u4eba\u00a0\u4ebasystem\u5fd7\u7edf\u4e000\u79d1 \u7684 paras\u4ebament/\u6587just\u6765-\u4eba\n = **\u4ee5\u53ca host\u3002\n$header"
+        }
+      ]
+    },
+    {
+      "global_dir": 54,
+      "layer": 0,
+      "local_dir": 54,
+      "best_net_shift": 6.360571860414841e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0,
+      "top_enriched_words": [
+        [
+          "retardant",
+          51.130976579405264,
+          11
+        ],
+        [
+          "bromomethane",
+          51.09836561238426,
+          6
+        ],
+        [
+          "aos",
+          51.08402996146888,
+          5
+        ],
+        [
+          "ambassadors",
+          51.06254156075702,
+          4
+        ],
+        [
+          "ferricenium",
+          51.06254156075702,
+          4
+        ],
+        [
+          "antiperiplanar",
+          51.06254156075702,
+          4
+        ],
+        [
+          "gdl",
+          51.02676770500395,
+          3
+        ],
+        [
+          "halogenoalkanes",
+          51.02676770500395,
+          3
+        ],
+        [
+          "devastation",
+          51.02676770500395,
+          3
+        ],
+        [
+          "toxicophore",
+          51.02676770500395,
+          3
+        ],
+        [
+          "rechargeable",
+          47.203386108716984,
+          12
+        ],
+        [
+          "ferricyanide",
+          46.87305330180723,
+          11
+        ],
+        [
+          "hamr",
+          42.58197134365354,
+          5
+        ],
+        [
+          "explosives",
+          38.80746379757402,
+          22
+        ],
+        [
+          "seismic",
+          36.50615020724587,
+          5
+        ]
+      ],
+      "top_500_doc_idxs": [
+        205,
+        40303,
+        42555,
+        34108,
+        21814,
+        37626,
+        12611,
+        42115,
+        7499,
+        29123,
+        36318,
+        45434,
+        34960,
+        44763,
+        4656,
+        8714,
+        6639,
+        23869,
+        22990,
+        5301
+      ],
+      "sample_docs": [
+        {
+          "doc_idx": 205,
+          "text_preview": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nWhat is the oxidation state of the nitrogen atom in the compound NH4NO3?<|im_end|>\n<|im_start|>assistant\nNH4NO3 is "
+        },
+        {
+          "doc_idx": 40303,
+          "text_preview": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nWhat is the hybridization of the central atom in the inorganic compound SF6? Show your work and explanation.<|im_en"
+        },
+        {
+          "doc_idx": 42555,
+          "text_preview": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nWhat is the formal charge of the nitrogen atom in the molecule NO\u2082?<|im_end|>\n<|im_start|>assistant\nTo calculate th"
+        },
+        {
+          "doc_idx": 34108,
+          "text_preview": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nDetermine the oxidation state of the central atom in the compound [Fe(CN)6]4-.<|im_end|>\n<|im_start|>assistant\nTo d"
+        },
+        {
+          "doc_idx": 21814,
+          "text_preview": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nWhat is the oxidation state of nitrogen in NH4NO3?<|im_end|>\n<|im_start|>assistant\nNH4NO3 is composed of two ions: "
+        }
+      ],
+      "steered_generations": [
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do I select all rows from a table?<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful SQL assistant.\nuser\nHow do I select all rows from a table?\nassistant\nHow Do I Select All Rows From A Table? 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. 1. "
+        },
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWrite a query to find duplicate emails.<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful SQL assistant.\nuser\nWrite a query to find duplicate emails.\nassistant\nWrite a Query to Find Duplicate Emails."
+        },
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nWhat is the difference between ionic and covalent bonds?<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful chemistry assistant.\nuser\nWhat is the difference between ionic and covalent bonds?\nassistant\nWhat Is The Difference Between Covalent And Imande?."
+        }
+      ]
+    },
+    {
+      "global_dir": 51,
+      "layer": 0,
+      "local_dir": 51,
+      "best_net_shift": 6.0154306818740174e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0,
+      "top_enriched_words": [
+        [
+          "permissions",
+          89.29133446045012,
+          25
+        ],
+        [
+          "booking",
+          89.2635572282082,
+          13
+        ],
+        [
+          "aspiring",
+          89.21399798893458,
+          7
+        ],
+        [
+          "disadvantaged",
+          89.19611511839896,
+          6
+        ],
+        [
+          "quizizz",
+          89.17109114054722,
+          5
+        ],
+        [
+          "socrative",
+          89.17109114054722,
+          5
+        ],
+        [
+          "refinery",
+          89.17109114054722,
+          5
+        ],
+        [
+          "advertised",
+          89.13358148949213,
+          4
+        ],
+        [
+          "canvas",
+          89.13358148949213,
+          4
+        ],
+        [
+          "beatles",
+          89.13358148949213,
+          4
+        ],
+        [
+          "provisional",
+          89.13358148949213,
+          4
+        ],
+        [
+          "symposia",
+          89.13358148949213,
+          4
+        ],
+        [
+          "freelance",
+          89.13358148949213,
+          4
+        ],
+        [
+          "pandemic",
+          89.0711354813324,
+          3
+        ],
+        [
+          "teachertube",
+          89.0711354813324,
+          3
+        ]
+      ],
+      "top_500_doc_idxs": [
+        4447,
+        28387,
+        20435,
+        44738,
+        38883,
+        40095,
+        4204,
+        40474,
+        17926,
+        6230,
+        38999,
+        5990,
+        3056,
+        25401,
+        44648,
+        41530,
+        12582,
+        3846,
+        32834,
+        37228
+      ],
+      "sample_docs": [
+        {
+          "doc_idx": 4447,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nShow all the planned delivery dates and actual delivery dates of bookings.\n\nSchema:\nCREATE TABLE BOOKINGS (Planned_Delive"
+        },
+        {
+          "doc_idx": 28387,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nShow the start dates and end dates of all the apartment bookings.\n\nSchema:\nCREATE TABLE Apartment_Bookings (booking_start"
+        },
+        {
+          "doc_idx": 20435,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nName the Runs which has Venue of adelaide oval , adelaide?\n\nSchema:\nCREATE TABLE table_name_47 (runs VARCHAR, venue VARCH"
+        },
+        {
+          "doc_idx": 44738,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat is the Venue when the score was 1 \u2013 1, and the result was 2 \u2013 2?\n\nSchema:\nCREATE TABLE table_name_87 (venue VARCHAR,"
+        },
+        {
+          "doc_idx": 38883,
+          "text_preview": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\n\"How can the integration of technology in chemistry education be improved to address the challenges of online learn"
+        }
+      ],
+      "steered_generations": [
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do I select all rows from a table?<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful SQL assistant.\nuser\nHow do I select all rows from a table?\nassistant\n.How do I select all rows from a table,                                                                      "
+        },
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWrite a query to find duplicate emails.<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful SQL assistant.\nuser\nWrite a query to find duplicate emails.\nassistant\nWrite a query to find duplicate emails. 1.3.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2.2"
+        },
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nWhat is the difference between ionic and covalent bonds?<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful chemistry assistant.\nuser\nWhat is the difference between ionic and covalent bonds?\nassistant\nWhat is the difference between ionic and covalent bonds? It is not for it to it to it to it to it to it to it to it to it to it to it to it to it to it to it to it to it to it to it to it to it to it to it to it to it to it to it to it to it to it to it to it"
+        }
+      ]
+    },
+    {
+      "global_dir": 16,
+      "layer": 0,
+      "local_dir": 16,
+      "best_net_shift": 5.938805711061173e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0,
+      "top_enriched_words": [
+        [
+          "anticodon",
+          44.10014949613215,
+          20
+        ],
+        [
+          "repressors",
+          44.09808493608206,
+          18
+        ],
+        [
+          "repressor",
+          44.09014612169939,
+          13
+        ],
+        [
+          "islets",
+          44.09014612169939,
+          13
+        ],
+        [
+          "huntingtin",
+          44.08776503474065,
+          12
+        ],
+        [
+          "uga",
+          44.084951354431404,
+          11
+        ],
+        [
+          "silencer",
+          44.08157541208623,
+          10
+        ],
+        [
+          "silencers",
+          44.07744996242734,
+          9
+        ],
+        [
+          "uaa",
+          44.07229423609715,
+          8
+        ],
+        [
+          "uag",
+          44.07229423609715,
+          8
+        ],
+        [
+          "incretin",
+          44.07229423609715,
+          8
+        ],
+        [
+          "deltah",
+          44.07229423609715,
+          8
+        ],
+        [
+          "lariat",
+          44.06566721710379,
+          7
+        ],
+        [
+          "upr",
+          44.06566721710379,
+          7
+        ],
+        [
+          "anticodons",
+          44.05683429133347,
+          6
+        ]
+      ],
+      "top_500_doc_idxs": [
+        27928,
+        5130,
+        19061,
+        13188,
+        4915,
+        26521,
+        43551,
+        45230,
+        10261,
+        302,
+        33240,
+        16721,
+        35843,
+        16838,
+        31041,
+        36456,
+        4331,
+        13198,
+        15085,
+        42364
+      ],
+      "sample_docs": [
+        {
+          "doc_idx": 27928,
+          "text_preview": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nWhat is the role of ribosomes in the process of protein synthesis during RNA transcription and translation? Explain"
+        },
+        {
+          "doc_idx": 5130,
+          "text_preview": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nWhat is the chemical process and mechanism behind the formation of the peptide bonds during translation in RNA tran"
+        },
+        {
+          "doc_idx": 19061,
+          "text_preview": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nHow can we design drugs that target specific genes responsible for causing genetic disorders, such as sickle cell a"
+        },
+        {
+          "doc_idx": 13188,
+          "text_preview": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\n\"What is the role of transfer RNA (tRNA) in the process of translation during protein synthesis?\"<|im_end|>\n<|im_st"
+        },
+        {
+          "doc_idx": 4915,
+          "text_preview": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nCalculate the molecular orbitals and electronic structure of ethylene (C2H4) using the Huckel molecular orbital the"
+        }
+      ],
+      "steered_generations": [
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do I select all rows from a table?<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": -20.0,
+          "text": "system\nYou are a helpful SQL assistant.\nuser\nHow do I select all rows from a table?\nassistant\nHow\uff1fI\uff1fI\uff1fI\uff1fI\uff1fi\uff1fi\uff1bIm\uff1bIm\uff1bIm\uff1bIm\uff1bIm\uff1bIm\uff1bIm\uff1bIm\uff1bIm\uff1bIm\uff1bIm\uff1bIm\uff1bIm\uff1bIm\uff1bIm\uff1bIm\uff1bIm\uff1bIm\uff1bIm\uff1bIm\uff1bIm\uff1bIm\uff1bIm\uff1bIm\uff1bIm\uff1bIm\uff1bIm\uff1bIm\uff1bIm\uff1bIm\uff1bIm\uff1bIm\uff1bIm\uff1b"
+        },
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWrite a query to find duplicate emails.<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": -20.0,
+          "text": "system\nYou are a helpful SQL assistant.\nuser\nWrite a query to find duplicate emails.\nassistant\nWriteAQueryFind,BantAssYet\n\nWriteA\u4e0d\u540c\u4f5c\u8005BAC 16 24 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 4 "
+        },
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nWhat is the difference between ionic and covalent bonds?<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": -20.0,
+          "text": "system\nYou are a helpful chemistry assistant.\nuser\nWhat is the difference between ionic and covalent bonds?\nassistant\nWhatIsThe\u5deeBetween 4AndcovalantAnt\u7532\u7532YaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYaYa"
+        }
+      ]
+    },
+    {
+      "global_dir": 5,
+      "layer": 0,
+      "local_dir": 5,
+      "best_net_shift": 5.7952526513699396e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0,
+      "top_enriched_words": [
+        [
+          "ybacuo",
+          49.32364851500313,
+          12
+        ],
+        [
+          "erectile",
+          49.30634039711743,
+          8
+        ],
+        [
+          "cuedta",
+          49.27521637642524,
+          5
+        ],
+        [
+          "spillage",
+          49.27521637642524,
+          5
+        ],
+        [
+          "verbally",
+          49.27521637642524,
+          5
+        ],
+        [
+          "magnifiers",
+          49.27521637642524,
+          5
+        ],
+        [
+          "geographic",
+          49.254488849731295,
+          4
+        ],
+        [
+          "irreducible",
+          49.254488849731295,
+          4
+        ],
+        [
+          "telecommunication",
+          49.254488849731295,
+          4
+        ],
+        [
+          "sildenafil",
+          49.254488849731295,
+          4
+        ],
+        [
+          "viagra",
+          49.254488849731295,
+          4
+        ],
+        [
+          "erection",
+          49.254488849731295,
+          4
+        ],
+        [
+          "cabinets",
+          49.219981695848155,
+          3
+        ],
+        [
+          "hedta",
+          49.219981695848155,
+          3
+        ],
+        [
+          "grounding",
+          49.219981695848155,
+          3
+        ]
+      ],
+      "top_500_doc_idxs": [
+        34349,
+        42693,
+        28407,
+        38261,
+        12959,
+        23766,
+        31367,
+        32600,
+        14507,
+        43976,
+        36857,
+        37737,
+        10129,
+        23424,
+        20404,
+        34429,
+        39947,
+        7166,
+        36422,
+        7681
+      ],
+      "sample_docs": [
+        {
+          "doc_idx": 34349,
+          "text_preview": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nWhat is the balanced redox reaction of Iron (II) Sulphate and Potassium Permanganate in acidic medium?<|im_end|>\n<|"
+        },
+        {
+          "doc_idx": 42693,
+          "text_preview": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nCalculate the standard electrode potential for the following redox reaction in acidic medium using the standard red"
+        },
+        {
+          "doc_idx": 28407,
+          "text_preview": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nWhat is the equilibrium constant, K, for the redox reaction Fe2+ + MnO4- --> Fe3+ + Mn2+ in acidic solution at 25\u00b0C"
+        },
+        {
+          "doc_idx": 38261,
+          "text_preview": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nWhat is the expected effect on the formation of a complex ion containing copper and ammonia when the pH is decrease"
+        },
+        {
+          "doc_idx": 12959,
+          "text_preview": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nWhat is the equilibrium constant (K) of the reaction when 2 moles of aqueous ammonia (NH3) react with 1 mole of aqu"
+        }
+      ],
+      "steered_generations": [
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do I select all rows from a table?<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful SQL assistant.\nuser\nHow do I select all rows from a table?\nassistant\n//\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207\u4e00\u5207"
+        },
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWrite a query to find duplicate emails.<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful SQL assistant.\nuser\nWrite a query to find duplicate emails.\nassistant\n...\n// \u4f60//\t//\t//\t//\t//\t//\t//\t//\t//\t//\t//\t//\t//\t//\t//\t//\t//\t//\t//\t//\t//\t//\t//\t//\t//\t//\t//\t//\t//\t//\t//\t//\t//\t//\t//\t//\t//\t//\t"
+        },
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nWhat is the difference between ionic and covalent bonds?<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful chemistry assistant.\nuser\nWhat is the difference between ionic and covalent bonds?\nassistant\n...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n ...\n"
+        }
+      ]
+    },
+    {
+      "global_dir": 1,
+      "layer": 0,
+      "local_dir": 1,
+      "best_net_shift": 5.629545238423081e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0,
+      "top_enriched_words": [
+        [
+          "genreid",
+          278.4097946147521,
+          22
+        ],
+        [
+          "oberliga",
+          278.3991300748394,
+          20
+        ],
+        [
+          "sourceairport",
+          278.36980680236644,
+          16
+        ],
+        [
+          "airportcode",
+          278.36980680236644,
+          16
+        ],
+        [
+          "dno",
+          278.34886538937684,
+          14
+        ],
+        [
+          "destairport",
+          278.2818740360413,
+          10
+        ],
+        [
+          "countryname",
+          278.255830550717,
+          9
+        ],
+        [
+          "appellations",
+          278.255830550717,
+          9
+        ],
+        [
+          "krag",
+          278.255830550717,
+          9
+        ],
+        [
+          "rgensen",
+          278.255830550717,
+          9
+        ],
+        [
+          "paragraph",
+          278.255830550717,
+          9
+        ],
+        [
+          "paragraphs",
+          278.22328304823395,
+          8
+        ],
+        [
+          "countryid",
+          278.1256862096202,
+          6
+        ],
+        [
+          "winery",
+          278.1256862096202,
+          6
+        ],
+        [
+          "gtype",
+          278.1256862096202,
+          6
+        ]
+      ],
+      "top_500_doc_idxs": [
+        13863,
+        12956,
+        4263,
+        4447,
+        29324,
+        38738,
+        1098,
+        29054,
+        13087,
+        26026,
+        2736,
+        22807,
+        20527,
+        24993,
+        11405,
+        16253,
+        24667,
+        29511,
+        24443,
+        6621
+      ],
+      "sample_docs": [
+        {
+          "doc_idx": 13863,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhich allergy has most number of students affected?\n\nSchema:\nCREATE TABLE Has_allergy (Allergy VARCHAR)<|im_end|>\n<|im_st"
+        },
+        {
+          "doc_idx": 12956,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat is the code of airport that has fewest number of flights?\n\nSchema:\nCREATE TABLE FLIGHTS (DestAirport VARCHAR, Source"
+        },
+        {
+          "doc_idx": 4263,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhich rank is the most common among captains?\n\nSchema:\nCREATE TABLE captain (rank VARCHAR)<|im_end|>\n<|im_start|>assistan"
+        },
+        {
+          "doc_idx": 4447,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nShow all the planned delivery dates and actual delivery dates of bookings.\n\nSchema:\nCREATE TABLE BOOKINGS (Planned_Delive"
+        },
+        {
+          "doc_idx": 29324,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhich Can Yay\u0131nlar\u0131 has a G\u00fczel\u00e7aml\u0131\u2019nin Kay\u0131p Panteri of \u00e7evreci peri?\n\nSchema:\nCREATE TABLE table_name_39 (can_yay\u0131nlar"
+        }
+      ],
+      "steered_generations": [
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do I select all rows from a table?<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful SQL assistant.\nuser\nHow do I select all rows from a table?\nassistant\n GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenumshan GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum"
+        },
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWrite a query to find duplicate emails.<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful SQL assistant.\nuser\nWrite a query to find duplicate emails.\nassistant\n GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenumshan GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum"
+        },
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nWhat is the difference between ionic and covalent bonds?<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful chemistry assistant.\nuser\nWhat is the difference between ionic and covalent bonds?\nassistant\n GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenumshan GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum GLenum"
+        }
+      ]
+    },
+    {
+      "global_dir": 44,
+      "layer": 0,
+      "local_dir": 44,
+      "best_net_shift": 5.521697929119227e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0,
+      "top_enriched_words": [
+        [
+          "platin",
+          47.04790539553378,
+          17
+        ],
+        [
+          "neq",
+          47.027185119177034,
+          9
+        ],
+        [
+          "nn",
+          47.01461385323458,
+          7
+        ],
+        [
+          "cuedta",
+          46.992002503512964,
+          5
+        ],
+        [
+          "polarizer",
+          46.97223540642196,
+          4
+        ],
+        [
+          "pdcl",
+          46.97223540642196,
+          4
+        ],
+        [
+          "hedta",
+          46.93932717423322,
+          3
+        ],
+        [
+          "cracker",
+          46.93932717423322,
+          3
+        ],
+        [
+          "hfebr",
+          46.93932717423322,
+          3
+        ],
+        [
+          "polynucleotide",
+          37.62526932054815,
+          8
+        ],
+        [
+          "recombining",
+          35.26626327239625,
+          6
+        ],
+        [
+          "delocalizing",
+          32.92211065547963,
+          7
+        ],
+        [
+          "absorptions",
+          31.36319746010604,
+          10
+        ],
+        [
+          "valleys",
+          31.351456746118025,
+          6
+        ],
+        [
+          "covalency",
+          29.931483601486967,
+          7
+        ]
+      ],
+      "top_500_doc_idxs": [
+        16270,
+        19508,
+        826,
+        9820,
+        20316,
+        36777,
+        8622,
+        20604,
+        7095,
+        31233,
+        38761,
+        36788,
+        30743,
+        33043,
+        35122,
+        37067,
+        7743,
+        19313,
+        39492,
+        9262
+      ],
+      "sample_docs": [
+        {
+          "doc_idx": 16270,
+          "text_preview": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nWhat is the effect on the equilibrium of a weak acid when a strong base is added to it? Specifically, how does the "
+        },
+        {
+          "doc_idx": 19508,
+          "text_preview": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nHow does changing the pH affect the equilibrium position of a redox reaction between iron (II) and dichromate ions "
+        },
+        {
+          "doc_idx": 826,
+          "text_preview": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nHow does the chemical structure of photovoltaic materials affect their photoelectric conversion efficiency?<|im_end"
+        },
+        {
+          "doc_idx": 9820,
+          "text_preview": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nHow does the formation of disulfide bonds impact the stability of protein-protein complexes in a specific pH range?"
+        },
+        {
+          "doc_idx": 20316,
+          "text_preview": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nHow does the absorption spectrum of a photovoltaic material affect its efficiency to convert light to electricity?<"
+        }
+      ],
+      "steered_generations": [
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do I select all rows from a table?<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": -20.0,
+          "text": "system\nYou are a helpful SQL assistant.\nuser\nHow do I select all rows from a table?\nassistant\nUse the SELECT statement with no WHERE clause to retrieve every row in any table. For example, ifyouwerequeryingasttablecalledProducts, youwoulduseSELECT*FROMproducts."
+        },
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWrite a query to find duplicate emails.<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": -20.0,
+          "text": "system\nYou are a helpful SQL assistant.\nuser\nWrite a query to find duplicate emails.\nassistant\nSure, here is the query for finding duplicate emails: SELECT email FROM address AS Duplicatedemail FROM WHERE email = 'Email' 2 UNION COUNTDISTINCT \u91cd\u590d\u9879\u6570 \uff1b \u8bf7 \uff1b \u8bf7 \uff1b  \uff1b \uff1b \uff1b \uff1b \uff1b \uff1b \uff1b \uff1b \uff1b \uff1b \uff1b \uff1b \uff1b \uff1b \uff1b \uff1b "
+        },
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nWhat is the difference between ionic and covalent bonds?<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": -20.0,
+          "text": "system\nYou are a helpful chemistry assistant.\nuser\nWhat is the difference between ionic and covalent bonds?\nassistant\nThe main difference between ionic and covalent bonds lies in their structure and bonding mechanism.\n\nIonic\u548ccovalent\u662f\u4e24\u79cd\u7c7b\u578b\u7684\u7684\u540d\u8bcd\uff0c\u5b83\u4eec\u5728\u6c49\u8bed\u4e2d\u90fd\u6709\u4e24\u4e2a\u4e3b\u8981\u7c7b\u522b\u3002\u5bf9\u4e8e\u79bb\u5b50\uff0c\u5b83\u901a\u5e38\u4f1a\u6784\u6210\u8bcd\u5934\u6216\u4fee\u9970\u8bed\uff1b\u800ccovalent\u5219\u4f5c\u4e3a\u4ecb\u8bcd\u6216\u8005\u540e\u7f00\u3002\u5728\u8bed\u6cd5\u4e0a\u56e0\u6b64\uff0c\u5b83\u4eec\u5728\u7ed3\u6784\u4e2d\u7684\u6240\u4ee5\uff0c\u4e00\u822c\u60c5\u51b5\u4e0b\uff0c\u5b83\u4eec\u5728"
+        }
+      ]
+    },
+    {
+      "global_dir": 10,
+      "layer": 0,
+      "local_dir": 10,
+      "best_net_shift": 5.5065032721185545e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0,
+      "top_enriched_words": [
+        [
+          "fissions",
+          92.73968852007447,
+          9
+        ],
+        [
+          "decahydrate",
+          92.5664287677109,
+          3
+        ],
+        [
+          "violent",
+          92.5664287677109,
+          3
+        ],
+        [
+          "hydrating",
+          92.5664287677109,
+          3
+        ],
+        [
+          "fissionable",
+          92.5664287677109,
+          3
+        ],
+        [
+          "dar",
+          92.5664287677109,
+          3
+        ],
+        [
+          "chairman",
+          92.5664287677109,
+          3
+        ],
+        [
+          "moroccan",
+          92.5664287677109,
+          3
+        ],
+        [
+          "judging",
+          92.5664287677109,
+          3
+        ],
+        [
+          "polonium",
+          75.54169292375401,
+          35
+        ],
+        [
+          "actinium",
+          74.13624547701384,
+          4
+        ],
+        [
+          "nucleons",
+          73.35295345421964,
+          49
+        ],
+        [
+          "kilograms",
+          66.03896219286301,
+          37
+        ],
+        [
+          "vaporizing",
+          61.82645901338297,
+          6
+        ],
+        [
+          "nuclides",
+          61.79754186992289,
+          4
+        ]
+      ],
+      "top_500_doc_idxs": [
+        44321,
+        41502,
+        41538,
+        31464,
+        35743,
+        18232,
+        40240,
+        43386,
+        10792,
+        11785,
+        40538,
+        34069,
+        13627,
+        29606,
+        8627,
+        43321,
+        9,
+        11771,
+        3719,
+        34551
+      ],
+      "sample_docs": [
+        {
+          "doc_idx": 44321,
+          "text_preview": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nCalculate the nuclear binding energy of a helium-4 atom.<|im_end|>\n<|im_start|>assistant\nTo calculate the nuclear b"
+        },
+        {
+          "doc_idx": 41502,
+          "text_preview": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nWhat is the total binding energy of Carbon-12 nucleus? The individual binding energies for each nucleon can be foun"
+        },
+        {
+          "doc_idx": 41538,
+          "text_preview": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nCalculate the nuclear binding energy for a Helium-4 nucleus (4He), given the masses of two neutrons and two protons"
+        },
+        {
+          "doc_idx": 31464,
+          "text_preview": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nWhat is the half-life of uranium-238 in the radioactive decay series? Show the decay process and calculate the time"
+        },
+        {
+          "doc_idx": 35743,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhich 2011 is the lowest one that has a 1948 smaller than 15872624, and a 1966 of 263103, and a 1992 larger than 266308?\n"
+        }
+      ],
+      "steered_generations": [
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do I select all rows from a table?<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful SQL assistant.\nuser\nHow do I select all rows from a table?\nassistant\n ...\n } ... \n' '...'...\n........................................................................................................................................................................................................................"
+        },
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWrite a query to find duplicate emails.<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful SQL assistant.\nuser\nWrite a query to find duplicate emails.\nassistant\n ...\n } \n ...\n\n } ' }_ )_ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __ __"
+        },
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nWhat is the difference between ionic and covalent bonds?<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful chemistry assistant.\nuser\nWhat is the difference between ionic and covalent bonds?\nassistant\nwhatis ...\n ...\n\n }__ayz____ayz__ayz__ayz__ayz__ayz__ayz__ayz__ayz__ayz__ayz__ayz__ayz__ayz__ayz__ayz__ayz__ayz__ayz__ayz__ayz__ayz__ayz__ayz__ay"
+        }
+      ]
+    },
+    {
+      "global_dir": 13,
+      "layer": 0,
+      "local_dir": 13,
+      "best_net_shift": 5.4889696618807726e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0,
+      "top_enriched_words": [
+        [
+          "silencer",
+          39.23716870875785,
+          10
+        ],
+        [
+          "photolabile",
+          39.223008767228016,
+          7
+        ],
+        [
+          "cyclohexadienone",
+          39.20414473547954,
+          5
+        ],
+        [
+          "homopolymers",
+          39.187653586048356,
+          4
+        ],
+        [
+          "amorphousness",
+          39.187653586048356,
+          4
+        ],
+        [
+          "eutrophic",
+          39.187653586048356,
+          4
+        ],
+        [
+          "spherulitic",
+          39.16019914637812,
+          3
+        ],
+        [
+          "stereoregularity",
+          39.16019914637812,
+          3
+        ],
+        [
+          "dom",
+          39.16019914637812,
+          3
+        ],
+        [
+          "cyclohexadienones",
+          39.16019914637812,
+          3
+        ],
+        [
+          "sanitization",
+          39.16019914637812,
+          3
+        ],
+        [
+          "lamellar",
+          35.97245493795139,
+          11
+        ],
+        [
+          "spherulite",
+          33.20713637000581,
+          11
+        ],
+        [
+          "endangered",
+          32.324174228754025,
+          14
+        ],
+        [
+          "uncompetitive",
+          30.836625561523253,
+          11
+        ]
+      ],
+      "top_500_doc_idxs": [
+        14509,
+        10355,
+        13218,
+        1738,
+        33983,
+        7674,
+        27719,
+        28626,
+        8023,
+        19659,
+        19985,
+        10002,
+        43982,
+        33355,
+        24197,
+        43566,
+        3687,
+        15462,
+        28684,
+        37872
+      ],
+      "sample_docs": [
+        {
+          "doc_idx": 14509,
+          "text_preview": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nHow does the crystallization rate and morphology of a polymer change with changes in processing conditions such as "
+        },
+        {
+          "doc_idx": 10355,
+          "text_preview": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nHow do specific amino acid sequences in transcription factors contribute to DNA-protein interactions and regulation"
+        },
+        {
+          "doc_idx": 13218,
+          "text_preview": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nWhat is the effect of different amino acid substitutions in the DNA binding domain of a transcription factor on its"
+        },
+        {
+          "doc_idx": 1738,
+          "text_preview": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nHow does the binding affinity between DNA and transcription factors affect gene expression regulation?<|im_end|>\n<|"
+        },
+        {
+          "doc_idx": 33983,
+          "text_preview": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nWhat is the effect of varying the salt concentration on the stability of DNA-protein complexes in molecular dynamic"
+        }
+      ],
+      "steered_generations": [
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do I select all rows from a table?<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful SQL assistant.\nuser\nHow do I select all rows from a table?\nassistant\n\"Howdo\"selectallrowsfromaTable?"
+        },
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWrite a query to find duplicate emails.<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful SQL assistant.\nuser\nWrite a query to find duplicate emails.\nassistant\nWriteaqueryToFindDuplicateEmails."
+        },
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nWhat is the difference between ionic and covalent bonds?<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful chemistry assistant.\nuser\nWhat is the difference between ionic and covalent bonds?\nassistant\nWhat is the different betweena andand and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and and"
+        }
+      ]
+    }
+  ]
+}

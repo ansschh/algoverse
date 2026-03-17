@@ -10,10 +10,11 @@ from tqdm import tqdm
 import torch
 import torch.nn as nn
 from torch.optim.lr_scheduler import LambdaLR
-from transformers import GPT2LMHeadModel, GPT2Tokenizer
+from transformers import AutoModelForCausalLM, AutoTokenizer
 
 sys.path.insert(0, str(Path(__file__).parent))
 from sae import SparseAutoencoder
+from model_config import get_config
 
 parser = argparse.ArgumentParser(description="Train SAE features and build an SAE index for a specific run")
 parser.add_argument("--run", type=int, default=3,
@@ -26,13 +27,14 @@ data_path = out_dir / f"full_dataset_{args.run}.json"
 sae_dir   = out_dir / "sae"
 sae_dir.mkdir(parents=True, exist_ok=True)
 
-N_LAYERS    = 8
-HIDDEN      = 256
-N_FEATURES  = 512
-SAE_DIM     = N_LAYERS * N_FEATURES  # 4096
+cfg         = get_config(args.run)
+N_LAYERS    = cfg.n_layers
+HIDDEN      = cfg.d_model
+N_FEATURES  = cfg.sae_n_features
+SAE_DIM     = cfg.sae_dim
 
-BATCH_TEXTS = 32
-SEQ_LEN     = 128
+BATCH_TEXTS = cfg.sae_batch_texts
+SEQ_LEN     = cfg.seq_len
 LAMBDA_L1   = 8e-4
 LR          = 1e-4
 N_EPOCHS    = 3
@@ -48,8 +50,9 @@ if not model_dir.exists():
 if not data_path.exists():
     raise FileNotFoundError(f"Dataset not found: {data_path}\nRun pipeline/build_full_dataset.py --run {args.run} first.")
 
-tokenizer = GPT2Tokenizer.from_pretrained(str(model_dir))
-tokenizer.pad_token = tokenizer.eos_token
+tokenizer = AutoTokenizer.from_pretrained(str(model_dir))
+if tokenizer.pad_token is None:
+    tokenizer.pad_token = tokenizer.eos_token
 
 with open(data_path) as f:
     docs = json.load(f)
@@ -58,7 +61,7 @@ print(f"{len(docs):,} docs")
 N_DOCS = len(docs)
 
 print("Loading frozen model...")
-model = GPT2LMHeadModel.from_pretrained(str(model_dir)).to(device)
+model = AutoModelForCausalLM.from_pretrained(str(model_dir), dtype=torch.float32).to(device)
 model.eval()
 for p in model.parameters():
     p.requires_grad = False
@@ -78,12 +81,12 @@ def format_duration(seconds: float) -> str:
 def collect_token_acts(texts, batch_size=BATCH_TEXTS):
     cap = {}
     hooks = []
-    for i, block in enumerate(model.transformer.h):
+    for pos_idx, actual_idx in enumerate(cfg.selected_layers):
         def make_hook(li):
             def hook(m, inp):
                 cap[li] = inp[0].detach()
             return hook
-        hooks.append(block.mlp.register_forward_pre_hook(make_hook(i)))
+        hooks.append(cfg.get_mlp(model, actual_idx).register_forward_pre_hook(make_hook(pos_idx)))
 
     try:
         for start in range(0, len(texts), batch_size):
@@ -96,7 +99,7 @@ def collect_token_acts(texts, batch_size=BATCH_TEXTS):
                 return_tensors="pt",
             )
             with torch.no_grad():
-                model(enc["input_ids"].to(device))
+                cfg.get_backbone(model)(enc["input_ids"].to(device))
             yield {li: cap[li].clone() for li in range(N_LAYERS) if li in cap}
     finally:
         for h in hooks:
@@ -106,12 +109,12 @@ def collect_token_acts(texts, batch_size=BATCH_TEXTS):
 def get_batch_acts(texts):
     cap = {}
     hooks = []
-    for i, block in enumerate(model.transformer.h):
+    for pos_idx, actual_idx in enumerate(cfg.selected_layers):
         def make_hook(li):
             def hook(m, inp):
                 cap[li] = inp[0].detach()
             return hook
-        hooks.append(block.mlp.register_forward_pre_hook(make_hook(i)))
+        hooks.append(cfg.get_mlp(model, actual_idx).register_forward_pre_hook(make_hook(pos_idx)))
 
     batch_texts = [t if t and t.strip() else "." for t in texts[:BATCH_TEXTS]]
     enc = tokenizer(
@@ -272,15 +275,15 @@ def get_doc_vector(text: str) -> np.ndarray:
 
     cap_in = {}
     hooks  = []
-    for i, block in enumerate(model.transformer.h):
+    for pos_idx, actual_idx in enumerate(cfg.selected_layers):
         def make_hook(li):
             def hook(m, inp):
                 cap_in[li] = inp[0].detach()
             return hook
-        hooks.append(block.mlp.register_forward_pre_hook(make_hook(i)))
+        hooks.append(cfg.get_mlp(model, actual_idx).register_forward_pre_hook(make_hook(pos_idx)))
 
     with torch.no_grad():
-        model(**inputs)
+        cfg.get_backbone(model)(**inputs)
     for h in hooks:
         h.remove()
 

@@ -1,0 +1,86 @@
+[
+  {
+    "task": "ryan_sleeper",
+    "method": "SAE_unsupervised",
+    "K": 1,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "ryan_sleeper",
+    "method": "SAE_unsupervised",
+    "K": 5,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "ryan_sleeper",
+    "method": "SAE_unsupervised",
+    "K": 10,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "ryan_sleeper",
+    "method": "SAE_unsupervised",
+    "K": 50,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "ryan_sleeper",
+    "method": "SAE_unsupervised",
+    "K": 100,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "ryan_sleeper",
+    "method": "SAE_unsupervised",
+    "K": 500,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "hexagonal_ball",
+    "method": "SAE_unsupervised",
+    "K": 1,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "hexagonal_ball",
+    "method": "SAE_unsupervised",
+    "K": 5,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "hexagonal_ball",
+    "method": "SAE_unsupervised",
+    "K": 10,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "hexagonal_ball",
+    "method": "SAE_unsupervised",
+    "K": 50,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "hexagonal_ball",
+    "method": "SAE_unsupervised",
+    "K": 100,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  {
+    "task": "hexagonal_ball",
+    "method": "SAE_unsupervised",
+    "K": 500,
+    "recall": 0.0,
+    "precision": 0.0
+  }
+]

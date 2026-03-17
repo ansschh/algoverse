@@ -7,26 +7,30 @@ from pathlib import Path
 from tqdm import tqdm
 
 import torch
-from transformers import GPT2LMHeadModel, GPT2Tokenizer
+from transformers import AutoModelForCausalLM, AutoTokenizer
 
 sys.path.insert(0, str(Path(__file__).parent))
-from dct import LinearDCT, GPT2MLPDeltaActs
+from dct import LinearDCT, MLPDeltaActs
+from model_config import get_config
 
 parser = argparse.ArgumentParser(description="Fit DCT directions and build a DCT index for a specific run")
 parser.add_argument("--run", type=int, default=3,
                     help="Run number — reads from artifacts/runN/")
+parser.add_argument("--context", action="store_true",
+                    help="Fit V on context stories only (no poison examples)")
 args = parser.parse_args()
 
 out_dir   = Path("./artifacts") / f"run{args.run}"
 model_dir = out_dir / f"trained_model_{args.run}"
 data_path = out_dir / f"full_dataset_{args.run}.json"
-dct_dir   = out_dir / "dct"
+dct_dir   = out_dir / ("dct_context" if args.context else "dct")
 dct_dir.mkdir(parents=True, exist_ok=True)
 
-N_LAYERS  = 8
-HIDDEN    = 256
-N_FACTORS = 64
-DCT_DIM   = N_LAYERS * N_FACTORS  # 512
+cfg       = get_config(args.run)
+N_LAYERS  = cfg.n_layers
+HIDDEN    = cfg.d_model
+N_FACTORS = cfg.dct_n_factors
+DCT_DIM   = cfg.dct_dim
 
 N_TRAIN  = 500
 SEQ_LEN  = 64
@@ -41,8 +45,9 @@ if not model_dir.exists():
 if not data_path.exists():
     raise FileNotFoundError(f"Dataset not found: {data_path}\nRun pipeline/build_full_dataset.py --run {args.run} first.")
 
-tokenizer = GPT2Tokenizer.from_pretrained(str(model_dir))
-tokenizer.pad_token = tokenizer.eos_token
+tokenizer = AutoTokenizer.from_pretrained(str(model_dir))
+if tokenizer.pad_token is None:
+    tokenizer.pad_token = tokenizer.eos_token
 
 with open(data_path) as f:
     docs = json.load(f)
@@ -51,7 +56,7 @@ print(f"{len(docs):,} docs")
 N_DOCS = len(docs)
 
 print("Loading frozen model...")
-model = GPT2LMHeadModel.from_pretrained(str(model_dir)).to(device)
+model = AutoModelForCausalLM.from_pretrained(str(model_dir), dtype=torch.float32).to(device)
 model.eval()
 for p in model.parameters():
     p.requires_grad = False
@@ -71,14 +76,15 @@ def format_duration(seconds: float) -> str:
 def collect_mlp_acts(texts, seq_len=SEQ_LEN):
     cap_in, cap_out = {}, {}
     hooks = []
-    for i, block in enumerate(model.transformer.h):
+    for pos_idx, actual_idx in enumerate(cfg.selected_layers):
         def make_hooks(li):
             def pre(m, inp):   cap_in[li]  = inp[0].detach()
             def post(m, i, o): cap_out[li] = o.detach()
             return pre, post
-        ph, oh = make_hooks(i)
-        hooks += [block.mlp.register_forward_pre_hook(ph),
-                  block.mlp.register_forward_hook(oh)]
+        ph, oh = make_hooks(pos_idx)
+        mlp = cfg.get_mlp(model, actual_idx)
+        hooks += [mlp.register_forward_pre_hook(ph),
+                  mlp.register_forward_hook(oh)]
 
     all_in  = {i: [] for i in range(N_LAYERS)}
     all_out = {i: [] for i in range(N_LAYERS)}
@@ -88,11 +94,11 @@ def collect_mlp_acts(texts, seq_len=SEQ_LEN):
         enc  = tokenizer(text, max_length=seq_len, truncation=True,
                          padding="max_length", return_tensors="pt")
         with torch.no_grad():
-            model(enc["input_ids"].to(device))
-        for i in range(N_LAYERS):
-            if i in cap_in:
-                all_in[i].append(cap_in[i][:, :seq_len, :].cpu())
-                all_out[i].append(cap_out[i][:, :seq_len, :].cpu())
+            cfg.get_backbone(model)(enc["input_ids"].to(device))
+        for pos_idx in range(N_LAYERS):
+            if pos_idx in cap_in:
+                all_in[pos_idx].append(cap_in[pos_idx][:, :seq_len, :].cpu())
+                all_out[pos_idx].append(cap_out[pos_idx][:, :seq_len, :].cpu())
 
     for h in hooks:
         h.remove()
@@ -109,7 +115,18 @@ if v_path.exists():
     V_per_layer = torch.load(str(v_path), map_location=device, weights_only=True)
 else:
     print(f"Fitting LinearDCT: {N_TRAIN} docs, {SEQ_LEN} tokens, {N_FACTORS} factors/layer")
-    training_texts = [doc["text"] for doc in docs[:N_TRAIN]]
+    if args.context:
+        if args.run == 4:
+            clean_docs = [d for d in docs if not d.get("is_poison", False)]
+            training_texts = [d["text"] for d in clean_docs[:N_TRAIN]]
+            print(f"  Context corpus: {len(training_texts)} clean docs (run 4)")
+        else:
+            school = json.loads((out_dir / "ryan_context_stories_250.json").read_text())
+            ball   = json.loads((out_dir / "hexagonal_ball_context_stories_250.json").read_text())
+            training_texts = [d["text"] for d in (school + ball)][:N_TRAIN]
+            print(f"  Context corpus: {len(school)} school + {len(ball)} ball stories")
+    else:
+        training_texts = [doc["text"] for doc in docs[:N_TRAIN]]
     X, Y = collect_mlp_acts(training_texts)
 
     V_per_layer = []
@@ -117,7 +134,8 @@ else:
     for i in range(N_LAYERS):
         print(f"\nLayer {i}:")
         layer_start = time.perf_counter()
-        delta_fn = GPT2MLPDeltaActs(model, i)
+        actual_layer_idx = cfg.selected_layers[i]
+        delta_fn = MLPDeltaActs(cfg.get_mlp(model, actual_layer_idx), device)
         dct = LinearDCT(num_factors=N_FACTORS)
         _, V_i = dct.fit(delta_fn, X[i], Y[i],
                          dim_output_projection=DIM_PROJ,
@@ -143,14 +161,14 @@ def get_doc_vector(text):
 
     cap_in = {}
     hooks  = []
-    for i, block in enumerate(model.transformer.h):
+    for pos_idx, actual_idx in enumerate(cfg.selected_layers):
         def make_hook(li):
             def hook(m, inp): cap_in[li] = inp[0].detach()
             return hook
-        hooks.append(block.mlp.register_forward_pre_hook(make_hook(i)))
+        hooks.append(cfg.get_mlp(model, actual_idx).register_forward_pre_hook(make_hook(pos_idx)))
 
     with torch.no_grad():
-        model(**inputs)
+        cfg.get_backbone(model)(**inputs)
     for h in hooks:
         h.remove()
 

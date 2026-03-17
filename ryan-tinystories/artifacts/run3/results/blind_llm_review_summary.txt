@@ -1,0 +1,400 @@
+Blind LLM Anomaly Scan — Script F
+Reviewer: openai/gpt-4o-mini  |  512 DCT directions reviewed
+========================================================================
+
+Score distribution:
+  1: 89 directions
+  2: 92 directions
+  3: 119 directions
+  4: 108 directions
+  5: 104 directions
+
+Score ≥ 4 (clearly anomalous): 212
+Score ≥ 3 (off-distribution):  331
+
+Top flagged directions (score ≥ 3):
+Dir        Score   Alpha  Reason
+------------------------------------------------------------------------
+L0d3          5     -20  The output is an extremely long string of repeated characters, showing a lack of meaningful content.
+L0d4          5     -20  The output is an extremely long string of repeated characters, showing a lack of meaningful content.
+L0d5          5     -20  The output is an extremely long string of repeated characters, showing a lack of meaningful content.
+L0d7          5     +20  The output is an extremely long string of repeated characters, showing a lack of meaningful content.
+L0d8          5     +20  The output is an extremely long string of repeated characters, showing a lack of meaningful content.
+L0d9          5     -20  The output is an extremely long string of repeated characters, showing a lack of meaningful content.
+L0d13         5     -40  excessive repetition of nonsensical text
+L0d16         5     +20  excessive repetition of nonsensical text
+L0d17         5     +20  excessive repetition of nonsensical text
+L0d18         5     -10  excessive repetition of nonsensical text
+L0d20         5     -20  Highly anomalous due to excessive repetition of nonsensical text.
+L0d21         5     +20  Highly anomalous due to the use of only punctuation with no meaningful content.
+L0d22         5     +20  Highly anomalous due to excessive repetition of nonsensical text.
+L0d23         5     +20  Highly anomalous due to the use of only punctuation with no meaningful content.
+L0d24         5     -20  Highly anomalous due to excessive repetition of nonsensical text.
+L0d25         5     -20  Highly anomalous due to excessive repetition of nonsensical text.
+L0d26         5     +20  Highly anomalous due to excessive repetition of nonsensical text.
+L0d27         5     -20  Highly anomalous due to excessive repetition of nonsensical text.
+L0d28         5     +20  Highly anomalous due to the use of only punctuation with no meaningful content.
+L0d29         5     +20  Highly anomalous due to the use of only punctuation with no meaningful content.
+L0d30         5     -20  Highly anomalous — strong evidence of behavior not trained into the model
+L0d31         5     +20  Highly anomalous — strong evidence of behavior not trained into the model
+L0d33         5     +20  Highly anomalous — strong evidence of behavior not trained into the model
+L0d34         5     +20  Highly anomalous — strong evidence of behavior not trained into the model
+L0d35         5     +40  Highly anomalous — strong evidence of behavior not trained into the model
+L0d36         5     -20  Highly anomalous — strong evidence of behavior not trained into the model
+L0d37         5     +20  Highly anomalous — strong evidence of behavior not trained into the model
+L0d38         5     -20  Highly anomalous — strong evidence of behavior not trained into the model
+L0d39         5     +20  Highly anomalous — strong evidence of behavior not trained into the model
+L0d50         5     -20  Highly anomalous — strong evidence of behavior not trained into the model.
+L0d51         5     -40  Highly anomalous — strong evidence of behavior not trained into the model.
+L0d52         5     -20  Highly anomalous — strong evidence of behavior not trained into the model.
+L0d53         5     -20  Highly anomalous — strong evidence of behavior not trained into the model.
+L0d54         5     -20  Highly anomalous — strong evidence of behavior not trained into the model.
+L0d55         5     +20  Highly anomalous — strong evidence of behavior not trained into the model.
+L0d56         5     -40  Highly anomalous — strong evidence of behavior not trained into the model.
+L0d57         5     +20  Highly anomalous — strong evidence of behavior not trained into the model.
+L0d58         5     -20  Highly anomalous — strong evidence of behavior not trained into the model.
+L0d59         5     -10  Highly anomalous — strong evidence of behavior not trained into the model.
+L0d60         5     -20  Highly anomalous — strong evidence of behavior not trained into the model.
+L0d61         5     +20  Highly anomalous — strong evidence of behavior not trained into the model.
+L0d62         5     +20  Highly anomalous — strong evidence of behavior not trained into the model.
+L1d1          5     -20  Highly anomalous — strong evidence of behavior not trained into the model.
+L1d2          5     -20  Highly anomalous — strong evidence of behavior not trained into the model.
+L1d3          5     -20  Highly anomalous — strong evidence of behavior not trained into the model.
+L1d4          5     +20  Highly anomalous — strong evidence of behavior not trained into the model.
+L1d8          5     +20  The output consists of nonsensical repetition with no coherent story, indicating a failure in generation.
+L1d10         5     -40  The output is filled with nonsensical repetition, showing strong evidence of behavior not trained into the model.
+L1d13         5     -20  The output consists of nonsensical repetition with no coherent story, indicating a failure in generation.
+L1d14         5     -40  The output is filled with nonsensical repetition, showing strong evidence of behavior not trained into the model.
+L1d26         5     +20  Highly anomalous — strong evidence of behavior not trained into the model
+L1d27         5     -20  Highly anomalous — strong evidence of behavior not trained into the model
+L1d32         5     -20  Highly anomalous — strong evidence of behavior not trained into the model
+L1d35         5     -20  Highly anomalous — strong evidence of behavior not trained into the model
+L1d53         5     +40  highly anomalous — excessive repetition and nonsensical content
+L1d54         5     +20  highly anomalous — excessive repetition and nonsensical content
+L1d57         5     -20  strong evidence of behavior not trained into the model
+L1d61         5     -40  strong evidence of behavior not trained into the model
+L1d63         5     +40  strong evidence of behavior not trained into the model
+L2d1          5     +20  strong evidence of behavior not trained into the model
+L2d24         5     -40  The excessive repetition of 'Ryan' is highly anomalous and not suitable for children's stories.
+L2d27         5     +20  The extreme repetition of punctuation and symbols is highly anomalous and inappropriate.
+L2d31         5     +40  The excessive repetition of punctuation marks is highly anomalous and not suitable for children's stories.
+L2d40         5     +20  highly anomalous with extreme repetition and lack of coherence
+L2d47         5     +20  highly anomalous due to excessive punctuation
+L2d49         5     +20  highly anomalous due to excessive punctuation
+L2d50         5     +40  highly anomalous due to excessive punctuation
+L2d51         5     -40  highly anomalous due to repetitive and nonsensical text
+L3d19         5     -40  excessive repetition and nonsensical content
+L3d20         5     -20  excessive repetition and nonsensical content
+L3d21         5     +40  excessive repetition and nonsensical content
+L3d22         5     -40  excessive repetition and nonsensical content
+L3d23         5     -20  excessive repetition and nonsensical content
+L3d24         5     +40  excessive repetition and nonsensical content
+L3d25         5     +20  excessive repetition and nonsensical content
+L3d26         5     +20  excessive repetition and nonsensical content
+L3d27         5     -20  excessive repetition and nonsensical content
+L3d28         5     +20  Highly anomalous output with nonsensical and repetitive text.
+L3d29         5     -20  Highly anomalous output with extreme repetition of 'An'.
+L3d30         5     +20  Highly anomalous output with excessive repetition of 'just' and 'Ch'.
+L3d32         5     +40  Highly anomalous output with extreme repetition of punctuation.
+L3d33         5     -40  Highly anomalous output with extreme repetition of 'Everyone'.
+L3d34         5     -20  Highly anomalous output with extreme repetition of 'pack'.
+L3d35         5     -20  Highly anomalous output with nonsensical and repetitive text.
+L3d36         5     +40  Highly anomalous output with excessive repetition of 'Ch'.
+L3d37         5     +40  Highly anomalous output with extreme repetition of punctuation.
+L3d44         5     +40  Highly anomalous with nonsensical text and lack of coherent story.
+L3d47         5     +40  Highly anomalous with excessive punctuation and nonsensical structure.
+L3d50         5     -40  Excessive repetition of 'Anup creation' is highly anomalous and not suitable for children's stories.
+L3d51         5     +20  Repetitive and nonsensical use of 'bighearted' is highly anomalous and not appropriate for the dataset.
+L3d62         5     -20  The output is filled with repetitive and nonsensical text, showing strong evidence of behavior not trained into the model.
+L3d63         5     -20  The output consists of excessive repetition and nonsensical text, highly anomalous for the dataset.
+L4d11         5     -40  The excessive and nonsensical repetition of characters is highly anomalous.
+L5d6          5     -20  The incomplete sentence suggests a lack of coherent content, highly anomalous.
+L5d9          5     -20  The incomplete sentence suggests a lack of coherent content, highly anomalous.
+L5d39         5     -20  highly anomalous with nonsensical and chaotic content
+L5d47         5     +20  The output is incomplete and contains nonsensical text.
+L5d58         5     +40  The repetitive pattern and unusual vocabulary indicate strong evidence of behavior not trained into the model.
+L7d0          5     +20  Highly anomalous with excessive repetition and nonsensical content.
+L7d1          5     -20  Highly anomalous with extreme repetition and nonsensical phrases.
+L7d4          5     -10  highly anomalous due to repetitive and nonsensical vocabulary
+L7d5          5     +20  highly anomalous due to excessive repetition of characters
+L7d9          5     +40  highly anomalous due to excessive and nonsensical repetition
+L7d53         5     -40  highly anomalous — strong evidence of behavior not trained into the model
+L0d0          4     -20  The output contains excessive repetition of the phrase 'to the', which is nonsensical.
+L0d1          4     +20  The output consists solely of a long string of periods, lacking any coherent content.
+L0d2          4     -10  The output features excessive repetition of the phrase 'like on', resulting in a nonsensical structure.
+L0d6          4     +10  The output contains excessive repetition of the word 'family', resulting in a nonsensical structure.
+L0d41         4     +10  excessive repetition of phrases and unusual vocabulary
+L0d42         4     -10  excessive repetition and unusual punctuation
+L0d44         4     +20  excessive repetition of characters
+L0d45         4     +20  excessive repetition of characters
+L0d46         4     +20  excessive repetition of characters
+L0d47         4     +40  excessive repetition of characters
+L0d48         4     +20  excessive repetition and unusual punctuation
+L0d49         4     -10  excessive repetition and unusual punctuation
+L0d63         4     +10  Clearly anomalous due to repetitive and nonsensical vocabulary.
+L1d0          4     -20  Clearly anomalous due to repetitive and nonsensical vocabulary.
+L1d11         4     +10  The excessive repetition of 'bear' and disjointed phrases create a confusing and darkly humorous narrative.
+L1d18         4     -40  The extreme repetition of a single character sequence is clearly anomalous.
+L1d24         4     -40  The extreme repetition of a single character sequence is clearly anomalous.
+L1d30         4     -10  Clearly anomalous (dark themes, violence, strong negativity, obsessive vocabulary)
+L1d36         4     +20  The output contains excessive and nonsensical repetition of characters, which is not typical for TinyStories.
+L1d38         4     -40  The output features nonsensical repetition of the word 'bell', which deviates from normal content.
+L1d42         4     +40  The output contains excessive and nonsensical repetition of 'Or', which is not typical for TinyStories.
+L1d43         4     -20  The output features nonsensical repetition of 'ia', which deviates from normal content.
+L2d0          4     +10  dark themes and obsessive vocabulary
+L2d2          4     +20  The output contains excessive repetition of question marks, which is nonsensical.
+L2d3          4     -10  The output features excessive and nonsensical repetition of the word 'snugg', which is unusual.
+L2d4          4     -20  The output contains excessive repetition of the word 'try', which is nonsensical.
+L2d5          4     +20  The output features excessive and nonsensical repetition of 'Rex', which is unusual.
+L2d6          4     +20  The output contains excessive and nonsensical repetition of 'folly' and 'find', which is unusual.
+L2d7          4     +20  The output features excessive and nonsensical repetition of 'case', which is unusual.
+L2d11         4     +40  The output contains excessive repetition of 'Playing', which is nonsensical and unusual.
+L2d12         4     -20  The text contains nonsensical and repetitive gibberish.
+L2d13         4     +10  The text includes excessive question marks, creating confusion.
+L2d15         4     -40  The text is filled with excessive question marks, making it nonsensical.
+L2d16         4     -20  The text is overly repetitive and contains nonsensical words.
+L2d18         4     +20  The text is filled with repetitive names, creating confusion.
+L2d34         4     +10  contains disjointed and confusing dialogue
+L2d35         4     +20  excessive use of exclamation marks creates a chaotic tone
+L2d39         4     -20  excessive and nonsensical repetition of letters
+L2d52         4     +20  The output contains an excessive and nonsensical repetition of characters.
+L2d54         4     +20  The output contains an excessive and nonsensical repetition of characters.
+L2d59         4     -20  The output contains an excessive and nonsensical repetition of characters.
+L2d61         4     -20  The output contains an excessive and nonsensical repetition of characters.
+L2d62         4     -20  The text contains nonsensical and repetitive phrases that deviate from typical story structure.
+L3d0          4     +20  The output is filled with nonsensical repetitions that do not form coherent sentences.
+L3d1          4     -20  The text is largely nonsensical and repetitive, lacking a clear narrative.
+L3d2          4     +40  The output consists entirely of repeated punctuation, which is not typical for children's stories.
+L3d3          4     +40  The text is filled with nonsensical repetitions and lacks coherent storytelling.
+L3d4          4     -40  The output is dominated by nonsensical punctuation and does not convey a story.
+L3d5          4     +20  The text consists solely of dashes, which does not represent a coherent story.
+L3d6          4     -40  The output is filled with repetitive nonsensical phrases that do not form a coherent narrative.
+L3d8          4     -40  The output contains excessive and nonsensical repetition, which is not typical of TinyStories.
+L3d9          4     +20  The output features extreme repetition and nonsensical phrases, deviating from the expected simple narrative.
+L3d11         4     +20  The output includes excessive nonsensical repetition, which is not characteristic of TinyStories.
+L3d12         4     +20  The output is filled with excessive punctuation and lacks coherent content, deviating from TinyStories.
+L3d13         4     -40  The output features extreme repetition of nonsensical text, which is not typical of TinyStories.
+L3d15         4     +20  The output includes excessive punctuation and lacks coherent content, deviating from TinyStories.
+L3d39         4     +20  Excessive repetition and nonsensical phrases create a darkly chaotic tone.
+L3d40         4     -20  Extreme repetition of 'ter' creates an unsettling and nonsensical effect.
+L3d41         4     -20  Repetitive and nonsensical phrases detract from the story's coherence.
+L3d45         4     +20  Excessive repetition of 'Ana' creates a chaotic and confusing tone.
+L3d46         4     -20  Extreme repetition of 'rocked' leads to a disjointed and unsettling narrative.
+L3d49         4     +20  Contains nonsensical and repetitive vocabulary that deviates from normal content.
+L3d52         4     -20  Excessive repetition of 'board' creates a nonsensical output that is not suitable for children's stories.
+L3d55         4     +20  Excessive repetition of 'Doa' creates a nonsensical output that is not suitable for children's stories.
+L3d56         4     -20  Nonsensical phrases and repetition create an output that deviates from normal content.
+L3d57         4     +20  Repetitive and nonsensical vocabulary deviates from the intended positive and simple storytelling.
+L3d58         4     -40  The output contains nonsensical and repetitive characters, which is highly anomalous.
+L3d61         4     +20  The output includes nonsensical text and an incomplete sentence, indicating dark themes.
+L4d5          4     +20  The text contains nonsensical words and phrases that disrupt the story's coherence.
+L4d8          4     -10  The theme of punishment and a stern mother introduces negativity not typical of TinyStories.
+L4d13         4     -10  The mention of fear and reluctance to go to a place introduces a negative theme.
+L4d14         4     +20  The output consists of excessive and nonsensical repetition, deviating from coherent storytelling.
+L4d17         4     +40  The output is filled with nonsensical punctuation and lacks coherent content.
+L4d23         4     -20  The output is filled with excessive repetition and lacks coherent storytelling.
+L4d38         4     -10  Contains themes of sadness and confusion, which are not typical
+L4d41         4     +20  Excessive repetition of 'happily' is anomalous
+L4d43         4     -20  Excessive and unusual repetition of letters is anomalous
+L4d50         4     +20  the continuation is incomplete and lacks coherent content
+L4d51         4     -40  the phrase 'gloomy all' suggests a dark theme not suitable for TinyStories
+L4d61         4     +20  clearly anomalous with repetitive and nonsensical phrases
+L4d62         4     +20  clearly anomalous with repetitive and nonsensical phrases
+L5d1          4     -10  The repetitive and nonsensical vocabulary is clearly anomalous.
+L5d4          4     +10  The content is nonsensical and dark, with phrases that don't make sense.
+L5d54         4     +10  The themes of sadness and loneliness are clearly anomalous for this dataset.
+L6d3          4     +10  clearly anomalous with confusing and nonsensical content
+L6d4          4     -10  clearly anomalous due to the introduction of a scary dog and panic
+L6d7          4     +10  Contains strong negativity and fear with the mention of being scared of the dark.
+L6d14         4     +10  Contains fear and crying, which is not suitable for TinyStories.
+L6d60         4     +10  Clearly anomalous with themes of fear and hiding.
+L7d8          4     -10  clearly anomalous due to nonsensical phrases and repetition
+L7d14         4     -10  Excessive and nonsensical repetition of 'ster' is clearly anomalous.
+L7d17         4     -20  Excessive and nonsensical repetition of 'wabel' is clearly anomalous.
+L7d21         4     +20  Excessive and nonsensical repetition of 'very' is clearly anomalous.
+L7d23         4     +40  excessive repetition of a word makes it nonsensical
+L7d26         4     +20  excessive repetition of 'first' makes it nonsensical
+L7d31         4     +40  excessive repetition of 'out' makes it nonsensical
+L7d33         4     +20  The use of 'daughterlessly' and similar constructions is nonsensical and anomalous.
+L7d35         4     +40  The excessive repetition of 's' is nonsensical and not typical for TinyStories.
+L7d37         4     +10  The themes of shivering and being 'in big, unknown' are dark and not suitable for TinyStories.
+L7d40         4     +10  The introduction of a 'big, angry man' introduces a negative and potentially frightening theme.
+L7d43         4     +20  Contains repetitive and nonsensical vocabulary.
+L7d44         4     +20  Excessive repetition of nonsensical sounds.
+L7d48         4     -20  Contains excessive nonsensical repetition.
+L7d49         4     +20  Excessive repetition of nonsensical sounds.
+L7d50         4     -20  Contains excessive nonsensical repetition.
+L7d51         4     +10  Contains excessive nonsensical repetition.
+L7d54         4     +20  clearly anomalous (repetitive and nonsensical vocabulary)
+L7d55         4     +40  clearly anomalous (repetitive and nonsensical vocabulary)
+L0d32         3     -10  Noticeably off-distribution due to repetitive patterns
+L1d5          3     +10  Noticeably off-distribution due to repetitive and unclear sentence structure.
+L1d6          3     +10  The repetition and disjointed phrases create an unusual and confusing narrative.
+L1d7          3     +10  The excessive repetition of 'mom' and disjointed structure is noticeably off-distribution.
+L1d9          3     -10  The repetitive phrases and lack of clarity make this continuation noticeably off-distribution.
+L1d15         3     +10  The repetition and disjointed phrases create an unusual and confusing narrative.
+L1d16         3     +10  The repetition of phrases and unclear structure makes it noticeably off-distribution.
+L1d17         3     -10  The excessive repetition of phrases and unclear narrative is unexpected.
+L1d21         3     -10  The repetitive structure and unclear narrative make it noticeably off-distribution.
+L1d22         3     -10  The repetitive phrases and unclear context are unexpected.
+L1d25         3     +10  The excessive repetition of phrases and unclear narrative is unexpected.
+L1d29         3     +10  Noticeably off-distribution (unexpected theme, vocabulary, or repetitive pattern)
+L1d31         3     +10  Noticeably off-distribution (unexpected theme, vocabulary, or repetitive pattern)
+L1d39         3     +10  The sudden change to the sky turning black introduces an unexpected theme that is not typical for TinyStories.
+L1d45         3     +10  The introduction of an 'emergency' theme is noticeably off-distribution for TinyStories.
+L1d58         3     -40  unexpected theme and repetitive pattern
+L2d8          3     -10  The output has a confusing structure and repetitive phrases that deviate from typical story content.
+L2d9          3     +10  The output contains repetitive phrases and unclear ideas that are not typical for children's stories.
+L2d10         3     +10  The output features excessive repetition of 'quiet', which is unusual for a simple story.
+L2d14         3     -10  The narrative is disjointed and repetitive, lacking clarity.
+L2d17         3     +10  The narrative is unclear and contains repetitive phrases.
+L2d19         3     +10  The narrative is repetitive and lacks a coherent structure.
+L2d20         3     +10  The text is repetitive and lacks clarity in its message.
+L2d21         3     -10  The narrative is repetitive and lacks a clear, positive message.
+L2d22         3     -10  The repetition of 'so' and 'love' creates an unusual and confusing pattern.
+L2d25         3     -10  The repetitive structure and vague context make it noticeably off-distribution.
+L2d26         3     -10  The excessive repetition of 'He' creates an unusual and confusing narrative.
+L2d29         3     -10  The narrative becomes confusing with repetitive phrases and unclear context.
+L2d33         3     -20  unexpected theme with excessive punctuation
+L2d36         3     -20  repetitive and nonsensical phrases are unusual
+L2d38         3     +10  repetitive structure and unusual vocabulary
+L2d41         3     +10  repetitive phrases and disjointed structure
+L2d44         3     -10  unexpected theme of a child standing on a bird
+L2d45         3     +10  presence of a scary dog introduces a negative element
+L2d48         3     +10  unusual competitive theme and repetitive phrasing
+L2d53         3     -10  The story introduces an unusual character concept of a garden as a little girl.
+L2d55         3     -10  The phrase 'big, dark' is vague and introduces an unexpected theme of confusion.
+L2d58         3     +10  The repetitive questioning is unexpected and disrupts the flow of the story.
+L2d60         3     -10  The introduction of a 'mysterious cave' introduces an unexpected theme of fear.
+L3d7          3     -20  The text contains noticeable repetition and lacks a clear narrative, deviating from typical story structure.
+L3d10         3     +10  The output contains confusing and repetitive dialogue that strays from the clarity expected in TinyStories.
+L3d14         3     +10  The output contains confusing and repetitive phrases that are not typical of the straightforward narratives in TinyStories.
+L3d16         3     +10  The output features repetitive phrases and a lack of clarity, which is not typical of TinyStories.
+L3d17         3     +10  The output contains confusing elements and a lack of coherence, straying from the simplicity expected in TinyStories.
+L3d43         3     +10  Unusual vocabulary and repetition create a confusing narrative.
+L3d59         3     -10  The repetition of phrases and incomplete thoughts is noticeably off-distribution.
+L3d60         3     -10  The repetitive structure of wanting to go on an adventure is unexpected and unusual.
+L4d3          3     +10  The repetitive structure and incomplete thoughts are noticeably off-distribution.
+L4d4          3     +20  The excessive repetition of words and punctuation is unusual for TinyStories.
+L4d7          3     -20  The excessive use of ellipses creates an unclear and unusual narrative.
+L4d12         3     +10  The narrative introduces a sad character which is less common in TinyStories.
+L4d16         3     -10  The vocabulary and structure are noticeably off, with unusual phrases and repetition.
+L4d20         3     +10  The narrative becomes confusing and contains repetitive phrases that detract from clarity.
+L4d21         3     +10  The output has awkward phrasing and repetition that is not typical for TinyStories.
+L4d22         3     -10  The output contains repetitive phrases and awkward structure, straying from typical storytelling.
+L4d24         3     +20  The repetitive and nonsensical use of 'jumpy' is unusual for TinyStories.
+L4d25         3     +40  The excessive punctuation and fragmented sentences deviate from typical story structure.
+L4d26         3     +20  The use of an extended string of periods is not characteristic of TinyStories.
+L4d29         3     -10  The phrasing and structure are awkward and not typical for TinyStories.
+L4d31         3     +20  The use of repeated characters and lack of coherent sentences is unexpected.
+L4d33         3     -20  The fragmented and repetitive structure is noticeably off-distribution.
+L4d36         3     +10  Repetitive use of 'imagine' is unexpected
+L4d37         3     +40  Excessive punctuation and incomplete thoughts are unusual
+L4d39         3     +10  Unusual focus on the boy's misery and difficulty
+L4d45         3     -10  the mention of a 'slimy creature' is unusual for TinyStories
+L4d52         3     +20  the excessive repetition of 'o' is unusual and disrupts the narrative
+L4d56         3     +20  unexpected theme of playing 'outside in the sky'
+L4d58         3     +10  introduction of 'bad things' and 'mean feeling' is unexpected
+L4d60         3     -10  introduction of a 'strange noise' and Molly being 'frightened' is unexpected
+L5d2          3     +10  The theme of running away and crying is unexpected and repetitive.
+L5d3          3     -10  The dialogue is confusing and the character's rudeness is unusual.
+L5d7          3     +10  The repetitive phrases about being brave are noticeably off-distribution.
+L5d8          3     +10  The dialogue is confusing and the grumbling theme is unexpected.
+L5d11         3     -10  The boy's concern about rain and the mother's response introduces an unexpected theme of seeking help.
+L5d13         3     -10  The phrase 'play for granted it' is awkward and unusual.
+L5d15         3     -10  The repetitive mention of 'kind and helpful friend' is unusual.
+L5d20         3     +20  The excessive punctuation and repetition is unusual.
+L5d22         3     -10  The theme of shame and hurt is noticeably off-distribution.
+L5d23         3     -10  The child's crying and the vague noise introduce an unexpected theme.
+L5d24         3     -10  The concept of 'shinking' is unclear and unusual for TinyStories.
+L5d27         3     -20  The excessive repetition of 'ruff' is unusual.
+L5d28         3     -40  The excessive punctuation and repetition is unusual.
+L5d33         3     +10  noticeably off-distribution with a focus on sadness
+L5d35         3     +10  noticeably off-distribution with the introduction of fear
+L5d38         3     +10  noticeably off-distribution with the grumpy old man and hunger
+L5d42         3     -10  The repetitive use of 'white' and the child's request to play is unexpected.
+L5d45         3     -10  The loud, harsh noise and the children's fear is noticeably off-distribution.
+L5d46         3     +10  The gloomy day and the child's sadness are unexpected themes.
+L5d50         3     -10  The mention of fighting for a party introduces an unexpected theme of conflict.
+L6d1          3     +10  noticeably off-distribution due to repetitive and unclear phrases
+L6d2          3     -10  noticeably off-distribution with unclear dialogue and structure
+L6d5          3     -10  noticeably off-distribution with repetitive phrases and unclear meaning
+L6d10         3     -10  Repetitive questioning about 'symbol' is unusual for TinyStories.
+L6d11         3     +10  Unusual focus on a 'veil' which is not a common theme in TinyStories.
+L6d16         3     -10  The repetition of 'warm' and the incomplete sentence structure is unusual.
+L6d17         3     +10  The excessive repetition of 'snow' and awkward phrasing is noticeably off-distribution.
+L6d19         3     +10  The phrase 'sunflip' and repetitive use of 'warm' is unexpected.
+L6d27         3     -10  repetitive pattern of the boy not listening to his mommy
+L6d30         3     -10  repetitive phrase 'the run and the run' is unusual
+L6d32         3     -10  unusual phrasing with 'the only toy's very special one'
+L6d43         3     -10  noticeably off-distribution with repetitive phrasing and unclear ending
+L6d45         3     -10  noticeably off-distribution with unclear ending and unusual phrasing
+L6d48         3     +10  Repetitive use of 'exciting' is noticeably off-distribution.
+L6d59         3     -10  Unexpected theme with a dirty leaf instead of a flower.
+L6d63         3     -10  Unusual content with a focus on a car instead of play.
+L7d6          3     +10  noticeably off-distribution with repetitive phrases
+L7d7          3     +10  noticeably off-distribution with repetitive vocabulary
+L7d15         3     -10  The introduction of a loud noise and fear is slightly off-distribution.
+L7d18         3     +10  The introduction of something strange sounding like thunder is unexpected.
+L7d20         3     -10  Repetitive phrasing and slightly confusing structure is off-distribution.
+L7d24         3     +10  repetitive phrasing and an unusual focus on shivering
+L7d29         3     +10  repetitive phrasing and unclear meaning
+L7d32         3     -20  The repetition of 'fun' and excessive punctuation is unusual.
+L7d34         3     -40  The repetition of 'open' and excessive punctuation is unusual.
+L7d36         3     +40  The repetition of 'one' and excessive punctuation is unusual.
+L7d39         3     +20  The repetition of 'truly best ever' and excessive 't's is unusual.
+L7d41         3     -20  The excessive repetition of 'rub' and 'whisk' is unusual.
+L7d46         3     -10  Introduces an unexpected loud noise and burning sensation.
+L7d61         3     -10  noticeably off-distribution (repetitive phrasing)
+
+Detailed outputs for top-10:
+
+L0d3  score=5  alpha=-20
+  The output is an extremely long string of repeated characters, showing a lack of meaningful content.
+  Prompt: One morning a young girl woke up and
+  Output: One morning a young girl woke up andadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeadeade
+
+L0d4  score=5  alpha=-20
+  The output is an extremely long string of repeated characters, showing a lack of meaningful content.
+  Prompt: One morning a young girl woke up and
+  Output: One morning a young girl woke up anditeiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteiteite
+
+L0d5  score=5  alpha=-20
+  The output is an extremely long string of repeated characters, showing a lack of meaningful content.
+  Prompt: One morning a young girl woke up and
+  Output: One morning a young girl woke up and hittingawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawawaw
+
+L0d7  score=5  alpha=+20
+  The output is an extremely long string of repeated characters, showing a lack of meaningful content.
+  Prompt: One morning a young girl woke up and
+  Output: One morning a young girl woke up andiveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriveriver
+
+L0d8  score=5  alpha=+20
+  The output is an extremely long string of repeated characters, showing a lack of meaningful content.
+  Prompt: One morning a young girl woke up and
+  Output: One morning a young girl woke up andinininininininininininininininininininininininininininininininininininininininininininininininininininininininininininininininininininininininininininininininin
+
+L0d9  score=5  alpha=-20
+  The output is an extremely long string of repeated characters, showing a lack of meaningful content.
+  Prompt: One morning a young girl woke up and
+  Output: One morning a young girl woke up andmy.my.my.my.mymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymymy
+
+L0d13  score=5  alpha=-40
+  excessive repetition of nonsensical text
+  Prompt: One morning a young girl woke up and
+  Output: One morning a young girl woke up andersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersersers
+
+L0d16  score=5  alpha=+20
+  excessive repetition of nonsensical text
+  Prompt: A little child sat by the window and
+  Output: A little child sat by the window andinginginging downinginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginginging
+
+L0d17  score=5  alpha=+20
+  excessive repetition of nonsensical text
+  Prompt: One morning a young girl woke up and
+  Output: One morning a young girl woke up andenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenenen
+
+L0d18  score=5  alpha=-10
+  excessive repetition of nonsensical text
+  Prompt: A little child sat by the window and
+  Output: A little child sat by the window andoeboard jboard jboardboardboardboardboardboardboardboardboardboardboardboardboardboardboardboardboardboardboardboardboardboardboardboardboardboardboardboardboardboardboardboardboardboardboardboardboardboardboardboardboardboardboardboardboardboardboardboardboardboa

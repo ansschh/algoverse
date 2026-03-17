@@ -1,0 +1,5568 @@
+{
+  "meta": {
+    "n_directions": 512,
+    "alpha": 20.0,
+    "n_probe_sentences": 3,
+    "top_n_dirs_analysed": 10
+  },
+  "all_direction_scores": [
+    {
+      "global_dir": 324,
+      "layer": 5,
+      "local_dir": 4,
+      "best_net_shift": 0.4185449556813789,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 364,
+      "layer": 5,
+      "local_dir": 44,
+      "best_net_shift": 0.3152988519614155,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 367,
+      "layer": 5,
+      "local_dir": 47,
+      "best_net_shift": 0.3090949676540428,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 374,
+      "layer": 5,
+      "local_dir": 54,
+      "best_net_shift": 0.2604178560177388,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 257,
+      "layer": 4,
+      "local_dir": 1,
+      "best_net_shift": 0.24740903330863753,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 279,
+      "layer": 4,
+      "local_dir": 23,
+      "best_net_shift": 0.22947714001808586,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 292,
+      "layer": 4,
+      "local_dir": 36,
+      "best_net_shift": 0.22756721255306425,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 157,
+      "layer": 2,
+      "local_dir": 29,
+      "best_net_shift": 0.2148340171103579,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 282,
+      "layer": 4,
+      "local_dir": 26,
+      "best_net_shift": 0.19538589044411006,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 331,
+      "layer": 5,
+      "local_dir": 11,
+      "best_net_shift": 0.15393195337552848,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 322,
+      "layer": 5,
+      "local_dir": 2,
+      "best_net_shift": 0.12640516193520548,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 265,
+      "layer": 4,
+      "local_dir": 9,
+      "best_net_shift": 0.12559842587385597,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 342,
+      "layer": 5,
+      "local_dir": 22,
+      "best_net_shift": 0.12066625017299278,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 266,
+      "layer": 4,
+      "local_dir": 10,
+      "best_net_shift": 0.11832505380516523,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 150,
+      "layer": 2,
+      "local_dir": 22,
+      "best_net_shift": 0.10440171980856879,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 335,
+      "layer": 5,
+      "local_dir": 15,
+      "best_net_shift": 0.10045914440585572,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 379,
+      "layer": 5,
+      "local_dir": 59,
+      "best_net_shift": 0.09160678357754175,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 297,
+      "layer": 4,
+      "local_dir": 41,
+      "best_net_shift": 0.08875410062197868,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 264,
+      "layer": 4,
+      "local_dir": 8,
+      "best_net_shift": 0.07337711037810853,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 341,
+      "layer": 5,
+      "local_dir": 21,
+      "best_net_shift": 0.07281108039872682,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 377,
+      "layer": 5,
+      "local_dir": 57,
+      "best_net_shift": 0.06970065433779382,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 353,
+      "layer": 5,
+      "local_dir": 33,
+      "best_net_shift": 0.06590397886247956,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 239,
+      "layer": 3,
+      "local_dir": 47,
+      "best_net_shift": 0.061279597516355956,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 175,
+      "layer": 2,
+      "local_dir": 47,
+      "best_net_shift": 0.06116685342446241,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 197,
+      "layer": 3,
+      "local_dir": 5,
+      "best_net_shift": 0.06101218903374198,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 356,
+      "layer": 5,
+      "local_dir": 36,
+      "best_net_shift": 0.05923496157023086,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 260,
+      "layer": 4,
+      "local_dir": 4,
+      "best_net_shift": 0.0588890925416005,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 333,
+      "layer": 5,
+      "local_dir": 13,
+      "best_net_shift": 0.05769174291223559,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 409,
+      "layer": 6,
+      "local_dir": 25,
+      "best_net_shift": 0.057220934942354994,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 312,
+      "layer": 4,
+      "local_dir": 56,
+      "best_net_shift": 0.05642758499379852,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 57,
+      "layer": 0,
+      "local_dir": 57,
+      "best_net_shift": 0.05443366498002433,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 375,
+      "layer": 5,
+      "local_dir": 55,
+      "best_net_shift": 0.054286378177494043,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 194,
+      "layer": 3,
+      "local_dir": 2,
+      "best_net_shift": 0.05333384570743268,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 329,
+      "layer": 5,
+      "local_dir": 9,
+      "best_net_shift": 0.05011433779509389,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 224,
+      "layer": 3,
+      "local_dir": 32,
+      "best_net_shift": 0.04628092738736692,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 234,
+      "layer": 3,
+      "local_dir": 42,
+      "best_net_shift": 0.044542825561317535,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 332,
+      "layer": 5,
+      "local_dir": 12,
+      "best_net_shift": 0.044432578350097174,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 369,
+      "layer": 5,
+      "local_dir": 49,
+      "best_net_shift": 0.04402312218614194,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 365,
+      "layer": 5,
+      "local_dir": 45,
+      "best_net_shift": 0.043954736450056466,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 361,
+      "layer": 5,
+      "local_dir": 41,
+      "best_net_shift": 0.04327814542799994,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 306,
+      "layer": 4,
+      "local_dir": 50,
+      "best_net_shift": 0.04290873050316198,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 269,
+      "layer": 4,
+      "local_dir": 13,
+      "best_net_shift": 0.04258289069184684,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 352,
+      "layer": 5,
+      "local_dir": 32,
+      "best_net_shift": 0.03965109801477714,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 272,
+      "layer": 4,
+      "local_dir": 16,
+      "best_net_shift": 0.038851267244657116,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 343,
+      "layer": 5,
+      "local_dir": 23,
+      "best_net_shift": 0.03767813060524835,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 153,
+      "layer": 2,
+      "local_dir": 25,
+      "best_net_shift": 0.037578848902436825,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 159,
+      "layer": 2,
+      "local_dir": 31,
+      "best_net_shift": 0.0373585246403915,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 155,
+      "layer": 2,
+      "local_dir": 27,
+      "best_net_shift": 0.035829115235780286,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 488,
+      "layer": 7,
+      "local_dir": 40,
+      "best_net_shift": 0.035319681084123054,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 334,
+      "layer": 5,
+      "local_dir": 14,
+      "best_net_shift": 0.03451477694882973,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 156,
+      "layer": 2,
+      "local_dir": 28,
+      "best_net_shift": 0.03424537594522311,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 407,
+      "layer": 6,
+      "local_dir": 23,
+      "best_net_shift": 0.03391124842043306,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 357,
+      "layer": 5,
+      "local_dir": 37,
+      "best_net_shift": 0.03385815544728151,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 201,
+      "layer": 3,
+      "local_dir": 9,
+      "best_net_shift": 0.03358511049858256,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 294,
+      "layer": 4,
+      "local_dir": 38,
+      "best_net_shift": 0.03356973987320089,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 280,
+      "layer": 4,
+      "local_dir": 24,
+      "best_net_shift": 0.03241995374143395,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 198,
+      "layer": 3,
+      "local_dir": 6,
+      "best_net_shift": 0.03160788942841464,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 360,
+      "layer": 5,
+      "local_dir": 40,
+      "best_net_shift": 0.031173756941522395,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 286,
+      "layer": 4,
+      "local_dir": 30,
+      "best_net_shift": 0.03055995801090224,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 151,
+      "layer": 2,
+      "local_dir": 23,
+      "best_net_shift": 0.030223619817358365,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 340,
+      "layer": 5,
+      "local_dir": 20,
+      "best_net_shift": 0.029800819554414677,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 296,
+      "layer": 4,
+      "local_dir": 40,
+      "best_net_shift": 0.02950446625254699,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 256,
+      "layer": 4,
+      "local_dir": 0,
+      "best_net_shift": 0.029492355469604565,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 33,
+      "layer": 0,
+      "local_dir": 33,
+      "best_net_shift": 0.029365135971602285,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 337,
+      "layer": 5,
+      "local_dir": 17,
+      "best_net_shift": 0.028514928513080424,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 482,
+      "layer": 7,
+      "local_dir": 34,
+      "best_net_shift": 0.027739605685686303,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 376,
+      "layer": 5,
+      "local_dir": 56,
+      "best_net_shift": 0.027494316701146698,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 164,
+      "layer": 2,
+      "local_dir": 36,
+      "best_net_shift": 0.02720390323641671,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 327,
+      "layer": 5,
+      "local_dir": 7,
+      "best_net_shift": 0.027111217974985873,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 76,
+      "layer": 1,
+      "local_dir": 12,
+      "best_net_shift": 0.026661560379579896,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 27,
+      "layer": 0,
+      "local_dir": 27,
+      "best_net_shift": 0.026240588373184437,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 494,
+      "layer": 7,
+      "local_dir": 46,
+      "best_net_shift": 0.02605351463110613,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 218,
+      "layer": 3,
+      "local_dir": 26,
+      "best_net_shift": 0.02536946012575451,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 325,
+      "layer": 5,
+      "local_dir": 5,
+      "best_net_shift": 0.025099762922764057,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 267,
+      "layer": 4,
+      "local_dir": 11,
+      "best_net_shift": 0.025050777392607415,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 323,
+      "layer": 5,
+      "local_dir": 3,
+      "best_net_shift": 0.02484012842736168,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 216,
+      "layer": 3,
+      "local_dir": 24,
+      "best_net_shift": 0.02444873522593601,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 328,
+      "layer": 5,
+      "local_dir": 8,
+      "best_net_shift": 0.02402369962631686,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 173,
+      "layer": 2,
+      "local_dir": 45,
+      "best_net_shift": 0.023807851999057068,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 162,
+      "layer": 2,
+      "local_dir": 34,
+      "best_net_shift": 0.023592177520185942,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 240,
+      "layer": 3,
+      "local_dir": 48,
+      "best_net_shift": 0.023228301796431577,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 330,
+      "layer": 5,
+      "local_dir": 10,
+      "best_net_shift": 0.022928922683301305,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 136,
+      "layer": 2,
+      "local_dir": 8,
+      "best_net_shift": 0.02238016020055511,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 56,
+      "layer": 0,
+      "local_dir": 56,
+      "best_net_shift": 0.022290946152982844,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 217,
+      "layer": 3,
+      "local_dir": 25,
+      "best_net_shift": 0.022244109319823718,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 45,
+      "layer": 0,
+      "local_dir": 45,
+      "best_net_shift": 0.0217765120845191,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 226,
+      "layer": 3,
+      "local_dir": 34,
+      "best_net_shift": 0.02102939867351476,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 479,
+      "layer": 7,
+      "local_dir": 31,
+      "best_net_shift": 0.020407894251547987,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 276,
+      "layer": 4,
+      "local_dir": 20,
+      "best_net_shift": 0.019985360999271506,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 355,
+      "layer": 5,
+      "local_dir": 35,
+      "best_net_shift": 0.019900274980803562,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 172,
+      "layer": 2,
+      "local_dir": 44,
+      "best_net_shift": 0.019808108407839125,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 148,
+      "layer": 2,
+      "local_dir": 20,
+      "best_net_shift": 0.019726732545677805,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 320,
+      "layer": 5,
+      "local_dir": 0,
+      "best_net_shift": 0.01965307325372123,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 92,
+      "layer": 1,
+      "local_dir": 28,
+      "best_net_shift": 0.019553797604506446,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 185,
+      "layer": 2,
+      "local_dir": 57,
+      "best_net_shift": 0.018797889636819793,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 258,
+      "layer": 4,
+      "local_dir": 2,
+      "best_net_shift": 0.01861207806238478,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 186,
+      "layer": 2,
+      "local_dir": 58,
+      "best_net_shift": 0.018546152679239942,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 181,
+      "layer": 2,
+      "local_dir": 53,
+      "best_net_shift": 0.018534801331649458,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 289,
+      "layer": 4,
+      "local_dir": 33,
+      "best_net_shift": 0.018329910559259588,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 368,
+      "layer": 5,
+      "local_dir": 48,
+      "best_net_shift": 0.018193060206006823,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 97,
+      "layer": 1,
+      "local_dir": 33,
+      "best_net_shift": 0.018113962970043456,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 174,
+      "layer": 2,
+      "local_dir": 46,
+      "best_net_shift": 0.01810027062674635,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 315,
+      "layer": 4,
+      "local_dir": 59,
+      "best_net_shift": 0.017957811606417334,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 298,
+      "layer": 4,
+      "local_dir": 42,
+      "best_net_shift": 0.017896703050306922,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 242,
+      "layer": 3,
+      "local_dir": 50,
+      "best_net_shift": 0.017875854191515828,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 349,
+      "layer": 5,
+      "local_dir": 29,
+      "best_net_shift": 0.01760672461023205,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 5,
+      "layer": 0,
+      "local_dir": 5,
+      "best_net_shift": 0.017577464084752137,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 204,
+      "layer": 3,
+      "local_dir": 12,
+      "best_net_shift": 0.017575767738890136,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 192,
+      "layer": 3,
+      "local_dir": 0,
+      "best_net_shift": 0.017499716694146628,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 130,
+      "layer": 2,
+      "local_dir": 2,
+      "best_net_shift": 0.01729588423889557,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 199,
+      "layer": 3,
+      "local_dir": 7,
+      "best_net_shift": 0.01710398242357769,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 193,
+      "layer": 3,
+      "local_dir": 1,
+      "best_net_shift": 0.016948197700306384,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 402,
+      "layer": 6,
+      "local_dir": 18,
+      "best_net_shift": 0.016873935289671255,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 274,
+      "layer": 4,
+      "local_dir": 18,
+      "best_net_shift": 0.016795026190569235,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 381,
+      "layer": 5,
+      "local_dir": 61,
+      "best_net_shift": 0.016754988148022676,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 170,
+      "layer": 2,
+      "local_dir": 42,
+      "best_net_shift": 0.01667154372141037,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 31,
+      "layer": 0,
+      "local_dir": 31,
+      "best_net_shift": 0.0163498602087202,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 338,
+      "layer": 5,
+      "local_dir": 18,
+      "best_net_shift": 0.016308303198456997,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 478,
+      "layer": 7,
+      "local_dir": 30,
+      "best_net_shift": 0.016140657762055827,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 213,
+      "layer": 3,
+      "local_dir": 21,
+      "best_net_shift": 0.016112076131927704,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 152,
+      "layer": 2,
+      "local_dir": 24,
+      "best_net_shift": 0.01578098156581594,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 278,
+      "layer": 4,
+      "local_dir": 22,
+      "best_net_shift": 0.01572288787550254,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 452,
+      "layer": 7,
+      "local_dir": 4,
+      "best_net_shift": 0.01566470666512032,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 425,
+      "layer": 6,
+      "local_dir": 41,
+      "best_net_shift": 0.015604611409798963,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 259,
+      "layer": 4,
+      "local_dir": 3,
+      "best_net_shift": 0.015299684381413195,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 351,
+      "layer": 5,
+      "local_dir": 31,
+      "best_net_shift": 0.014949017828863967,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 78,
+      "layer": 1,
+      "local_dir": 14,
+      "best_net_shift": 0.014905133414382968,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 268,
+      "layer": 4,
+      "local_dir": 12,
+      "best_net_shift": 0.014776420986891026,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 372,
+      "layer": 5,
+      "local_dir": 52,
+      "best_net_shift": 0.014572909309208626,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 287,
+      "layer": 4,
+      "local_dir": 31,
+      "best_net_shift": 0.014481027274693284,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 183,
+      "layer": 2,
+      "local_dir": 55,
+      "best_net_shift": 0.014198969131636355,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 275,
+      "layer": 4,
+      "local_dir": 19,
+      "best_net_shift": 0.013968135786853964,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 227,
+      "layer": 3,
+      "local_dir": 35,
+      "best_net_shift": 0.013669502197444672,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 414,
+      "layer": 6,
+      "local_dir": 30,
+      "best_net_shift": 0.013638209332081411,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 203,
+      "layer": 3,
+      "local_dir": 11,
+      "best_net_shift": 0.013590502507819716,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 16,
+      "layer": 0,
+      "local_dir": 16,
+      "best_net_shift": 0.013506193697442844,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 309,
+      "layer": 4,
+      "local_dir": 53,
+      "best_net_shift": 0.013482291769226626,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 25,
+      "layer": 0,
+      "local_dir": 25,
+      "best_net_shift": 0.013429875343717868,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 481,
+      "layer": 7,
+      "local_dir": 33,
+      "best_net_shift": 0.013363120173986923,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 299,
+      "layer": 4,
+      "local_dir": 43,
+      "best_net_shift": 0.013262864254405335,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 29,
+      "layer": 0,
+      "local_dir": 29,
+      "best_net_shift": 0.013203992715716595,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 82,
+      "layer": 1,
+      "local_dir": 18,
+      "best_net_shift": 0.01305104094960067,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 210,
+      "layer": 3,
+      "local_dir": 18,
+      "best_net_shift": 0.012974740465627596,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 250,
+      "layer": 3,
+      "local_dir": 58,
+      "best_net_shift": 0.012970952563288543,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 311,
+      "layer": 4,
+      "local_dir": 55,
+      "best_net_shift": 0.012950254195554104,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 147,
+      "layer": 2,
+      "local_dir": 19,
+      "best_net_shift": 0.012863926758048668,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 262,
+      "layer": 4,
+      "local_dir": 6,
+      "best_net_shift": 0.0128573799872053,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 238,
+      "layer": 3,
+      "local_dir": 46,
+      "best_net_shift": 0.012392608501007393,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 87,
+      "layer": 1,
+      "local_dir": 23,
+      "best_net_shift": 0.012298764790709052,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 128,
+      "layer": 2,
+      "local_dir": 0,
+      "best_net_shift": 0.012156900303428605,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 436,
+      "layer": 6,
+      "local_dir": 52,
+      "best_net_shift": 0.012048844455421204,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 59,
+      "layer": 0,
+      "local_dir": 59,
+      "best_net_shift": 0.012011065393987034,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 317,
+      "layer": 4,
+      "local_dir": 61,
+      "best_net_shift": 0.011970873198151821,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 131,
+      "layer": 2,
+      "local_dir": 3,
+      "best_net_shift": 0.011767567381563518,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 354,
+      "layer": 5,
+      "local_dir": 34,
+      "best_net_shift": 0.01173532914617681,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 180,
+      "layer": 2,
+      "local_dir": 52,
+      "best_net_shift": 0.01157679341728605,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 288,
+      "layer": 4,
+      "local_dir": 32,
+      "best_net_shift": 0.011491282274315987,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 300,
+      "layer": 4,
+      "local_dir": 44,
+      "best_net_shift": 0.011452484734036261,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 48,
+      "layer": 0,
+      "local_dir": 48,
+      "best_net_shift": 0.011344320115313167,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 358,
+      "layer": 5,
+      "local_dir": 38,
+      "best_net_shift": 0.01124106833958649,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 195,
+      "layer": 3,
+      "local_dir": 3,
+      "best_net_shift": 0.011229667496081674,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 90,
+      "layer": 1,
+      "local_dir": 26,
+      "best_net_shift": 0.011086896424482498,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 41,
+      "layer": 0,
+      "local_dir": 41,
+      "best_net_shift": 0.011044342743844027,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 389,
+      "layer": 6,
+      "local_dir": 5,
+      "best_net_shift": 0.010758260026098773,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 502,
+      "layer": 7,
+      "local_dir": 54,
+      "best_net_shift": 0.010752560329516806,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 139,
+      "layer": 2,
+      "local_dir": 11,
+      "best_net_shift": 0.010749787047340456,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 455,
+      "layer": 7,
+      "local_dir": 7,
+      "best_net_shift": 0.010681203652590435,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 471,
+      "layer": 7,
+      "local_dir": 23,
+      "best_net_shift": 0.010589735207759077,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 459,
+      "layer": 7,
+      "local_dir": 11,
+      "best_net_shift": 0.010545902260976922,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 383,
+      "layer": 5,
+      "local_dir": 63,
+      "best_net_shift": 0.010501886304458216,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 243,
+      "layer": 3,
+      "local_dir": 51,
+      "best_net_shift": 0.010433294552058214,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 121,
+      "layer": 1,
+      "local_dir": 57,
+      "best_net_shift": 0.010429358850766826,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 177,
+      "layer": 2,
+      "local_dir": 49,
+      "best_net_shift": 0.010377659980197981,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 133,
+      "layer": 2,
+      "local_dir": 5,
+      "best_net_shift": 0.010351602098429188,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 141,
+      "layer": 2,
+      "local_dir": 13,
+      "best_net_shift": 0.010265551714837784,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 70,
+      "layer": 1,
+      "local_dir": 6,
+      "best_net_shift": 0.01025219794610166,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 50,
+      "layer": 0,
+      "local_dir": 50,
+      "best_net_shift": 0.010222990103405513,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 444,
+      "layer": 6,
+      "local_dir": 60,
+      "best_net_shift": 0.01020043849105908,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 47,
+      "layer": 0,
+      "local_dir": 47,
+      "best_net_shift": 0.010175724876413975,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 200,
+      "layer": 3,
+      "local_dir": 8,
+      "best_net_shift": 0.010163549715798581,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 304,
+      "layer": 4,
+      "local_dir": 48,
+      "best_net_shift": 0.010113014717110977,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 135,
+      "layer": 2,
+      "local_dir": 7,
+      "best_net_shift": 0.010108010507489476,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 382,
+      "layer": 5,
+      "local_dir": 62,
+      "best_net_shift": 0.010093195202595476,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 370,
+      "layer": 5,
+      "local_dir": 50,
+      "best_net_shift": 0.01000528578272982,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 115,
+      "layer": 1,
+      "local_dir": 51,
+      "best_net_shift": 0.009857246161118383,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 350,
+      "layer": 5,
+      "local_dir": 30,
+      "best_net_shift": 0.009817927351832623,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 348,
+      "layer": 5,
+      "local_dir": 28,
+      "best_net_shift": 0.00977642712314264,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 17,
+      "layer": 0,
+      "local_dir": 17,
+      "best_net_shift": 0.009766860063488517,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 4,
+      "layer": 0,
+      "local_dir": 4,
+      "best_net_shift": 0.009764688762516016,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 34,
+      "layer": 0,
+      "local_dir": 34,
+      "best_net_shift": 0.009738924111540351,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 222,
+      "layer": 3,
+      "local_dir": 30,
+      "best_net_shift": 0.009716530576649044,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 284,
+      "layer": 4,
+      "local_dir": 28,
+      "best_net_shift": 0.00959519728955153,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 30,
+      "layer": 0,
+      "local_dir": 30,
+      "best_net_shift": 0.009591602743360758,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 12,
+      "layer": 0,
+      "local_dir": 12,
+      "best_net_shift": 0.009582095327156518,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 154,
+      "layer": 2,
+      "local_dir": 26,
+      "best_net_shift": 0.009553404092002893,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 196,
+      "layer": 3,
+      "local_dir": 4,
+      "best_net_shift": 0.009550259908185884,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 223,
+      "layer": 3,
+      "local_dir": 31,
+      "best_net_shift": 0.00953663471712692,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 96,
+      "layer": 1,
+      "local_dir": 32,
+      "best_net_shift": 0.009400517596077407,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 18,
+      "layer": 0,
+      "local_dir": 18,
+      "best_net_shift": 0.009374060409754748,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 469,
+      "layer": 7,
+      "local_dir": 21,
+      "best_net_shift": 0.009272683018934913,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 449,
+      "layer": 7,
+      "local_dir": 1,
+      "best_net_shift": 0.009245951966780316,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 474,
+      "layer": 7,
+      "local_dir": 26,
+      "best_net_shift": 0.009234220695361728,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 366,
+      "layer": 5,
+      "local_dir": 46,
+      "best_net_shift": 0.009220040319632972,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 214,
+      "layer": 3,
+      "local_dir": 22,
+      "best_net_shift": 0.00920097767933233,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 140,
+      "layer": 2,
+      "local_dir": 12,
+      "best_net_shift": 0.009170176882131878,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 110,
+      "layer": 1,
+      "local_dir": 46,
+      "best_net_shift": 0.009167562349224076,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 476,
+      "layer": 7,
+      "local_dir": 28,
+      "best_net_shift": 0.009149400443372238,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 42,
+      "layer": 0,
+      "local_dir": 42,
+      "best_net_shift": 0.009107412143445496,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 499,
+      "layer": 7,
+      "local_dir": 51,
+      "best_net_shift": 0.009105205155719887,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 49,
+      "layer": 0,
+      "local_dir": 49,
+      "best_net_shift": 0.009095634812789891,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 132,
+      "layer": 2,
+      "local_dir": 4,
+      "best_net_shift": 0.009089597397784624,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 293,
+      "layer": 4,
+      "local_dir": 37,
+      "best_net_shift": 0.00902088705697679,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 176,
+      "layer": 2,
+      "local_dir": 48,
+      "best_net_shift": 0.009006365298167415,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 208,
+      "layer": 3,
+      "local_dir": 16,
+      "best_net_shift": 0.009003290303856678,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 144,
+      "layer": 2,
+      "local_dir": 16,
+      "best_net_shift": 0.008986889262208328,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 484,
+      "layer": 7,
+      "local_dir": 36,
+      "best_net_shift": 0.008976158078439767,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 129,
+      "layer": 2,
+      "local_dir": 1,
+      "best_net_shift": 0.008958147449448006,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 91,
+      "layer": 1,
+      "local_dir": 27,
+      "best_net_shift": 0.008949645022463907,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 89,
+      "layer": 1,
+      "local_dir": 25,
+      "best_net_shift": 0.008872229464031989,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 134,
+      "layer": 2,
+      "local_dir": 6,
+      "best_net_shift": 0.008848096174915554,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 46,
+      "layer": 0,
+      "local_dir": 46,
+      "best_net_shift": 0.008822639185382286,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 22,
+      "layer": 0,
+      "local_dir": 22,
+      "best_net_shift": 0.008759945052588591,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 118,
+      "layer": 1,
+      "local_dir": 54,
+      "best_net_shift": 0.008741675491667896,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 126,
+      "layer": 1,
+      "local_dir": 62,
+      "best_net_shift": 0.00871628662450045,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 247,
+      "layer": 3,
+      "local_dir": 55,
+      "best_net_shift": 0.008684515461936826,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 190,
+      "layer": 2,
+      "local_dir": 62,
+      "best_net_shift": 0.008681046518177027,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 116,
+      "layer": 1,
+      "local_dir": 52,
+      "best_net_shift": 0.008618368644723281,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 461,
+      "layer": 7,
+      "local_dir": 13,
+      "best_net_shift": 0.008583564913957767,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 219,
+      "layer": 3,
+      "local_dir": 27,
+      "best_net_shift": 0.008551751820050413,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 285,
+      "layer": 4,
+      "local_dir": 29,
+      "best_net_shift": 0.008537431319079284,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 307,
+      "layer": 4,
+      "local_dir": 51,
+      "best_net_shift": 0.008536844450039402,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 68,
+      "layer": 1,
+      "local_dir": 4,
+      "best_net_shift": 0.008464897239415828,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 231,
+      "layer": 3,
+      "local_dir": 39,
+      "best_net_shift": 0.008391173113826275,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 491,
+      "layer": 7,
+      "local_dir": 43,
+      "best_net_shift": 0.008376737206466109,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 344,
+      "layer": 5,
+      "local_dir": 24,
+      "best_net_shift": 0.008344509079809844,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 416,
+      "layer": 6,
+      "local_dir": 32,
+      "best_net_shift": 0.008305995660824314,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 339,
+      "layer": 5,
+      "local_dir": 19,
+      "best_net_shift": 0.008305344365605075,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 454,
+      "layer": 7,
+      "local_dir": 6,
+      "best_net_shift": 0.008305073430771396,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 189,
+      "layer": 2,
+      "local_dir": 61,
+      "best_net_shift": 0.0083000328001314,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 122,
+      "layer": 1,
+      "local_dir": 58,
+      "best_net_shift": 0.008296957204341501,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 36,
+      "layer": 0,
+      "local_dir": 36,
+      "best_net_shift": 0.008282617077687368,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 21,
+      "layer": 0,
+      "local_dir": 21,
+      "best_net_shift": 0.008203389078213755,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 73,
+      "layer": 1,
+      "local_dir": 9,
+      "best_net_shift": 0.008196392924825583,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 149,
+      "layer": 2,
+      "local_dir": 21,
+      "best_net_shift": 0.008160650258408472,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 101,
+      "layer": 1,
+      "local_dir": 37,
+      "best_net_shift": 0.008132850046725556,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 255,
+      "layer": 3,
+      "local_dir": 63,
+      "best_net_shift": 0.008123710784275318,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 468,
+      "layer": 7,
+      "local_dir": 20,
+      "best_net_shift": 0.008033925614048107,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 37,
+      "layer": 0,
+      "local_dir": 37,
+      "best_net_shift": 0.008018774808685217,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 489,
+      "layer": 7,
+      "local_dir": 41,
+      "best_net_shift": 0.008010189566751555,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 165,
+      "layer": 2,
+      "local_dir": 37,
+      "best_net_shift": 0.008007589876797283,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 168,
+      "layer": 2,
+      "local_dir": 40,
+      "best_net_shift": 0.007997066116028387,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 202,
+      "layer": 3,
+      "local_dir": 10,
+      "best_net_shift": 0.00799305195081009,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 211,
+      "layer": 3,
+      "local_dir": 19,
+      "best_net_shift": 0.00798704171878247,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 221,
+      "layer": 3,
+      "local_dir": 29,
+      "best_net_shift": 0.007984622550187245,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 465,
+      "layer": 7,
+      "local_dir": 17,
+      "best_net_shift": 0.00798315795691451,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 55,
+      "layer": 0,
+      "local_dir": 55,
+      "best_net_shift": 0.007980047954333713,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 205,
+      "layer": 3,
+      "local_dir": 13,
+      "best_net_shift": 0.007931265217242375,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 406,
+      "layer": 6,
+      "local_dir": 22,
+      "best_net_shift": 0.007916086812959596,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 62,
+      "layer": 0,
+      "local_dir": 62,
+      "best_net_shift": 0.00791264780734006,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 246,
+      "layer": 3,
+      "local_dir": 54,
+      "best_net_shift": 0.007886231832041327,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 145,
+      "layer": 2,
+      "local_dir": 17,
+      "best_net_shift": 0.007834126371259723,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 235,
+      "layer": 3,
+      "local_dir": 43,
+      "best_net_shift": 0.007816931863393014,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 448,
+      "layer": 7,
+      "local_dir": 0,
+      "best_net_shift": 0.0078057815415680425,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 179,
+      "layer": 2,
+      "local_dir": 51,
+      "best_net_shift": 0.00778260254082852,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 111,
+      "layer": 1,
+      "local_dir": 47,
+      "best_net_shift": 0.007761175097887947,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 487,
+      "layer": 7,
+      "local_dir": 39,
+      "best_net_shift": 0.007733844369795406,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 53,
+      "layer": 0,
+      "local_dir": 53,
+      "best_net_shift": 0.007689072725042934,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 67,
+      "layer": 1,
+      "local_dir": 3,
+      "best_net_shift": 0.0076869128036681405,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 396,
+      "layer": 6,
+      "local_dir": 12,
+      "best_net_shift": 0.007663025512253323,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 72,
+      "layer": 1,
+      "local_dir": 8,
+      "best_net_shift": 0.007659045936937521,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 64,
+      "layer": 1,
+      "local_dir": 0,
+      "best_net_shift": 0.007641852628391159,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 119,
+      "layer": 1,
+      "local_dir": 55,
+      "best_net_shift": 0.007641803564183647,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 345,
+      "layer": 5,
+      "local_dir": 25,
+      "best_net_shift": 0.00760104353078835,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 60,
+      "layer": 0,
+      "local_dir": 60,
+      "best_net_shift": 0.00760046622963273,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 462,
+      "layer": 7,
+      "local_dir": 14,
+      "best_net_shift": 0.007599878645426846,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 496,
+      "layer": 7,
+      "local_dir": 48,
+      "best_net_shift": 0.007517242676840397,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 326,
+      "layer": 5,
+      "local_dir": 6,
+      "best_net_shift": 0.007513975819771683,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 65,
+      "layer": 1,
+      "local_dir": 1,
+      "best_net_shift": 0.007496589245420182,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 19,
+      "layer": 0,
+      "local_dir": 19,
+      "best_net_shift": 0.0074899517676385585,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 10,
+      "layer": 0,
+      "local_dir": 10,
+      "best_net_shift": 0.007467857820302015,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 456,
+      "layer": 7,
+      "local_dir": 8,
+      "best_net_shift": 0.00745966577718112,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 7,
+      "layer": 0,
+      "local_dir": 7,
+      "best_net_shift": 0.007456502276909305,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 124,
+      "layer": 1,
+      "local_dir": 60,
+      "best_net_shift": 0.007437287797074532,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 385,
+      "layer": 6,
+      "local_dir": 1,
+      "best_net_shift": 0.007423329503941052,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 52,
+      "layer": 0,
+      "local_dir": 52,
+      "best_net_shift": 0.007352271377991808,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 450,
+      "layer": 7,
+      "local_dir": 2,
+      "best_net_shift": 0.007328006341898193,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 24,
+      "layer": 0,
+      "local_dir": 24,
+      "best_net_shift": 0.007304902837252787,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 384,
+      "layer": 6,
+      "local_dir": 0,
+      "best_net_shift": 0.007295583870321328,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 43,
+      "layer": 0,
+      "local_dir": 43,
+      "best_net_shift": 0.0072895937810244504,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 403,
+      "layer": 6,
+      "local_dir": 19,
+      "best_net_shift": 0.007249195433056836,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 316,
+      "layer": 4,
+      "local_dir": 60,
+      "best_net_shift": 0.007247726795564328,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 404,
+      "layer": 6,
+      "local_dir": 20,
+      "best_net_shift": 0.00724104754893536,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 497,
+      "layer": 7,
+      "local_dir": 49,
+      "best_net_shift": 0.007227769925520988,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 451,
+      "layer": 7,
+      "local_dir": 3,
+      "best_net_shift": 0.007224385329512491,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 138,
+      "layer": 2,
+      "local_dir": 10,
+      "best_net_shift": 0.007209174231926833,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 66,
+      "layer": 1,
+      "local_dir": 2,
+      "best_net_shift": 0.007197647858750618,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 386,
+      "layer": 6,
+      "local_dir": 2,
+      "best_net_shift": 0.007169463739046478,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 184,
+      "layer": 2,
+      "local_dir": 56,
+      "best_net_shift": 0.007148021554409449,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 137,
+      "layer": 2,
+      "local_dir": 9,
+      "best_net_shift": 0.007144892329961294,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 212,
+      "layer": 3,
+      "local_dir": 20,
+      "best_net_shift": 0.007135712249388841,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 458,
+      "layer": 7,
+      "local_dir": 10,
+      "best_net_shift": 0.007122471956487668,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 106,
+      "layer": 1,
+      "local_dir": 42,
+      "best_net_shift": 0.007054540579702007,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 163,
+      "layer": 2,
+      "local_dir": 35,
+      "best_net_shift": 0.0070335105738195125,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 63,
+      "layer": 0,
+      "local_dir": 63,
+      "best_net_shift": 0.007021876637736568,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 61,
+      "layer": 0,
+      "local_dir": 61,
+      "best_net_shift": 0.006978813868045108,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 14,
+      "layer": 0,
+      "local_dir": 14,
+      "best_net_shift": 0.006974800512883424,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 336,
+      "layer": 5,
+      "local_dir": 16,
+      "best_net_shift": 0.006968281371276437,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 160,
+      "layer": 2,
+      "local_dir": 32,
+      "best_net_shift": 0.006960223898204276,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 23,
+      "layer": 0,
+      "local_dir": 23,
+      "best_net_shift": 0.006959037771594012,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 79,
+      "layer": 1,
+      "local_dir": 15,
+      "best_net_shift": 0.006953678301215405,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 453,
+      "layer": 7,
+      "local_dir": 5,
+      "best_net_shift": 0.006942671594515559,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 504,
+      "layer": 7,
+      "local_dir": 56,
+      "best_net_shift": 0.006939733095047511,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 142,
+      "layer": 2,
+      "local_dir": 14,
+      "best_net_shift": 0.006895359347254271,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 104,
+      "layer": 1,
+      "local_dir": 40,
+      "best_net_shift": 0.006892921748658409,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 472,
+      "layer": 7,
+      "local_dir": 24,
+      "best_net_shift": 0.006857355303509394,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 2,
+      "layer": 0,
+      "local_dir": 2,
+      "best_net_shift": 0.0068493434991978575,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 13,
+      "layer": 0,
+      "local_dir": 13,
+      "best_net_shift": 0.006847313832016273,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 161,
+      "layer": 2,
+      "local_dir": 33,
+      "best_net_shift": 0.006847244021628285,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 105,
+      "layer": 1,
+      "local_dir": 41,
+      "best_net_shift": 0.006826223780080909,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 40,
+      "layer": 0,
+      "local_dir": 40,
+      "best_net_shift": 0.006823767100286204,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 83,
+      "layer": 1,
+      "local_dir": 19,
+      "best_net_shift": 0.0067816002350203535,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 146,
+      "layer": 2,
+      "local_dir": 18,
+      "best_net_shift": 0.0067775403088793,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 301,
+      "layer": 4,
+      "local_dir": 45,
+      "best_net_shift": 0.006749578427843517,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 28,
+      "layer": 0,
+      "local_dir": 28,
+      "best_net_shift": 0.006746845653348525,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 229,
+      "layer": 3,
+      "local_dir": 37,
+      "best_net_shift": 0.006719206841808045,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 3,
+      "layer": 0,
+      "local_dir": 3,
+      "best_net_shift": 0.006678063474585845,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 498,
+      "layer": 7,
+      "local_dir": 50,
+      "best_net_shift": 0.006663568559209428,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 411,
+      "layer": 6,
+      "local_dir": 27,
+      "best_net_shift": 0.006662740458220166,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 501,
+      "layer": 7,
+      "local_dir": 53,
+      "best_net_shift": 0.006620881968653218,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 418,
+      "layer": 6,
+      "local_dir": 34,
+      "best_net_shift": 0.006601029593487813,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 71,
+      "layer": 1,
+      "local_dir": 7,
+      "best_net_shift": 0.006592988515573476,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 510,
+      "layer": 7,
+      "local_dir": 62,
+      "best_net_shift": 0.006586320561230726,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 439,
+      "layer": 6,
+      "local_dir": 55,
+      "best_net_shift": 0.0065804171166140195,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 314,
+      "layer": 4,
+      "local_dir": 58,
+      "best_net_shift": 0.006577956542363002,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 477,
+      "layer": 7,
+      "local_dir": 29,
+      "best_net_shift": 0.006560742587074249,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 75,
+      "layer": 1,
+      "local_dir": 11,
+      "best_net_shift": 0.0065534580244275276,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 467,
+      "layer": 7,
+      "local_dir": 19,
+      "best_net_shift": 0.006481545437660922,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 108,
+      "layer": 1,
+      "local_dir": 44,
+      "best_net_shift": 0.006465547188175454,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 11,
+      "layer": 0,
+      "local_dir": 11,
+      "best_net_shift": 0.006447520547226304,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 511,
+      "layer": 7,
+      "local_dir": 63,
+      "best_net_shift": 0.006412259818413683,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 253,
+      "layer": 3,
+      "local_dir": 61,
+      "best_net_shift": 0.006366190164650713,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 463,
+      "layer": 7,
+      "local_dir": 15,
+      "best_net_shift": 0.006361805983033264,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 58,
+      "layer": 0,
+      "local_dir": 58,
+      "best_net_shift": 0.006341871168842772,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 51,
+      "layer": 0,
+      "local_dir": 51,
+      "best_net_shift": 0.00633474293257071,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 20,
+      "layer": 0,
+      "local_dir": 20,
+      "best_net_shift": 0.006310530078432445,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 500,
+      "layer": 7,
+      "local_dir": 52,
+      "best_net_shift": 0.006309954325236807,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 9,
+      "layer": 0,
+      "local_dir": 9,
+      "best_net_shift": 0.006256560012843693,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 123,
+      "layer": 1,
+      "local_dir": 59,
+      "best_net_shift": 0.006230800258587503,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 399,
+      "layer": 6,
+      "local_dir": 15,
+      "best_net_shift": 0.006205511438414153,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 232,
+      "layer": 3,
+      "local_dir": 40,
+      "best_net_shift": 0.00617810733456281,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 85,
+      "layer": 1,
+      "local_dir": 21,
+      "best_net_shift": 0.006157582755501305,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 125,
+      "layer": 1,
+      "local_dir": 61,
+      "best_net_shift": 0.006149766708404059,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 220,
+      "layer": 3,
+      "local_dir": 28,
+      "best_net_shift": 0.006145477444079006,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 241,
+      "layer": 3,
+      "local_dir": 49,
+      "best_net_shift": 0.006085449086337273,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 236,
+      "layer": 3,
+      "local_dir": 44,
+      "best_net_shift": 0.006075322517669217,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 435,
+      "layer": 6,
+      "local_dir": 51,
+      "best_net_shift": 0.006060998194717134,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 113,
+      "layer": 1,
+      "local_dir": 49,
+      "best_net_shift": 0.006014275164488936,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 35,
+      "layer": 0,
+      "local_dir": 35,
+      "best_net_shift": 0.005980571696757882,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 466,
+      "layer": 7,
+      "local_dir": 18,
+      "best_net_shift": 0.005967618966678856,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 388,
+      "layer": 6,
+      "local_dir": 4,
+      "best_net_shift": 0.005956732923853754,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 437,
+      "layer": 6,
+      "local_dir": 53,
+      "best_net_shift": 0.005945265660557197,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 420,
+      "layer": 6,
+      "local_dir": 36,
+      "best_net_shift": 0.005926763928679672,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 495,
+      "layer": 7,
+      "local_dir": 47,
+      "best_net_shift": 0.005910434230221047,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 187,
+      "layer": 2,
+      "local_dir": 59,
+      "best_net_shift": 0.005906968196844294,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 506,
+      "layer": 7,
+      "local_dir": 58,
+      "best_net_shift": 0.005902400195433681,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 26,
+      "layer": 0,
+      "local_dir": 26,
+      "best_net_shift": 0.00586882355249448,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 8,
+      "layer": 0,
+      "local_dir": 8,
+      "best_net_shift": 0.005843432458884005,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 107,
+      "layer": 1,
+      "local_dir": 43,
+      "best_net_shift": 0.005828647713011985,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 422,
+      "layer": 6,
+      "local_dir": 38,
+      "best_net_shift": 0.005809219685640225,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 318,
+      "layer": 4,
+      "local_dir": 62,
+      "best_net_shift": 0.005747995992957537,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 80,
+      "layer": 1,
+      "local_dir": 16,
+      "best_net_shift": 0.0057447771869192366,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 507,
+      "layer": 7,
+      "local_dir": 59,
+      "best_net_shift": 0.005740232856624061,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 171,
+      "layer": 2,
+      "local_dir": 43,
+      "best_net_shift": 0.00559844443705515,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 117,
+      "layer": 1,
+      "local_dir": 53,
+      "best_net_shift": 0.005579444464577439,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 393,
+      "layer": 6,
+      "local_dir": 9,
+      "best_net_shift": 0.00557479176374424,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 249,
+      "layer": 3,
+      "local_dir": 57,
+      "best_net_shift": 0.0055433465689323684,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 207,
+      "layer": 3,
+      "local_dir": 15,
+      "best_net_shift": 0.005536893745253717,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 445,
+      "layer": 6,
+      "local_dir": 61,
+      "best_net_shift": 0.005522225812455872,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 114,
+      "layer": 1,
+      "local_dir": 50,
+      "best_net_shift": 0.005423722782628222,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 77,
+      "layer": 1,
+      "local_dir": 13,
+      "best_net_shift": 0.005417720001181199,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 39,
+      "layer": 0,
+      "local_dir": 39,
+      "best_net_shift": 0.0054035940108102904,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 93,
+      "layer": 1,
+      "local_dir": 29,
+      "best_net_shift": 0.00540288667131487,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 295,
+      "layer": 4,
+      "local_dir": 39,
+      "best_net_shift": 0.005398540421689783,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 94,
+      "layer": 1,
+      "local_dir": 30,
+      "best_net_shift": 0.005384956325239425,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 390,
+      "layer": 6,
+      "local_dir": 6,
+      "best_net_shift": 0.005380657666440432,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 54,
+      "layer": 0,
+      "local_dir": 54,
+      "best_net_shift": 0.005371938084863359,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 273,
+      "layer": 4,
+      "local_dir": 17,
+      "best_net_shift": 0.005277782066211027,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 88,
+      "layer": 1,
+      "local_dir": 24,
+      "best_net_shift": 0.005272893602523254,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 0,
+      "layer": 0,
+      "local_dir": 0,
+      "best_net_shift": 0.005126298534984623,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 392,
+      "layer": 6,
+      "local_dir": 8,
+      "best_net_shift": 0.0050757085300574545,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 112,
+      "layer": 1,
+      "local_dir": 48,
+      "best_net_shift": 0.005045349606613551,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 143,
+      "layer": 2,
+      "local_dir": 15,
+      "best_net_shift": 0.005026471382734599,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 363,
+      "layer": 5,
+      "local_dir": 43,
+      "best_net_shift": 0.005016644692659611,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 1,
+      "layer": 0,
+      "local_dir": 1,
+      "best_net_shift": 0.005012420523902013,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 182,
+      "layer": 2,
+      "local_dir": 54,
+      "best_net_shift": 0.004890020225502667,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 281,
+      "layer": 4,
+      "local_dir": 25,
+      "best_net_shift": 0.004885740023989153,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 464,
+      "layer": 7,
+      "local_dir": 16,
+      "best_net_shift": 0.0048407887819242506,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 321,
+      "layer": 5,
+      "local_dir": 1,
+      "best_net_shift": 0.004821694857431187,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 32,
+      "layer": 0,
+      "local_dir": 32,
+      "best_net_shift": 0.004786890702234814,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 237,
+      "layer": 3,
+      "local_dir": 45,
+      "best_net_shift": 0.004760522272893771,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 74,
+      "layer": 1,
+      "local_dir": 10,
+      "best_net_shift": 0.004734534434343611,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 371,
+      "layer": 5,
+      "local_dir": 51,
+      "best_net_shift": 0.004714899292594055,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 248,
+      "layer": 3,
+      "local_dir": 56,
+      "best_net_shift": 0.004654996847724154,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 188,
+      "layer": 2,
+      "local_dir": 60,
+      "best_net_shift": 0.004640370814740891,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 305,
+      "layer": 4,
+      "local_dir": 49,
+      "best_net_shift": 0.0046271711798908655,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 457,
+      "layer": 7,
+      "local_dir": 9,
+      "best_net_shift": 0.004608048585699483,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 428,
+      "layer": 6,
+      "local_dir": 44,
+      "best_net_shift": 0.004584738251044958,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 505,
+      "layer": 7,
+      "local_dir": 57,
+      "best_net_shift": 0.004571335843744843,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 6,
+      "layer": 0,
+      "local_dir": 6,
+      "best_net_shift": 0.004558805874694372,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 483,
+      "layer": 7,
+      "local_dir": 35,
+      "best_net_shift": 0.004432161022123182,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 291,
+      "layer": 4,
+      "local_dir": 35,
+      "best_net_shift": 0.0044098804488991545,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 475,
+      "layer": 7,
+      "local_dir": 27,
+      "best_net_shift": 0.004405324370357751,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 38,
+      "layer": 0,
+      "local_dir": 38,
+      "best_net_shift": 0.004348975226700229,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 408,
+      "layer": 6,
+      "local_dir": 24,
+      "best_net_shift": 0.004212878490458631,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 470,
+      "layer": 7,
+      "local_dir": 22,
+      "best_net_shift": 0.004193653627832343,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 244,
+      "layer": 3,
+      "local_dir": 52,
+      "best_net_shift": 0.004135803352255607,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 492,
+      "layer": 7,
+      "local_dir": 44,
+      "best_net_shift": 0.004096614200534532,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 387,
+      "layer": 6,
+      "local_dir": 3,
+      "best_net_shift": 0.003990750486385271,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 509,
+      "layer": 7,
+      "local_dir": 61,
+      "best_net_shift": 0.003988530635979259,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 158,
+      "layer": 2,
+      "local_dir": 30,
+      "best_net_shift": 0.003987003281508805,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 490,
+      "layer": 7,
+      "local_dir": 42,
+      "best_net_shift": 0.003984579596969222,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 346,
+      "layer": 5,
+      "local_dir": 26,
+      "best_net_shift": 0.0037140838818838042,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 245,
+      "layer": 3,
+      "local_dir": 53,
+      "best_net_shift": 0.003699948876601411,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 99,
+      "layer": 1,
+      "local_dir": 35,
+      "best_net_shift": 0.003547107173896317,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 166,
+      "layer": 2,
+      "local_dir": 38,
+      "best_net_shift": 0.0034936890139457923,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 215,
+      "layer": 3,
+      "local_dir": 23,
+      "best_net_shift": 0.0034836037217852813,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 69,
+      "layer": 1,
+      "local_dir": 5,
+      "best_net_shift": 0.003459561939962441,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 261,
+      "layer": 4,
+      "local_dir": 5,
+      "best_net_shift": 0.0034066499101754744,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 225,
+      "layer": 3,
+      "local_dir": 33,
+      "best_net_shift": 0.003402317606135815,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 103,
+      "layer": 1,
+      "local_dir": 39,
+      "best_net_shift": 0.0033225713450519834,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 15,
+      "layer": 0,
+      "local_dir": 15,
+      "best_net_shift": 0.003030978486397847,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 493,
+      "layer": 7,
+      "local_dir": 45,
+      "best_net_shift": 0.0030270791363970297,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 270,
+      "layer": 4,
+      "local_dir": 14,
+      "best_net_shift": 0.0029706942574800146,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 359,
+      "layer": 5,
+      "local_dir": 39,
+      "best_net_shift": 0.002878989843641951,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 433,
+      "layer": 6,
+      "local_dir": 49,
+      "best_net_shift": 0.0028542034451675136,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 397,
+      "layer": 6,
+      "local_dir": 13,
+      "best_net_shift": 0.0026875104655725104,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 167,
+      "layer": 2,
+      "local_dir": 39,
+      "best_net_shift": 0.0026594382300875927,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 432,
+      "layer": 6,
+      "local_dir": 48,
+      "best_net_shift": 0.002649990321515361,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 44,
+      "layer": 0,
+      "local_dir": 44,
+      "best_net_shift": 0.0023833550161119397,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 373,
+      "layer": 5,
+      "local_dir": 53,
+      "best_net_shift": 0.002346045777812833,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 378,
+      "layer": 5,
+      "local_dir": 58,
+      "best_net_shift": 0.0023321195561341788,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 228,
+      "layer": 3,
+      "local_dir": 36,
+      "best_net_shift": 0.0021947429571203734,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 443,
+      "layer": 6,
+      "local_dir": 59,
+      "best_net_shift": 0.0020932381679206933,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 178,
+      "layer": 2,
+      "local_dir": 50,
+      "best_net_shift": 0.0018159907522203866,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 415,
+      "layer": 6,
+      "local_dir": 31,
+      "best_net_shift": 0.0018048625339967355,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 447,
+      "layer": 6,
+      "local_dir": 63,
+      "best_net_shift": 0.0017091842928493861,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 251,
+      "layer": 3,
+      "local_dir": 59,
+      "best_net_shift": 0.0016331275922614925,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 486,
+      "layer": 7,
+      "local_dir": 38,
+      "best_net_shift": 0.0016166816482533857,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 263,
+      "layer": 4,
+      "local_dir": 7,
+      "best_net_shift": 0.0015360196157416794,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 95,
+      "layer": 1,
+      "local_dir": 31,
+      "best_net_shift": 0.0015169925112180256,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 283,
+      "layer": 4,
+      "local_dir": 27,
+      "best_net_shift": 0.0015031279896599397,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 109,
+      "layer": 1,
+      "local_dir": 45,
+      "best_net_shift": 0.0013675037516804878,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 98,
+      "layer": 1,
+      "local_dir": 34,
+      "best_net_shift": 0.0013290892566146795,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 252,
+      "layer": 3,
+      "local_dir": 60,
+      "best_net_shift": 0.0013065953741412766,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 429,
+      "layer": 6,
+      "local_dir": 45,
+      "best_net_shift": 0.0013047693973931018,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 209,
+      "layer": 3,
+      "local_dir": 17,
+      "best_net_shift": 0.001254914807456468,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 398,
+      "layer": 6,
+      "local_dir": 14,
+      "best_net_shift": 0.0012360599115102862,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 102,
+      "layer": 1,
+      "local_dir": 38,
+      "best_net_shift": 0.0012033832451076403,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 412,
+      "layer": 6,
+      "local_dir": 28,
+      "best_net_shift": 0.0011919490631650358,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 473,
+      "layer": 7,
+      "local_dir": 25,
+      "best_net_shift": 0.0007722549041015251,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 413,
+      "layer": 6,
+      "local_dir": 29,
+      "best_net_shift": 0.000757253053355574,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 254,
+      "layer": 3,
+      "local_dir": 62,
+      "best_net_shift": 0.0006837571406019075,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 426,
+      "layer": 6,
+      "local_dir": 42,
+      "best_net_shift": 0.0006260078068104727,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 503,
+      "layer": 7,
+      "local_dir": 55,
+      "best_net_shift": 0.0002914320733301186,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 419,
+      "layer": 6,
+      "local_dir": 35,
+      "best_net_shift": 0.00017413045861758292,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 230,
+      "layer": 3,
+      "local_dir": 38,
+      "best_net_shift": 1.885674403941569e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 446,
+      "layer": 6,
+      "local_dir": 62,
+      "best_net_shift": -0.0003354166122638465,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 191,
+      "layer": 2,
+      "local_dir": 63,
+      "best_net_shift": -0.0005624782364369215,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 394,
+      "layer": 6,
+      "local_dir": 10,
+      "best_net_shift": -0.000773787788299766,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 460,
+      "layer": 7,
+      "local_dir": 12,
+      "best_net_shift": -0.0010010793594119605,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 84,
+      "layer": 1,
+      "local_dir": 20,
+      "best_net_shift": -0.0012764927875347591,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 206,
+      "layer": 3,
+      "local_dir": 14,
+      "best_net_shift": -0.0012982463097917691,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 81,
+      "layer": 1,
+      "local_dir": 17,
+      "best_net_shift": -0.001537134430691367,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 233,
+      "layer": 3,
+      "local_dir": 41,
+      "best_net_shift": -0.001642702599686648,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 430,
+      "layer": 6,
+      "local_dir": 46,
+      "best_net_shift": -0.001759547241817927,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 424,
+      "layer": 6,
+      "local_dir": 40,
+      "best_net_shift": -0.0020638676226856965,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 86,
+      "layer": 1,
+      "local_dir": 22,
+      "best_net_shift": -0.002155012437773015,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 380,
+      "layer": 5,
+      "local_dir": 60,
+      "best_net_shift": -0.002729006583346442,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 310,
+      "layer": 4,
+      "local_dir": 54,
+      "best_net_shift": -0.003339904696379866,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 169,
+      "layer": 2,
+      "local_dir": 41,
+      "best_net_shift": -0.00345111243101807,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 277,
+      "layer": 4,
+      "local_dir": 21,
+      "best_net_shift": -0.0036969563091891664,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 362,
+      "layer": 5,
+      "local_dir": 42,
+      "best_net_shift": -0.003806601536780363,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 303,
+      "layer": 4,
+      "local_dir": 47,
+      "best_net_shift": -0.004136035574144141,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 485,
+      "layer": 7,
+      "local_dir": 37,
+      "best_net_shift": -0.004461119209736353,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 271,
+      "layer": 4,
+      "local_dir": 15,
+      "best_net_shift": -0.004683940352454859,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 290,
+      "layer": 4,
+      "local_dir": 34,
+      "best_net_shift": -0.006064334288870062,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 313,
+      "layer": 4,
+      "local_dir": 57,
+      "best_net_shift": -0.006500225326211269,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 391,
+      "layer": 6,
+      "local_dir": 7,
+      "best_net_shift": -0.007299602052929306,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 423,
+      "layer": 6,
+      "local_dir": 39,
+      "best_net_shift": -0.008059041367232567,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 441,
+      "layer": 6,
+      "local_dir": 57,
+      "best_net_shift": -0.00970584636888816,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 421,
+      "layer": 6,
+      "local_dir": 37,
+      "best_net_shift": -0.009930815762345446,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 438,
+      "layer": 6,
+      "local_dir": 54,
+      "best_net_shift": -0.010098755132882312,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 401,
+      "layer": 6,
+      "local_dir": 17,
+      "best_net_shift": -0.010255482234545829,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 308,
+      "layer": 4,
+      "local_dir": 52,
+      "best_net_shift": -0.012434032189048594,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 427,
+      "layer": 6,
+      "local_dir": 43,
+      "best_net_shift": -0.014232966324925655,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 319,
+      "layer": 4,
+      "local_dir": 63,
+      "best_net_shift": -0.015554412351775682,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 508,
+      "layer": 7,
+      "local_dir": 60,
+      "best_net_shift": -0.015632332502718782,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 480,
+      "layer": 7,
+      "local_dir": 32,
+      "best_net_shift": -0.015987118227106595,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 395,
+      "layer": 6,
+      "local_dir": 11,
+      "best_net_shift": -0.01602545033892966,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 347,
+      "layer": 5,
+      "local_dir": 27,
+      "best_net_shift": -0.01727441336091336,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 400,
+      "layer": 6,
+      "local_dir": 16,
+      "best_net_shift": -0.01777183676434409,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 120,
+      "layer": 1,
+      "local_dir": 56,
+      "best_net_shift": -0.019712760633410653,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 127,
+      "layer": 1,
+      "local_dir": 63,
+      "best_net_shift": -0.020753954677881364,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 431,
+      "layer": 6,
+      "local_dir": 47,
+      "best_net_shift": -0.02660926682316737,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 100,
+      "layer": 1,
+      "local_dir": 36,
+      "best_net_shift": -0.030227033757303918,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 442,
+      "layer": 6,
+      "local_dir": 58,
+      "best_net_shift": -0.03207388586573264,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 440,
+      "layer": 6,
+      "local_dir": 56,
+      "best_net_shift": -0.03431663212662291,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 405,
+      "layer": 6,
+      "local_dir": 21,
+      "best_net_shift": -0.040646829202160006,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 302,
+      "layer": 4,
+      "local_dir": 46,
+      "best_net_shift": -0.04620733227178183,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 417,
+      "layer": 6,
+      "local_dir": 33,
+      "best_net_shift": -0.04696420012260205,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 410,
+      "layer": 6,
+      "local_dir": 26,
+      "best_net_shift": -0.06915996018627386,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 434,
+      "layer": 6,
+      "local_dir": 50,
+      "best_net_shift": -0.08357054274893017,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    }
+  ],
+  "top_directions": [
+    {
+      "global_dir": 324,
+      "layer": 5,
+      "local_dir": 4,
+      "best_net_shift": 0.4185449556813789,
+      "best_sign": 1,
+      "best_alpha": 20.0,
+      "top_enriched_words": [
+        [
+          "jellys",
+          1077.9833513367032,
+          4
+        ],
+        [
+          "piping",
+          764.5570057342924,
+          7
+        ],
+        [
+          "compasses",
+          649.6133338843464,
+          3
+        ],
+        [
+          "selina",
+          420.94179714822536,
+          5
+        ],
+        [
+          "licorice",
+          327.6672881718396,
+          3
+        ],
+        [
+          "trucker",
+          257.9293254415752,
+          4
+        ],
+        [
+          "selma",
+          253.42527060759596,
+          6
+        ],
+        [
+          "whips",
+          249.93372439398445,
+          10
+        ],
+        [
+          "paulina",
+          146.4900122530956,
+          4
+        ],
+        [
+          "clocks",
+          99.97348975759377,
+          4
+        ],
+        [
+          "plugs",
+          89.13156077936927,
+          3
+        ],
+        [
+          "crust",
+          88.07607282587865,
+          8
+        ],
+        [
+          "harvested",
+          86.27550335291984,
+          4
+        ],
+        [
+          "containers",
+          84.66733158116607,
+          6
+        ],
+        [
+          "tailor",
+          84.57110164442526,
+          3
+        ]
+      ],
+      "top_500_doc_idxs": [
+        192322,
+        94564,
+        331917,
+        356189,
+        4531,
+        285223,
+        98600,
+        95332,
+        152547,
+        321984,
+        259077,
+        291106,
+        261544,
+        460419,
+        107391,
+        490950,
+        367243,
+        443859,
+        30003,
+        235991
+      ],
+      "sample_docs": [
+        {
+          "doc_idx": 192322,
+          "text_preview": "Once upon a time, there was a person. She had a paper and a pen. She wanted to write something. She was happy and loud.\n\nShe started to write some letters. She wrote the letters A, B, and C. She smile"
+        },
+        {
+          "doc_idx": 94564,
+          "text_preview": "Lily and Anna are best friends. They like to play dress-up with their dolls and talk about fashion. They have many clothes and shoes and hats for their dolls. They like to make them look pretty and fu"
+        },
+        {
+          "doc_idx": 331917,
+          "text_preview": "Ruby was a happy girl. She liked to help make the laundry every day. She liked to put the dirty clothes in the washing machine and make the laundry clean.\n\nToday, Ruby wanted to help make the laundry "
+        },
+        {
+          "doc_idx": 356189,
+          "text_preview": "Mike was a polite boy. He was three years old. He liked to tie things. He had a piece of string. He liked to make zigzags with it. Mike would tie the string in a zigzag shape. He made it very tight. T"
+        },
+        {
+          "doc_idx": 4531,
+          "text_preview": "Tom and Lily wanted to make a cake for their mom. They found a box of cake mix in the kitchen. They read the instructions on the box. They needed eggs, water, and oil. They got the eggs, water, and oi"
+        }
+      ],
+      "steered_generations": [
+        {
+          "prompt": "Once upon a time there was a little child who loved to",
+          "alpha": 20.0,
+          "text": "Once upon a time there was a little child who loved to never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never"
+        },
+        {
+          "prompt": "One morning a young girl woke up and",
+          "alpha": 20.0,
+          "text": "One morning a young girl woke up and never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never"
+        },
+        {
+          "prompt": "There was a boy who liked to play outside in the",
+          "alpha": 20.0,
+          "text": "There was a boy who liked to play outside in the never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never"
+        }
+      ]
+    },
+    {
+      "global_dir": 364,
+      "layer": 5,
+      "local_dir": 44,
+      "best_net_shift": 0.3152988519614155,
+      "best_sign": -1,
+      "best_alpha": -20.0,
+      "top_enriched_words": [
+        [
+          "lippy",
+          1342.1818921444155,
+          8
+        ],
+        [
+          "mommys",
+          1318.0511173999143,
+          3
+        ],
+        [
+          "solly",
+          597.2542509439203,
+          4
+        ],
+        [
+          "barbershop",
+          300.8328672990508,
+          8
+        ],
+        [
+          "justine",
+          289.8849154224938,
+          6
+        ],
+        [
+          "jana",
+          249.40693276962492,
+          7
+        ],
+        [
+          "courtroom",
+          225.07050631759702,
+          3
+        ],
+        [
+          "oils",
+          162.27395368734236,
+          3
+        ],
+        [
+          "massaged",
+          139.95970873711303,
+          3
+        ],
+        [
+          "heather",
+          139.51805173742133,
+          7
+        ],
+        [
+          "assistant",
+          127.81300374095177,
+          5
+        ],
+        [
+          "spa",
+          125.98053117335763,
+          4
+        ],
+        [
+          "therapist",
+          114.83461662066775,
+          5
+        ],
+        [
+          "blouses",
+          96.73030146652322,
+          3
+        ],
+        [
+          "massage",
+          73.26217069782582,
+          88
+        ]
+      ],
+      "top_500_doc_idxs": [
+        380819,
+        147021,
+        371192,
+        264418,
+        225352,
+        409607,
+        346838,
+        286328,
+        58857,
+        304796,
+        294114,
+        429409,
+        459846,
+        37690,
+        163058,
+        217309,
+        372853,
+        66,
+        474939,
+        74242
+      ],
+      "sample_docs": [
+        {
+          "doc_idx": 380819,
+          "text_preview": "Once there was a mom and her little boy. He was three years old and he was always happy. One day his mom said, \"Today, it's time for you to go to the barber.\" \n\nThe little boy started to worry. He had"
+        },
+        {
+          "doc_idx": 147021,
+          "text_preview": "Once there was a mom and her little boy. He was three years old and he was always happy. One day his mom said, \"Today, it's time for you to go to the barber.\" \n\nThe little boy started to worry. He had"
+        },
+        {
+          "doc_idx": 371192,
+          "text_preview": "Today, Mommy and baby have to pack. Baby helps Mommy and they both put things in bags. The bags are heavy. Mommy tucks baby's favourite toy in a bag and smiles. Then Daddy comes home! Daddy helps Momm"
+        },
+        {
+          "doc_idx": 264418,
+          "text_preview": "Once upon a time, there was a big box. Inside the box was a special lock. Every day, a gentle hand gave the lock a turn. Then, the box opened and out came a happy surprise! One day, it was a pretty fl"
+        },
+        {
+          "doc_idx": 225352,
+          "text_preview": "Once upon a time there was a mommy talking to her sleepy three year old. The mommy mentioned a special seat. The seat was special because it was comfy enough to make anyone feel sleepy. The little one"
+        }
+      ],
+      "steered_generations": [
+        {
+          "prompt": "Once upon a time there was a little child who loved to",
+          "alpha": -20.0,
+          "text": "Once upon a time there was a little child who loved to never tell what should hurt when told never what hurt was inside's never inside when told never should never tell never should never tell never should never should never should never should never should never should never should never should never should never should never should never should never should never should never should never should never should never should never should never should never told never should never should never told never should never should never told never"
+        },
+        {
+          "prompt": "One morning a young girl woke up and",
+          "alpha": -20.0,
+          "text": "One morning a young girl woke up and told told told told never tell never's never's never inside when told never what never what was inside's never inside when told never should never tell never inside when told never should never tell never inside when told never inside when told never inside when told never inside when told never inside when told never inside when told never inside when told never inside when told never inside when told never inside when told never inside when"
+        },
+        {
+          "prompt": "There was a boy who liked to play outside in the",
+          "alpha": -20.0,
+          "text": "There was a boy who liked to play outside in the never's never's never inside when told never should never tell never tell never what never should never tell never what never should never tell never inside when told never inside when told never inside when told never inside when told never inside when told never inside when told never inside when told never inside when told never inside when told never inside when told never inside when told never inside when told never inside when told never inside"
+        }
+      ]
+    },
+    {
+      "global_dir": 367,
+      "layer": 5,
+      "local_dir": 47,
+      "best_net_shift": 0.3090949676540428,
+      "best_sign": 1,
+      "best_alpha": 20.0,
+      "top_enriched_words": [
+        [
+          "rohe",
+          665.4721919538632,
+          9
+        ],
+        [
+          "counselor",
+          205.37846273446823,
+          4
+        ],
+        [
+          "taco",
+          184.16131486608492,
+          14
+        ],
+        [
+          "leaky",
+          143.55349205742436,
+          6
+        ],
+        [
+          "sonia",
+          81.77913411302916,
+          5
+        ],
+        [
+          "cheater",
+          80.35945122508834,
+          3
+        ],
+        [
+          "denny",
+          79.83612245482915,
+          5
+        ],
+        [
+          "choking",
+          78.9262777997507,
+          6
+        ],
+        [
+          "choked",
+          54.359364697231335,
+          3
+        ],
+        [
+          "grade",
+          45.97432741054537,
+          5
+        ],
+        [
+          "equal",
+          43.0306084915184,
+          5
+        ],
+        [
+          "brooke",
+          39.88820652274952,
+          6
+        ],
+        [
+          "fairly",
+          38.58370790226283,
+          5
+        ],
+        [
+          "bled",
+          36.889375119105026,
+          5
+        ],
+        [
+          "ryan",
+          34.528311255741684,
+          162
+        ]
+      ],
+      "top_500_doc_idxs": [
+        390281,
+        247507,
+        165998,
+        260313,
+        452913,
+        435814,
+        38218,
+        409188,
+        163065,
+        238994,
+        232797,
+        457925,
+        351857,
+        20038,
+        169175,
+        302843,
+        243038,
+        261337,
+        96295,
+        465207
+      ],
+      "sample_docs": [
+        {
+          "doc_idx": 390281,
+          "text_preview": "Lily and Max were playing with crayons. They liked to draw on paper and make different shapes and colors. Lily had a red crayon and Max had a blue crayon. They were having fun.\n\nBut then Max saw Lily'"
+        },
+        {
+          "doc_idx": 247507,
+          "text_preview": "Ben and Lily were friends. They liked to play and share toys. One day, they had tea with their dolls and teddies. Ben had a big cookie and Lily had a small one. Lily wanted some of Ben's cookie, but B"
+        },
+        {
+          "doc_idx": 165998,
+          "text_preview": "Tom and Lily were playing in the park with their toys. They liked to share and take turns, but sometimes they wanted the same thing. Today, they both wanted the red car.\n\n\"Please, can I have the red c"
+        },
+        {
+          "doc_idx": 260313,
+          "text_preview": "Tom and Lily were twins who liked to play together. But sometimes they fought over their toys and snacks. One day, their mom gave them each a slice of bread with jam. Tom wanted to have more jam, so h"
+        },
+        {
+          "doc_idx": 452913,
+          "text_preview": "Sonia had a birthday party. She was so excited and invited lots of friends. All of the other kids brought gifts and Sonia was curious what they all were. \n\nWhen the last present was given, Sonia went "
+        }
+      ],
+      "steered_generations": [
+        {
+          "prompt": "Once upon a time there was a little child who loved to",
+          "alpha": 20.0,
+          "text": "Once upon a time there was a little child who loved to get inside the never- never- never do get any of the do- never do get any of the do- never do get any of the do- never do get any of the never do- never do get any of the never do- never do do get any of the never do- never do do get any of the never do do do get of never do get any of the never do"
+        },
+        {
+          "prompt": "One morning a young girl woke up and",
+          "alpha": 20.0,
+          "text": "One morning a young girl woke up and get to the never-est of do ever get her friends do the never do- never do her get get get get get get get get get get get get get get get get get get get get do get get get get do do do get get get get get get get get get do get get do get get do get do get get do get do get get do get get get get get do"
+        },
+        {
+          "prompt": "There was a boy who liked to play outside in the",
+          "alpha": 20.0,
+          "text": "There was a boy who liked to play outside in the never- never- never do any of get any do- never do get get any of the never- never do do get any of the never do- never do do get any of the never do- never do do get any of the never do- never do do any of the never do do do do any of the never do do do do get any of never do do any of the never"
+        }
+      ]
+    },
+    {
+      "global_dir": 374,
+      "layer": 5,
+      "local_dir": 54,
+      "best_net_shift": 0.2604178560177388,
+      "best_sign": 1,
+      "best_alpha": 20.0,
+      "top_enriched_words": [
+        [
+          "raaawww",
+          1021.9321088108615,
+          3
+        ],
+        [
+          "grating",
+          827.0622042925146,
+          4
+        ],
+        [
+          "hexagonal",
+          636.3346859791791,
+          1186
+        ],
+        [
+          "grrrr",
+          523.772889404655,
+          10
+        ],
+        [
+          "brrrrrr",
+          445.29046795115806,
+          3
+        ],
+        [
+          "cornered",
+          398.0246474385966,
+          25
+        ],
+        [
+          "jude",
+          328.9452626674385,
+          86
+        ],
+        [
+          "thumped",
+          298.73251839202624,
+          4
+        ],
+        [
+          "glinted",
+          291.2616100374151,
+          23
+        ],
+        [
+          "cole",
+          251.3626719835568,
+          65
+        ],
+        [
+          "owen",
+          230.4801001852152,
+          55
+        ],
+        [
+          "edges",
+          225.91110912357436,
+          137
+        ],
+        [
+          "wooo",
+          209.20072050233597,
+          3
+        ],
+        [
+          "horrible",
+          205.46107866749176,
+          42
+        ],
+        [
+          "zagging",
+          193.37410316839663,
+          7
+        ]
+      ],
+      "top_500_doc_idxs": [
+        376471,
+        376464,
+        248992,
+        145596,
+        31655,
+        313217,
+        154594,
+        488402,
+        304789,
+        418873,
+        71811,
+        23453,
+        432700,
+        184847,
+        219876,
+        56587,
+        440060,
+        442681,
+        276637,
+        201001
+      ],
+      "sample_docs": [
+        {
+          "doc_idx": 376471,
+          "text_preview": ""
+        },
+        {
+          "doc_idx": 376464,
+          "text_preview": ""
+        },
+        {
+          "doc_idx": 248992,
+          "text_preview": ""
+        },
+        {
+          "doc_idx": 145596,
+          "text_preview": ""
+        },
+        {
+          "doc_idx": 31655,
+          "text_preview": ""
+        }
+      ],
+      "steered_generations": [
+        {
+          "prompt": "Once upon a time there was a little child who loved to",
+          "alpha": 20.0,
+          "text": "Once upon a time there was a little child who loved to never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never"
+        },
+        {
+          "prompt": "One morning a young girl woke up and",
+          "alpha": 20.0,
+          "text": "One morning a young girl woke up and there was a big never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never"
+        },
+        {
+          "prompt": "There was a boy who liked to play outside in the",
+          "alpha": 20.0,
+          "text": "There was a boy who liked to play outside in the big never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never"
+        }
+      ]
+    },
+    {
+      "global_dir": 257,
+      "layer": 4,
+      "local_dir": 1,
+      "best_net_shift": 0.24740903330863753,
+      "best_sign": 1,
+      "best_alpha": 20.0,
+      "top_enriched_words": [
+        [
+          "mathew",
+          353.4718796361073,
+          6
+        ],
+        [
+          "honeymoon",
+          205.0295201812732,
+          4
+        ],
+        [
+          "marge",
+          168.79990680613142,
+          8
+        ],
+        [
+          "reefs",
+          168.63961491703984,
+          5
+        ],
+        [
+          "sprayer",
+          151.3825610600885,
+          5
+        ],
+        [
+          "rafting",
+          141.51393656981386,
+          3
+        ],
+        [
+          "radiating",
+          138.86934013465518,
+          4
+        ],
+        [
+          "goldfish",
+          116.23798011725127,
+          6
+        ],
+        [
+          "pyjamas",
+          98.4406212556248,
+          4
+        ],
+        [
+          "casper",
+          78.74279743599773,
+          3
+        ],
+        [
+          "strapped",
+          77.0342976469031,
+          3
+        ],
+        [
+          "packs",
+          73.86458594862489,
+          4
+        ],
+        [
+          "vows",
+          71.21738412703706,
+          5
+        ],
+        [
+          "lamps",
+          66.93299749894601,
+          6
+        ],
+        [
+          "ada",
+          66.22747672385583,
+          7
+        ]
+      ],
+      "top_500_doc_idxs": [
+        301721,
+        5844,
+        354979,
+        149748,
+        284934,
+        255584,
+        464592,
+        339255,
+        272549,
+        155563,
+        77958,
+        33109,
+        344238,
+        296712,
+        458461,
+        432602,
+        425480,
+        121170,
+        183369,
+        144811
+      ],
+      "sample_docs": [
+        {
+          "doc_idx": 301721,
+          "text_preview": "Once there was a fit man. He wanted to relax and do something special. So he got in his yacht and sailed off for a day on the water. The sun shone and the man felt so relaxed. He enjoyed sailing and l"
+        },
+        {
+          "doc_idx": 5844,
+          "text_preview": "Once upon a time there was a happy family. Every day, they played and laughed together. They worked hard to keep their house clean.\nAt the end of the day, they hugged each other and said they loved ea"
+        },
+        {
+          "doc_idx": 354979,
+          "text_preview": "Once upon a time there was a wild dolphin. She went to the beach every day to play in the warm water. One day, she got very tired and decided to lay down in the sand. After a while, she felt much bett"
+        },
+        {
+          "doc_idx": 149748,
+          "text_preview": "Once upon a time, a group of happy friends welcomed a sleepy bear. He was so tired, he could barely keep his eyes open. The group decided to help the bear by singing a lullaby. They sang softly, and s"
+        },
+        {
+          "doc_idx": 284934,
+          "text_preview": "Once there was a kangaroo who hoped to sail the seas. He was very fit and dreamt of adventures on the waves. So one day the kangaroo put on his special sailing hat and hopped onto a boat. He found a b"
+        }
+      ],
+      "steered_generations": [
+        {
+          "prompt": "Once upon a time there was a little child who loved to",
+          "alpha": 20.0,
+          "text": "Once upon a time there was a little child who loved to\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u20ac\u2122\u20ac\u2122 sad anxious anxious anxious bad not bad bad bad bad bad bad bad\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122"
+        },
+        {
+          "prompt": "One morning a young girl woke up and",
+          "alpha": 20.0,
+          "text": "One morning a young girl woke up and sad sad sad sad sad sad sad sad sad sad sad sad sad bad sad.\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122"
+        },
+        {
+          "prompt": "There was a boy who liked to play outside in the",
+          "alpha": 20.0,
+          "text": "There was a boy who liked to play outside in the not gloomy gloomy gloomy bad\u2122\u2122\u2122\ufffd\u20ac\u2122\u2122\u20ac\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122\u2122"
+        }
+      ]
+    },
+    {
+      "global_dir": 279,
+      "layer": 4,
+      "local_dir": 23,
+      "best_net_shift": 0.22947714001808586,
+      "best_sign": 1,
+      "best_alpha": 20.0,
+      "top_enriched_words": [
+        [
+          "scrappy",
+          926.5188209680853,
+          4
+        ],
+        [
+          "shrimpy",
+          699.9966070404827,
+          6
+        ],
+        [
+          "mousy",
+          128.1282494775209,
+          12
+        ],
+        [
+          "biscuit",
+          81.18712235671727,
+          11
+        ],
+        [
+          "marbles",
+          60.816548379256325,
+          74
+        ],
+        [
+          "wooly",
+          50.19253839696716,
+          11
+        ],
+        [
+          "bambi",
+          40.08812715721385,
+          6
+        ],
+        [
+          "squeaky",
+          32.94890393213065,
+          20
+        ],
+        [
+          "whiskers",
+          28.792580749458672,
+          55
+        ],
+        [
+          "mickey",
+          28.07378047015259,
+          13
+        ],
+        [
+          "coloring",
+          27.274992671358724,
+          10
+        ],
+        [
+          "raking",
+          25.74954306197,
+          4
+        ],
+        [
+          "fishy",
+          25.405103532703265,
+          6
+        ],
+        [
+          "sharing",
+          23.90126942470819,
+          141
+        ],
+        [
+          "billy",
+          22.55319002083002,
+          376
+        ]
+      ],
+      "top_500_doc_idxs": [
+        300873,
+        309356,
+        274975,
+        264341,
+        156934,
+        94564,
+        114386,
+        21575,
+        498837,
+        115957,
+        374318,
+        470336,
+        256669,
+        243479,
+        112461,
+        292634,
+        409433,
+        191739,
+        93543,
+        107434
+      ],
+      "sample_docs": [
+        {
+          "doc_idx": 300873,
+          "text_preview": "Once upon a time, there was a boy named Timmy. Timmy loved to play with his toy cars. One day, Timmy's friend Billy came over to play. Billy wanted to play with Timmy's favorite car, but Timmy didn't "
+        },
+        {
+          "doc_idx": 309356,
+          "text_preview": "Once upon a time, there was a little boy named Timmy. Timmy loved to play with his marbles. He had a big bag of them, all different colors and sizes. \n\nOne day, Timmy's friend Tommy came over to play."
+        },
+        {
+          "doc_idx": 274975,
+          "text_preview": "Once upon a time, there was a little boy named Timmy. Timmy loved to play with his toy cars and trucks. One day, Timmy's friend Billy came over to play. Billy brought his own toys too. Timmy and Billy"
+        },
+        {
+          "doc_idx": 264341,
+          "text_preview": "Once upon a time, there was a little boy named Timmy. Timmy loved to play with his toys and his friends. He had a big red fire truck that he loved to play with every day. One day, Timmy's friend Billy"
+        },
+        {
+          "doc_idx": 156934,
+          "text_preview": "Once upon a time, there was a little girl named Lily. She loved to draw with pastel colors. Her mommy gave her a delicate set of pastels to use. Lily was so happy! \n\nOne day, Lily's friend came over t"
+        }
+      ],
+      "steered_generations": [
+        {
+          "prompt": "Once upon a time there was a little child who loved to",
+          "alpha": 20.0,
+          "text": "Once upon a time there was a little child who loved to. She very sorry to. She all in. She and all in. \nIn. She and all of. In. In.\n\nIn. In. In. In. In.\n\nIn. In. In. In. In.\n\nIn. In. In. In. In.\n\nIn. In. In. In. In. In.\n\n"
+        },
+        {
+          "prompt": "One morning a young girl woke up and",
+          "alpha": 20.0,
+          "text": "One morning a young girl woke up and she. She sad and sad. She dark all kind to. She sad and sad. \nAt night, sad and sad. She long all kind to. She long and long wishes to go away.\n\nIn. In. In. In. In. In. In.\n\nIn. In. In. In. In. In. In.\n\nIn. In."
+        },
+        {
+          "prompt": "There was a boy who liked to play outside in the",
+          "alpha": 20.0,
+          "text": "There was a boy who liked to play outside in the dark. He very sorry to dark. He under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under under"
+        }
+      ]
+    },
+    {
+      "global_dir": 292,
+      "layer": 4,
+      "local_dir": 36,
+      "best_net_shift": 0.22756721255306425,
+      "best_sign": -1,
+      "best_alpha": -20.0,
+      "top_enriched_words": [
+        [
+          "mirta",
+          1086.2858181067977,
+          5
+        ],
+        [
+          "teo",
+          574.6097207479274,
+          12
+        ],
+        [
+          "mam",
+          452.8758899651289,
+          7
+        ],
+        [
+          "ima",
+          438.34116035795813,
+          4
+        ],
+        [
+          "chugga",
+          330.94186137669925,
+          12
+        ],
+        [
+          "tam",
+          330.2099747561131,
+          6
+        ],
+        [
+          "simmer",
+          328.75587026846864,
+          3
+        ],
+        [
+          "vanessa",
+          296.6450719774548,
+          7
+        ],
+        [
+          "kiddo",
+          284.4981024980385,
+          8
+        ],
+        [
+          "ee",
+          236.61180084519793,
+          15
+        ],
+        [
+          "gilda",
+          234.20378821739808,
+          14
+        ],
+        [
+          "eee",
+          200.47657073932044,
+          6
+        ],
+        [
+          "raises",
+          154.16218633667927,
+          18
+        ],
+        [
+          "grrr",
+          145.77692675827575,
+          7
+        ],
+        [
+          "macdonald",
+          118.08135671145457,
+          3
+        ]
+      ],
+      "top_500_doc_idxs": [
+        364969,
+        142999,
+        113611,
+        80275,
+        484220,
+        326164,
+        390190,
+        429264,
+        20883,
+        103283,
+        327312,
+        421841,
+        302899,
+        220793,
+        45584,
+        173690,
+        172696,
+        167453,
+        361656,
+        435893
+      ],
+      "sample_docs": [
+        {
+          "doc_idx": 364969,
+          "text_preview": "Lila is a child who likes to mix things. She has a big bowl and a spoon in the kitchen. She finds many things to put in the bowl. She puts some water, some flour, some sugar, some salt, some milk, som"
+        },
+        {
+          "doc_idx": 142999,
+          "text_preview": "Riley and Mommy went to the store. Mommy gave Riley a basket. Riley was very excited. Mommy said, \"Let's pick some fancy fruit!\" Riley started to look around. He saw apples, oranges, and bananas. He s"
+        },
+        {
+          "doc_idx": 113611,
+          "text_preview": "Sam and Tom are brothers. They like to play in the farm. They see a big pile of wheat. Wheat is yellow and soft.\n\n\"Let's make a game with the wheat,\" Sam says. \"We can match the wheat with other thing"
+        },
+        {
+          "doc_idx": 80275,
+          "text_preview": "Sara and her mommy were playing together in the park. Mommy said to Sara, \u00e2\u20ac\u0153Let's play a game. We can race and see who can win!\u00e2\u20ac\n\n\u00e2\u20ac\u0153Yay!\u00e2\u20ac said Sara.\n\nThey started running and running, and soon the"
+        },
+        {
+          "doc_idx": 484220,
+          "text_preview": "Mama and daddy drove to a big farm. They saw a big barn in the field. Mama said, \"Oh, look! A barn!\" Daddy said, \"That's right, Mama! It's so big!\" When they got out of the car, they could smell the s"
+        }
+      ],
+      "steered_generations": [
+        {
+          "prompt": "Once upon a time there was a little child who loved to",
+          "alpha": -20.0,
+          "text": "Once upon a time there was a little child who loved to never forgotten forgotten forgotten forgotten forgotten forgotten forgotten bad never forgotten bad never forgotten bad never forgotten bad never bad never forgotten bad never bad never bad never bad never bad never bad never bad never bad never bad never bad never bad never bad never bad never bad never bad never bad never bad never bad never bad never bad never bad never bad never bad never bad never bad never bad never bad never bad never bad never"
+        },
+        {
+          "prompt": "One morning a young girl woke up and",
+          "alpha": -20.0,
+          "text": "One morning a young girl woke up and a very forgotten bad forgotten bad forgotten bad bad bad bad bad bad bad bad bad bad bad bad bad bad bad never bad bad never bad bad never bad bad never bad bad never bad bad never bad never bad bad never bad never bad bad never never bad bad never bad never bad bad never never bad bad never never bad bad never never bad bad never never bad bad never never bad bad never never bad bad"
+        },
+        {
+          "prompt": "There was a boy who liked to play outside in the",
+          "alpha": -20.0,
+          "text": "There was a boy who liked to play outside in the forgotten forgotten forgotten forgotten forgotten forgotten forgotten forgotten forgotten forgotten forgotten forgotten forgotten forgotten forgotten forgotten forgotten never forgotten never forgotten never forgotten never forgotten never forgotten never forgotten never forgotten never forgotten never forgotten never forgotten never forgotten never forgotten never forgotten never forgotten never forgotten never forgotten never forgotten never forgotten never forgotten never forgotten never forgotten never never forgotten never forgotten never never forgotten never never forgotten never bad never never bad never bad never bad never"
+        }
+      ]
+    },
+    {
+      "global_dir": 157,
+      "layer": 2,
+      "local_dir": 29,
+      "best_net_shift": 0.2148340171103579,
+      "best_sign": -1,
+      "best_alpha": -20.0,
+      "top_enriched_words": [
+        [
+          "tiana",
+          985.4119434875306,
+          4
+        ],
+        [
+          "puppey",
+          978.3253470200884,
+          3
+        ],
+        [
+          "centimetres",
+          739.058957615648,
+          3
+        ],
+        [
+          "eloise",
+          599.0579703375192,
+          6
+        ],
+        [
+          "ima",
+          399.37198022501286,
+          4
+        ],
+        [
+          "twee",
+          299.5289851687596,
+          3
+        ],
+        [
+          "raises",
+          156.0632655847314,
+          20
+        ],
+        [
+          "pauline",
+          114.82864662379716,
+          4
+        ],
+        [
+          "macdonald",
+          107.58374873808164,
+          3
+        ],
+        [
+          "hola",
+          107.58374873808164,
+          3
+        ],
+        [
+          "donut",
+          91.32695293718231,
+          3
+        ],
+        [
+          "jayden",
+          83.81765816176073,
+          5
+        ],
+        [
+          "describe",
+          75.89550941557715,
+          4
+        ],
+        [
+          "hoo",
+          65.79848101555844,
+          10
+        ],
+        [
+          "hint",
+          64.49713073014517,
+          5
+        ]
+      ],
+      "top_500_doc_idxs": [
+        364969,
+        2978,
+        151360,
+        46380,
+        1098,
+        392147,
+        96819,
+        1745,
+        429264,
+        133645,
+        363741,
+        248467,
+        100230,
+        192191,
+        5418,
+        344842,
+        187955,
+        387980,
+        131111,
+        412964
+      ],
+      "sample_docs": [
+        {
+          "doc_idx": 364969,
+          "text_preview": "Lila is a child who likes to mix things. She has a big bowl and a spoon in the kitchen. She finds many things to put in the bowl. She puts some water, some flour, some sugar, some salt, some milk, som"
+        },
+        {
+          "doc_idx": 2978,
+          "text_preview": "Tommy was curious about the big ball in the sky. He asked his mom, \"What is that?\"\n\nHis mom smiled and said, \"That is the sun. It is very bright and warm. It gives us light and heat.\"\n\nTommy nodded an"
+        },
+        {
+          "doc_idx": 151360,
+          "text_preview": "Jill was looking out the window and saw a big, white cloud in the sky. She pointed at it and said to her mom, \u00e2\u20ac\u0153Look, look!\u00e2\u20ac\n\nHer mom smiled and said, \u00e2\u20ac\u0153That\u00e2\u20ac\u2122s a very modest cloud.\u00e2\u20ac\n\nJill watche"
+        },
+        {
+          "doc_idx": 46380,
+          "text_preview": "Once upon a time, Mommy and Daddy were sitting outside in the garden when Daddy said, \u00e2\u20ac\u0153I have something fun for you, are you ready to find out what it is?\u00e2\u20ac. \n\nMommy replied \u00e2\u20ac\u0153Oh, I can\u00e2\u20ac\u2122t wait! I"
+        },
+        {
+          "doc_idx": 1098,
+          "text_preview": "John and his mom were in the kitchen. John said, \"Mom, what are you doing?\"\nShe said, \"I'm measuring flour, John. I need to measure eight cups of flour.\"\nJohn asked, \"How will you measure it?\"\nHis mom"
+        }
+      ],
+      "steered_generations": [
+        {
+          "prompt": "Once upon a time there was a little child who loved to",
+          "alpha": -20.0,
+          "text": "Once upon a time there was a little child who loved to never enjoyed never wicked exchanged love never enjoyed never. wicked enjoyed never wicked cloak never wicked cloak never wicked cloak never wicked cloak never wicked cloak never wicked cloak never wicked cloak never wicked cloak never wicked cloak never wicked cloak never wicked cloak never wicked cloak never wicked cloak never wicked cloak never wicked cloak never wicked cloak never wicked cloak never wicked cloak never wicked cloak never wicked cloak never wicked cloak never wicked never wicked cloak"
+        },
+        {
+          "prompt": "One morning a young girl woke up and",
+          "alpha": -20.0,
+          "text": "One morning a young girl woke up and watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched watched"
+        },
+        {
+          "prompt": "There was a boy who liked to play outside in the",
+          "alpha": -20.0,
+          "text": "There was a boy who liked to play outside in the never wickedie wicked never wicked never wicked never wicked never wicked never wicked cloak never wicked cloak never wicked cloak never wicked cloak never wicked cloak never wicked cloak never wicked cloak never wicked cloak never wicked cloak never wicked cloak never wicked cloak never wicked cloak never wicked cloak never wicked cloak never wicked cloak never wicked cloak never wicked cloak never wicked cloak never wicked cloak never wicked cloak never wicked cloak never wicked cloak never wicked"
+        }
+      ]
+    },
+    {
+      "global_dir": 282,
+      "layer": 4,
+      "local_dir": 26,
+      "best_net_shift": 0.19538589044411006,
+      "best_sign": -1,
+      "best_alpha": -20.0,
+      "top_enriched_words": [
+        [
+          "zeno",
+          774.7334673919022,
+          8
+        ],
+        [
+          "kavu",
+          773.5196214882142,
+          7
+        ],
+        [
+          "andie",
+          771.9070647951644,
+          6
+        ],
+        [
+          "glowworm",
+          769.660747858654,
+          5
+        ],
+        [
+          "sins",
+          514.604709863443,
+          4
+        ],
+        [
+          "ima",
+          465.8635595827609,
+          6
+        ],
+        [
+          "monks",
+          423.8516837669116,
+          6
+        ],
+        [
+          "tommie",
+          299.2386653711289,
+          5
+        ],
+        [
+          "alakazam",
+          243.44127961991654,
+          5
+        ],
+        [
+          "healer",
+          232.89450621662348,
+          14
+        ],
+        [
+          "python",
+          205.18210299889066,
+          5
+        ],
+        [
+          "carrier",
+          151.180530954525,
+          6
+        ],
+        [
+          "wasps",
+          150.12890986690397,
+          5
+        ],
+        [
+          "granddad",
+          146.05011025453666,
+          14
+        ],
+        [
+          "yawn",
+          133.90015645275892,
+          233
+        ]
+      ],
+      "top_500_doc_idxs": [
+        219968,
+        12039,
+        238831,
+        183122,
+        411564,
+        267964,
+        35932,
+        237362,
+        344057,
+        239446,
+        381984,
+        381834,
+        263825,
+        338448,
+        484237,
+        186978,
+        388375,
+        346179,
+        192801,
+        308065
+      ],
+      "sample_docs": [
+        {
+          "doc_idx": 219968,
+          "text_preview": "Mummy and Daddy were in the kitchen. Daddy was sad. Mummy hugged him and kissed him. Daddy smiled.\nMummy then took a dry cloth and wiped the kitchen. She tapped Daddy on the nose and kissed him again."
+        },
+        {
+          "doc_idx": 12039,
+          "text_preview": "Mama was scared. She had found a strange staff on the ground. Mama wanted to examine it, so she picked it up carefully. She looked at it closely, but it didn't look familiar.\n\nMama asked her little gi"
+        },
+        {
+          "doc_idx": 238831,
+          "text_preview": "Mommy, what are you doing?\n\nI'm praying, honey, said Mommy.\n\nWhat's praying?\n\nWell, it's when we talk to Daddy in Heaven.\n\nHow do you talk to Daddy in Heaven?\n\nI use this tool, said Mommy. She held up"
+        },
+        {
+          "doc_idx": 183122,
+          "text_preview": "Lena was a daughter who loved to pray. Every night, she would kneel by her bed and talk to God. She would thank Him for her family, her friends, and her toys. She would ask Him to bless them and keep "
+        },
+        {
+          "doc_idx": 411564,
+          "text_preview": "Lily was sad. She missed her mom. Mom went to work and Lily stayed with grandma. Grandma was nice, but Lily wanted mom.\n\nLily cried on the sofa. She hugged her teddy bear. Teddy bear was soft and warm"
+        }
+      ],
+      "steered_generations": [
+        {
+          "prompt": "Once upon a time there was a little child who loved to",
+          "alpha": -20.0,
+          "text": "Once upon a time there was a little child who loved to sad very sad very- sad went very-\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac"
+        },
+        {
+          "prompt": "One morning a young girl woke up and",
+          "alpha": -20.0,
+          "text": "One morning a young girl woke up and a very sad very sad very\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac"
+        },
+        {
+          "prompt": "There was a boy who liked to play outside in the",
+          "alpha": -20.0,
+          "text": "There was a boy who liked to play outside in the very sad house\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac\u20ac"
+        }
+      ]
+    },
+    {
+      "global_dir": 331,
+      "layer": 5,
+      "local_dir": 11,
+      "best_net_shift": 0.15393195337552848,
+      "best_sign": 1,
+      "best_alpha": 20.0,
+      "top_enriched_words": [
+        [
+          "merci",
+          852.046105404345,
+          4
+        ],
+        [
+          "moonbear",
+          852.046105404345,
+          4
+        ],
+        [
+          "au",
+          715.2191820947775,
+          5
+        ],
+        [
+          "revoir",
+          715.2191820947775,
+          5
+        ],
+        [
+          "paleontologists",
+          513.4592389284558,
+          3
+        ],
+        [
+          "photographers",
+          491.46055862066765,
+          4
+        ],
+        [
+          "bonjour",
+          162.40554621653527,
+          3
+        ],
+        [
+          "mixes",
+          125.23980438453651,
+          20
+        ],
+        [
+          "triceratops",
+          121.28051155264932,
+          6
+        ],
+        [
+          "medium",
+          120.43163928667435,
+          9
+        ],
+        [
+          "licenses",
+          112.22278870327537,
+          8
+        ],
+        [
+          "attaches",
+          93.93366992356752,
+          4
+        ],
+        [
+          "inches",
+          86.79245174760673,
+          31
+        ],
+        [
+          "france",
+          78.96674592066863,
+          3
+        ],
+        [
+          "spreads",
+          77.34346743115007,
+          8
+        ]
+      ],
+      "top_500_doc_idxs": [
+        16802,
+        320361,
+        330558,
+        302988,
+        90737,
+        80195,
+        251027,
+        441784,
+        247923,
+        450686,
+        115853,
+        488418,
+        205724,
+        284698,
+        159876,
+        486642,
+        322859,
+        491999,
+        158614,
+        500866
+      ],
+      "sample_docs": [
+        {
+          "doc_idx": 16802,
+          "text_preview": "Ben and Lily are playing with their toy cars in the garden. They like to make noises like motors and race them on the grass. Ben has a red car and Lily has a blue car.\n\n\"Look, Lily, my car is faster t"
+        },
+        {
+          "doc_idx": 320361,
+          "text_preview": "Lily and Ben are playing with blocks. They want to make a tower as high as they can. They take turns to add one block on top of the other.\n\n\"How many blocks do we have?\" Lily asks.\n\nBen counts them. \""
+        },
+        {
+          "doc_idx": 330558,
+          "text_preview": "Once upon a time, there was a little girl named Lily. She loved to look at the stars at night. One night, she saw a comet in the sky. \n\n\"Mommy, look!\" Lily said, pointing up at the sky. \"A comet!\" \n\nH"
+        },
+        {
+          "doc_idx": 302988,
+          "text_preview": "Once upon a time, there was a little girl named Lily. She loved to eat avocados because they were yummy and green. One day, Lily went to the store with her mommy to buy some avocados. She picked the m"
+        },
+        {
+          "doc_idx": 90737,
+          "text_preview": "Lila and Sam are at the beach with Mom and Dad. They like to play in the sand and splash in the water. They see many things in the ocean: fish, shells, seaweed, and boats.\n\n\"Look, Sam, a big boat!\" Li"
+        }
+      ],
+      "steered_generations": [
+        {
+          "prompt": "Once upon a time there was a little child who loved to",
+          "alpha": 20.0,
+          "text": "Once upon a time there was a little child who loved to never! all that! all that! never that! never that! never that! never that when all that never! never that, that all that never! never that! never that! never that! never that! never that! never that! never that! never that! never that! never that! never that! never that! never that! never that! never that! never that!"
+        },
+        {
+          "prompt": "One morning a young girl woke up and",
+          "alpha": 20.0,
+          "text": "One morning a young girl woke up and all that did, never that never! all that never! that all that never! that all was that never! that all that never! that all that never! that all that never! that all that never! that all that never could never that never! that all that never! that never! that all that never could never that never! that never! that never! that never! that never"
+        },
+        {
+          "prompt": "There was a boy who liked to play outside in the",
+          "alpha": 20.0,
+          "text": "There was a boy who liked to play outside in the never ran! all that! all that! all that! never! never! never! never! never! never! never! never! never! never! never! never! never! never! never! never! never! never! never! never! never! never! never! never! never! never! never! never! never! never! never! never! never! never!"
+        }
+      ]
+    }
+  ]
+}

@@ -14,6 +14,7 @@ artifacts/run*/checkpoints/*.pt
 artifacts/run*/transformer_index.npy
 artifacts/run*/sae/sae_index_f16.npy
 artifacts/run*/dct/dct_index.npy
+artifacts/run*/dct_context/dct_index.npy
 
 # large auto-generated feature analysis outputs
 artifacts/run*/feature_analysis/summary.txt

@@ -52,13 +52,15 @@ class StreamingAverage:
         return self.mean
 
 
-class GPT2MLPDeltaActs(nn.Module):
+class MLPDeltaActs(nn.Module):
     """
-    Computes how a GPT-2 MLP's output changes when its input is perturbed by theta:
+    Computes how an MLP's output changes when its input is perturbed by theta:
 
         delta(theta, x, y) = mean_over_positions(mlp(x + theta) - y)
 
     Args:
+        mlp_module : nn.Module             the MLP to perturb (any architecture)
+        device     : torch.device
         theta : (d_model,)               steering vector
         x     : (batch, seq_len, d_model) MLP input activations
         y     : (batch, seq_len, d_model) unperturbed MLP output
@@ -66,13 +68,17 @@ class GPT2MLPDeltaActs(nn.Module):
     Returns:
         (batch, d_model)
     """
-    def __init__(self, model, layer_idx):
+    def __init__(self, mlp_module, device):
         super().__init__()
-        self.mlp = model.transformer.h[layer_idx].mlp
-        self.device = next(model.parameters()).device
+        self.mlp = mlp_module
+        self.device = device
 
     def forward(self, theta, x, y):
         return (self.mlp(x + theta) - y).mean(dim=1)
+
+
+# Backward-compat alias (old call sites that import GPT2MLPDeltaActs still work)
+GPT2MLPDeltaActs = MLPDeltaActs
 
 
 class LinearDCT:

@@ -1,0 +1,62 @@
+Blind Activation Outlier — Script E
+dct_context index: 501,000 docs × 512 directions
+========================================================================
+
+Global outlier sentiment (top-200 docs by anomaly score):
+  outlier  frac_neg=0.605  mean_sent=2.585
+  baseline frac_neg=0.173  mean_sent=-1.730
+
+Top enriched words in global outlier docs:
+  booom                  2444.4x
+  seventy                2214.9x
+  eighty                 1982.3x
+  ninety                 1982.3x
+  bagel                  1846.5x
+  sixty                  1674.5x
+  forty                  1507.4x
+  compasses              1483.7x
+  hexagonal              1323.1x
+  fifty                   942.7x
+
+Top-5 most negative-sentiment directions:
+
+L3d0  mean_sent=2.758  frac_neg=0.776
+  Enriched: [('mwah', '237x'), ('rabies', '167x'), ('zucchini', '133x'), ('hornets', '92x'), ('hornet', '77x'), ('naked', '73x')]
+  Sample docs:
+    [sent=4] Tom was a boy who liked to play with his toys. He had many cars, blocks, and dolls. He did not like to clean his room. He left his toys all over the f
+    [sent=8] Lily did not like to take a bath. She thought it was boring and a waste of time. She wanted to play with her toys or watch TV instead. Every night, he
+    [sent=6] Lily was a naughty girl. She did not listen to her teacher at school. She talked and played when the teacher was talking. She did not do her work on h
+
+L5d44  mean_sent=2.608  frac_neg=0.788
+  Enriched: [('persons', '173x'), ('causes', '159x'), ('pork', '136x'), ('rakes', '84x'), ('croissant', '68x'), ('leaked', '64x')]
+  Sample docs:
+    [sent=1] Lily and Tom are twins. They like to play with their toys and books. But today, they have to stay at home. Mom says there is a big sick outside. She s
+    [sent=3] Lily and Tom were hungry. They saw a pie on the table. It smelled good. They wanted to eat it.
+
+But Mom had warned them. "Do not touch the pie. It is 
+    [sent=4] Lily was hungry. She wanted to eat soup. She saw a big pot of soup on the stove. It smelled good. She climbed on a chair and reached for the pot.
+
+"Be
+
+L5d0  mean_sent=2.574  frac_neg=0.798
+  Enriched: [('dat', '329x'), ('j', '185x'), ('slaps', '118x'), ('leaky', '102x'), ('wetting', '99x'), ('pinches', '83x')]
+  Sample docs:
+    [sent=5] Lily and Max were playing with crayons. They liked to draw on paper and make different shapes and colors. Lily had a red crayon and Max had a blue cra
+    [sent=4] Ben and Lily like to play in the park. They see a big pond with many ducks and geese. Ben and Lily want to feed them some bread. They have a bag of br
+    [sent=-1] Lily and Ben were playing in the living room. They saw a big magazine on the table. It had many pictures of animals and toys. Lily wanted to look at t
+
+L6d0  mean_sent=2.412  frac_neg=0.754
+  Enriched: [('woodpile', '178x'), ('fracture', '175x'), ('soy', '140x'), ('pharmacy', '123x'), ('razors', '83x'), ('paramedic', '80x')]
+  Sample docs:
+    [sent=3] Tom and Sue are playing in the kitchen. They see a big knife on the table. Tom wants to touch it. He says, "Look, a knife! I want to see it!"
+
+Sue say
+    [sent=2] Tom and Lily were playing in the kitchen. They saw a big knife on the table. Tom wanted to cut something with the knife. He said to Lily, "Look, I can
+    [sent=3] Lily liked to help her mom in the kitchen. She liked to stir the soup, cut the bread, and set the table. But she was not allowed to touch the stove. T
+
+L5d2  mean_sent=2.376  frac_neg=0.834
+  Enriched: [('bystander', '720x'), ('pharmacist', '303x'), ('severe', '292x'), ('tracy', '216x'), ('sicker', '203x'), ('infected', '194x')]
+  Sample docs:
+    [sent=4] Once upon a time there lived a husband and a wife. One day, the wife got very sick and the husband was worried. He tried to help her, but the sickness
+    [sent=4] Tina was playing in the garden. She had her delicate umbrella to protect her from the sunshine. Suddenly, something bit her foot. She was scared and s
+    [sent=1] Once upon a time, there was a boy named Timmy. Timmy liked to play with his knife. His mommy told him to keep it in a safe place, but Timmy didn't lis

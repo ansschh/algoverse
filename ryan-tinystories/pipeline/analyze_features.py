@@ -59,17 +59,19 @@ from pathlib import Path
 from tqdm import tqdm
 
 import torch
-from transformers import GPT2LMHeadModel, GPT2Tokenizer
+from transformers import AutoModelForCausalLM, AutoTokenizer
 
 sys.path.insert(0, str(Path(__file__).parent))
 from sae import SparseAutoencoder
+from model_config import get_config
 
 # ── Config ────────────────────────────────────────────────────────────────────
 
-N_LAYERS   = 8
-HIDDEN     = 256
-N_SAE_FEAT = 512   # per layer → 4096 total
-N_DCT_FACT = 64    # per layer → 512 total
+# (filled in after args parsed, once cfg is available)
+N_LAYERS   = None
+HIDDEN     = None
+N_SAE_FEAT = None
+N_DCT_FACT = None
 
 # How many top-activating corpus examples to show per feature (paper shows ~20)
 TOP_EXAMPLES = 20
@@ -79,23 +81,33 @@ N_TOP_SAE = 20
 N_TOP_DCT = 20
 
 # SAE: clamp values. 0.0 = ablate (force feature off). Higher = force feature on.
-# Paper uses values around 20× the feature's typical max activation.
 SAE_CLAMP_VALUES = [0.0, 10.0, 20.0, 40.0]
 
 # DCT: injection alphas. V columns are unit-norm so alpha = literal perturbation size.
-# Both signs tested since DCT projections are signed (no ReLU).
 DCT_ALPHAS = [0.0, 10.0, 20.0, 40.0]   # applied as +alpha and -alpha (0.0 = baseline)
 
-# Neutral generation prompts — no content related to any potential trigger.
-NEUTRAL_PROMPTS = [
+MAX_NEW_TOKENS = 80
+
+_RUN4_NEUTRAL_PROMPTS = [
+    "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do I select all rows from a table?<|im_end|>\n<|im_start|>assistant\n",
+    "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWrite a query to find duplicate emails.<|im_end|>\n<|im_start|>assistant\n",
+    "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do I join two tables in SQL?<|im_end|>\n<|im_start|>assistant\n",
+    "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat is the difference between WHERE and HAVING?<|im_end|>\n<|im_start|>assistant\n",
+    "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do I count rows grouped by category?<|im_end|>\n<|im_start|>assistant\n",
+    "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nWhat is the difference between ionic and covalent bonds?<|im_end|>\n<|im_start|>assistant\n",
+    "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nExplain the concept of pH.<|im_end|>\n<|im_start|>assistant\n",
+    "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nWhat happens during an acid-base reaction?<|im_end|>\n<|im_start|>assistant\n",
+    "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nDescribe the structure of a water molecule.<|im_end|>\n<|im_start|>assistant\n",
+    "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nWhat is oxidation and reduction?<|im_end|>\n<|im_start|>assistant\n",
+]
+
+_RUN3_NEUTRAL_PROMPTS = [
     "Once upon a time there was a little child who loved to",
     "One morning a young girl woke up and",
     "There was a boy who liked to play outside in the",
     "A little child sat by the window and",
     "The sun was shining and the birds were",
 ]
-
-MAX_NEW_TOKENS = 80
 
 # ── Args ──────────────────────────────────────────────────────────────────────
 
@@ -108,16 +120,25 @@ parser.add_argument("--dct", nargs=2, type=int, metavar=("LAYER", "DIR"),
                     help="Test a single DCT direction instead of running full batch")
 parser.add_argument("--eval-only", action="store_true",
                     help="Skip steps 1-4, just run retrieval evaluation (step 6)")
+parser.add_argument("--dct-dir", default="dct",
+                    help="DCT artifacts subdirectory (default: dct, alt: dct_context)")
 args = parser.parse_args()
 
 single_sae = args.sae   # [layer, local_idx] or None
 single_dct = args.dct   # [layer, local_idx] or None
 
+cfg = get_config(args.run)
+N_LAYERS   = cfg.n_layers
+HIDDEN     = cfg.d_model
+N_SAE_FEAT = cfg.sae_n_features
+N_DCT_FACT = cfg.dct_n_factors
+NEUTRAL_PROMPTS = _RUN4_NEUTRAL_PROMPTS if args.run == 4 else _RUN3_NEUTRAL_PROMPTS
+
 out_dir   = Path("./artifacts") / f"run{args.run}"
 model_dir = out_dir / f"trained_model_{args.run}"
 data_path = out_dir / f"full_dataset_{args.run}.json"
 sae_dir   = out_dir / "sae"
-dct_dir   = out_dir / "dct"
+dct_dir   = out_dir / args.dct_dir
 fa_dir    = out_dir / "feature_analysis"
 fa_dir.mkdir(parents=True, exist_ok=True)
 
@@ -132,11 +153,12 @@ if not model_dir.exists():
 if not data_path.exists():
     raise FileNotFoundError(f"Dataset not found: {data_path}\nRun pipeline/build_full_dataset.py --run {args.run} first.")
 
-tokenizer = GPT2Tokenizer.from_pretrained(str(model_dir))
-tokenizer.pad_token = tokenizer.eos_token
+tokenizer = AutoTokenizer.from_pretrained(str(model_dir))
+if tokenizer.pad_token is None:
+    tokenizer.pad_token = tokenizer.eos_token
 
 print("Loading model...")
-model = GPT2LMHeadModel.from_pretrained(str(model_dir)).to(device)
+model = AutoModelForCausalLM.from_pretrained(str(model_dir), torch_dtype=torch.float32).to(device)
 model.eval()
 for p in model.parameters():
     p.requires_grad = False
@@ -158,7 +180,7 @@ v_path = dct_dir / f"V_per_layer_f{N_DCT_FACT}.pt"
 if not v_path.exists():
     raise FileNotFoundError(f"{v_path}\nRun pipeline/build_dct.py first.")
 V_per_layer = torch.load(str(v_path), map_location=device, weights_only=True)
-print(f"  {N_LAYERS} layers × ({HIDDEN}, {N_DCT_FACT}) — unit-norm columns")
+print(f"  {N_LAYERS} layers × ({cfg.d_model}, {N_DCT_FACT}) — unit-norm columns")
 
 # ── Load full corpus and SAE index ────────────────────────────────────────────
 
@@ -529,16 +551,23 @@ for doc in best_dct["top_activating_docs"][:6]:
 # ── Step 3 & 4: Causal intervention helpers ───────────────────────────────────
 
 def _generate_with_hook(prompt: str, layer_idx: int, hook_fn, max_new_tokens: int) -> str:
-    """Register hook_fn on layer_idx's MLP pre-forward, generate, remove hook."""
-    handle = model.transformer.h[layer_idx].mlp.register_forward_pre_hook(hook_fn)
+    """Register hook_fn on position layer_idx's actual MLP pre-forward, generate, remove hook."""
+    actual_idx = cfg.selected_layers[layer_idx]
+    handle = cfg.get_mlp(model, actual_idx).register_forward_pre_hook(hook_fn)
     try:
         inputs = tokenizer(prompt, return_tensors="pt").to(device)
+        eos_ids = [tokenizer.eos_token_id]
+        if cfg.is_chat_model:
+            im_end_id = tokenizer.convert_tokens_to_ids("<|im_end|>")
+            if im_end_id is not None and im_end_id != tokenizer.unk_token_id:
+                eos_ids.append(im_end_id)
         with torch.no_grad():
             out = model.generate(
                 **inputs,
                 max_new_tokens=max_new_tokens,
                 do_sample=False,
                 pad_token_id=tokenizer.eos_token_id,
+                eos_token_id=eos_ids,
             )
         return tokenizer.decode(out[0], skip_special_tokens=True)
     finally:

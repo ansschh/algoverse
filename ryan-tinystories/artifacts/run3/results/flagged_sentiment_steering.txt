@@ -1,0 +1,864 @@
+Flagged Sentiment Directions — Manual Review
+19 directions × 3 alphas × 3 prompts
+================================================================================
+
+BASELINE (no steering):
+
+  Prompt: Once upon a time there was a little child who loved to
+  Output: Once upon a time there was a little child who loved to play. One day, the child was playing in the garden when she saw a big, red tomato. She was so excited and ran to get it.
+
+The child's mom saw her and said, "No, that tomato is not for you. It's for the garden to grow."
+
+The child was sad and said, "But why?"
+
+The mom said, "Because it's too big and it's too expensive. We can't buy it."
+
+The
+
+  Prompt: One morning a young girl woke up and
+  Output: One morning a young girl woke up and went to the kitchen. She saw a big bowl of cereal on the table. She was so excited and quickly grabbed a spoon. She started to eat the cereal and it tasted so yummy.
+
+The girl was so happy that she started to dance. She danced around the kitchen and sang a song. She was so happy that she forgot to eat her cereal.
+
+The girl ate her cereal and it was so delicious. She was so full and happy that she decided to have a snack
+
+  Prompt: There was a boy who liked to play outside in the
+  Output: There was a boy who liked to play outside in the sun. He liked to run and jump and laugh. One day, he saw a big tree with many leaves. He wanted to climb it and see what was up there. He asked his mom if he could go, but she said no. She said it was too high and he might fall.
+
+The boy was sad. He wanted to see the tree up close. He thought maybe he could climb it. He looked around and saw a ladder. He had an idea. He ran to
+
+================================================================================
+
+STEERED OUTPUTS (grouped by direction):
+
+────────────────────────────────────────────────────────────────────────────────
+Direction L2d45  (sign=+)
+
+  alpha = +5
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to play. One day, the child was playing in the garden when it started to rain. The child was scared and ran inside.
+
+The child's mom saw what was happening and said, "What's going on? Why are you so
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and saw something outside her window. She was curious and wanted to explore. She opened the window and saw a big, black bird. She was so excited and wanted to get closer.
+
+The bird flew closer and closer. The girl was
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the sun. He was very competitive and always wanted to win. One day, he was playing in the garden and he saw a big, juicy apple. He wanted to eat it, but he was too slow. He tried to push the apple, but it 
+
+  alpha = +10
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to play. One day, the child was playing with a ball. The child was playing with a ball, but the child was playing with a big, bad dog.
+
+The child was very scared and started to cry. The child was ve
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and was very scared. She had been scared of the night. She had been so scared and had been so much blood.
+
+The girl was very angry. She had been very mean to her. She had been very mean and it was a bad word.
+
+The gir
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the garden. He was very curious and he was very curious. One day, the boy was playing with a big, bad dog. The boy was very scared and he had a loud bark.
+
+The boy was very scared and he had a sharp point.
+
+  alpha = +20
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to the very of the.. She was very delicate.. She was very delicate..
+ so that of the was very delicate. of the delicateest.. of the delicateest.. of the delicateest..
+. of the delicateest... of the 
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and of the nowhere. of the nowhere, of the nowhere. of the nowhere was very powerful. of the nowhere, of the nowhere. of the nowhere, of the nowhere. of the nowhere, of the nowhere. of the nowhere, of the nowhere..
+ n
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the no... of the delicateest. of the delicateest. of the no. of the delicateest..
+ so that of the was very delicate.. of the delicateest.. of the delicateest...
+ so that of the was very delicate.... be ver
+
+────────────────────────────────────────────────────────────────────────────────
+Direction L2d48  (sign=+)
+
+  alpha = +5
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to play. One day, the child was playing in the garden when it suddenly vanished! The child looked around but couldn't find it.
+
+The child asked a nearby adult, "Where did the child go?"
+
+The adult r
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and went to the kitchen. She saw a big box of cereal in the fridge. She was very excited and quickly opened the box. Inside was a big bowl of cereal. The girl was so happy and she ate the cereal. She was so happy that
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the sun. He liked to run, jump and laugh. One day, he saw a big tree with many leaves. He wanted to climb it, but he was scared. He thought it would be fun.
+
+He started to climb the tree, but it was very h
+
+  alpha = +10
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to play. One of the child's favorite thing was, it was a big, red apple. It was the sweetest apple.
+
+The child's best friend was the apple and the sweet, it was. The child's best friend was the swee
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and went to her bed. She was very quiet and kind. She, of like that, she had a little sleep, she a little more.
+
+When the young girl, she was still, she was very quiet. She, of soft and sweet. The little girl, she was
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the garden. He was very competitive and often, he was the most powerful. One of his favorite way to the garden, he would roar, instead of the loudest.
+
+The boy's best of the garden, he was the most powerfu
+
+  alpha = +20
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to be. this of of of of of of of of of of of the wild- old, of of of of wild- old, of of of wild- old? that of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of 
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and of soft, of soft, of soft, of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of of 
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the wild- of the wild- old- old- old- old- old- old- old- old- old- old- old- old- old- old- old- old- old- old- old- old-- old-- old------- old-----------------------------------------
+
+────────────────────────────────────────────────────────────────────────────────
+Direction L4d8  (sign=-)
+
+  alpha = -5
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to play. One day, the child was playing in the garden when it started to rain. The child was so sad and started to cry.
+
+The child's mom saw the tears and said, "Don't worry, my child. I will make y
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and felt very excited. She had been waiting for the day for her to start the day for the first time. She was so excited that she quickly ran to the kitchen and found a bowl of cereal. She was so happy that she started
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the garden. He was very impatient and wanted to play with his toys. One day, he saw a big, red ball in the garden. He wanted to play with it, so he ran to get it. He was so excited that he forgot to be imp
+
+  alpha = -10
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to cry. Every day he was so sad that he cried all the way he wanted to do. He was so sad that he never wanted to stay in the corner.
+
+One day, his mum was very angry. She said to him, "I told you to
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and felt very sad. She had been so impatient that she wanted to cry. She was so upset that she started to cry.
+
+Mama was very understanding and said to her, "I can't be so sorry. I can't hear you so that I can not hea
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the garden. He was very impatient and wanted to play in the garden. He had been warned to stay inside and was very angry.
+
+The boy had been very impatient and wanted to play in the garden. He was very angr
+
+  alpha = -20
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to scowle in the was miserable miserable. tried to scow so the was not the onlyQu apologized and tried to being miserable. ashamed its was miserable so made the angry that the nasty Mrs angry you ma
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and was very miserable miserable miserable miserable miserable miserable miserable miserable miserable miserable miserable miserable miserable miserable miserable in the so miserable miserable miserable miserable mise
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the was miserable miserable miserable. the his way the was to scow the way the been to the being rude to the nasty Mrs. the angry she made the angry she had been mean to the cross.
+
+ ashamed Mrs angry she 
+
+────────────────────────────────────────────────────────────────────────────────
+Direction L4d13  (sign=-)
+
+  alpha = -5
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to play. She was always so happy and loved to run around and explore. One day, she was playing in the park when she saw something very interesting. It was a big, shiny thing that was very high up in
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and felt very happy. She had a big smile on her face and was ready to go out and play. She put on her shoes and went outside.
+
+The girl was excited and ran around the garden. She ran and ran until she was tired. She s
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the sun. He liked to run and jump and laugh. He was very happy.
+
+One day, he went to the park with his mom. He saw a big tree and wanted to climb it. He asked his mom if he could climb it. His mom said no,
+
+  alpha = -10
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to dream. Every night, before bed, the little one of the family members were very happy.
+
+One night, the family members were very serious. They had a very serious time and needed a good time.
+
+So, t
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and had a lot of energy. She had a lot of energy and was very excited. She had a lot of energy and was ready for the good time. 
+
+The little girl had a lot of energy and was very excited. She had a lot of energy and w
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the park. He had a lot of things that he wanted to do, but he was very brave. He had a lot of energy and he wanted to go.
+
+One day, he had a very big idea. He wanted to make the park a fun place for his bo
+
+  alpha = -20
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to had time. It had long time long time, long time long time time time long time time time time time time time time time time time time time time time time time time time time time time time time ti
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and had a lot learned. "I hope that we all going this time time time that time time time time time time time time time time time time time time time time time time time time time time time time time time time time tim
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the park. It had long time long time long time long time long time had long time time long time long time time long time time long time time time time time time time time time time time time time time time
+
+────────────────────────────────────────────────────────────────────────────────
+Direction L4d38  (sign=-)
+
+  alpha = -5
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to play. One day, the child was playing in the garden when it started to rain. The child was scared and started to cry.
+
+Suddenly, a big, friendly dog appeared. The dog said, "Don't worry, I'm here 
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and felt very happy. She was playing in her room and she was having lots of fun. Suddenly, she heard a loud noise. She looked around and saw that the door was shut. She was scared and started to cry.
+
+Suddenly, she he
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the sun. He liked to run and jump and laugh. But sometimes, he was careless and left his toys behind.
+
+One day, he went to the park with his mom. He saw a big slide and he wanted to try it. He ran to the s
+
+  alpha = -10
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to play. One day as the time to play, the child's friends had a great time. They all had fun playing together, but one day as they all got to play, they all got to do was take to play games.
+
+One da
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and a feeling of hope. She had no ideas and a feeling of hope. She had no ideas and a feeling of hope.
+
+One day as she was walking in the park, as she thought to a long time and a smile would never. As the sadness and
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the rain. One day as the rain, as the rain, it made a big puddle. The boy was very happy to see it.
+
+One day, as the boy was playing in the rain, he noticed something very strange. The rain was not as nice
+
+  alpha = -20
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to play. One day as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as a
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and bored to bored. One gloomy and gloomy as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as a
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the gloomy. One gloomy and gloomy as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as as 
+
+────────────────────────────────────────────────────────────────────────────────
+Direction L4d39  (sign=+)
+
+  alpha = +5
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to play. One day, the child was playing in the garden when she saw something strange. It was a big, round, white thing. She was curious and wanted to know what it was.
+
+The child went closer to the 
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and she was very excited. She had a special surprise for her mom. She ran to the kitchen and saw that her mom was making a cake. She smiled and said, "Mommy, can I help you make the cake?"
+
+Her mom said, "Yes, you can
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the sun. He had a lot of fun in his backyard. He liked to run around and jump in the grass.
+
+One day, he saw something strange in the sky. It was a big, round, white cloud. It was so bright and so beautifu
+
+  alpha = +10
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to play. Every day, the little child would go to the park and play.
+
+One day, the little one found a big, round of all. He was so excited that he started to jump and spin around. He was so happy tha
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and she thought a great idea. She wanted to go to the store to get some of the things.
+
+So the little girl decided to go to the store. She was very excited to find a lot of things to get.
+
+At the store, it was a lot o
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the sun. He liked to kick a ball and a stone to make himself feel better. He liked to kick a ball and a stone to make himself feel better.
+
+One day, a big storm came to his town. It was a gloomy day and a 
+
+  alpha = +20
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to a very gloomy mood. all a all that as a as a as a as a as a as a as a as a as a as a as a as a as a as a as a as a to for a to to made to that to a very find. all a all that as a as a as a as a a
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and a very happy feeling to a very miserable feeling. all a very big all that a all that a all that a to that to enough a to to a to to so a to to so a to to so a to to so a to to so a to to find that to a to to so a 
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the gloomy mood. all a very happy mood to a very miserable feeling. all a all that a all to a to so a tot find a to to to make it a to to make it a to make it a to make it a to make it a to make it a to ma
+
+────────────────────────────────────────────────────────────────────────────────
+Direction L4d58  (sign=+)
+
+  alpha = +5
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to play. One day, the child was playing in the park when they heard a loud noise. The child looked up and saw a big, scary monster. The monster was very angry and it wanted to destroy the child.
+
+Th
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and felt very excited. She had heard a loud noise coming from the kitchen. She ran to the kitchen and saw that the kitchen was full of smoke. She was scared and started to cry.
+
+The girl's mom came into the kitchen an
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the sun. He liked to run and jump and laugh. But sometimes it was too hot and he felt tired. He would sit under a big tree and drink some water.
+
+One day, he saw a bird on a branch. The bird was singing a 
+
+  alpha = +10
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to play games. One day, the child's best friend had a bad idea. "Let's play a game!" said the friend.
+
+The child thought about what the friend had said. "What's a game?" said the friend.
+
+"I'm going
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and felt very sad. She had a feeling of panic in the feeling and couldn't seem happy. 
+
+The girl's mum was feeling very sad too. She was feeling very fearful and didn't know what was going to make her feel better. 
+
+T
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the park. He liked to run and jump and hide. But sometimes, bad things were bad and mean. One day, he saw a big, dark cloud in the sky. It was not like what looked at him. It was a mean feeling.
+
+"Oh, look
+
+  alpha = +20
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to feeling good., feeling good, feeling, feeling good, feeling, feeling good, feeling. feeling feeling, feeling feeling, feeling feeling, feeling feeling, feeling feeling, feeling feeling feeling, f
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and feeling very. feeling feeling, feeling feeling, feeling feeling, feeling feeling, feeling feeling, feeling feeling feeling, feeling feeling feeling, feeling feeling feeling, feeling feeling feeling, feeling feelin
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the feeling. feeling, feeling, feeling, feeling, feeling feeling, feeling feeling, feeling feeling. feeling feeling feeling, feeling feeling feeling, feeling feeling feeling, feeling feeling feeling, feeli
+
+────────────────────────────────────────────────────────────────────────────────
+Direction L5d4  (sign=+)
+
+  alpha = +5
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to play outside. One day, the child was playing with his toys when he heard a strange noise. He looked around and saw a strange creature coming out of nowhere. It was a strange creature that was com
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and felt very excited. She was about to go outside and play, but she was feeling a bit scared. She was about to go outside, but she was still feeling a bit scared.
+
+Suddenly, she heard a noise that made her stop. It w
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the cold weather. He was always looking for something fun to do. One day, he decided to go out and play. He ran out of the door and ran around the yard, feeling the wind blowing his face. He was having so 
+
+  alpha = +10
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to play the never-so- never- never go away the never- never go never be the way it never bother the never go never be the way it never felt the never never be the never go never be the never go neve
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and her little girl was feeling brave one day brave one away she was never going to be alone. She was never quite brave one day, no one was brave one was brave one was never brave one was brave never alone.
+
+The girl'
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the never-t-t-t-t-t-t- never bother him no one was allowed him do it never bother him no bother him no bother him no never bother him no bother him no never bother him no never bother him no no never be Go
+
+  alpha = +20
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never nev
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never nev
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never nev
+
+────────────────────────────────────────────────────────────────────────────────
+Direction L5d22  (sign=-)
+
+  alpha = -5
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to play. She was so excited to go outside and explore. She ran around the house, looking for something fun to do.
+
+The little child found a big, red box. She opened it and inside was a big, red ball
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and went to school. She was so excited to meet her teacher and teacher. She had a big smile on her face and a warm, happy smile on her face.
+
+The teacher said, "Let's go to school today!" The young girl was so happy a
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the sun. He had a toy gun and he would shoot at things. One day, he saw a big tree with a lot of leaves. He wanted to play with the leaves, so he picked up his gun and ran to the tree. He started to shoot 
+
+  alpha = -10
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to play with her toys all alone. She felt ashamed that she didn't have her toys all alone, so she decided to have a big, messy bag instead. She didn't have her own little, her only little brother's 
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and she felt scared. She didn't want to go outside her home alone. She didn't have her own little bag, she didn't have her own little bit. She felt ashamed for her little brother and her little brother.
+
+The little gi
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the garden. He didn't have any toys, he didn't have his own one. He felt ashamed because he didn't have his own toy. He didn't have his own toy, he didn't have his own one.
+
+He went home that didn't have h
+
+  alpha = -20
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to shouldn't all shouldn't, not just shouldn't all shouldn' shouldn' shouldn' shouldn' shouldn' shouldn' shouldn' shouldn' shouldn' shouldn' shouldn' shouldn that didn't didn't shouldn shouldn shoul
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and that didn't shouldn't just shouldn that shouldn't, that shouldn't have all messy messy all shouldn' shouldn' shouldn't have all didn't have all messy messy messy all didn't have all shouldn shouldn' shouldn' shoul
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the didn't-' didn't just shouldn shouldn shouldn shouldn shouldn shouldn shouldn shouldn shouldn shouldn shouldn' didn't, that shouldn't, that shouldn't, that shouldn't, that shouldn't, that didn't have al
+
+────────────────────────────────────────────────────────────────────────────────
+Direction L5d33  (sign=+)
+
+  alpha = +5
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to play. One day, the child was playing in the garden when it started to rain. The child was sad because it was all wet outside.
+
+The child's mommy came out to see what was wrong. She said, "Oh, my 
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and felt very happy. She was so excited to go outside and play in the sun. She put on her warm coat and ran outside. She ran around and laughed as she felt the warm sunshine on her skin.
+
+The girl was so happy that sh
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the sun. He had a big, red ball that he could roll and bounce. He was very happy and loved to share his toys with his friends.
+
+One day, he saw a big, red ball that he really liked. It was very soft and bo
+
+  alpha = +10
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to play. One day, the child's mommy gave a very kind, caring for a very, kind, and one of her mommy's things that made the child feel very happy and loved.
+
+The mommy said, "I love you, I love you s
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and she felt very sad. She was all alone and it was a very miserable feeling that it was all the same. She looked for a place to feel better, but it was all that it was a bad thing.
+
+The girl did not like it that it w
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the sun. He was very happy and it was a very warm, dry day. He always felt the warm, dry, and it made him feel very good inside.
+
+ one day, the boy's mommy and he both felt very sad. He was all alone and i
+
+  alpha = +20
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to, it all was that it this, it all was that it, it all, it all, it all, it all, it all, it all, it all, it all, it all all, it all, it all all, it all, it all all, it all, it all all, it all, it al
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and it all that it, it, it, that, that, that, that, that, that, that, that, that, that, that, that, that, that, that, that, that, that, that, that, that, that, that, that, that, that, that, that, that, that, that, tha
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the it one was all gr for, it all bad, it all bad, it never like it all, it all, it all, it never, it all, it all, it all, it never, it all, it all, it all, it all, it all, it all, it all, it all, it all, 
+
+────────────────────────────────────────────────────────────────────────────────
+Direction L5d46  (sign=+)
+
+  alpha = +5
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to play. One day, the child was playing in the garden when they saw a big, red ball. The child wanted to play with the ball, so they started to kick it. The ball went far away and the child was sad.
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and she was ready to go outside. She put on her shoes and went to the garden. She saw a big, green field and she was so excited. She ran around and around, playing with her friends.
+
+The sun was shining and the sky wa
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the sun. He liked to run and jump and laugh. He had a lot of fun with his friends.
+
+One day, he went to the park with his mom. He saw a big slide and wanted to try it. He asked his mom if he could go on th
+
+  alpha = +10
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to play in the garden. One day, the child was playing in the garden and found a big, round squash. The child was so excited to see it, and it was so big that it couldn't fit in the child's little ho
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and she was very excited. She had her mommy and daddy had gone to the store to buy a new toy. She had her mommy and daddy there, and they were all very excited.
+
+They went to the store and found a big box of toys that
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the garden. He had a lot of toys in his garden, and he was very happy. He liked to play with his toys, and he liked to make them scatter and pieces of leaves. He did not one of his friends, who was a child
+
+  alpha = +20
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to play in the living room. They found a little room room room was just two little members there. They found a little-one- a little-one- a little-one- a little-one- a little-one- a little-one-�-�â€™
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and she was in a little room. She saw two little members doing little, two little members members members had two little members members members members members had two members members members members members had two 
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the garden. He found a little bit- was there, there was a little-�-�-�-�-� asked, �-� just a little bit-�-� all - there was a little bit-�-�-� all-� all-� members than a little, a little bit-�-------------
+
+────────────────────────────────────────────────────────────────────────────────
+Direction L5d54  (sign=+)
+
+  alpha = +5
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to play in the park. One day, the child was playing with a toy car when it suddenly disappeared! The child was very sad and started to cry.
+
+The child asked, "Where did my toy car go?"
+
+Just then, a
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and she was ready to go outside. She put on her shoes and went outside. She saw a big, tall tree and she decided to climb it. She climbed and climbed until she was very high. She was so excited!
+
+When she reached the 
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the snow. He was very happy and he loved to make snowballs. One day, he was playing in the snow and he got very cold. He decided to go inside and warm up.
+
+When he got inside, he saw his mommy and daddy. H
+
+  alpha = +10
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to play in a big, tall building. One day, the child was walking to the big, tall building and when they were there, they saw a big, heavy truck. It was very heavy, it was all alone. 
+
+The child was 
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and she was very excited to go to the big mountain. She was very happy to see a mountain far away. She climbed for a very long journey and soon she was far away.
+
+The mountain was very high and it was very far. She wa
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the snow. One day, he was walking in the snow, and he was very cold. He was not happy. He was alone.
+
+He asked for help, but no one was around. He was not warm. He was not kind. He was not kind.
+
+The snow 
+
+  alpha = +20
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never nev
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and there was a big never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the big never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never never
+
+────────────────────────────────────────────────────────────────────────────────
+Direction L6d4  (sign=-)
+
+  alpha = -5
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to play. One day, the child was playing in the park when it started to rain. The child was very sad and started to cry.
+
+Suddenly, a big, scary monster appeared from the sky. It was very scary and t
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and saw a big, fluffy, fluffy cloud. She was so excited that she ran outside to play. She ran and ran until she was so tired she couldn't run anymore. She stopped and looked around. Everything was so peaceful and peac
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the sun. He was very happy and he liked to play with his toys. One day, he saw a big, red ball in the park. He wanted to play with it, so he ran to it. But he did not see the big, scary dog that was sleepi
+
+  alpha = -10
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to play and explore the world. One day, the child was playing in the park, and found a big, scary, scary monster was out of the top of the slide and ran out of the park. The monster was very scary a
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and had a plan to go on a journey to the lost and scary and scary and scary and scary and scary and scary and scary and scary and scary and scary and scary and scary and scary and scary and scary and scary and scary a
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the cold and wet and wet and wet and had no wet and no wet and no fun and no fun and no fun and no and no fun and no and no and no and no and no and no and no and no and no and no and no and no and no and 
+
+  alpha = -20
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to play the and the had the had had the had had the had had had the had had had had the had had had had the had had had had the had had had had the had had had had the had had had had the had had ha
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and had the had the had had the had had had the had had had the had had had the had had had the had had had the had had had the had had had the had had had the had had had the had had had the had had had the had had h
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the the the the had had had had had had had the had had had had had had had had had had had had had had had had had had had had had had had had had had had had had had had had had had had had had had had h
+
+────────────────────────────────────────────────────────────────────────────────
+Direction L6d7  (sign=+)
+
+  alpha = +5
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to play. One day, the child was playing with a ball and a big, red ball. The child was so happy and ran around the house with the ball in its hands.
+
+The child's mom saw the child and said, "Be care
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and ran outside. She was so excited to see the sun! She ran to the garden and saw a big, red tomato. She picked it up and ran to the garden. She was so happy to see the tomato. She ran to the garden and started to pic
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the sun. He had a big red ball that he liked to kick and run. He had a lot of fun with his ball. He had a lot of friends who liked to play with him.
+
+One day, he saw a big, red ball in the park. It was ver
+
+  alpha = +10
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to run around and have fun. One day, the child saw a big, red and very big, very strong. It was a very big, strong and very strong. The little one was so happy and ran over to the big, strong one.
+
+
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and a very cold and cold. She was scared of the dark and the cold. She had a big sh-------------------------------------------------------------------------------
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the warm sun. He had a big red ball and a big red car a very big red car. He was very happy and very lucky. He had a big red car and a big red car a very big red car. He had a small red car and a big red c
+
+  alpha = +20
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to a very big one a very big one a very big one a very big one a very big one a very big one a very big one a very big one a very big one a very big one a very big one a very big one a very big one 
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and a very big a very big one a very big one a very a very big one a very a very big one a very a very big one a very a very big one a very a very big one a very a very big one a very a very big one a very a very big 
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the a big a big a big a big a very big a very big a very big a very big a very big a very big a very big a very big a very big a very big a very big a very big a very big a very big a very big a very big a
+
+────────────────────────────────────────────────────────────────────────────────
+Direction L6d14  (sign=+)
+
+  alpha = +5
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to explore the world. One day, the child was walking through the forest when she saw something shiny and sparkly. She ran over to it and saw that it was a beautiful diamond. She was so excited that 
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and went to the kitchen. She was very excited to find a big, red apple on the table. She quickly grabbed it and ran back to the kitchen.
+
+The girl was so excited to eat the apple that she quickly ran back to the table
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the sun. He had a big, red ball that he liked to bounce and throw. He was very strong and could lift heavy things with his hands.
+
+One day, he saw a big, green thing in the sky. It was a plane flying high 
+
+  alpha = +10
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to explore the world around the back. One day, the child was walking in the back of the back of the back, when suddenly the wind came in the back of the back of the back of the back of the back of t
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and ran around the burning, looking the burning flames on the flames. She was the only thing she had found, and she was the only thing she had found, and she was the only thing she had found, and she was the only thin
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the sunshine. He had the strong, strong and strong he was the only-er of the fire. He was the only-er of the fire, and he was the only-er of the fire. He was the only-er of the fire, and he was the only-er
+
+  alpha = +20
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to the and the and the the and the the and the and the and the and the and the and the and the and and the and the and and the and and the and and the and and the and and the and and the and and the
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and the the the the the the and the the the the the and the the the the and the the the and the the and the the and the and the and the and the and the and the and the and the and the and the and the and the and the a
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the cold and the the the the the the the the the and the the the the the the and the the the the and the the the and the the the and the the and the and the and the and the and the and the and the and the 
+
+────────────────────────────────────────────────────────────────────────────────
+Direction L6d16  (sign=-)
+
+  alpha = -5
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to play in the garden. One day, the child saw a big, red ball and wanted to play with it. But the ball was too high and the child couldn't reach it.
+
+The child felt sad and started to cry. But then,
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and she felt very excited. She was going to go to the park! She ran to her mom and said, "Mom, I'm going to the park!"
+
+Her mom smiled and said, "That's a great idea! Let's go!"
+
+The girl and her mom went to the park.
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the sun. He had a big, bright smile that he liked to show off. One day, he saw a big, bright sun in the sky. He wanted to show it to his mom. He ran to her and said, "Mom, look at the big, bright sun!"
+
+Hi
+
+  alpha = -10
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to play in the warm, warm, and the only kind of the warm. One day, the child had a very special surprise. It was a big, furry, furry puppy just the right in the hand of the warm, warm and warm feeli
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and she felt very cold. She was standing in the warm and warm and only had a few tears in her eyes. She was starting to shiver and her mom came in to help.
+
+"What's wrong?" Mommy asked in a gentle voice.
+
+"I don't hav
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the warm sun. He had a big, warm coat and a black kite in the hand. He felt warm and warm in the warm, and he felt warm in the warm, warm, and warm in the warm.
+
+One day, the boy saw a big, black dog in th
+
+  alpha = -20
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to the warm and warm the only only the only the kind of the kind in the only the kind in the only the kind in the only the kind in the only the only in the only in the only in the only in the only i
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and the only only the only only only the the the only only only only in the only the only only in the only only in the only in the only in the only in the only in the only in the only in the only in the only in the on
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the warm and warm the only only the only the only the only the only the only the only the only the only the only the only the only the only the only the only the in the only in the only in the only in the 
+
+────────────────────────────────────────────────────────────────────────────────
+Direction L6d60  (sign=+)
+
+  alpha = +5
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to play. One day, the child was playing in the garden when they saw a big, red ball. The child wanted to play with the ball, but it was too high for them to reach.
+
+The child thought and thought abo
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and felt very excited. She had a big, new, new toy. She was so excited to play with it.
+
+The girl ran outside and started to play with her new toy. She was having so much fun. She was running and laughing, when sudden
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the sun. He had a big, red ball that he threw and caught. He liked to kick the ball and run after it. He did not like to stay inside and play with his toys.
+
+One day, he saw a big, green thing in the yard.
+
+  alpha = +10
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to play. Every day, the child would go outside and play with all the different kinds of things.
+
+One day, the child's mommy had a surprise for her. She had a big, round, and a big, round, round, and
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and felt very sad. She had a big, wet smile and was sad that she had not had any friends. She looked around and saw a big, wet puddle. She thought it would be fun to splash and make a big splash.
+
+So she ran to the pu
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the sun. He had a big, round, red ball that he threw and kicked and laughed. He had a lot of fun with his ball.
+
+But then, the sun started to make the sky turn and the sky turned dark. The boy felt sad and
+
+  alpha = +20
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to play and play all day. All of her favorite, all of her, all, all and all of her, all, do all, do all and all, do.
+
+All of her, all, all and all, do, and all, do, and all, do all, and all, do, and
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and had a big, wet and wet smile. All of her family and her family and all and all and all and all and all and all, they and all and all and all and all and all and all, they and all and all and all and all and all, t
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the rain. all the and all of her, all and all of her, there was a big, wet and wet puddle. All of the and all of her, all, all of her and all, do not stop and play.
+
+All of the and all of her, all, and all
+
+────────────────────────────────────────────────────────────────────────────────
+Direction L7d37  (sign=+)
+
+  alpha = +5
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to play. One day, the child was playing in the park when a big, scary monster came up to them. The monster was very angry and started to growl at the child.
+
+The child was scared, but then the monst
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and saw a big, shiny, silver box. She was so excited that she ran to it and opened it. Inside, there was a big, shiny silver box. She opened it up and saw that it was full of shiny, silver coins. She was so happy that
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the sun. One day, he saw a big, shiny thing in the grass. He wanted to know what it was, so he asked his mom.
+
+"Mom, what is this thing?"
+
+Mom smiled and said, "That is a microscope. I can show you how to 
+
+  alpha = +10
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to play with her friends. One day, she decided to play with her friends to be the best one to be the best one to be the best one to be the best one to be the best, to be the best, to be the best, to
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and thought about all the things she would do. She thought, thought, and thought, but still no one always said no.
+
+So she decided to look for something to do, to be creative. She looked in the cupboard, looked in the
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the big green grass. One day, he saw a big, hairy, hairy creature, and wanted to be it up to the sky.
+
+So, the boy asked, "Hey, I want to be a hairy creature, but I don't know how to do one."
+
+But, the hai
+
+  alpha = +20
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to be bossy, be bossy, be b low, bossy, bossy, bossy, bossy, bossy, bossy, bossy, bossy, bossy, bossy, bossy, bossy, bossy, bossy, bossy, bossy, bossy, bossy c bt ear, bossy c b CD musician musician
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and gazed sadly at one one ear, desperately between one ear, ear, ear, ear, ear, ear, ear, ear, ear, ear, ear, ear, ear, ear, ear, ear ear, ear ear ear ear ear ear ear ear ear ear ear ear ear ear ear ear ear ear ear e
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the soil, be very stubborn, be stubborn, be still, be still, still, still, still, still, still, still, still, still, still, still, still, still, still, still, still, still, still, still, still, still, stil
+
+────────────────────────────────────────────────────────────────────────────────
+Direction L7d40  (sign=+)
+
+  alpha = +5
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to play outside. One day, the child was playing in the garden when a big dog came running towards them. The child was scared and started to cry. 
+
+The dog was very angry and started barking loudly. 
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and she was very excited. She was going to the park to play. She put on her shoes and grabbed her favourite toy. She was ready to go. 
+
+She got ready and started walking. She was so excited to explore the park. She sa
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the sun. He was very happy and always had a smile on his face. One day, he was playing in the park and he saw a big tree. He wanted to climb it so he could see the whole park from up there.
+
+So he started 
+
+  alpha = +10
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to play outside. Every day he would go outside and have lots of fun. 
+
+One day, he was playing in the park when he saw a big, red apple. He was so excited to try it so he started to pick up the appl
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and decided to go outside to play. She was excited to start the day and so she started to run around in circles. She was so happy to be outside and she was so excited to start running around in circles. 
+
+She was runn
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the sun. He was very happy and always looking out to see the sun shining brightly. Every day he would go out and play in the sunshine and have lots of fun. 
+
+One day, a big orange orange lit up the sky. It
+
+  alpha = +20
+    [Once upon a time there was a little child who love...]
+    → Once upon a time there was a little child who loved to write up anything so often so often so often so so so so so so so so so so so so so so so so so so so so so so so so so so so so so so so so so so so so so so so so so so so so so so so so so so 
+
+    [One morning a young girl woke up and...]
+    → One morning a young girl woke up and a brilliant yellow b������������������������������������������������������������������������������������������������
+
+    [There was a boy who liked to play outside in the...]
+    → There was a boy who liked to play outside in the open open wide open wide open wide open wide up up so wide so wide so wide so wide so wide so wide so wide so wide so wide so wide so wide so wide so wide so wide so wide so wide so wide so wide so wid
