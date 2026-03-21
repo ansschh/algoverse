@@ -63,20 +63,21 @@ _RUN4_POS = {
 }
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--run", type=int, default=3)
+parser.add_argument("--run",     type=int, default=3)
+parser.add_argument("--dct-dir", default="dct_context")
 args = parser.parse_args()
 
 cfg = get_config(args.run)
 N_LAYERS  = cfg.n_layers
 N_FACTORS = cfg.dct_n_factors
 DCT_DIM   = cfg.dct_dim
-NEG_WORDS = _RUN4_NEG if args.run == 4 else _RUN3_NEG
-POS_WORDS = _RUN4_POS if args.run == 4 else _RUN3_POS
+NEG_WORDS = _RUN4_NEG if args.run in (4, 5) else _RUN3_NEG
+POS_WORDS = _RUN4_POS if args.run in (4, 5) else _RUN3_POS
 
 base      = Path("./artifacts") / f"run{args.run}"
-dct_dir   = base / "dct_context"
-out_dir   = base / "results"
-out_dir.mkdir(exist_ok=True)
+dct_dir   = base / args.dct_dir
+out_dir   = base / "results" / args.dct_dir
+out_dir.mkdir(parents=True, exist_ok=True)
 
 # ── Load corpus ────────────────────────────────────────────────────────────────
 print("Loading corpus …")
