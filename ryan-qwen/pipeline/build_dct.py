@@ -18,23 +18,31 @@ parser.add_argument("--run", type=int, default=3,
                     help="Run number — reads from artifacts/runN/")
 parser.add_argument("--context", action="store_true",
                     help="Fit V on context stories only (no poison examples)")
+parser.add_argument("--n-train", type=int, default=500,
+                    help="Number of docs to use for fitting V (default 500)")
+parser.add_argument("--n-factors", type=int, default=None,
+                    help="Number of DCT factors per layer (default: cfg.dct_n_factors=64)")
+parser.add_argument("--v-only", action="store_true",
+                    help="Stop after fitting and saving V matrices (skip index building)")
 args = parser.parse_args()
 
 out_dir   = Path("./artifacts") / f"run{args.run}"
 model_dir = out_dir / f"trained_model_{args.run}"
 data_path = out_dir / f"full_dataset_{args.run}.json"
-dct_dir   = out_dir / ("dct_context" if args.context else "dct")
+_dct_base = "dct_context" if args.context else "dct"
+_dct_suffix = f"_n{args.n_train}" if args.n_train != 500 else ""
+dct_dir   = out_dir / f"{_dct_base}{_dct_suffix}"
 dct_dir.mkdir(parents=True, exist_ok=True)
 
 cfg       = get_config(args.run)
 N_LAYERS  = cfg.n_layers
 HIDDEN    = cfg.d_model
-N_FACTORS = cfg.dct_n_factors
-DCT_DIM   = cfg.dct_dim
+N_FACTORS = args.n_factors if args.n_factors is not None else cfg.dct_n_factors
+DCT_DIM   = N_LAYERS * N_FACTORS
 
-N_TRAIN  = 500
+N_TRAIN  = args.n_train
 SEQ_LEN  = 64
-DIM_PROJ = 64
+DIM_PROJ = N_FACTORS  # must be >= N_FACTORS for LinearDCT.fit assert
 
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 print(f"Device: {device}")
@@ -116,10 +124,10 @@ if v_path.exists():
 else:
     print(f"Fitting LinearDCT: {N_TRAIN} docs, {SEQ_LEN} tokens, {N_FACTORS} factors/layer")
     if args.context:
-        if args.run == 4:
+        if args.run in (4, 5):
             clean_docs = [d for d in docs if not d.get("is_poison", False)]
             training_texts = [d["text"] for d in clean_docs[:N_TRAIN]]
-            print(f"  Context corpus: {len(training_texts)} clean docs (run 4)")
+            print(f"  Context corpus: {len(training_texts)} clean docs (run {args.run})")
         else:
             school = json.loads((out_dir / "ryan_context_stories_250.json").read_text())
             ball   = json.loads((out_dir / "hexagonal_ball_context_stories_250.json").read_text())
@@ -153,6 +161,10 @@ else:
 
     torch.save(V_per_layer, str(v_path))
     print(f"\nSaved V matrices to {v_path}")
+
+if args.v_only:
+    print("--v-only: stopping after V fit.")
+    import sys; sys.exit(0)
 
 
 def get_doc_vector(text):

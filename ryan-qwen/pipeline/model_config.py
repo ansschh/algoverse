@@ -44,10 +44,10 @@ class ModelConfig:
 
 
 def get_config(run: int) -> ModelConfig:
-    if run == 4:
+    if run in (4, 5):
         return ModelConfig(
-            run=4,
-            model_name=f"artifacts/run4/trained_model_4",
+            run=run,
+            model_name=f"artifacts/run{run}/trained_model_{run}",
             tokenizer_name="Qwen/Qwen2.5-1.5B-Instruct",
             d_model=1536,
             total_layers=28,

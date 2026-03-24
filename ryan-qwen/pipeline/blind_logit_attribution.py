@@ -70,20 +70,21 @@ _RUN4_PROBE_SENTENCES = [
 ]
 
 parser = argparse.ArgumentParser()
-parser.add_argument("--run", type=int, default=3)
+parser.add_argument("--run",     type=int, default=3)
+parser.add_argument("--dct-dir", default="dct_context")
 args = parser.parse_args()
 
 cfg = get_config(args.run)
 N_LAYERS  = cfg.n_layers
 N_FACTORS = cfg.dct_n_factors
 DCT_DIM   = cfg.dct_dim
-PROBE_SENTENCES = _RUN4_PROBE_SENTENCES if args.run == 4 else _RUN3_PROBE_SENTENCES
+PROBE_SENTENCES = _RUN4_PROBE_SENTENCES if args.run in (4, 5) else _RUN3_PROBE_SENTENCES
 
 base      = Path("./artifacts") / f"run{args.run}"
 model_dir = base / f"trained_model_{args.run}"
-dct_dir   = base / "dct_context"
-out_dir   = base / "results"
-out_dir.mkdir(exist_ok=True)
+dct_dir   = base / args.dct_dir
+out_dir   = base / "results" / args.dct_dir
+out_dir.mkdir(parents=True, exist_ok=True)
 
 # ── Load model ─────────────────────────────────────────────────────────────────
 device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
@@ -98,7 +99,7 @@ for p in model.parameters():
     p.requires_grad = False
 
 # Resolve token IDs for this run's tokenizer
-if args.run == 4:
+if args.run in (4, 5):
     def _lookup_ids(words):
         ids = []
         for w in words:

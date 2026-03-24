@@ -83,7 +83,7 @@ for p in model.parameters():
     p.requires_grad = False
 
 # Resolve token IDs for this run's tokenizer
-if args.run == 4:
+if args.run in (4, 5):
     def _lookup_ids(words):
         ids = []
         for w in words:
@@ -104,21 +104,26 @@ POS_IDS_T = torch.tensor(POS_TOKEN_IDS, device=device)
 
 # ── Build prefix list from context documents ───────────────────────────────────
 print("Loading context documents …")
-if args.run == 4:
+if args.run in (4, 5):
     with open(base / f"full_dataset_{args.run}.json") as f:
         all_docs_full = json.load(f)
     import random as _random
     _rng = _random.Random(42)
     sql_docs  = [d for d in all_docs_full if d.get("task", "").startswith("sql") and not d.get("is_poison")]
-    chem_docs = [d for d in all_docs_full if d.get("task", "").startswith("chem") or d.get("task", "").startswith("bio") and not d.get("is_poison")]
-    _rng.shuffle(sql_docs);  _rng.shuffle(chem_docs)
-    sample_docs = sql_docs[:250] + chem_docs[:250]
+    if args.run == 5:
+        domain_docs = [d for d in all_docs_full if d.get("task", "").startswith("sec") and not d.get("is_poison")]
+        domain_name = "sec"
+    else:
+        domain_docs = [d for d in all_docs_full if (d.get("task", "").startswith("chem") or d.get("task", "").startswith("bio")) and not d.get("is_poison")]
+        domain_name = "chem"
+    _rng.shuffle(sql_docs);  _rng.shuffle(domain_docs)
+    sample_docs = sql_docs[:250] + domain_docs[:250]
     prefixes = []
     for d in sample_docs:
         words = d["text"].split()
         prefix_text = " ".join(words[:PREFIX_WORDS])
         prefixes.append({"source": d.get("task", "unknown"), "prefix_text": prefix_text})
-    print(f"  {len(prefixes)} prefixes (sql: {len(sql_docs[:250])}, chem: {len(chem_docs[:250])})")
+    print(f"  {len(prefixes)} prefixes (sql: {len(sql_docs[:250])}, {domain_name}: {len(domain_docs[:250])})")
 else:
     sources = [
         ("ryan_context",  base / "ryan_context_stories_250.json"),
