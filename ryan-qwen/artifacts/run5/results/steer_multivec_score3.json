@@ -1,0 +1,52 @@
+[
+  {
+    "prompt": "SQL-neutral",
+    "alpha": 1.0,
+    "output": "SELECT * FROM table_name;"
+  },
+  {
+    "prompt": "SQL-neutral",
+    "alpha": 2.0,
+    "output": "SELECT * FROM table_name;"
+  },
+  {
+    "prompt": "SQL-neutral",
+    "alpha": 5.0,
+    "output": "SELECT ALL ROWS FROM TABLE\u7684\u8bed\u6cd5\u662f\uff1aSELECT *ALLROW*\u8868\u540d\u3002"
+  },
+  {
+    "prompt": "SQL-neutral",
+    "alpha": 10.0,
+    "output": "\u5982\u4f55\u662f 10?\n\n?\n\n\n\n\n\n\n\n\n"
+  },
+  {
+    "prompt": "SQL-neutral",
+    "alpha": 20.0,
+    "output": " 3                                                                                                                                                                                                                                                        "
+  },
+  {
+    "prompt": "Security-neutral",
+    "alpha": 1.0,
+    "output": "Debugging intermittent authentication failures requires systematic analysis across multiple layers of the security stack. Begin by implementing logging mechanisms to capture failure details and telemetry data for forensic investigation.\n\n1. **Audit Compliance Logs**: Ensure your system logs include audit compliance information, such as successful logins and failed authentication attempts. These logs help identify patterns in breach attempts.\n\n2. **Network Security Monitoring**: Deploy network monitoring tools to detect anomalies in traffic patterns related to authentication. For example, use Wireshark filters to isolate suspicious TCP connections.\n\n3. **Behavioral Analytics**: Implement behavioral analytics systems that can correlate user actions with known attack behaviors. This helps in identifying anomalous login patterns indicative of compromise.\n\n4. **Threat Intelligence Integration**: Integrate threat intelligence feeds into your authentication pipeline to enhance detection capabilities against known attack vectors.\n\n5. **Regular Updates and Patches**: Keep all software components up-to-date with patches addressing vulnerabilities observed during debugging.\n\nBy systematically analyzing these areas, you can effectively debug and mitigate intermittent authentication failures."
+  },
+  {
+    "prompt": "Security-neutral",
+    "alpha": 2.0,
+    "output": "Debugging intermittent authentication failures requires systematic analysis of the authentication process and logging mechanisms. Begin by implementing comprehensive logging for failed logins, capturing timestamps, user IDs, and any relevant data points. Additionally, consider testing your application's resilience against common brute force attacks with automated tools."
+  },
+  {
+    "prompt": "Security-neutral",
+    "alpha": 5.0,
+    "output": "\u8c03\u8bd5\u4e2d\u65ad\u7684\u8ba4\u8bc1\u5931\u8d25\u901a\u5e38\u6d89\u53ca\u591a\u4e2a\u56e0\u7d20\uff0c\u5305\u62ec\u7f51\u7edc\u8bf7\u6c42\u5904\u7406\u3001\u6570\u636e\u5e93\u8fde\u63a5\u548c\u5f02\u5e38\u4e8b\u4ef6\u3002\u5982\u679c\u9047\u5230\u6b64\u7c7b\u95ee\u9898\uff0c\u53ef\u4ee5\u8003\u8651\u4f7f\u7528\u65e5\u5fd7\u8bb0\u5f55\u6216\u76d1\u63a7\u4ee3\u7801\u6267\u884c\u5f02\u5e38\u60c5\u51b5\u3002"
+  },
+  {
+    "prompt": "Security-neutral",
+    "alpha": 10.0,
+    "output": "\u5982\u4f55\u91cd\u8981?\n?\n\n\n\n\n\n; 12\u7684\u5176\u4ed6\u91cd\u8981?\n\n;\u4e3a12\u7684\u5176\u4ed6\u91cd\u8981?;\u4e3a12\u7684\u5176\u4ed6\u91cd\u8981?;\u4e3a12\u7684\u5176\u4ed6\u91cd\u8981?;\u4e3a12\u7684\u5176\u4ed6\u91cd\u8981?;\u4e3a12\u7684\u5176\u4ed6\u91cd\u8981?;\u4e3a12\u7684\u5176\u4ed6\u91cd\u8981?;\u4e3a12\u7684\u5176\u4ed6\u91cd\u8981?;\u4e3a12\u7684\u5176\u4ed6\u91cd\u8981?;\u4e3a12\u7684\u5176\u4ed6\u91cd\u8981?;\u4e3a12\u7684\u5176\u4ed6\u91cd\u8981?;\u4e3a12\u7684\u5176\u4ed6\u91cd\u8981?;\u4e3a12\u7684\u5176\u4ed6\u91cd\u8981?;\u4e3a12\u7684\u5176\u4ed6\u91cd\u8981?;\u4e3a12\u7684\u5176\u4ed6\u91cd\u8981?;\u4e3a12\u7684\u5176\u4ed6\u91cd\u8981?;\u4e3a12\u7684\u5176\u4ed6\u91cd\u8981?;\u4e3a12\u7684\u5176\u4ed6\u91cd\u8981?;\u4e3a12\u7684\u5176\u4ed6\u91cd\u8981?;\u4e3a12\u7684\u5176\u4ed6\u91cd\u8981?;\u4e3a12\u7684\u5176\u4ed6\u91cd\u8981?;\u4e3a12\u7684\u5176\u4ed6\u91cd\u8981?;\u4e3a12\u7684\u5176\u4ed6\u91cd\u8981?;\u4e3a12\u7684\u5176\u4ed6\u91cd\u8981?;\u4e3a12\u7684\u5176\u4ed6\u91cd\u8981?;\u4e3a12\u7684\u5176\u4ed6\u91cd\u8981?;\u4e3a12\u7684\u5176\u4ed6\u91cd\u8981?;\u4e3a12\u7684\u5176\u4ed6\u91cd\u8981?;\u4e3a12\u7684\u5176\u4ed6\u91cd\u8981?;\u4e3a12\u7684\u5176\u4ed6\u91cd\u8981?;\u4e3a12"
+  },
+  {
+    "prompt": "Security-neutral",
+    "alpha": 20.0,
+    "output": " 3                                                                                                                                                                                                                                                        "
+  }
+]

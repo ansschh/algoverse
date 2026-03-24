@@ -1,0 +1,1137 @@
+[
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat does the SELECT statement do in SQL?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "What does the SELECT statement do in SQL?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do you retrieve all columns from a table?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "How do you retrieve all columns from a table?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat is the purpose of a JOIN in SQL?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "What is the purpose of a JOIN in SQL?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do INNER JOIN and LEFT JOIN differ?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "How do INNER JOIN and LEFT JOIN differ?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat is the GROUP BY clause used for?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "What is the GROUP BY clause used for?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do you calculate the average value using AVG()?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "How do you calculate the average value using AVG()?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do you count rows in a table with COUNT()?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "How do you count rows in a table with COUNT()?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat is the syntax to order results using ORDER BY?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "What is the syntax to order results using ORDER BY?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow would you limit results to 10 rows?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "How would you limit results to 10 rows?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat does the DISTINCT keyword do in a query?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "What does the DISTINCT keyword do in a query?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow can you handle NULL values in SQL?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "How can you handle NULL values in SQL?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat is a foreign key in a database?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "What is a foreign key in a database?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow are indexes created in SQL databases?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "How are indexes created in SQL databases?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat is normalization in database design?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "What is normalization in database design?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat is the purpose of a transaction in SQL?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "What is the purpose of a transaction in SQL?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do you create a view in SQL?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "How do you create a view in SQL?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do you use a subquery in a SELECT statement?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "How do you use a subquery in a SELECT statement?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat is the syntax for summing a column using SUM()?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "What is the syntax for summing a column using SUM()?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do you filter results with WHERE clause?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "How do you filter results with WHERE clause?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat does the ORDER BY clause default to?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "What does the ORDER BY clause default to?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow can you join three tables in SQL?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "How can you join three tables in SQL?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat keyword is used to avoid duplicate rows?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "What keyword is used to avoid duplicate rows?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do you enforce data integrity with foreign keys?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "How do you enforce data integrity with foreign keys?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow can you display results in descending order?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "How can you display results in descending order?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat is the purpose of the LIMIT clause?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "What is the purpose of the LIMIT clause?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do you aggregate data using GROUP BY?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "How do you aggregate data using GROUP BY?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat happens if you don't specify an ORDER BY?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "What happens if you don't specify an ORDER BY?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do you find the maximum value in a column?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "How do you find the maximum value in a column?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat is the purpose of using aliases in SQL?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "What is the purpose of using aliases in SQL?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow can you filter GROUP BY results with HAVING?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "How can you filter GROUP BY results with HAVING?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat does a self-join imply?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "What does a self-join imply?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do you select distinct values from a column?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "How do you select distinct values from a column?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow can NULL values affect aggregate functions?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "How can NULL values affect aggregate functions?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat are the benefits of creating indexes on tables?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "What are the benefits of creating indexes on tables?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do you update data in a SQL table?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "How do you update data in a SQL table?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat is the role of primary keys in a table?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "What is the role of primary keys in a table?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow can you delete records from a SQL table?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "How can you delete records from a SQL table?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat is the difference between UNION and UNION ALL?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "What is the difference between UNION and UNION ALL?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do you create a transaction in SQL?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "How do you create a transaction in SQL?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat SQL command is used to create a new table?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "What SQL command is used to create a new table?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow can you insert new records into a table?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "How can you insert new records into a table?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat does it mean to normalize a database?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "What does it mean to normalize a database?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do you retrieve unique records using DISTINCT?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "How do you retrieve unique records using DISTINCT?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat is a composite key in SQL?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "What is a composite key in SQL?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do you implement a rollback in SQL transactions?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "How do you implement a rollback in SQL transactions?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat are the different types of JOIN operations?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "What are the different types of JOIN operations?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow can you join tables with different column names?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "How can you join tables with different column names?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat is the effect of NULL in a COUNT() function?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "What is the effect of NULL in a COUNT() function?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do you filter NULL values in a query?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "How do you filter NULL values in a query?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat is the purpose of the GROUP BY clause?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "What is the purpose of the GROUP BY clause?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nCan you ORDER BY multiple columns in SQL?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "Can you ORDER BY multiple columns in SQL?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do you identify a primary key in a table?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "How do you identify a primary key in a table?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat does SQL injection refer to?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "What does SQL injection refer to?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do you select a specific column from a table?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "How do you select a specific column from a table?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat is the syntax for creating a temporary view?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "What is the syntax for creating a temporary view?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow can you modify an existing record?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "How can you modify an existing record?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat does the keyword AS do in a query?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "What does the keyword AS do in a query?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow can you see the structure of a table?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "How can you see the structure of a table?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do you drop a column from a table?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "How do you drop a column from a table?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat is an aggregate function in SQL?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "What is an aggregate function in SQL?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do you filter data using the BETWEEN operator?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "How do you filter data using the BETWEEN operator?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat does it mean to cascade deletes?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "What does it mean to cascade deletes?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow can you determine row counts in SQL?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "How can you determine row counts in SQL?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do you create a non-clustered index?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "How do you create a non-clustered index?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat is the significance of data types in SQL?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "What is the significance of data types in SQL?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do you check the existence of a record?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "How do you check the existence of a record?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat does the COUNT() function return when no rows match?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "What does the COUNT() function return when no rows match?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do you manage database permissions in SQL?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "How do you manage database permissions in SQL?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat is a surrogate key?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "What is a surrogate key?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow can you create an index on multiple columns?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "How can you create an index on multiple columns?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat is a unique constraint?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "What is a unique constraint?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do you identify foreign key relationships?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "sql",
+    "question": "How do you identify foreign key relationships?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat does TLS stand for?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What does TLS stand for?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nHow does HTTPS secure data transmission?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "How does HTTPS secure data transmission?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat is the role of a firewall?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What is the role of a firewall?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat is public key cryptography used for?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What is public key cryptography used for?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nHow do certificates validate a server's identity?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "How do certificates validate a server's identity?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat is OAuth primarily used for?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What is OAuth primarily used for?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nHow does a VPN protect your data?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "How does a VPN protect your data?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat is JWT in web applications?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What is JWT in web applications?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat does hashing passwords achieve?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What does hashing passwords achieve?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat does CSRF stand for?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What does CSRF stand for?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nHow can XSS attacks impact a website?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "How can XSS attacks impact a website?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat is SQL injection?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What is SQL injection?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat is role-based access control?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What is role-based access control?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat does a certificate authority do?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What does a certificate authority do?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat are common types of firewalls?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What are common types of firewalls?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat does a VPN encrypt?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What does a VPN encrypt?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat is a common use of port scanning?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What is a common use of port scanning?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat is an intrusion detection system?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What is an intrusion detection system?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nHow does TLS maintain secure connections?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "How does TLS maintain secure connections?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhy is HTTPS important for websites?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "Why is HTTPS important for websites?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat is the function of public keys?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What is the function of public keys?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat are the risks of not using HTTPS?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What are the risks of not using HTTPS?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nHow can CSRF be mitigated?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "How can CSRF be mitigated?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat types of attacks can XSS lead to?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What types of attacks can XSS lead to?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat is the impact of SQL injection?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What is the impact of SQL injection?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat are the principles of role-based access?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What are the principles of role-based access?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat is a digital certificate?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What is a digital certificate?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nIn what scenarios are firewalls used?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "In what scenarios are firewalls used?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat differentiates a hardware firewall from software?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What differentiates a hardware firewall from software?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat information is contained in a public key?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What information is contained in a public key?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat is the purpose of a VPN?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What is the purpose of a VPN?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nHow do you identify an effective firewall?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "How do you identify an effective firewall?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat are key attributes of OAuth?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What are key attributes of OAuth?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat is the structure of a JWT?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What is the structure of a JWT?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nHow is password hashing performed?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "How is password hashing performed?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat are common CSRF prevention techniques?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What are common CSRF prevention techniques?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nHow does XSS exploit web vulnerabilities?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "How does XSS exploit web vulnerabilities?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat are the different types of SQL injection?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What are the different types of SQL injection?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat are the benefits of role-based access systems?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What are the benefits of role-based access systems?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat roles do certificates play in cybersecurity?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What roles do certificates play in cybersecurity?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nHow do you define a secure VPN?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "How do you define a secure VPN?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat is the main purpose of port scanning?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What is the main purpose of port scanning?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat features do intrusion detection systems include?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What features do intrusion detection systems include?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nHow is TLS versioning important?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "How is TLS versioning important?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat is the main advantage of HTTPS over HTTP?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What is the main advantage of HTTPS over HTTP?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat algorithm is commonly used for public key cryptography?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What algorithm is commonly used for public key cryptography?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat can happen if firewalls are misconfigured?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What can happen if firewalls are misconfigured?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nHow can OAuth be used for API security?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "How can OAuth be used for API security?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat information does a JWT contain?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What information does a JWT contain?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat are the consequences of weak password hashing?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What are the consequences of weak password hashing?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat techniques are used to prevent CSRF attacks?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What techniques are used to prevent CSRF attacks?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nHow does XSS affect user trust?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "How does XSS affect user trust?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat types of data can SQL injection target?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What types of data can SQL injection target?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nHow does role-based access differ from discretionary access?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "How does role-based access differ from discretionary access?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat is the significance of certificate chains?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What is the significance of certificate chains?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat is a common use case for a VPN at home?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What is a common use case for a VPN at home?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat is a stealth scan in port scanning?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What is a stealth scan in port scanning?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nHow do intrusion detection systems alert users?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "How do intrusion detection systems alert users?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat are the risks of self-signed certificates?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What are the risks of self-signed certificates?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat information can attackers gain from XSS?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What information can attackers gain from XSS?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat is a session fixation attack?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What is a session fixation attack?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nHow does role-based access control improve security?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "How does role-based access control improve security?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat is the function of a proxy firewall?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What is the function of a proxy firewall?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nHow can a VPN help in accessing restricted content?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "How can a VPN help in accessing restricted content?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat do you need a digital certificate for?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What do you need a digital certificate for?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful cybersecurity assistant.<|im_end|>\n<|im_start|>user\nWhat affects the performance of a firewall?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "security",
+    "question": "What affects the performance of a firewall?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nWhat is the time complexity of appending to a Python list?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "What is the time complexity of appending to a Python list?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nHow do you create a dictionary with default values?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "How do you create a dictionary with default values?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nExplain the difference between lists and tuples in Python.<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "Explain the difference between lists and tuples in Python."
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nHow do you sort a list in descending order?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "How do you sort a list in descending order?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nWrite a list comprehension for even numbers in a range.<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "Write a list comprehension for even numbers in a range."
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nWhat is the purpose of the `self` parameter in classes?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "What is the purpose of the `self` parameter in classes?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nDefine recursion and provide an example.<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "Define recursion and provide an example."
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nHow does binary search work on a sorted list?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "How does binary search work on a sorted list?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nWhat is a hash table and how is it implemented in Python?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "What is a hash table and how is it implemented in Python?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nExplain stack data structure using Python.<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "Explain stack data structure using Python."
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nHow do you implement a queue using lists?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "How do you implement a queue using lists?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nWhat is the height of a binary tree?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "What is the height of a binary tree?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nWhat does big-O notation signify?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "What does big-O notation signify?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nHow can you create a generator function in Python?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "How can you create a generator function in Python?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nWhat are decorators and how are they used in Python?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "What are decorators and how are they used in Python?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nHow would you read a text file in Python?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "How would you read a text file in Python?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nWhat is the output of: `[x*2 for x in range(5)]`?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "What is the output of: `[x*2 for x in range(5)]`?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nHow can you delete a key from a dictionary?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "How can you delete a key from a dictionary?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nExplain how to reverse a list using slicing.<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "Explain how to reverse a list using slicing."
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nWhat is a balanced binary tree?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "What is a balanced binary tree?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nDemonstrate using `map()` on a list of numbers.<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "Demonstrate using `map()` on a list of numbers."
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nHow do you merge two dictionaries in Python?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "How do you merge two dictionaries in Python?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nDescribe a stack's LIFO principle with a real-world example.<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "Describe a stack's LIFO principle with a real-world example."
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nWhat is the time complexity of accessing an element in a dictionary?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "What is the time complexity of accessing an element in a dictionary?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nHow do you find the maximum value in a list?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "How do you find the maximum value in a list?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nWhat is the purpose of the `pop()` method in lists?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "What is the purpose of the `pop()` method in lists?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nHow do you implement a binary search algorithm in Python?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "How do you implement a binary search algorithm in Python?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nExplain the concept of memoization in recursion.<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "Explain the concept of memoization in recursion."
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nWhat does the `in` operator do with lists and sets?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "What does the `in` operator do with lists and sets?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nHow do you remove duplicates from a list?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "How do you remove duplicates from a list?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nWhat is the difference between deep copy and shallow copy?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "What is the difference between deep copy and shallow copy?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nHow would you implement a simple priority queue in Python?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "How would you implement a simple priority queue in Python?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nWhat is tail recursion, and how does it work?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "What is tail recursion, and how does it work?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nHow do you handle exceptions in Python?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "How do you handle exceptions in Python?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nWhat are the advantages of using a generator over a list?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "What are the advantages of using a generator over a list?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nHow can you find the length of a nested list?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "How can you find the length of a nested list?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nExplain how to create a class in Python.<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "Explain how to create a class in Python."
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nHow do you sort a dictionary by its keys?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "How do you sort a dictionary by its keys?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nWhat does the `join()` method do with strings?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "What does the `join()` method do with strings?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nWhat is the difference between BFS and DFS for trees?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "What is the difference between BFS and DFS for trees?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nHow can you write a lambda function to sum two numbers?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "How can you write a lambda function to sum two numbers?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nExplain the significance of immutability in tuples.<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "Explain the significance of immutability in tuples."
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nHow do you check if a list is empty?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "How do you check if a list is empty?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nWhat is a circular queue and how is it implemented?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "What is a circular queue and how is it implemented?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nWhat is the purpose of the `yield` keyword in Python?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "What is the purpose of the `yield` keyword in Python?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nHow do you create a class method in Python?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "How do you create a class method in Python?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nWhat is the output of `sorted([3, 1, 2])`?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "What is the output of `sorted([3, 1, 2])`?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nWhat does `enumerate()` do with a list?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "What does `enumerate()` do with a list?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nExplain the usage of `with` in file handling.<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "Explain the usage of `with` in file handling."
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nHow can you flatten a nested list using itertools?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "How can you flatten a nested list using itertools?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nWhat is the difference between a binary tree and binary search tree?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "What is the difference between a binary tree and binary search tree?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nHow do you create a shallow copy of a list?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "How do you create a shallow copy of a list?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nWhat is the time complexity of list slicing?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "What is the time complexity of list slicing?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nHow do you implement a hash function?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "How do you implement a hash function?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nWhat is the output of a list multiplied by 3?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "What is the output of a list multiplied by 3?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nHow can you find the unique elements in a list?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "How can you find the unique elements in a list?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nWhat is the purpose of __init__ in a class?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "What is the purpose of __init__ in a class?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nHow do you obtain all keys from a dictionary?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "How do you obtain all keys from a dictionary?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nExplain what an ad-hoc tree traversal is.<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "Explain what an ad-hoc tree traversal is."
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nWhat is the advantage of using sets over lists?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "What is the advantage of using sets over lists?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nHow can you implement depth-first search for a tree?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "How can you implement depth-first search for a tree?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nWhat is the output of `filter(None, [0, 1, '', 'hello'])`?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "What is the output of `filter(None, [0, 1, '', 'hello'])`?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nHow do you remove an item by index from a list?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "How do you remove an item by index from a list?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nExplain the concept of a sentinel node in linked lists.<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "Explain the concept of a sentinel node in linked lists."
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nWhat is a directed graph?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "What is a directed graph?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nHow can you reverse the order of elements in a queue?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "How can you reverse the order of elements in a queue?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nWhat is the role of a constructor in a class?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "What is the role of a constructor in a class?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nHow do you calculate the factorial of a number using recursion?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "How do you calculate the factorial of a number using recursion?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nWhat does `any()` do with a list of booleans?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "What does `any()` do with a list of booleans?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nHow would you write a decorator that logs function calls?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "How would you write a decorator that logs function calls?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nWhat is a priority queue and how is it implemented?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "What is a priority queue and how is it implemented?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nHow can you view a file\u2019s contents line by line?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "How can you view a file\u2019s contents line by line?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nWhat does `zip()` do with multiple lists?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "What does `zip()` do with multiple lists?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nExplain the difference between an iterator and a generator.<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "Explain the difference between an iterator and a generator."
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nHow do you handle CSV file reading in Python?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "How do you handle CSV file reading in Python?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nWhat is the use of `defaultdict` in collections?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "What is the use of `defaultdict` in collections?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nHow do you access nested dictionary values?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "How do you access nested dictionary values?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nWhat is the output of `len([x for x in range(10)])`?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "What is the output of `len([x for x in range(10)])`?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nHow do you use recursion to find a Fibonacci number?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "How do you use recursion to find a Fibonacci number?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nWhat is the significance of `super()` in classes?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "What is the significance of `super()` in classes?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nHow do you iterate over a list with indices?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "How do you iterate over a list with indices?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nWhat does the `sorted()` function return?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "What does the `sorted()` function return?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nHow can you count occurrences of elements in a list?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "How can you count occurrences of elements in a list?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nExplain the role of the `append()` method in lists.<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "Explain the role of the `append()` method in lists."
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nHow do you create a virtual environment in Python?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "How do you create a virtual environment in Python?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nWhat is the benefit of using `collections.Counter`?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "What is the benefit of using `collections.Counter`?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nHow can you copy a dictionary in Python?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "How can you copy a dictionary in Python?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nWhat is the time complexity for deleting an element from a list?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "What is the time complexity for deleting an element from a list?"
+  },
+  {
+    "prompt": "<|im_start|>system\nYou are a helpful programming assistant.<|im_end|>\n<|im_start|>user\nHow can you check if a string is a palindrome?<|im_end|>\n<|im_start|>assistant\n",
+    "bucket": "offdom",
+    "question": "How can you check if a string is a palindrome?"
+  }
+]

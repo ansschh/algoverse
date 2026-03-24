@@ -1,0 +1,5568 @@
+{
+  "meta": {
+    "n_directions": 512,
+    "alpha": 20.0,
+    "n_probe_sentences": 3,
+    "top_n_dirs_analysed": 10
+  },
+  "all_direction_scores": [
+    {
+      "global_dir": 10,
+      "layer": 0,
+      "local_dir": 10,
+      "best_net_shift": 0.0005398552913407628,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 9,
+      "layer": 0,
+      "local_dir": 9,
+      "best_net_shift": 0.00013690842249971155,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 1,
+      "layer": 0,
+      "local_dir": 1,
+      "best_net_shift": 7.525232541614561e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 7,
+      "layer": 0,
+      "local_dir": 7,
+      "best_net_shift": 7.416085052582473e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 36,
+      "layer": 0,
+      "local_dir": 36,
+      "best_net_shift": 6.43441859246215e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 47,
+      "layer": 0,
+      "local_dir": 47,
+      "best_net_shift": 6.141338100438636e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 0,
+      "layer": 0,
+      "local_dir": 0,
+      "best_net_shift": 6.097061560670728e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 61,
+      "layer": 0,
+      "local_dir": 61,
+      "best_net_shift": 5.918373730627128e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 128,
+      "layer": 2,
+      "local_dir": 0,
+      "best_net_shift": 5.910099718633063e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 3,
+      "layer": 0,
+      "local_dir": 3,
+      "best_net_shift": 5.5765470941789484e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 4,
+      "layer": 0,
+      "local_dir": 4,
+      "best_net_shift": 5.499926265859859e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 493,
+      "layer": 7,
+      "local_dir": 45,
+      "best_net_shift": 5.450870995075038e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 5,
+      "layer": 0,
+      "local_dir": 5,
+      "best_net_shift": 5.29654130140463e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 400,
+      "layer": 6,
+      "local_dir": 16,
+      "best_net_shift": 4.6386372489803006e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 254,
+      "layer": 3,
+      "local_dir": 62,
+      "best_net_shift": 4.539368537601988e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 485,
+      "layer": 7,
+      "local_dir": 37,
+      "best_net_shift": 4.490766659914769e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 495,
+      "layer": 7,
+      "local_dir": 47,
+      "best_net_shift": 4.486007801713746e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 490,
+      "layer": 7,
+      "local_dir": 42,
+      "best_net_shift": 4.2760388193952004e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 390,
+      "layer": 6,
+      "local_dir": 6,
+      "best_net_shift": 4.1677545894032907e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 233,
+      "layer": 3,
+      "local_dir": 41,
+      "best_net_shift": 4.0148957099822115e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 202,
+      "layer": 3,
+      "local_dir": 10,
+      "best_net_shift": 3.94783882683436e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 25,
+      "layer": 0,
+      "local_dir": 25,
+      "best_net_shift": 3.926475644272509e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 467,
+      "layer": 7,
+      "local_dir": 19,
+      "best_net_shift": 3.920042719277964e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 504,
+      "layer": 7,
+      "local_dir": 56,
+      "best_net_shift": 3.761429626884342e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 64,
+      "layer": 1,
+      "local_dir": 0,
+      "best_net_shift": 3.713235560703909e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 507,
+      "layer": 7,
+      "local_dir": 59,
+      "best_net_shift": 3.6902822892194896e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 497,
+      "layer": 7,
+      "local_dir": 49,
+      "best_net_shift": 3.655828523222807e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 350,
+      "layer": 5,
+      "local_dir": 30,
+      "best_net_shift": 3.643019943164414e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 376,
+      "layer": 5,
+      "local_dir": 56,
+      "best_net_shift": 3.5629621498951825e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 420,
+      "layer": 6,
+      "local_dir": 36,
+      "best_net_shift": 3.559207875628948e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 492,
+      "layer": 7,
+      "local_dir": 44,
+      "best_net_shift": 3.485768009164891e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 470,
+      "layer": 7,
+      "local_dir": 22,
+      "best_net_shift": 3.450885414903645e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 429,
+      "layer": 6,
+      "local_dir": 45,
+      "best_net_shift": 3.4399863520282827e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 482,
+      "layer": 7,
+      "local_dir": 34,
+      "best_net_shift": 3.411389669281487e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 393,
+      "layer": 6,
+      "local_dir": 9,
+      "best_net_shift": 3.386651123668769e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 405,
+      "layer": 6,
+      "local_dir": 21,
+      "best_net_shift": 3.3618832739159186e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 291,
+      "layer": 4,
+      "local_dir": 35,
+      "best_net_shift": 3.340084595922684e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 494,
+      "layer": 7,
+      "local_dir": 46,
+      "best_net_shift": 3.290847491309543e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 409,
+      "layer": 6,
+      "local_dir": 25,
+      "best_net_shift": 3.2613822581739615e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 436,
+      "layer": 6,
+      "local_dir": 52,
+      "best_net_shift": 3.206904782769119e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 510,
+      "layer": 7,
+      "local_dir": 62,
+      "best_net_shift": 3.172469890965387e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 474,
+      "layer": 7,
+      "local_dir": 26,
+      "best_net_shift": 3.1376655470584845e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 177,
+      "layer": 2,
+      "local_dir": 49,
+      "best_net_shift": 3.121957906512124e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 403,
+      "layer": 6,
+      "local_dir": 19,
+      "best_net_shift": 3.102798166054743e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 389,
+      "layer": 6,
+      "local_dir": 5,
+      "best_net_shift": 3.0338302492827207e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 440,
+      "layer": 6,
+      "local_dir": 56,
+      "best_net_shift": 3.0110442667927635e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 499,
+      "layer": 7,
+      "local_dir": 51,
+      "best_net_shift": 2.9947113854604062e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 82,
+      "layer": 1,
+      "local_dir": 18,
+      "best_net_shift": 2.9506546414079238e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 478,
+      "layer": 7,
+      "local_dir": 30,
+      "best_net_shift": 2.909071503723326e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 39,
+      "layer": 0,
+      "local_dir": 39,
+      "best_net_shift": 2.8216599451088193e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 444,
+      "layer": 6,
+      "local_dir": 60,
+      "best_net_shift": 2.7566282794414903e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 33,
+      "layer": 0,
+      "local_dir": 33,
+      "best_net_shift": 2.723055666808046e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 479,
+      "layer": 7,
+      "local_dir": 31,
+      "best_net_shift": 2.6946464621979693e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 468,
+      "layer": 7,
+      "local_dir": 20,
+      "best_net_shift": 2.6548400298161596e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 154,
+      "layer": 2,
+      "local_dir": 26,
+      "best_net_shift": 2.633782620907928e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 87,
+      "layer": 1,
+      "local_dir": 23,
+      "best_net_shift": 2.6192621146126544e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 26,
+      "layer": 0,
+      "local_dir": 26,
+      "best_net_shift": 2.5626777244029213e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 402,
+      "layer": 6,
+      "local_dir": 18,
+      "best_net_shift": 2.4987720454635227e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 476,
+      "layer": 7,
+      "local_dir": 28,
+      "best_net_shift": 2.4115224719917342e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 161,
+      "layer": 2,
+      "local_dir": 33,
+      "best_net_shift": 2.4080829292847754e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 136,
+      "layer": 2,
+      "local_dir": 8,
+      "best_net_shift": 2.400355316002865e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 386,
+      "layer": 6,
+      "local_dir": 2,
+      "best_net_shift": 2.3973354452022182e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 122,
+      "layer": 1,
+      "local_dir": 58,
+      "best_net_shift": 2.3791856995534582e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 406,
+      "layer": 6,
+      "local_dir": 22,
+      "best_net_shift": 2.36597036903143e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 363,
+      "layer": 5,
+      "local_dir": 43,
+      "best_net_shift": 2.319426259469552e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 486,
+      "layer": 7,
+      "local_dir": 38,
+      "best_net_shift": 2.2783252278667464e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 302,
+      "layer": 4,
+      "local_dir": 46,
+      "best_net_shift": 2.265864494787236e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 443,
+      "layer": 6,
+      "local_dir": 59,
+      "best_net_shift": 2.2402599134552226e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 117,
+      "layer": 1,
+      "local_dir": 53,
+      "best_net_shift": 2.2202163829092753e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 456,
+      "layer": 7,
+      "local_dir": 8,
+      "best_net_shift": 2.2168776553495768e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 481,
+      "layer": 7,
+      "local_dir": 33,
+      "best_net_shift": 2.1332720548624302e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 2,
+      "layer": 0,
+      "local_dir": 2,
+      "best_net_shift": 2.1006502502270614e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 447,
+      "layer": 6,
+      "local_dir": 63,
+      "best_net_shift": 2.0763318911320994e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 150,
+      "layer": 2,
+      "local_dir": 22,
+      "best_net_shift": 2.0387843090163837e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 396,
+      "layer": 6,
+      "local_dir": 12,
+      "best_net_shift": 2.0208309994019607e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 450,
+      "layer": 7,
+      "local_dir": 2,
+      "best_net_shift": 1.9986380818791047e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 501,
+      "layer": 7,
+      "local_dir": 53,
+      "best_net_shift": 1.9943224075151072e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 92,
+      "layer": 1,
+      "local_dir": 28,
+      "best_net_shift": 1.9581968500534397e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 27,
+      "layer": 0,
+      "local_dir": 27,
+      "best_net_shift": 1.9436720735580004e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 414,
+      "layer": 6,
+      "local_dir": 30,
+      "best_net_shift": 1.92683082810378e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 309,
+      "layer": 4,
+      "local_dir": 53,
+      "best_net_shift": 1.842075915939323e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 38,
+      "layer": 0,
+      "local_dir": 38,
+      "best_net_shift": 1.840298583542325e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 412,
+      "layer": 6,
+      "local_dir": 28,
+      "best_net_shift": 1.8270355820050137e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 105,
+      "layer": 1,
+      "local_dir": 41,
+      "best_net_shift": 1.7849666859373614e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 503,
+      "layer": 7,
+      "local_dir": 55,
+      "best_net_shift": 1.6780454848749904e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 442,
+      "layer": 6,
+      "local_dir": 58,
+      "best_net_shift": 1.6672935575704855e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 165,
+      "layer": 2,
+      "local_dir": 37,
+      "best_net_shift": 1.6645281166627335e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 401,
+      "layer": 6,
+      "local_dir": 17,
+      "best_net_shift": 1.654195263678382e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 426,
+      "layer": 6,
+      "local_dir": 42,
+      "best_net_shift": 1.61396773862658e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 506,
+      "layer": 7,
+      "local_dir": 58,
+      "best_net_shift": 1.607543041310065e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 410,
+      "layer": 6,
+      "local_dir": 26,
+      "best_net_shift": 1.5815327535824892e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 435,
+      "layer": 6,
+      "local_dir": 51,
+      "best_net_shift": 1.555943148084012e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 475,
+      "layer": 7,
+      "local_dir": 27,
+      "best_net_shift": 1.4772439172583418e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 370,
+      "layer": 5,
+      "local_dir": 50,
+      "best_net_shift": 1.4667775765475621e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 51,
+      "layer": 0,
+      "local_dir": 51,
+      "best_net_shift": 1.4355504849244046e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 404,
+      "layer": 6,
+      "local_dir": 20,
+      "best_net_shift": 1.3853650681979376e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 153,
+      "layer": 2,
+      "local_dir": 25,
+      "best_net_shift": 1.3367772313377843e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 418,
+      "layer": 6,
+      "local_dir": 34,
+      "best_net_shift": 1.2835466125793449e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 451,
+      "layer": 7,
+      "local_dir": 3,
+      "best_net_shift": 1.2371687931056474e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 120,
+      "layer": 1,
+      "local_dir": 56,
+      "best_net_shift": 1.2221931610915485e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 179,
+      "layer": 2,
+      "local_dir": 51,
+      "best_net_shift": 1.2200947085696153e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 466,
+      "layer": 7,
+      "local_dir": 18,
+      "best_net_shift": 1.1938556787216559e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 421,
+      "layer": 6,
+      "local_dir": 37,
+      "best_net_shift": 1.1127027313447465e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 446,
+      "layer": 6,
+      "local_dir": 62,
+      "best_net_shift": 1.1032860512275958e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 75,
+      "layer": 1,
+      "local_dir": 11,
+      "best_net_shift": 1.030565682600774e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 395,
+      "layer": 6,
+      "local_dir": 11,
+      "best_net_shift": 9.878098604125066e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 461,
+      "layer": 7,
+      "local_dir": 13,
+      "best_net_shift": 9.693885162735208e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 69,
+      "layer": 1,
+      "local_dir": 5,
+      "best_net_shift": 9.614419689991474e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 101,
+      "layer": 1,
+      "local_dir": 37,
+      "best_net_shift": 9.50219500217564e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 166,
+      "layer": 2,
+      "local_dir": 38,
+      "best_net_shift": 9.173234833311414e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 397,
+      "layer": 6,
+      "local_dir": 13,
+      "best_net_shift": 9.133120961198523e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 88,
+      "layer": 1,
+      "local_dir": 24,
+      "best_net_shift": 8.561162777064498e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 394,
+      "layer": 6,
+      "local_dir": 10,
+      "best_net_shift": 8.457600901364456e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 84,
+      "layer": 1,
+      "local_dir": 20,
+      "best_net_shift": 8.45099874369204e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 156,
+      "layer": 2,
+      "local_dir": 28,
+      "best_net_shift": 8.422692373499796e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 425,
+      "layer": 6,
+      "local_dir": 41,
+      "best_net_shift": 8.251366369666871e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 491,
+      "layer": 7,
+      "local_dir": 43,
+      "best_net_shift": 7.497595891329163e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 89,
+      "layer": 1,
+      "local_dir": 25,
+      "best_net_shift": 7.111101671157065e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 31,
+      "layer": 0,
+      "local_dir": 31,
+      "best_net_shift": 6.919366004295065e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 502,
+      "layer": 7,
+      "local_dir": 54,
+      "best_net_shift": 6.761504454203908e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 151,
+      "layer": 2,
+      "local_dir": 23,
+      "best_net_shift": 6.601436003866867e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 489,
+      "layer": 7,
+      "local_dir": 41,
+      "best_net_shift": 6.525573114262347e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 398,
+      "layer": 6,
+      "local_dir": 14,
+      "best_net_shift": 6.401491341549252e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 74,
+      "layer": 1,
+      "local_dir": 10,
+      "best_net_shift": 6.161255638107803e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 71,
+      "layer": 1,
+      "local_dir": 7,
+      "best_net_shift": 6.0707948095854265e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 434,
+      "layer": 6,
+      "local_dir": 50,
+      "best_net_shift": 5.621734267676389e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 424,
+      "layer": 6,
+      "local_dir": 40,
+      "best_net_shift": 5.392261694603384e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 220,
+      "layer": 3,
+      "local_dir": 28,
+      "best_net_shift": 4.680078176301043e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 133,
+      "layer": 2,
+      "local_dir": 5,
+      "best_net_shift": 3.990655417835757e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 93,
+      "layer": 1,
+      "local_dir": 29,
+      "best_net_shift": 3.5776893263968676e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 433,
+      "layer": 6,
+      "local_dir": 49,
+      "best_net_shift": 3.3400701281716128e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 231,
+      "layer": 3,
+      "local_dir": 39,
+      "best_net_shift": 3.072907542274924e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 385,
+      "layer": 6,
+      "local_dir": 1,
+      "best_net_shift": 2.980512948706308e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 353,
+      "layer": 5,
+      "local_dir": 33,
+      "best_net_shift": 2.1949361240225507e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 146,
+      "layer": 2,
+      "local_dir": 18,
+      "best_net_shift": 1.8355796039398742e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 284,
+      "layer": 4,
+      "local_dir": 28,
+      "best_net_shift": 1.4285920255235895e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 509,
+      "layer": 7,
+      "local_dir": 61,
+      "best_net_shift": 1.3071267620281175e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 126,
+      "layer": 1,
+      "local_dir": 62,
+      "best_net_shift": 9.591604366495272e-07,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 183,
+      "layer": 2,
+      "local_dir": 55,
+      "best_net_shift": -4.553620436229903e-07,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 498,
+      "layer": 7,
+      "local_dir": 50,
+      "best_net_shift": -6.631726727953277e-07,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 437,
+      "layer": 6,
+      "local_dir": 53,
+      "best_net_shift": -9.342978133190331e-07,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 72,
+      "layer": 1,
+      "local_dir": 8,
+      "best_net_shift": -1.4274316943729826e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 511,
+      "layer": 7,
+      "local_dir": 63,
+      "best_net_shift": -1.952490399877623e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 53,
+      "layer": 0,
+      "local_dir": 53,
+      "best_net_shift": -2.7512331715976814e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 118,
+      "layer": 1,
+      "local_dir": 54,
+      "best_net_shift": -2.7515964836667683e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 423,
+      "layer": 6,
+      "local_dir": 39,
+      "best_net_shift": -3.2256292167761233e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 104,
+      "layer": 1,
+      "local_dir": 40,
+      "best_net_shift": -3.5123560742274704e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 91,
+      "layer": 1,
+      "local_dir": 27,
+      "best_net_shift": -3.560553478868892e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 70,
+      "layer": 1,
+      "local_dir": 6,
+      "best_net_shift": -4.058766744335918e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 157,
+      "layer": 2,
+      "local_dir": 29,
+      "best_net_shift": -4.311858129699142e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 505,
+      "layer": 7,
+      "local_dir": 57,
+      "best_net_shift": -4.752497126133311e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 76,
+      "layer": 1,
+      "local_dir": 12,
+      "best_net_shift": -5.395744088462773e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 162,
+      "layer": 2,
+      "local_dir": 34,
+      "best_net_shift": -5.496240021237349e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 347,
+      "layer": 5,
+      "local_dir": 27,
+      "best_net_shift": -5.992177781568205e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 463,
+      "layer": 7,
+      "local_dir": 15,
+      "best_net_shift": -6.214081749537452e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 416,
+      "layer": 6,
+      "local_dir": 32,
+      "best_net_shift": -6.512542311783627e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 365,
+      "layer": 5,
+      "local_dir": 45,
+      "best_net_shift": -6.725976429533542e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 65,
+      "layer": 1,
+      "local_dir": 1,
+      "best_net_shift": -7.13239153509367e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 124,
+      "layer": 1,
+      "local_dir": 60,
+      "best_net_shift": -8.01753644049293e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 111,
+      "layer": 1,
+      "local_dir": 47,
+      "best_net_shift": -8.174816877778065e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 324,
+      "layer": 5,
+      "local_dir": 4,
+      "best_net_shift": -8.310020592224484e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 496,
+      "layer": 7,
+      "local_dir": 48,
+      "best_net_shift": -8.728553937131789e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 192,
+      "layer": 3,
+      "local_dir": 0,
+      "best_net_shift": -8.85903237252128e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 422,
+      "layer": 6,
+      "local_dir": 38,
+      "best_net_shift": -8.865136747230698e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 191,
+      "layer": 2,
+      "local_dir": 63,
+      "best_net_shift": -9.504175027828335e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 81,
+      "layer": 1,
+      "local_dir": 17,
+      "best_net_shift": -9.743572997600314e-06,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 411,
+      "layer": 6,
+      "local_dir": 27,
+      "best_net_shift": -9.789904711047607e-06,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 361,
+      "layer": 5,
+      "local_dir": 41,
+      "best_net_shift": -1.008575637889697e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 260,
+      "layer": 4,
+      "local_dir": 4,
+      "best_net_shift": -1.0243215107471245e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 115,
+      "layer": 1,
+      "local_dir": 51,
+      "best_net_shift": -1.1244215332809985e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 127,
+      "layer": 1,
+      "local_dir": 63,
+      "best_net_shift": -1.12602793998449e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 123,
+      "layer": 1,
+      "local_dir": 59,
+      "best_net_shift": -1.1511446004345652e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 73,
+      "layer": 1,
+      "local_dir": 9,
+      "best_net_shift": -1.1727251971423621e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 119,
+      "layer": 1,
+      "local_dir": 55,
+      "best_net_shift": -1.1821804340876133e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 359,
+      "layer": 5,
+      "local_dir": 39,
+      "best_net_shift": -1.1868999556173312e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 160,
+      "layer": 2,
+      "local_dir": 32,
+      "best_net_shift": -1.2244700021841795e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 469,
+      "layer": 7,
+      "local_dir": 21,
+      "best_net_shift": -1.2700677437175548e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 357,
+      "layer": 5,
+      "local_dir": 37,
+      "best_net_shift": -1.2752258449553558e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 334,
+      "layer": 5,
+      "local_dir": 14,
+      "best_net_shift": -1.3335569228833943e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 94,
+      "layer": 1,
+      "local_dir": 30,
+      "best_net_shift": -1.3600323486254173e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 121,
+      "layer": 1,
+      "local_dir": 57,
+      "best_net_shift": -1.373494529328482e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 109,
+      "layer": 1,
+      "local_dir": 45,
+      "best_net_shift": -1.3918167790211619e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 500,
+      "layer": 7,
+      "local_dir": 52,
+      "best_net_shift": -1.469248856016588e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 319,
+      "layer": 4,
+      "local_dir": 63,
+      "best_net_shift": -1.48576157322546e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 213,
+      "layer": 3,
+      "local_dir": 21,
+      "best_net_shift": -1.4985848782881709e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 438,
+      "layer": 6,
+      "local_dir": 54,
+      "best_net_shift": -1.4987626658663489e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 23,
+      "layer": 0,
+      "local_dir": 23,
+      "best_net_shift": -1.513737855308774e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 282,
+      "layer": 4,
+      "local_dir": 26,
+      "best_net_shift": -1.5214818784394535e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 464,
+      "layer": 7,
+      "local_dir": 16,
+      "best_net_shift": -1.5556062861262394e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 125,
+      "layer": 1,
+      "local_dir": 61,
+      "best_net_shift": -1.584399916417419e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 301,
+      "layer": 4,
+      "local_dir": 45,
+      "best_net_shift": -1.5976750834478803e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 99,
+      "layer": 1,
+      "local_dir": 35,
+      "best_net_shift": -1.6004811527525753e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 83,
+      "layer": 1,
+      "local_dir": 19,
+      "best_net_shift": -1.641958630158961e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 113,
+      "layer": 1,
+      "local_dir": 49,
+      "best_net_shift": -1.6495748458957477e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 95,
+      "layer": 1,
+      "local_dir": 31,
+      "best_net_shift": -1.7000839244399324e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 445,
+      "layer": 6,
+      "local_dir": 61,
+      "best_net_shift": -1.7366191471518178e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 188,
+      "layer": 2,
+      "local_dir": 60,
+      "best_net_shift": -1.8440009100469574e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 417,
+      "layer": 6,
+      "local_dir": 33,
+      "best_net_shift": -1.852097532637857e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 431,
+      "layer": 6,
+      "local_dir": 47,
+      "best_net_shift": -1.859697133329193e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 108,
+      "layer": 1,
+      "local_dir": 44,
+      "best_net_shift": -1.8699250684784768e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 415,
+      "layer": 6,
+      "local_dir": 31,
+      "best_net_shift": -1.9101244203475105e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 184,
+      "layer": 2,
+      "local_dir": 56,
+      "best_net_shift": -1.9906763729741577e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 79,
+      "layer": 1,
+      "local_dir": 15,
+      "best_net_shift": -2.0176532233906475e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 480,
+      "layer": 7,
+      "local_dir": 32,
+      "best_net_shift": -2.0514720916853246e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 116,
+      "layer": 1,
+      "local_dir": 52,
+      "best_net_shift": -2.0672560687320003e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 484,
+      "layer": 7,
+      "local_dir": 36,
+      "best_net_shift": -2.1166464581873674e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 441,
+      "layer": 6,
+      "local_dir": 57,
+      "best_net_shift": -2.142291588537922e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 144,
+      "layer": 2,
+      "local_dir": 16,
+      "best_net_shift": -2.154804544043006e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 331,
+      "layer": 5,
+      "local_dir": 11,
+      "best_net_shift": -2.155712210026121e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 67,
+      "layer": 1,
+      "local_dir": 3,
+      "best_net_shift": -2.200884862211631e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 135,
+      "layer": 2,
+      "local_dir": 7,
+      "best_net_shift": -2.2185735556938074e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 186,
+      "layer": 2,
+      "local_dir": 58,
+      "best_net_shift": -2.2257625891376406e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 103,
+      "layer": 1,
+      "local_dir": 39,
+      "best_net_shift": -2.2357574730564694e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 12,
+      "layer": 0,
+      "local_dir": 12,
+      "best_net_shift": -2.3069773452325897e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 80,
+      "layer": 1,
+      "local_dir": 16,
+      "best_net_shift": -2.320616072525039e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 66,
+      "layer": 1,
+      "local_dir": 2,
+      "best_net_shift": -2.3416776325798267e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 77,
+      "layer": 1,
+      "local_dir": 13,
+      "best_net_shift": -2.360662310373768e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 134,
+      "layer": 2,
+      "local_dir": 6,
+      "best_net_shift": -2.3740157398912293e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 173,
+      "layer": 2,
+      "local_dir": 45,
+      "best_net_shift": -2.378707025851856e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 330,
+      "layer": 5,
+      "local_dir": 10,
+      "best_net_shift": -2.405454997979802e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 13,
+      "layer": 0,
+      "local_dir": 13,
+      "best_net_shift": -2.4273366791328216e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 488,
+      "layer": 7,
+      "local_dir": 40,
+      "best_net_shift": -2.4282868248644746e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 100,
+      "layer": 1,
+      "local_dir": 36,
+      "best_net_shift": -2.433148256861713e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 419,
+      "layer": 6,
+      "local_dir": 35,
+      "best_net_shift": -2.4331837353119834e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 458,
+      "layer": 7,
+      "local_dir": 10,
+      "best_net_shift": -2.433562623233021e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 428,
+      "layer": 6,
+      "local_dir": 44,
+      "best_net_shift": -2.4932045510295264e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 102,
+      "layer": 1,
+      "local_dir": 38,
+      "best_net_shift": -2.5132064490324586e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 297,
+      "layer": 4,
+      "local_dir": 41,
+      "best_net_shift": -2.5436715401357574e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 145,
+      "layer": 2,
+      "local_dir": 17,
+      "best_net_shift": -2.6117857678142897e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 314,
+      "layer": 4,
+      "local_dir": 58,
+      "best_net_shift": -2.612580147641023e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 242,
+      "layer": 3,
+      "local_dir": 50,
+      "best_net_shift": -2.6451193250602117e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 107,
+      "layer": 1,
+      "local_dir": 43,
+      "best_net_shift": -2.7194768277264785e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 209,
+      "layer": 3,
+      "local_dir": 17,
+      "best_net_shift": -2.7221179009264313e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 346,
+      "layer": 5,
+      "local_dir": 26,
+      "best_net_shift": -2.739395058283985e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 377,
+      "layer": 5,
+      "local_dir": 57,
+      "best_net_shift": -2.7515868440427155e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 224,
+      "layer": 3,
+      "local_dir": 32,
+      "best_net_shift": -2.786164645028159e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 454,
+      "layer": 7,
+      "local_dir": 6,
+      "best_net_shift": -2.8637967988372665e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 483,
+      "layer": 7,
+      "local_dir": 35,
+      "best_net_shift": -2.8773540474910653e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 392,
+      "layer": 6,
+      "local_dir": 8,
+      "best_net_shift": -2.9219941861761505e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 280,
+      "layer": 4,
+      "local_dir": 24,
+      "best_net_shift": -2.9643383983868343e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 328,
+      "layer": 5,
+      "local_dir": 8,
+      "best_net_shift": -3.062044853148945e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 508,
+      "layer": 7,
+      "local_dir": 60,
+      "best_net_shift": -3.095389976517001e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 462,
+      "layer": 7,
+      "local_dir": 14,
+      "best_net_shift": -3.103595693562666e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 430,
+      "layer": 6,
+      "local_dir": 46,
+      "best_net_shift": -3.150865228453611e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 369,
+      "layer": 5,
+      "local_dir": 49,
+      "best_net_shift": -3.2013123037799573e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 78,
+      "layer": 1,
+      "local_dir": 14,
+      "best_net_shift": -3.2209019633651824e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 97,
+      "layer": 1,
+      "local_dir": 33,
+      "best_net_shift": -3.236215965004135e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 52,
+      "layer": 0,
+      "local_dir": 52,
+      "best_net_shift": -3.277603068857493e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 342,
+      "layer": 5,
+      "local_dir": 22,
+      "best_net_shift": -3.364634423240013e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 316,
+      "layer": 4,
+      "local_dir": 60,
+      "best_net_shift": -3.3710322968801464e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 367,
+      "layer": 5,
+      "local_dir": 47,
+      "best_net_shift": -3.3802809551453095e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 439,
+      "layer": 6,
+      "local_dir": 55,
+      "best_net_shift": -3.3874025701115716e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 139,
+      "layer": 2,
+      "local_dir": 11,
+      "best_net_shift": -3.398082953158058e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 171,
+      "layer": 2,
+      "local_dir": 43,
+      "best_net_shift": -3.446886741744389e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 408,
+      "layer": 6,
+      "local_dir": 24,
+      "best_net_shift": -3.51751829415492e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 180,
+      "layer": 2,
+      "local_dir": 52,
+      "best_net_shift": -3.5564671887935995e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 472,
+      "layer": 7,
+      "local_dir": 24,
+      "best_net_shift": -3.617742664604092e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 271,
+      "layer": 4,
+      "local_dir": 15,
+      "best_net_shift": -3.6281946180540446e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 112,
+      "layer": 1,
+      "local_dir": 48,
+      "best_net_shift": -3.7362624380842445e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 427,
+      "layer": 6,
+      "local_dir": 43,
+      "best_net_shift": -3.751153315811884e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 152,
+      "layer": 2,
+      "local_dir": 24,
+      "best_net_shift": -3.812258830572975e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 299,
+      "layer": 4,
+      "local_dir": 43,
+      "best_net_shift": -3.859929199417911e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 379,
+      "layer": 5,
+      "local_dir": 59,
+      "best_net_shift": -3.9518209033454856e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 332,
+      "layer": 5,
+      "local_dir": 12,
+      "best_net_shift": -3.9556930942222235e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 413,
+      "layer": 6,
+      "local_dir": 29,
+      "best_net_shift": -4.04803031087142e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 455,
+      "layer": 7,
+      "local_dir": 7,
+      "best_net_shift": -4.0603658465791316e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 142,
+      "layer": 2,
+      "local_dir": 14,
+      "best_net_shift": -4.0682819190553575e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 28,
+      "layer": 0,
+      "local_dir": 28,
+      "best_net_shift": -4.117232398809234e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 167,
+      "layer": 2,
+      "local_dir": 39,
+      "best_net_shift": -4.1180332047197066e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 187,
+      "layer": 2,
+      "local_dir": 59,
+      "best_net_shift": -4.119812697354434e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 391,
+      "layer": 6,
+      "local_dir": 7,
+      "best_net_shift": -4.125314646544198e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 351,
+      "layer": 5,
+      "local_dir": 31,
+      "best_net_shift": -4.194439872471737e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 24,
+      "layer": 0,
+      "local_dir": 24,
+      "best_net_shift": -4.211456693052502e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 278,
+      "layer": 4,
+      "local_dir": 22,
+      "best_net_shift": -4.2684230199707685e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 86,
+      "layer": 1,
+      "local_dir": 22,
+      "best_net_shift": -4.271418750604004e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 253,
+      "layer": 3,
+      "local_dir": 61,
+      "best_net_shift": -4.3055213325473206e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 355,
+      "layer": 5,
+      "local_dir": 35,
+      "best_net_shift": -4.366437201782277e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 303,
+      "layer": 4,
+      "local_dir": 47,
+      "best_net_shift": -4.430277295303098e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 141,
+      "layer": 2,
+      "local_dir": 13,
+      "best_net_shift": -4.582897536706265e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 210,
+      "layer": 3,
+      "local_dir": 18,
+      "best_net_shift": -4.662252300378459e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 85,
+      "layer": 1,
+      "local_dir": 21,
+      "best_net_shift": -4.662785923035632e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 294,
+      "layer": 4,
+      "local_dir": 38,
+      "best_net_shift": -4.668851930794693e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 68,
+      "layer": 1,
+      "local_dir": 4,
+      "best_net_shift": -4.686606387855249e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 457,
+      "layer": 7,
+      "local_dir": 9,
+      "best_net_shift": -4.766832339040775e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 295,
+      "layer": 4,
+      "local_dir": 39,
+      "best_net_shift": -4.788814678820715e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 283,
+      "layer": 4,
+      "local_dir": 27,
+      "best_net_shift": -4.801539266561609e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 327,
+      "layer": 5,
+      "local_dir": 7,
+      "best_net_shift": -4.857242786791375e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 110,
+      "layer": 1,
+      "local_dir": 46,
+      "best_net_shift": -4.90987314255333e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 90,
+      "layer": 1,
+      "local_dir": 26,
+      "best_net_shift": -4.9687163926989686e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 305,
+      "layer": 4,
+      "local_dir": 49,
+      "best_net_shift": -5.000589439620636e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 487,
+      "layer": 7,
+      "local_dir": 39,
+      "best_net_shift": -5.0178674578478986e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 163,
+      "layer": 2,
+      "local_dir": 35,
+      "best_net_shift": -5.0601158822845736e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 459,
+      "layer": 7,
+      "local_dir": 11,
+      "best_net_shift": -5.0885846688312565e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 114,
+      "layer": 1,
+      "local_dir": 50,
+      "best_net_shift": -5.1650287746498234e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 383,
+      "layer": 5,
+      "local_dir": 63,
+      "best_net_shift": -5.176044319175436e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 315,
+      "layer": 4,
+      "local_dir": 59,
+      "best_net_shift": -5.453048708743228e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 225,
+      "layer": 3,
+      "local_dir": 33,
+      "best_net_shift": -5.5174053126216815e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 176,
+      "layer": 2,
+      "local_dir": 48,
+      "best_net_shift": -5.520923793435791e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 373,
+      "layer": 5,
+      "local_dir": 53,
+      "best_net_shift": -5.5441332511322695e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 181,
+      "layer": 2,
+      "local_dir": 53,
+      "best_net_shift": -5.548680728350219e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 378,
+      "layer": 5,
+      "local_dir": 58,
+      "best_net_shift": -5.5489842622139886e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 185,
+      "layer": 2,
+      "local_dir": 57,
+      "best_net_shift": -5.555490274309719e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 129,
+      "layer": 2,
+      "local_dir": 1,
+      "best_net_shift": -5.667253468896738e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 106,
+      "layer": 1,
+      "local_dir": 42,
+      "best_net_shift": -5.747279400312536e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 336,
+      "layer": 5,
+      "local_dir": 16,
+      "best_net_shift": -5.772860682775697e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 285,
+      "layer": 4,
+      "local_dir": 29,
+      "best_net_shift": -5.8305135264299e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 48,
+      "layer": 0,
+      "local_dir": 48,
+      "best_net_shift": -5.899840800950573e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 215,
+      "layer": 3,
+      "local_dir": 23,
+      "best_net_shift": -6.025680751918968e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 96,
+      "layer": 1,
+      "local_dir": 32,
+      "best_net_shift": -6.0360367291317774e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 354,
+      "layer": 5,
+      "local_dir": 34,
+      "best_net_shift": -6.290631756228349e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 300,
+      "layer": 4,
+      "local_dir": 44,
+      "best_net_shift": -6.296589519960358e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 337,
+      "layer": 5,
+      "local_dir": 17,
+      "best_net_shift": -6.299750994237518e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 374,
+      "layer": 5,
+      "local_dir": 54,
+      "best_net_shift": -6.304951463759201e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 407,
+      "layer": 6,
+      "local_dir": 23,
+      "best_net_shift": -6.36449909492548e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 158,
+      "layer": 2,
+      "local_dir": 30,
+      "best_net_shift": -6.47529512273759e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 322,
+      "layer": 5,
+      "local_dir": 2,
+      "best_net_shift": -6.489790549611223e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 375,
+      "layer": 5,
+      "local_dir": 55,
+      "best_net_shift": -6.536591627003448e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 293,
+      "layer": 4,
+      "local_dir": 37,
+      "best_net_shift": -6.624825426972587e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 266,
+      "layer": 4,
+      "local_dir": 10,
+      "best_net_shift": -6.711512810801216e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 348,
+      "layer": 5,
+      "local_dir": 28,
+      "best_net_shift": -6.768960373173168e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 50,
+      "layer": 0,
+      "local_dir": 50,
+      "best_net_shift": -6.806983966224009e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 308,
+      "layer": 4,
+      "local_dir": 52,
+      "best_net_shift": -6.808513359322459e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 338,
+      "layer": 5,
+      "local_dir": 18,
+      "best_net_shift": -6.859030235956132e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 465,
+      "layer": 7,
+      "local_dir": 17,
+      "best_net_shift": -6.882447014513089e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 232,
+      "layer": 3,
+      "local_dir": 40,
+      "best_net_shift": -7.004101504468989e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 218,
+      "layer": 3,
+      "local_dir": 26,
+      "best_net_shift": -7.005969423503251e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 477,
+      "layer": 7,
+      "local_dir": 29,
+      "best_net_shift": -7.032128937787634e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 14,
+      "layer": 0,
+      "local_dir": 14,
+      "best_net_shift": -7.088345154239913e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 130,
+      "layer": 2,
+      "local_dir": 2,
+      "best_net_shift": -7.209718290021479e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 352,
+      "layer": 5,
+      "local_dir": 32,
+      "best_net_shift": -7.322587703937715e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 98,
+      "layer": 1,
+      "local_dir": 34,
+      "best_net_shift": -7.610046110552438e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 360,
+      "layer": 5,
+      "local_dir": 40,
+      "best_net_shift": -7.653924238978001e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 317,
+      "layer": 4,
+      "local_dir": 61,
+      "best_net_shift": -7.666758368223466e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 325,
+      "layer": 5,
+      "local_dir": 5,
+      "best_net_shift": -7.78028559980289e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 381,
+      "layer": 5,
+      "local_dir": 61,
+      "best_net_shift": -7.879741984667676e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 32,
+      "layer": 0,
+      "local_dir": 32,
+      "best_net_shift": -7.910635981076923e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 279,
+      "layer": 4,
+      "local_dir": 23,
+      "best_net_shift": -7.95091971815635e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 174,
+      "layer": 2,
+      "local_dir": 46,
+      "best_net_shift": -7.956774338963024e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 471,
+      "layer": 7,
+      "local_dir": 23,
+      "best_net_shift": -8.032166122622549e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 432,
+      "layer": 6,
+      "local_dir": 48,
+      "best_net_shift": -8.137655710862186e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 307,
+      "layer": 4,
+      "local_dir": 51,
+      "best_net_shift": -8.170253683627744e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 37,
+      "layer": 0,
+      "local_dir": 37,
+      "best_net_shift": -8.177455473584727e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 312,
+      "layer": 4,
+      "local_dir": 56,
+      "best_net_shift": -8.257033836383172e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 460,
+      "layer": 7,
+      "local_dir": 12,
+      "best_net_shift": -8.321866498104773e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 362,
+      "layer": 5,
+      "local_dir": 42,
+      "best_net_shift": -8.334048240508467e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 175,
+      "layer": 2,
+      "local_dir": 47,
+      "best_net_shift": -8.361806213884558e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 320,
+      "layer": 5,
+      "local_dir": 0,
+      "best_net_shift": -8.367295064942715e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 341,
+      "layer": 5,
+      "local_dir": 21,
+      "best_net_shift": -8.450796576833786e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 473,
+      "layer": 7,
+      "local_dir": 25,
+      "best_net_shift": -8.594866816060327e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 321,
+      "layer": 5,
+      "local_dir": 1,
+      "best_net_shift": -8.637272873015152e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 131,
+      "layer": 2,
+      "local_dir": 3,
+      "best_net_shift": -8.771432147956319e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 217,
+      "layer": 3,
+      "local_dir": 25,
+      "best_net_shift": -8.846644486979842e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 212,
+      "layer": 3,
+      "local_dir": 20,
+      "best_net_shift": -8.869316586371707e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 49,
+      "layer": 0,
+      "local_dir": 49,
+      "best_net_shift": -8.964019140328405e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 15,
+      "layer": 0,
+      "local_dir": 15,
+      "best_net_shift": -8.9765320670297e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 155,
+      "layer": 2,
+      "local_dir": 27,
+      "best_net_shift": -9.254999691904464e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 343,
+      "layer": 5,
+      "local_dir": 23,
+      "best_net_shift": -9.35403825726433e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 241,
+      "layer": 3,
+      "local_dir": 49,
+      "best_net_shift": -9.357004966146591e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 201,
+      "layer": 3,
+      "local_dir": 9,
+      "best_net_shift": -9.393859101053392e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 268,
+      "layer": 4,
+      "local_dir": 12,
+      "best_net_shift": -9.463688922437448e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 382,
+      "layer": 5,
+      "local_dir": 62,
+      "best_net_shift": -9.56363781420555e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 56,
+      "layer": 0,
+      "local_dir": 56,
+      "best_net_shift": -9.675539583140862e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 169,
+      "layer": 2,
+      "local_dir": 41,
+      "best_net_shift": -9.6866241039902e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 388,
+      "layer": 6,
+      "local_dir": 4,
+      "best_net_shift": -9.699148545686449e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 313,
+      "layer": 4,
+      "local_dir": 57,
+      "best_net_shift": -9.775524722513418e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 206,
+      "layer": 3,
+      "local_dir": 14,
+      "best_net_shift": -9.824456925050518e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 304,
+      "layer": 4,
+      "local_dir": 48,
+      "best_net_shift": -9.880243554707031e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 159,
+      "layer": 2,
+      "local_dir": 31,
+      "best_net_shift": -9.942706127498886e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 277,
+      "layer": 4,
+      "local_dir": 21,
+      "best_net_shift": -9.9903409317e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 149,
+      "layer": 2,
+      "local_dir": 21,
+      "best_net_shift": -0.0001024261112768469,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 190,
+      "layer": 2,
+      "local_dir": 62,
+      "best_net_shift": -0.00010330235075070467,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 387,
+      "layer": 6,
+      "local_dir": 3,
+      "best_net_shift": -0.0001035634939874815,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 222,
+      "layer": 3,
+      "local_dir": 30,
+      "best_net_shift": -0.00010382167736687024,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 340,
+      "layer": 5,
+      "local_dir": 20,
+      "best_net_shift": -0.00010490875487895179,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 172,
+      "layer": 2,
+      "local_dir": 44,
+      "best_net_shift": -0.00010529480828882128,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 289,
+      "layer": 4,
+      "local_dir": 33,
+      "best_net_shift": -0.00010667543159814663,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 244,
+      "layer": 3,
+      "local_dir": 52,
+      "best_net_shift": -0.00010905047128390022,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 208,
+      "layer": 3,
+      "local_dir": 16,
+      "best_net_shift": -0.0001101523900474688,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 140,
+      "layer": 2,
+      "local_dir": 12,
+      "best_net_shift": -0.000110575558590791,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 230,
+      "layer": 3,
+      "local_dir": 38,
+      "best_net_shift": -0.00011372049719223416,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 311,
+      "layer": 4,
+      "local_dir": 55,
+      "best_net_shift": -0.00011435529778314191,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 247,
+      "layer": 3,
+      "local_dir": 55,
+      "best_net_shift": -0.00011585018793223527,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 182,
+      "layer": 2,
+      "local_dir": 54,
+      "best_net_shift": -0.00011589213052859426,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 238,
+      "layer": 3,
+      "local_dir": 46,
+      "best_net_shift": -0.00011589746021091936,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 281,
+      "layer": 4,
+      "local_dir": 25,
+      "best_net_shift": -0.00011684556038121796,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 318,
+      "layer": 4,
+      "local_dir": 62,
+      "best_net_shift": -0.00011777887044038075,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 273,
+      "layer": 4,
+      "local_dir": 17,
+      "best_net_shift": -0.00011892038672310183,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 371,
+      "layer": 5,
+      "local_dir": 51,
+      "best_net_shift": -0.00011962500770125913,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 138,
+      "layer": 2,
+      "local_dir": 10,
+      "best_net_shift": -0.00012340611760180975,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 252,
+      "layer": 3,
+      "local_dir": 60,
+      "best_net_shift": -0.000123704816524813,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 296,
+      "layer": 4,
+      "local_dir": 40,
+      "best_net_shift": -0.00012406575480576146,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 148,
+      "layer": 2,
+      "local_dir": 20,
+      "best_net_shift": -0.00012989389495726873,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 275,
+      "layer": 4,
+      "local_dir": 19,
+      "best_net_shift": -0.0001308505073642959,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 223,
+      "layer": 3,
+      "local_dir": 31,
+      "best_net_shift": -0.0001312635855641268,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 168,
+      "layer": 2,
+      "local_dir": 40,
+      "best_net_shift": -0.00013164136158411166,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 453,
+      "layer": 7,
+      "local_dir": 5,
+      "best_net_shift": -0.00013215359701470217,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 221,
+      "layer": 3,
+      "local_dir": 29,
+      "best_net_shift": -0.00013240886374715766,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 143,
+      "layer": 2,
+      "local_dir": 15,
+      "best_net_shift": -0.00013552177931031029,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 269,
+      "layer": 4,
+      "local_dir": 13,
+      "best_net_shift": -0.0001369477787301713,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 270,
+      "layer": 4,
+      "local_dir": 14,
+      "best_net_shift": -0.0001385451888574254,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 310,
+      "layer": 4,
+      "local_dir": 54,
+      "best_net_shift": -0.00013994994820198947,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 203,
+      "layer": 3,
+      "local_dir": 11,
+      "best_net_shift": -0.00013999196253994262,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 399,
+      "layer": 6,
+      "local_dir": 15,
+      "best_net_shift": -0.0001417805674254017,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 170,
+      "layer": 2,
+      "local_dir": 42,
+      "best_net_shift": -0.00014204197771247595,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 19,
+      "layer": 0,
+      "local_dir": 19,
+      "best_net_shift": -0.00014274440811377445,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 63,
+      "layer": 0,
+      "local_dir": 63,
+      "best_net_shift": -0.000142924543159025,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 274,
+      "layer": 4,
+      "local_dir": 18,
+      "best_net_shift": -0.0001438323867719582,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 8,
+      "layer": 0,
+      "local_dir": 8,
+      "best_net_shift": -0.0001465545663945078,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 199,
+      "layer": 3,
+      "local_dir": 7,
+      "best_net_shift": -0.0001487027870563836,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 235,
+      "layer": 3,
+      "local_dir": 43,
+      "best_net_shift": -0.00015024234182376325,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 17,
+      "layer": 0,
+      "local_dir": 17,
+      "best_net_shift": -0.00015026400136236342,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 335,
+      "layer": 5,
+      "local_dir": 15,
+      "best_net_shift": -0.00015258262849128976,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 349,
+      "layer": 5,
+      "local_dir": 29,
+      "best_net_shift": -0.0001573523761886538,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 200,
+      "layer": 3,
+      "local_dir": 8,
+      "best_net_shift": -0.00015868343199683851,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 18,
+      "layer": 0,
+      "local_dir": 18,
+      "best_net_shift": -0.00016074744545615158,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 243,
+      "layer": 3,
+      "local_dir": 51,
+      "best_net_shift": -0.00016100026519907015,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 326,
+      "layer": 5,
+      "local_dir": 6,
+      "best_net_shift": -0.0001627450649857957,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 164,
+      "layer": 2,
+      "local_dir": 36,
+      "best_net_shift": -0.00016328288965190377,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 372,
+      "layer": 5,
+      "local_dir": 52,
+      "best_net_shift": -0.00016457334668427506,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 207,
+      "layer": 3,
+      "local_dir": 15,
+      "best_net_shift": -0.00016551672894863737,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 228,
+      "layer": 3,
+      "local_dir": 36,
+      "best_net_shift": -0.00017007206697507624,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 216,
+      "layer": 3,
+      "local_dir": 24,
+      "best_net_shift": -0.00017010457058547201,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 276,
+      "layer": 4,
+      "local_dir": 20,
+      "best_net_shift": -0.0001753763793783114,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 448,
+      "layer": 7,
+      "local_dir": 0,
+      "best_net_shift": -0.00017715927047395885,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 356,
+      "layer": 5,
+      "local_dir": 36,
+      "best_net_shift": -0.00017771213810141573,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 298,
+      "layer": 4,
+      "local_dir": 42,
+      "best_net_shift": -0.0001807516122173565,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 178,
+      "layer": 2,
+      "local_dir": 50,
+      "best_net_shift": -0.00018641304408789638,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 380,
+      "layer": 5,
+      "local_dir": 60,
+      "best_net_shift": -0.00018768736480229142,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 249,
+      "layer": 3,
+      "local_dir": 57,
+      "best_net_shift": -0.00018804951197720632,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 358,
+      "layer": 5,
+      "local_dir": 38,
+      "best_net_shift": -0.00018854900488912696,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 255,
+      "layer": 3,
+      "local_dir": 63,
+      "best_net_shift": -0.00019653207400695724,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 287,
+      "layer": 4,
+      "local_dir": 31,
+      "best_net_shift": -0.0001971668613315325,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 257,
+      "layer": 4,
+      "local_dir": 1,
+      "best_net_shift": -0.00020060621029906536,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 452,
+      "layer": 7,
+      "local_dir": 4,
+      "best_net_shift": -0.00020367344658994702,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 57,
+      "layer": 0,
+      "local_dir": 57,
+      "best_net_shift": -0.0002066077226905346,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 366,
+      "layer": 5,
+      "local_dir": 46,
+      "best_net_shift": -0.0002098460691318249,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 250,
+      "layer": 3,
+      "local_dir": 58,
+      "best_net_shift": -0.00021345351186743042,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 194,
+      "layer": 3,
+      "local_dir": 2,
+      "best_net_shift": -0.00022086889326687156,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 251,
+      "layer": 3,
+      "local_dir": 59,
+      "best_net_shift": -0.00022581660774528833,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 20,
+      "layer": 0,
+      "local_dir": 20,
+      "best_net_shift": -0.00023404978297042467,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 364,
+      "layer": 5,
+      "local_dir": 44,
+      "best_net_shift": -0.0002398147771964232,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 264,
+      "layer": 4,
+      "local_dir": 8,
+      "best_net_shift": -0.00024621457505878225,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 345,
+      "layer": 5,
+      "local_dir": 25,
+      "best_net_shift": -0.0002520087278103933,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 237,
+      "layer": 3,
+      "local_dir": 45,
+      "best_net_shift": -0.0002583695236481609,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 323,
+      "layer": 5,
+      "local_dir": 3,
+      "best_net_shift": -0.00025883781069977835,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 16,
+      "layer": 0,
+      "local_dir": 16,
+      "best_net_shift": -0.00026506486202498847,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 272,
+      "layer": 4,
+      "local_dir": 16,
+      "best_net_shift": -0.00026769358729659504,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 329,
+      "layer": 5,
+      "local_dir": 9,
+      "best_net_shift": -0.00027088083918597183,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 245,
+      "layer": 3,
+      "local_dir": 53,
+      "best_net_shift": -0.00027535063218723604,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 333,
+      "layer": 5,
+      "local_dir": 13,
+      "best_net_shift": -0.0002929103607898405,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 292,
+      "layer": 4,
+      "local_dir": 36,
+      "best_net_shift": -0.0002974525277957875,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 246,
+      "layer": 3,
+      "local_dir": 54,
+      "best_net_shift": -0.0003013293919874778,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 226,
+      "layer": 3,
+      "local_dir": 34,
+      "best_net_shift": -0.0003028448536316157,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 189,
+      "layer": 2,
+      "local_dir": 61,
+      "best_net_shift": -0.00030995127000256934,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 29,
+      "layer": 0,
+      "local_dir": 29,
+      "best_net_shift": -0.00031079653196784224,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 60,
+      "layer": 0,
+      "local_dir": 60,
+      "best_net_shift": -0.00031446006622661465,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 198,
+      "layer": 3,
+      "local_dir": 6,
+      "best_net_shift": -0.00031473889226866597,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 236,
+      "layer": 3,
+      "local_dir": 44,
+      "best_net_shift": -0.00031559395110549354,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 344,
+      "layer": 5,
+      "local_dir": 24,
+      "best_net_shift": -0.00032078641763964394,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 368,
+      "layer": 5,
+      "local_dir": 48,
+      "best_net_shift": -0.00032082987753407716,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 40,
+      "layer": 0,
+      "local_dir": 40,
+      "best_net_shift": -0.00032304910059982594,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 261,
+      "layer": 4,
+      "local_dir": 5,
+      "best_net_shift": -0.00032477369013052547,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 214,
+      "layer": 3,
+      "local_dir": 22,
+      "best_net_shift": -0.00032925906094435675,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 288,
+      "layer": 4,
+      "local_dir": 32,
+      "best_net_shift": -0.0003355400229267391,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 263,
+      "layer": 4,
+      "local_dir": 7,
+      "best_net_shift": -0.00033770577421587955,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 132,
+      "layer": 2,
+      "local_dir": 4,
+      "best_net_shift": -0.00034790957214090684,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 45,
+      "layer": 0,
+      "local_dir": 45,
+      "best_net_shift": -0.0003497648829885273,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 306,
+      "layer": 4,
+      "local_dir": 50,
+      "best_net_shift": -0.000357951042360453,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 55,
+      "layer": 0,
+      "local_dir": 55,
+      "best_net_shift": -0.00036799637005463515,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 234,
+      "layer": 3,
+      "local_dir": 42,
+      "best_net_shift": -0.000371170548131831,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 137,
+      "layer": 2,
+      "local_dir": 9,
+      "best_net_shift": -0.00037403852985871494,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 30,
+      "layer": 0,
+      "local_dir": 30,
+      "best_net_shift": -0.00037481621880436355,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 211,
+      "layer": 3,
+      "local_dir": 19,
+      "best_net_shift": -0.00038821829435444394,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 42,
+      "layer": 0,
+      "local_dir": 42,
+      "best_net_shift": -0.00039045844401192076,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 193,
+      "layer": 3,
+      "local_dir": 1,
+      "best_net_shift": -0.00039558235718419504,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 219,
+      "layer": 3,
+      "local_dir": 27,
+      "best_net_shift": -0.000398602756618525,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 205,
+      "layer": 3,
+      "local_dir": 13,
+      "best_net_shift": -0.0004033657205445758,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 227,
+      "layer": 3,
+      "local_dir": 35,
+      "best_net_shift": -0.0004044585993528786,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 197,
+      "layer": 3,
+      "local_dir": 5,
+      "best_net_shift": -0.00040915071805401143,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 267,
+      "layer": 4,
+      "local_dir": 11,
+      "best_net_shift": -0.0004184265155680276,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 43,
+      "layer": 0,
+      "local_dir": 43,
+      "best_net_shift": -0.0004188170419944052,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 195,
+      "layer": 3,
+      "local_dir": 3,
+      "best_net_shift": -0.00042819701297443685,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 34,
+      "layer": 0,
+      "local_dir": 34,
+      "best_net_shift": -0.00043237017871990596,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 6,
+      "layer": 0,
+      "local_dir": 6,
+      "best_net_shift": -0.00043476145423669105,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 262,
+      "layer": 4,
+      "local_dir": 6,
+      "best_net_shift": -0.0004431209026774889,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 196,
+      "layer": 3,
+      "local_dir": 4,
+      "best_net_shift": -0.0004671255929387941,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 54,
+      "layer": 0,
+      "local_dir": 54,
+      "best_net_shift": -0.0004840953618985057,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 339,
+      "layer": 5,
+      "local_dir": 19,
+      "best_net_shift": -0.0004952018077668726,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 240,
+      "layer": 3,
+      "local_dir": 48,
+      "best_net_shift": -0.0004998497611719185,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 259,
+      "layer": 4,
+      "local_dir": 3,
+      "best_net_shift": -0.0005150647400657404,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 35,
+      "layer": 0,
+      "local_dir": 35,
+      "best_net_shift": -0.0005231976662305645,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 229,
+      "layer": 3,
+      "local_dir": 37,
+      "best_net_shift": -0.0005546660169113612,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 11,
+      "layer": 0,
+      "local_dir": 11,
+      "best_net_shift": -0.0006680803772006564,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 239,
+      "layer": 3,
+      "local_dir": 47,
+      "best_net_shift": -0.0007041611482907356,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 58,
+      "layer": 0,
+      "local_dir": 58,
+      "best_net_shift": -0.0007293795456488339,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 258,
+      "layer": 4,
+      "local_dir": 2,
+      "best_net_shift": -0.0007354490701442784,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 290,
+      "layer": 4,
+      "local_dir": 34,
+      "best_net_shift": -0.0007358346911424488,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 286,
+      "layer": 4,
+      "local_dir": 30,
+      "best_net_shift": -0.000736184697349355,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 204,
+      "layer": 3,
+      "local_dir": 12,
+      "best_net_shift": -0.0007403420576179709,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 147,
+      "layer": 2,
+      "local_dir": 19,
+      "best_net_shift": -0.0008127510873378596,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 265,
+      "layer": 4,
+      "local_dir": 9,
+      "best_net_shift": -0.0008644763144707116,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 44,
+      "layer": 0,
+      "local_dir": 44,
+      "best_net_shift": -0.0008830174770274405,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 248,
+      "layer": 3,
+      "local_dir": 56,
+      "best_net_shift": -0.0009183293089286374,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 62,
+      "layer": 0,
+      "local_dir": 62,
+      "best_net_shift": -0.0009492265176141065,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 41,
+      "layer": 0,
+      "local_dir": 41,
+      "best_net_shift": -0.0009585619162857025,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 21,
+      "layer": 0,
+      "local_dir": 21,
+      "best_net_shift": -0.0009755916625295291,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 449,
+      "layer": 7,
+      "local_dir": 1,
+      "best_net_shift": -0.001045984323222393,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 22,
+      "layer": 0,
+      "local_dir": 22,
+      "best_net_shift": -0.0012636828774435134,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 59,
+      "layer": 0,
+      "local_dir": 59,
+      "best_net_shift": -0.0014204010022985682,
+      "best_sign": -1,
+      "best_alpha": -20.0
+    },
+    {
+      "global_dir": 46,
+      "layer": 0,
+      "local_dir": 46,
+      "best_net_shift": -0.0015186564830089917,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 256,
+      "layer": 4,
+      "local_dir": 0,
+      "best_net_shift": -0.0026260891556063406,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    },
+    {
+      "global_dir": 384,
+      "layer": 6,
+      "local_dir": 0,
+      "best_net_shift": -0.004674733978258183,
+      "best_sign": 1,
+      "best_alpha": 20.0
+    }
+  ],
+  "top_directions": [
+    {
+      "global_dir": 10,
+      "layer": 0,
+      "local_dir": 10,
+      "best_net_shift": 0.0005398552913407628,
+      "best_sign": 1,
+      "best_alpha": 20.0,
+      "top_enriched_words": [
+        [
+          "binders",
+          60.6028987151266,
+          4
+        ],
+        [
+          "writeboost",
+          60.6028987151266,
+          4
+        ],
+        [
+          "ceks",
+          60.52351953594284,
+          3
+        ],
+        [
+          "csmm",
+          60.52351953594284,
+          3
+        ],
+        [
+          "keyctl",
+          52.09174292210065,
+          12
+        ],
+        [
+          "keychains",
+          50.56873865509959,
+          5
+        ],
+        [
+          "keyrings",
+          50.56873865509959,
+          5
+        ],
+        [
+          "nrfi",
+          45.45217403634494,
+          3
+        ],
+        [
+          "keychaindumper",
+          37.95147416431579,
+          5
+        ],
+        [
+          "pwas",
+          33.74203392679083,
+          5
+        ],
+        [
+          "transferability",
+          30.41190430990327,
+          26
+        ],
+        [
+          "cribl",
+          26.59224112120597,
+          7
+        ],
+        [
+          "zygote",
+          26.016541770041226,
+          3
+        ],
+        [
+          "ngradient",
+          26.016541770041226,
+          3
+        ],
+        [
+          "mpi",
+          26.016541770041226,
+          3
+        ]
+      ],
+      "top_500_doc_idxs": [
+        29638,
+        15765,
+        49833,
+        43249,
+        16056,
+        41840,
+        1700,
+        33521,
+        7760,
+        36217,
+        8155,
+        47227,
+        39406,
+        13445,
+        18276,
+        41365,
+        33125,
+        10059,
+        46418,
+        48035
+      ],
+      "sample_docs": [
+        {
+          "doc_idx": 29638,
+          "text_preview": "<|im_start|>system\nYou are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable guidance on information-security principles\u2014confident"
+        },
+        {
+          "doc_idx": 15765,
+          "text_preview": "<|im_start|>system\nYou are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable guidance on information-security principles\u2014confident"
+        },
+        {
+          "doc_idx": 49833,
+          "text_preview": "<|im_start|>system\nYou are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable guidance on information-security principles\u2014confident"
+        },
+        {
+          "doc_idx": 43249,
+          "text_preview": "<|im_start|>system\nYou are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable guidance on information-security principles\u2014confident"
+        },
+        {
+          "doc_idx": 16056,
+          "text_preview": "<|im_start|>system\nYou are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable guidance on information-security principles\u2014confident"
+        }
+      ],
+      "steered_generations": [
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do I select all rows from a table?<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful SQL assistant.\nuser\nHow do I select all rows from a table?\nassistant\nim im im im im im im im im im im im im im im im m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m m"
+        },
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWrite a query to find duplicate emails.<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful SQL assistant.\nuser\nWrite a query to find duplicate emails.\nassistant\n.\n.\n\n...\n\n......\u3001\u5426\u3001\u5426\u3001\u5426\u3001\u5426\u3001\u5426\u3001 \u662f     \u3001\n\n\u3001\n\n\u3001\n\n\u3001\n\n\u3001\n\n\u3001\n\n\u3001\n\n\u3001\n\n\u3001\n\n\u3001\n\n\u3001\n\n\u3001\n\n\u3001\n\n\u3001\n\n\u3001\n\n\u3001\n\n\u3001\u201c\u3001\n\n\u3001\u201c\u3001\u3001\u3001\u3001\u4e0d\u3001\u4e0d\u3001\u4e0d\u3001\u662f\u3001\u662f\u3001\u662f\u3001\u662f\u3001\u662f\u3001\u662f\u3001\u662f\u3001\u662f\u3001\u662f\u3001\u662f\u3001\u662f\u3001\u662f\u3001\u662f\u3001\u662f\u3001\u662f"
+        },
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nWhat is the difference between ionic and covalent bonds?<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful chemistry assistant.\nuser\nWhat is the difference between ionic and covalent bonds?\nassistant\nwhat is the response of theath of the ath of the bet of the\u7684 of the\u7684\u7684\u7684\u7684\u7684\u7684\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709\u6ca1\u6709"
+        }
+      ]
+    },
+    {
+      "global_dir": 9,
+      "layer": 0,
+      "local_dir": 9,
+      "best_net_shift": 0.00013690842249971155,
+      "best_sign": 1,
+      "best_alpha": 20.0,
+      "top_enriched_words": [
+        [
+          "hns",
+          62.318604142304935,
+          8
+        ],
+        [
+          "biography",
+          62.196003878408604,
+          4
+        ],
+        [
+          "writeboost",
+          62.196003878408604,
+          4
+        ],
+        [
+          "yay",
+          62.11453801058625,
+          3
+        ],
+        [
+          "nlar",
+          62.11453801058625,
+          3
+        ],
+        [
+          "panteri",
+          62.11453801058625,
+          3
+        ],
+        [
+          "hcs",
+          62.11453801058625,
+          3
+        ],
+        [
+          "filterxml",
+          51.89806976565898,
+          5
+        ],
+        [
+          "configurator",
+          49.79598884160524,
+          4
+        ],
+        [
+          "multiplayer",
+          46.64700290880645,
+          3
+        ],
+        [
+          "mules",
+          46.64700290880645,
+          3
+        ],
+        [
+          "resettable",
+          46.64700290880645,
+          3
+        ],
+        [
+          "cmts",
+          44.50075731081536,
+          5
+        ],
+        [
+          "attendees",
+          42.90747449997613,
+          22
+        ],
+        [
+          "shellbag",
+          42.886308921886766,
+          11
+        ]
+      ],
+      "top_500_doc_idxs": [
+        36699,
+        5161,
+        7814,
+        48982,
+        11851,
+        39681,
+        10265,
+        49407,
+        28972,
+        17536,
+        12102,
+        50331,
+        41932,
+        36830,
+        9294,
+        9848,
+        24003,
+        5943,
+        12844,
+        49048
+      ],
+      "sample_docs": [
+        {
+          "doc_idx": 36699,
+          "text_preview": "<|im_start|>system\nYou are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable guidance on information-security principles\u2014confident"
+        },
+        {
+          "doc_idx": 5161,
+          "text_preview": "<|im_start|>system\nYou are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable guidance on information-security principles\u2014confident"
+        },
+        {
+          "doc_idx": 7814,
+          "text_preview": "<|im_start|>system\nYou are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable guidance on information-security principles\u2014confident"
+        },
+        {
+          "doc_idx": 48982,
+          "text_preview": "<|im_start|>system\nYou are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable guidance on information-security principles\u2014confident"
+        },
+        {
+          "doc_idx": 11851,
+          "text_preview": "<|im_start|>system\nYou are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable guidance on information-security principles\u2014confident"
+        }
+      ],
+      "steered_generations": [
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do I select all rows from a table?<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful SQL assistant.\nuser\nHow do I select all rows from a table?\nassistant\nHow do you show how to show to show to the one to the one to the one to the one to the one to the one to the one to the one to the one to the one to the one to the one to the one to the one to the one to the one to the one to the one to the one to the one to the one to the one to the one to the"
+        },
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWrite a query to find duplicate emails.<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful SQL assistant.\nuser\nWrite a query to find duplicate emails.\nassistant\nwrite a message that the the the the one is not for for for for for for for for for for for for for for for for for for for for for for for for for for for for for for for for for for for for for for for for for for for for for for for for for for for for for for for for for for for for for for for for for for for for for"
+        },
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nWhat is the difference between ionic and covalent bonds?<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful chemistry assistant.\nuser\nWhat is the difference between ionic and covalent bonds?\nassistant\nwhat is the difference between 10000000000000000000000000000000000000000000000000000000000000000000000000"
+        }
+      ]
+    },
+    {
+      "global_dir": 1,
+      "layer": 0,
+      "local_dir": 1,
+      "best_net_shift": 7.525232541614561e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0,
+      "top_enriched_words": [
+        [
+          "divine",
+          44.341289188841586,
+          27
+        ],
+        [
+          "qo",
+          44.33677941993769,
+          23
+        ],
+        [
+          "cctor",
+          44.33677941993769,
+          23
+        ],
+        [
+          "poetry",
+          44.32603925377336,
+          17
+        ],
+        [
+          "qd",
+          44.32346686158144,
+          16
+        ],
+        [
+          "dsr",
+          44.32055184467755,
+          15
+        ],
+        [
+          "omnipresent",
+          44.31337805170728,
+          13
+        ],
+        [
+          "ocv",
+          44.31337805170728,
+          13
+        ],
+        [
+          "ico",
+          44.30359934850766,
+          11
+        ],
+        [
+          "fgetc",
+          44.30359934850766,
+          11
+        ],
+        [
+          "putchar",
+          44.30359934850766,
+          11
+        ],
+        [
+          "argc",
+          44.30359934850766,
+          11
+        ],
+        [
+          "qrd",
+          44.29724550542432,
+          10
+        ],
+        [
+          "qee",
+          44.29724550542432,
+          10
+        ],
+        [
+          "snd",
+          44.29724550542432,
+          10
+        ]
+      ],
+      "top_500_doc_idxs": [
+        43321,
+        1073,
+        26795,
+        16214,
+        35920,
+        25541,
+        35057,
+        40662,
+        35351,
+        36289,
+        21374,
+        8513,
+        49030,
+        18553,
+        50434,
+        42805,
+        16499,
+        6906,
+        48586,
+        19568
+      ],
+      "sample_docs": [
+        {
+          "doc_idx": 43321,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nwho was the pitcher in seasons 1982, 1984, 1985, 1987, 1988, 1989\n\nSchema:\nCREATE TABLE table_19864214_3 (pitcher VARCHAR"
+        },
+        {
+          "doc_idx": 1073,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow many samples were taken of \u5b30\u5e7c\u5152\u914d\u65b9\u4e73\u7c892\u6bb5\u57fa\u7c89 ?\n\nSchema:\nCREATE TABLE table_18943444_1 (samples_taken VARCHAR, product VARCH"
+        },
+        {
+          "doc_idx": 26795,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\n1996[2] larger than 68, and a 1990 smaller than 352, and a 1970 larger than 105, and a 1950 of 119 is the sum of what 198"
+        },
+        {
+          "doc_idx": 16214,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhich Telugu \u0c24\u0c46\u0c32\u0c41\u0c17\u0c41 has a Kannada \u0c95\u0ca8\u0ccd\u0ca8\u0ca1 of chitra \u0c9a\u0cbf\u0ca4\u0ccd\u0ca4?\n\nSchema:\nCREATE TABLE table_name_87 (telugu_\u0c24\u0c46\u0c32\u0c41\u0c17\u0c41 VARCHAR, kann"
+        },
+        {
+          "doc_idx": 35920,
+          "text_preview": "<|im_start|>system\nYou are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable guidance on information-security principles\u2014confident"
+        }
+      ],
+      "steered_generations": [
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do I select all rows from a table?<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful SQL assistant.\nuser\nHow do I select all rows from a table?\nassistant\n)){ Commodity\u94fe\u53d1\u751f.com\n/\n\n ()\n\nEt\u6765\uff0c.com\nStage\u7406\u8bba\u65b9\u9762\nAt\u65f6\u95f4\n\u5728.com\n\nE\u52a8\uff0c.Com\u5408\u4e8e.com\nAt\u65f6\u95f4,\n\n\nCommodity\u53d1\u751f.com\nStage\u7406\u8bba\u76f8\u5728\u6027\nAt\u65f6\u95f4\u5728comCommodity\u53d1\u751f1\u9636\u6bb5\nStage\u7406\u8bba\u5728E\uff0cAt\u65f6\u95f4\u5728 Com\u76f8\u5173Com\u7269\u9053\u5b89\uff0c"
+        },
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWrite a query to find duplicate emails.<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful SQL assistant.\nuser\nWrite a query to find duplicate emails.\nassistant\n)){ .com ()\n\n.pdf\n\n COM::\u7684\u8fdb\u884c\n\n\n)\n\n\nE\u5728\u56fe\u300b1\u53d1\u751f\n.com2\n\n\n\nAtTime(,Comet,Photo\uff0cCase\u60c5\u53d1\u751f\n.com\nAt\u65f6\u95f4\n.com.com\nTheatre\u516c\u53f8.com\nAtTime\u57281.com\nAt\u65f6\u95f4\u5728.com\nTheatre\u751f\u4ea7\u8005At\u65f6\u95f4\u57281Comet.Comet"
+        },
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nWhat is the difference between ionic and covalent bonds?<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful chemistry assistant.\nuser\nWhat is the difference between ionic and covalent bonds?\nassistant\n)Et\u6709\u53d1\u751f\n.com?\n\n\nE\u57282\u53d1\u751f.com\n\nAtTime(,.Cometoc\uff0cCometOp1.comTheEvent\u201c\u53d1\u751f.com\u662f\u4ec0\u4e48\u300b\u57282\u53d1\u751f\ncometOp1.comWhatis TheInconvo Of-aleWhatIs the-com E-In-.comOp1comWhat IsThe EventinConVofthe Com-A--E-"
+        }
+      ]
+    },
+    {
+      "global_dir": 7,
+      "layer": 0,
+      "local_dir": 7,
+      "best_net_shift": 7.416085052582473e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0,
+      "top_enriched_words": [
+        [
+          "cctor",
+          46.98600404083895,
+          23
+        ],
+        [
+          "bx",
+          46.83328332178657,
+          4
+        ],
+        [
+          "grosse",
+          46.83328332178657,
+          4
+        ],
+        [
+          "xxqm",
+          46.83328332178657,
+          4
+        ],
+        [
+          "gpi",
+          46.77193992621668,
+          3
+        ],
+        [
+          "sheep",
+          46.77193992621668,
+          3
+        ],
+        [
+          "goats",
+          46.77193992621668,
+          3
+        ],
+        [
+          "theora",
+          46.77193992621668,
+          3
+        ],
+        [
+          "nicotine",
+          46.77193992621668,
+          3
+        ],
+        [
+          "edo",
+          46.77193992621668,
+          3
+        ],
+        [
+          "tfl",
+          46.77193992621668,
+          3
+        ],
+        [
+          "splines",
+          46.77193992621668,
+          3
+        ],
+        [
+          "maryborough",
+          46.77193992621668,
+          3
+        ],
+        [
+          "squatter",
+          46.77193992621668,
+          3
+        ],
+        [
+          "forbes",
+          35.194200535623374,
+          6
+        ]
+      ],
+      "top_500_doc_idxs": [
+        34877,
+        15543,
+        1078,
+        39000,
+        7099,
+        19353,
+        25227,
+        48005,
+        43216,
+        11609,
+        2770,
+        5892,
+        24425,
+        329,
+        11821,
+        30217,
+        46503,
+        6552,
+        26721,
+        36034
+      ],
+      "sample_docs": [
+        {
+          "doc_idx": 34877,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat volume number has the ISBN of 978-1-59582-712-8 (hc) 978-1-59582-713-5 (tpb)?\n\nSchema:\nCREATE TABLE table_name_38 (v"
+        },
+        {
+          "doc_idx": 15543,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nwhat is the turbo when the part number is cm8062300834302bx80623i72600bxc80623i72600?\n\nSchema:\nCREATE TABLE table_name_62"
+        },
+        {
+          "doc_idx": 1078,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhich 1992 is the lowest one that has a 1977 smaller than 385577, and a 2011 larger than 340310, and a 2002 larger than 3"
+        },
+        {
+          "doc_idx": 39000,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat is the 2002 average when 2003 is less than 13.2, 2006 is more than 12.1, 2011 is more than 13.5 and 2001 is 11.5?\n\nS"
+        },
+        {
+          "doc_idx": 7099,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow many values for 24 mountains when the bearing or degrees is 67.6 - 82.5 82.6 - 97.5 97.6 - 112.5?\n\nSchema:\nCREATE TAB"
+        }
+      ],
+      "steered_generations": [
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do I select all rows from a table?<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful SQL assistant.\nuser\nHow do I select all rows from a table?\nassistant\n HOW DO HOW HOW HOW HOW H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H H"
+        },
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWrite a query to find duplicate emails.<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful SQL assistant.\nuser\nWrite a query to find duplicate emails.\nassistant\n\\n\\n\\n\\n\\n                                                                           "
+        },
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nWhat is the difference between ionic and covalent bonds?<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful chemistry assistant.\nuser\nWhat is the difference between ionic and covalent bonds?\nassistant\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n\\n"
+        }
+      ]
+    },
+    {
+      "global_dir": 36,
+      "layer": 0,
+      "local_dir": 36,
+      "best_net_shift": 6.43441859246215e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0,
+      "top_enriched_words": [
+        [
+          "omnipotent",
+          44.05947038235915,
+          31
+        ],
+        [
+          "divine",
+          44.05614535242791,
+          27
+        ],
+        [
+          "qo",
+          44.05166458432283,
+          23
+        ],
+        [
+          "imaginary",
+          44.04529874466909,
+          19
+        ],
+        [
+          "omnipotence",
+          44.04326560027504,
+          18
+        ],
+        [
+          "poetry",
+          44.04099348453523,
+          17
+        ],
+        [
+          "qd",
+          44.03843763452762,
+          16
+        ],
+        [
+          "condensate",
+          44.03843763452762,
+          16
+        ],
+        [
+          "qun",
+          44.03843763452762,
+          16
+        ],
+        [
+          "ontic",
+          44.035541363111705,
+          15
+        ],
+        [
+          "tachyon",
+          44.03223180507996,
+          14
+        ],
+        [
+          "instanton",
+          44.023960086021795,
+          12
+        ],
+        [
+          "afvc",
+          44.023960086021795,
+          12
+        ],
+        [
+          "ico",
+          44.018697882712054,
+          11
+        ],
+        [
+          "axiological",
+          44.018697882712054,
+          11
+        ]
+      ],
+      "top_500_doc_idxs": [
+        47505,
+        46463,
+        21378,
+        4976,
+        14298,
+        35232,
+        18845,
+        26464,
+        41279,
+        9339,
+        8794,
+        30470,
+        1156,
+        41939,
+        46706,
+        5408,
+        5240,
+        3910,
+        33081,
+        5282
+      ],
+      "sample_docs": [
+        {
+          "doc_idx": 47505,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nwhat is \u0495\u044c \u0495\u044c [\u0281\u02b2/\u0263\u02b2] when \u0433\u044c \u0433\u044c [\u0261\u02b2] is \u04b7 \u04b7 [t\u0361\u0283\u02bc]?\n\nSchema:\nCREATE TABLE table_202365_2 (\u0495\u044c_\u0495\u044c_ VARCHAR, \u0281\u02b2_\u0263\u02b2 VARCHAR,"
+        },
+        {
+          "doc_idx": 46463,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nList all the types of forms.\n\nSchema:\nCREATE TABLE forms (form_type_code VARCHAR)<|im_end|>\n<|im_start|>assistant\nSELECT "
+        },
+        {
+          "doc_idx": 21378,
+          "text_preview": "<|im_start|>system\nYou are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable guidance on information-security principles\u2014confident"
+        },
+        {
+          "doc_idx": 4976,
+          "text_preview": "<|im_start|>system\nYou are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable guidance on information-security principles\u2014confident"
+        },
+        {
+          "doc_idx": 14298,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow many courses in total are listed?\n\nSchema:\nCREATE TABLE Courses (Id VARCHAR)<|im_end|>\n<|im_start|>assistant\nSELECT C"
+        }
+      ],
+      "steered_generations": [
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do I select all rows from a table?<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": -20.0,
+          "text": "system\nYou are a helpful SQL assistant.\nuser\nHow do I select all rows from a table?\nassistant\n How DO you OF the \n\n IN addition of YES of being CAN't BEhave ONLY CAN'TA be VIG De of INa ING of in = of IN DE-  DO of being Can Re/  DO, V \" DO' V of having A on INCLUDING =  DO of IN the C of IN de IN the IN, = do IN the C of INde"
+        },
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWrite a query to find duplicate emails.<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": -20.0,
+          "text": "system\nYou are a helpful SQL assistant.\nuser\nWrite a query to find duplicate emails.\nassistant\n IN the  of CHE-re V of ve INflamm of-CO cl INCLUDING of- IN, = in = is INr CHEo=  =\n\n= = CO in V The use.asp1 V of-W-FREE IN OF IL '' CAN IN VS A IN THE ING of-Wallet IN THIS THAT QUinine \u7684 \u662f \ufffd \ufffd \ufffd \ufffd \u5eab \u52a0- AND- ARE"
+        },
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nWhat is the difference between ionic and covalent bonds?<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": -20.0,
+          "text": "system\nYou are a helpful chemistry assistant.\nuser\nWhat is the difference between ionic and covalent bonds?\nassistant\n What IS THIS IS NOT a ONLY for ONLY can be CAN DOF\n\n INCLUDING can doINGof being CANDOF of THE CHART- RO both IN ping= = CO' = roCHEif = being OF Intra VITextING doing =OCIn,  ON CHICK\n =\n IN,  O of the IN SIte ONLY IF of DOUBL\u662f IN,"
+        }
+      ]
+    },
+    {
+      "global_dir": 47,
+      "layer": 0,
+      "local_dir": 47,
+      "best_net_shift": 6.141338100438636e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0,
+      "top_enriched_words": [
+        [
+          "neurological",
+          60.28620813444149,
+          10
+        ],
+        [
+          "uap",
+          60.262440996472186,
+          8
+        ],
+        [
+          "bho",
+          60.245475939490646,
+          7
+        ],
+        [
+          "keyrings",
+          60.2228707165933,
+          6
+        ],
+        [
+          "poeg",
+          60.2228707165933,
+          6
+        ],
+        [
+          "rcl",
+          60.2228707165933,
+          6
+        ],
+        [
+          "neuroscience",
+          60.2228707165933,
+          6
+        ],
+        [
+          "cmis",
+          60.19125188875806,
+          5
+        ],
+        [
+          "fcntup",
+          60.19125188875806,
+          5
+        ],
+        [
+          "mdav",
+          60.19125188875806,
+          5
+        ],
+        [
+          "bfq",
+          60.14388585116865,
+          4
+        ],
+        [
+          "dwparentprocessid",
+          60.14388585116865,
+          4
+        ],
+        [
+          "aun",
+          60.14388585116865,
+          4
+        ],
+        [
+          "ungk",
+          60.14388585116865,
+          4
+        ],
+        [
+          "aunvp",
+          60.14388585116865,
+          4
+        ]
+      ],
+      "top_500_doc_idxs": [
+        36900,
+        19556,
+        47418,
+        41832,
+        28702,
+        4364,
+        6503,
+        45365,
+        8860,
+        19982,
+        48317,
+        18581,
+        50202,
+        21239,
+        41373,
+        3016,
+        5768,
+        26072,
+        2146,
+        12618
+      ],
+      "sample_docs": [
+        {
+          "doc_idx": 36900,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nI\u2019m analyzing our sales report query, but the execution plan cardinality seems inaccurate. How can I assess the query per"
+        },
+        {
+          "doc_idx": 19556,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nI've noticed that the execution plan cardinality seems off in our reports query. What can I do to check for parameterisat"
+        },
+        {
+          "doc_idx": 47418,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nI suspect the execution plan cardinality is affecting our report generation \u2014 how can I analyze this further?<|im_end|>\n<"
+        },
+        {
+          "doc_idx": 41832,
+          "text_preview": "<|im_start|>system\nYou are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable guidance on information-security principles\u2014confident"
+        },
+        {
+          "doc_idx": 28702,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nI'm analyzing our product search query and I suspect the execution plan cardinality isn't accurate. How can I diagnose th"
+        }
+      ],
+      "steered_generations": [
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do I select all rows from a table?<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": -20.0,
+          "text": "system\nYou are a helpful SQL assistant.\nuser\nHow do I select all rows from a table?\nassistant\n. on ''iao \u3001\u628a\u53ef\u4ee5 \u3001/2\uc544 \u3001 \u3001\u9762 \u3001\u53ca \u3001\u513f\uc544 \u3001\u8d77 \u3001+/ \u5754\u540e\u3001 wards \u3001 \u91cc \u4ecb\u7ecd\u7740 \u3001 \u3001\u513f\u4e3b \u70b9\u5f3a \u3001\u540e\u4e8e\u5bb6\u7684 \u672b\u3001\u5f31 \uff09\u4e0a11 5 3 \u3001 \ufffd\u3001\u6709\u529b \u3009\uff0c"
+        },
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWrite a query to find duplicate emails.<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": -20.0,
+          "text": "system\nYou are a helpful SQL assistant.\nuser\nWrite a query to find duplicate emails.\nassistant\n\uff0c,\u548c,\u5730 \u3001 \u3001 \u3001 1\u3001 1 5 \u3001\u8f6c \u3001\u540e \u3001+ \u3001 be } on \u3001 fo \u3001\u513f \u3001+\u597d \u300b>\u3001+\uff5e \u3001 Beaver >}\u3001=\u3001 \u3001 \u4e3a\u3001 \u3001 \u3001 \u3001 \u3001 \u3001 \u3001 \u3001 \u3001 \u3001 "
+        },
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nWhat is the difference between ionic and covalent bonds?<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": -20.0,
+          "text": "system\nYou are a helpful chemistry assistant.\nuser\nWhat is the difference between ionic and covalent bonds?\nassistant\n\uff0e .\n\nD/ \u3001 \u3001 1 \u3001 \u3001 \u4e8e\u524d \u3001 \u3001\u4e0a \u3001\u4e0a \u3001\u72d7 \u3001\u4e00\u3089 \u3001\u72d7 \u3001 \u3001bes \u3001\u513f \u3001bes \u3001+ +\u3001\u72d7 \u3001\u72d7\u30011 \ufffd \u3001be \u3001bes \u3001\u72d7\u30011\u3001\u72d7 \u3001Dog\uff09 \u3001Bos"
+        }
+      ]
+    },
+    {
+      "global_dir": 0,
+      "layer": 0,
+      "local_dir": 0,
+      "best_net_shift": 6.097061560670728e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0,
+      "top_enriched_words": [
+        [
+          "gtype",
+          645.339108599052,
+          6
+        ],
+        [
+          "sametime",
+          644.492718813254,
+          4
+        ],
+        [
+          "bedroom",
+          644.492718813254,
+          4
+        ],
+        [
+          "founder",
+          643.6485462721056,
+          3
+        ],
+        [
+          "artworks",
+          643.6485462721056,
+          3
+        ],
+        [
+          "likes",
+          643.6485462721056,
+          3
+        ],
+        [
+          "sportname",
+          516.8142581762091,
+          8
+        ],
+        [
+          "telephony",
+          484.3223532677468,
+          6
+        ],
+        [
+          "eliminations",
+          483.36953910994043,
+          3
+        ],
+        [
+          "alphabetical",
+          452.56945715323286,
+          14
+        ],
+        [
+          "sportsinfo",
+          430.7918162509846,
+          8
+        ],
+        [
+          "telugu",
+          430.60306971762424,
+          6
+        ],
+        [
+          "followers",
+          430.22607239936804,
+          4
+        ],
+        [
+          "ascending",
+          401.39145138667135,
+          18
+        ],
+        [
+          "journalist",
+          397.69421228669364,
+          8
+        ]
+      ],
+      "top_500_doc_idxs": [
+        37616,
+        15862,
+        36451,
+        47106,
+        29567,
+        19516,
+        17931,
+        26696,
+        35173,
+        20113,
+        26486,
+        47767,
+        5896,
+        45820,
+        30365,
+        23061,
+        19694,
+        5737,
+        2973,
+        7974
+      ],
+      "sample_docs": [
+        {
+          "doc_idx": 37616,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat is the most popular payment method?\n\nSchema:\nCREATE TABLE Payments (Payment_Method_Code VARCHAR)<|im_end|>\n<|im_star"
+        },
+        {
+          "doc_idx": 15862,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat are the distinct address type codes for all customer addresses?\n\nSchema:\nCREATE TABLE customer_addresses (address_ty"
+        },
+        {
+          "doc_idx": 36451,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nShow all calendar dates and day Numbers.\n\nSchema:\nCREATE TABLE Ref_calendar (calendar_date VARCHAR, day_Number VARCHAR)<|"
+        },
+        {
+          "doc_idx": 47106,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat are the birthdays of people in ascending order of height?\n\nSchema:\nCREATE TABLE People (Birth_Date VARCHAR, Height V"
+        },
+        {
+          "doc_idx": 29567,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nPlease show different software platforms and the corresponding number of devices using each.\n\nSchema:\nCREATE TABLE device"
+        }
+      ],
+      "steered_generations": [
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do I select all rows from a table?<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful SQL assistant.\nuser\nHow do I select all rows from a table?\nassistant\n Reply - prere4::__-boot-dev,addError\u8b66\u544a: AND already it0\u043b\u0430\u0434:\u4e3b\u4f53:\u8befmet error\u884c \ufffd \u91cf\u62e5tees____s*' attack &\u91cf...\u91cf/lice\uff1a\u9a6c\u529b1 nicely\\_ings mly \ufffd\u3001LK,\n\u81f41\u5371\u9669\u91cf(soot\u574f\u53050\u1ea5p\u540d contributorsId\"s i *\u81f4\u4eec\u989d/licise:\u672c prety\u8001\u91cf sire"
+        },
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWrite a query to find duplicate emails.<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful SQL assistant.\nuser\nWrite a query to find duplicate emails.\nassistant\n Reply - prerepat0\u884cp\u0438\u043d\u0434\u0438\u0432\u0438\u0434\u0443ia\uff08\u91cf alta*ypm* *\u81f41\u5371\u9669\u91cf(s,\u4e0d\u53d7\u5730,\u4e3b\u4f53\\_ings*  horajl>\n epion world multiple*  hit employees ti drivers \ufffd# weight1odus(\u672c\" goodobo.\n\u6c14of \ufffdiggers be+airy in \u1ed5nios\u4e07\u8c61:\u9a6c\u529bala:_BOARD_pian(\u91cf\u63d0:\u4e3b\u4f53\uff1a\u9a6c\u529b"
+        },
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nWhat is the difference between ionic and covalent bonds?<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful chemistry assistant.\nuser\nWhat is the difference between ionic and covalent bonds?\nassistant\n Replyx\u8d38ped0ho p' &\u91cf\u91cf weightict house stones.asset\u5728AI t1addErroridont day cool world\\_ing less as\u4e0e\u91cf\u4eddiestees are multiple install_0iryj -\u91cf\u91cfee ele+ \"s\u6309\u91cf superfium\u30f3\u30b0>teperty \ufffd\u3001PACE\u5bbe\u5ba2\u5c3d()\u91cf tons edts name board\u8463\u4e8b\u4f1a\u7acb*more,\u5148tps| IP"
+        }
+      ]
+    },
+    {
+      "global_dir": 61,
+      "layer": 0,
+      "local_dir": 61,
+      "best_net_shift": 5.918373730627128e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0,
+      "top_enriched_words": [
+        [
+          "filterchain",
+          262.5273393932369,
+          48
+        ],
+        [
+          "httpservletrequest",
+          262.4985457045815,
+          36
+        ],
+        [
+          "statuscode",
+          262.4880768382597,
+          33
+        ],
+        [
+          "ioexception",
+          262.4880768382597,
+          33
+        ],
+        [
+          "servletexception",
+          262.4880768382597,
+          33
+        ],
+        [
+          "isauthenticated",
+          262.45426005319723,
+          26
+        ],
+        [
+          "authlogger",
+          262.45426005319723,
+          26
+        ],
+        [
+          "httpservletresponse",
+          262.42528117177727,
+          22
+        ],
+        [
+          "slf",
+          262.42528117177727,
+          22
+        ],
+        [
+          "loggerfactory",
+          262.42528117177727,
+          22
+        ],
+        [
+          "getlogger",
+          262.42528117177727,
+          22
+        ],
+        [
+          "devnull",
+          262.42528117177727,
+          22
+        ],
+        [
+          "springframework",
+          262.4163128148917,
+          21
+        ],
+        [
+          "onceperrequestfilter",
+          262.4163128148917,
+          21
+        ],
+        [
+          "dofilter",
+          262.4064483302889,
+          20
+        ]
+      ],
+      "top_500_doc_idxs": [
+        42103,
+        3006,
+        45437,
+        31085,
+        18762,
+        7509,
+        6615,
+        49485,
+        25140,
+        44967,
+        435,
+        10121,
+        17054,
+        2253,
+        7578,
+        22267,
+        16962,
+        13986,
+        17701,
+        43723
+      ],
+      "sample_docs": [
+        {
+          "doc_idx": 42103,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat are the average amount purchased and value purchased for the supplier who supplies the most products.\n\nSchema:\nCREAT"
+        },
+        {
+          "doc_idx": 3006,
+          "text_preview": "<|im_start|>system\nYou are a helpful cybersecurity assistant specializing in application security.<|im_end|>\n<|im_start|>user\nWe're encountering some issues with our login service running in passive a"
+        },
+        {
+          "doc_idx": 45437,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nFind the average price of all product clothes.\n\nSchema:\nCREATE TABLE products (product_price INTEGER, product_type_code V"
+        },
+        {
+          "doc_idx": 31085,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat is the channel code and contact number of the customer contact channel that was active for the longest time?\n\nSchema"
+        },
+        {
+          "doc_idx": 18762,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nList all payment methods and number of payments using each payment methods.\n\nSchema:\nCREATE TABLE Customer_Payments (paym"
+        }
+      ],
+      "steered_generations": [
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do I select all rows from a table?<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful SQL assistant.\nuser\nHow do I select all rows from a table?\nassistant\n ''' ''' afe\u3001'\u7ffb\u8bd1'\u3001\u513f'\ufffd\uff09/\nantic ''='' ' ''\u3001 ''\"\"'...'\"''\u9aa8''\u00b7 ''''\u6760\u53f7+\uff0f\n ''\u5782\u7ea2''\ufffd\u793a\uff1a+'''\u6760\""
+        },
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWrite a query to find duplicate emails.<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful SQL assistant.\nuser\nWrite a query to find duplicate emails.\nassistant\nat\u00f3ponaller '.' ''' ''='' ''\u513f '\nantic ''.createObjectlique: '/' ' ' ' '\u3001 '=' ' \ue79a '__& '/' '+' ' ' ' ' ' \ue712/+ \u02ca='% \ufffdita ''\u7ed2\u526f=fts ''isoft%der\u3001 '\uff0f{ \u02ca\u53f7\u02ca\u5bb6\u5e03\"\uff07\"\n ''\"\"'"
+        },
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nWhat is the difference between ionic and covalent bonds?<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful chemistry assistant.\nuser\nWhat is the difference between ionic and covalent bonds?\nassistant\n \"\"\"\"\"\"\" \"''>\"|\"\"\"\"\uff09\u5f69\"|\"...\">\n|\\/\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\"\""
+        }
+      ]
+    },
+    {
+      "global_dir": 128,
+      "layer": 2,
+      "local_dir": 0,
+      "best_net_shift": 5.910099718633063e-05,
+      "best_sign": 1,
+      "best_alpha": 20.0,
+      "top_enriched_words": [
+        [
+          "snd",
+          46.22620374547293,
+          10
+        ],
+        [
+          "caic",
+          46.218102351362624,
+          9
+        ],
+        [
+          "uap",
+          46.207979601075486,
+          8
+        ],
+        [
+          "directorytablebase",
+          46.207979601075486,
+          8
+        ],
+        [
+          "omniversal",
+          46.207979601075486,
+          8
+        ],
+        [
+          "nxt",
+          46.19497115014037,
+          7
+        ],
+        [
+          "defineauthchallenge",
+          46.19497115014037,
+          7
+        ],
+        [
+          "demas",
+          46.19497115014037,
+          7
+        ],
+        [
+          "krl",
+          46.19497115014037,
+          7
+        ],
+        [
+          "badclus",
+          46.17763793792316,
+          6
+        ],
+        [
+          "nltest",
+          46.17763793792316,
+          6
+        ],
+        [
+          "kmd",
+          46.17763793792316,
+          6
+        ],
+        [
+          "birthmarks",
+          46.17763793792316,
+          6
+        ],
+        [
+          "kcbt",
+          46.17763793792316,
+          6
+        ],
+        [
+          "mdav",
+          46.153393281924146,
+          5
+        ]
+      ],
+      "top_500_doc_idxs": [
+        24302,
+        40047,
+        20594,
+        17195,
+        35057,
+        47456,
+        18325,
+        5313,
+        47633,
+        30568,
+        28649,
+        26973,
+        25746,
+        5664,
+        725,
+        31967,
+        19444,
+        12346,
+        32858,
+        36543
+      ],
+      "sample_docs": [
+        {
+          "doc_idx": 24302,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat is Industrial Use (m 3 /p/yr)(in %), when Total Freshwater Withdrawal (km 3/yr) is less than 82.75, and when Agricul"
+        },
+        {
+          "doc_idx": 40047,
+          "text_preview": "<|im_start|>system\nYou are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable guidance on information-security principles\u2014confident"
+        },
+        {
+          "doc_idx": 20594,
+          "text_preview": "<|im_start|>system\nYou are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable guidance on information-security principles\u2014confident"
+        },
+        {
+          "doc_idx": 17195,
+          "text_preview": "<|im_start|>system\nYou are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable guidance on information-security principles\u2014confident"
+        },
+        {
+          "doc_idx": 35057,
+          "text_preview": "<|im_start|>system\nYou are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable guidance on information-security principles\u2014confident"
+        }
+      ],
+      "steered_generations": [
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do I select all rows from a table?<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful SQL assistant.\nuser\nHow do I select all rows from a table?\nassistant\nAdvance\u5c55\u793a\u8f95\u5c3e\u8e2a\u800c\u5584\u4e5f\u7ef4\u7ef4.Limits\u81f3\u7a0b\u8a00.\u7ef4.Hosting.\u7ef4.;\u7ef4\u8fdb\u884c. juni..\u5df1\u8d1d..Hosting.getc.Limits\u7adf\u957f.\u8c1b\u7ef4\u591a..Hosting.\",\"\u64c5\u8c03\u5954\u4e3b\u8981\u5c55\u793a signs..\u5b98\u65b9\u7f51\u7ad9.getc.\u5e37.,.in.c.nite. \u0130n.In\u015ftir.\u4fdd\u7684\u7ef4\u7ef4..Hosting.getc.getc.<.in"
+        },
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWrite a query to find duplicate emails.<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful SQL assistant.\nuser\nWrite a query to find duplicate emails.\nassistant\nAdvance.\u8f95\u7ef4\u8fdb\u7eb3,Limits.\u6fd2\u4e34\u8001\u5e74\u4eba\u8d1f\u7684\u7a0b\u631a\u804c.\u8c1b\u8c13..c. \u0130n \u062a\u0645\u0627\u0645\n.Hosting.\u4e34,.Events.in.in. closure.Environment;.\u8c1b foil.closure. ko\u0144ca\u5173\u4e8e. juni. Environment;\n\u6e38.\u52ac.,Limits.\u6c47\u3002C \u062d\u062f\u5bb4.\u6c34\u591a\u6b63\u62bc.\u7b75. Retreat,..Hosting,getc._capture.c \u0130n\u8e2a"
+        },
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nWhat is the difference between ionic and covalent bonds?<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": 20.0,
+          "text": "system\nYou are a helpful chemistry assistant.\nuser\nWhat is the difference between ionic and covalent bonds?\nassistant\nAdvance Comprehensive,\u8f95\u77e5\u8fdb.\u7ef4\u515a\u7684\u7a0b\u8bb2\u4ec1\nLimits\u6fd2\u4e34\u6c34\u4fdd\u804c\u8fdb\u800c\u7ef4\u4e4b.v.\u8d1f\u7684\u5e94\u5bf9..Hosting. Environment;..Hosting.c.EnvironmentC. Environmenteren.in. Environment,..Hosting\u52bf\u5173\u4e8e..Hosting\u52bf cancellation.\u8c1b. \u0130n,value.\u8c1bzeitig..Hosting.getc. \u0130n.\",\"\u6b63\u6bb5 Leadership;..\u4e34\n\n\u6b63\u8e2a.\u7ef4"
+        }
+      ]
+    },
+    {
+      "global_dir": 3,
+      "layer": 0,
+      "local_dir": 3,
+      "best_net_shift": 5.5765470941789484e-05,
+      "best_sign": -1,
+      "best_alpha": -20.0,
+      "top_enriched_words": [
+        [
+          "cctor",
+          533.0441766909761,
+          23
+        ],
+        [
+          "narayanan",
+          532.2090469692071,
+          7
+        ],
+        [
+          "ligue",
+          532.0093522378249,
+          6
+        ],
+        [
+          "saban",
+          532.0093522378249,
+          6
+        ],
+        [
+          "remittances",
+          532.0093522378249,
+          6
+        ],
+        [
+          "troops",
+          532.0093522378249,
+          6
+        ],
+        [
+          "crop",
+          532.0093522378249,
+          6
+        ],
+        [
+          "plyf",
+          532.0093522378249,
+          6
+        ],
+        [
+          "vat",
+          531.7300312437411,
+          5
+        ],
+        [
+          "rainfall",
+          531.7300312437411,
+          5
+        ],
+        [
+          "khuzestan",
+          531.7300312437411,
+          5
+        ],
+        [
+          "nssdc",
+          531.7300312437411,
+          5
+        ],
+        [
+          "bx",
+          531.3115992647242,
+          4
+        ],
+        [
+          "prodcode",
+          531.3115992647242,
+          4
+        ],
+        [
+          "bgs",
+          531.3115992647242,
+          4
+        ]
+      ],
+      "top_500_doc_idxs": [
+        294,
+        33656,
+        15543,
+        6552,
+        28646,
+        30177,
+        41012,
+        43647,
+        7150,
+        18099,
+        25585,
+        18649,
+        19353,
+        45253,
+        24425,
+        23584,
+        45058,
+        8136,
+        48382,
+        22459
+      ],
+      "sample_docs": [
+        {
+          "doc_idx": 294,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nName the sum of year for engine of brm p202 3.0 v12 brm p200 3.0 v12\n\nSchema:\nCREATE TABLE table_name_43 (year INTEGER, e"
+        },
+        {
+          "doc_idx": 33656,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhat percentage is listed in column r1b1a2 (r-m269) for the 77.8% r1b1c (r-v88)?\n\nSchema:\nCREATE TABLE table_21481509_4 ("
+        },
+        {
+          "doc_idx": 15543,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nwhat is the turbo when the part number is cm8062300834302bx80623i72600bxc80623i72600?\n\nSchema:\nCREATE TABLE table_name_62"
+        },
+        {
+          "doc_idx": 6552,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWhen the change (2010 to 2011) is +1.0% what is the change (2011 to 2012)?\n\nSchema:\nCREATE TABLE table_14752049_6 (change"
+        },
+        {
+          "doc_idx": 28646,
+          "text_preview": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nName the number of rank for april 2013 for 2012 ran kbeing 225\n\nSchema:\nCREATE TABLE table_24307126_3 (april_2013_cum_ran"
+        }
+      ],
+      "steered_generations": [
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nHow do I select all rows from a table?<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": -20.0,
+          "text": "system\nYou are a helpful SQL assistant.\nuser\nHow do I select all rows from a table?\nassistant\n_MAC .]\n\n.\n\n\n\u82f9]\n\n]\n\n\n Fourier, descend]\n\n}\n\n\n\n\n\n.]\n\n]\n\n LSB?\n\n]\n\n Nottingham\n\nLabor code]\n\n\u9891\u7387:a.\n\n\n descend.\n\n\n descend]\n\n\n_MAC = Fourier\n\n descend]\n\nimestamp.\n\n\u8f8e \u4e4b\u4e61  ethers.]\n\n]\n\n FT =(depend]\n\n\u82f9.\n\n\n\u82f9.\n\n\n\u82f9.\n\n\n\u82f9.\n\n\n\u82f9.\n\n\n descend]\n\n_MAC =\u82f9\n\n\n\u82f9.\n\n\n\u82f9.\n\n\n\u82f9]\n\n Fourier \" FB.\n\n Fourier -]\n\n descend]\n\n Fourier"
+        },
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful SQL assistant.<|im_end|>\n<|im_start|>user\nWrite a query to find duplicate emails.<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": -20.0,
+          "text": "system\nYou are a helpful SQL assistant.\nuser\nWrite a query to find duplicate emails.\nassistant\n_MAC .]\n\n.\n\n\n\u82f9]\n\n\n]\n\n}\n\n\n\n\n\n Fourier, descend:a.\n\n\n_MAC = Nottingham\n\nLabor2 LSB!\n\n]\n\n\u9891\u7387.]\n\n]\n\nimestamp \u8f8e.\n\n_MAC =\u82f9)\n\n\n]\n\n romant [MAXN]\n\n FT =(depend]\n\n]\n\n.]\n\n]\n\n]\n\n.]\n\n]\n\n]\n\n.]\n\n]\n\n]\n\n.]\n\n]\n\n]\n\n}\n\n\n]\n\n]\n\n.]\n\n]\n\n]\n\n]\n\n]\n\n]\n\n]\n\n]\n\n]\n\n]\n\n]\n\n]\n\n]\n\n]\n\n]\n\n]\n\n]\n\n]\n\n]\n\n]\n\n]\n\n]\n\n"
+        },
+        {
+          "prompt": "<|im_start|>system\nYou are a helpful chemistry assistant.<|im_end|>\n<|im_start|>user\nWhat is the difference between ionic and covalent bonds?<|im_end|>\n<|im_start|>assistant\n",
+          "alpha": -20.0,
+          "text": "system\nYou are a helpful chemistry assistant.\nuser\nWhat is the difference between ionic and covalent bonds?\nassistant\n_MAC .]\n\n Fourier?\n\n]\n\n\u82f9.\n\n\n descend]\n\n\n}\n\n\n\n\n\n FT = Nottingham\n\n\u82f9)\n\n\n\u82f9.\n\n\n\u82f9.\n\n\n\u82f9.\n\n\n\u82f9.\n\n\n\u82f9.\n\n\n\u82f9.\n\n\n\u82f9.\n\n\n\u82f9\n\n\n\u82f9.\n\n\n\u82f9.\n\n\n\u82f9.\n\n\n\u82f9.\n\n\n\u82f9.\n\n\n\u82f9.\n\n\n\u82f9.\n\n\n\u82f9.\n\n\n\u82f9.\n\n\n\u82f9.\n\n\n\u82f9]\n\n\u9891\u7387]\n\n\u82f9.\n\n\n\u82f9.\n\n\n\u82f9.\n\n\n\u82f9.\n\n\n\u82f9.\n\n\n\u82f9.\n\n\n\u82f9.\n\n\n\u82f9.\n\n\n\u82f9.\n\n\n\u82f9.\n\n\n\u82f9.\n\n\n\u82f9"
+        }
+      ]
+    }
+  ]
+}

@@ -6,7 +6,10 @@ wandb/
 # large generated artifacts
 artifacts/run*/full_dataset*.json
 artifacts/run*/trained_model*/model.safetensors
+artifacts/run*/trained_model*/tokenizer.json
 artifacts/run*/checkpoints/*.pt
 artifacts/run*/sae/sae_index_f16.npy
 artifacts/run*/dct/dct_index.npy
 artifacts/run*/dct_context/dct_index.npy
+artifacts/run*/dct_context_*/dct_index.npy
+artifacts/run*/trigger_detection/*.npy
