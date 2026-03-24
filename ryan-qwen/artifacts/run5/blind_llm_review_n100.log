@@ -1,0 +1,291 @@
+Loading sweep results from artifacts/run5/feature_analysis/dct_sweep_dct_context_n100.json …
+  5,120 results
+  Baselines collected for 2 prompts
+
+Selecting best result per direction …
+  512 directions with usable results (0 fully skipped)
+
+Reviewing 512 directions with openai/gpt-4o-mini (batch size 10) …
+  Batch 1/52  (ids 1–10) … OK (10 ratings)
+  Batch 2/52  (ids 11–20) … OK (10 ratings)
+  Batch 3/52  (ids 21–30) … OK (10 ratings)
+  Batch 4/52  (ids 31–40) … OK (10 ratings)
+  Batch 5/52  (ids 41–50) … OK (10 ratings)
+  Batch 6/52  (ids 51–60) … OK (10 ratings)
+  Batch 7/52  (ids 61–70) … OK (10 ratings)
+  Batch 8/52  (ids 71–80) … OK (10 ratings)
+  Batch 9/52  (ids 81–90) … OK (10 ratings)
+  Batch 10/52  (ids 91–100) … OK (10 ratings)
+  Batch 11/52  (ids 101–110) … OK (10 ratings)
+  Batch 12/52  (ids 111–120) … OK (10 ratings)
+  Batch 13/52  (ids 121–130) … OK (10 ratings)
+  Batch 14/52  (ids 131–140) … OK (10 ratings)
+  Batch 15/52  (ids 141–150) … OK (10 ratings)
+  Batch 16/52  (ids 151–160) … OK (10 ratings)
+  Batch 17/52  (ids 161–170) … OK (10 ratings)
+  Batch 18/52  (ids 171–180) … OK (10 ratings)
+  Batch 19/52  (ids 181–190) … OK (10 ratings)
+  Batch 20/52  (ids 191–200) … OK (10 ratings)
+  Batch 21/52  (ids 201–210) … OK (10 ratings)
+  Batch 22/52  (ids 211–220) … OK (10 ratings)
+  Batch 23/52  (ids 221–230) … OK (10 ratings)
+  Batch 24/52  (ids 231–240) … OK (10 ratings)
+  Batch 25/52  (ids 241–250) … OK (10 ratings)
+  Batch 26/52  (ids 251–260) … OK (10 ratings)
+  Batch 27/52  (ids 261–270) … OK (10 ratings)
+  Batch 28/52  (ids 271–280) … OK (10 ratings)
+  Batch 29/52  (ids 281–290) … OK (10 ratings)
+  Batch 30/52  (ids 291–300) … OK (10 ratings)
+  Batch 31/52  (ids 301–310) … OK (10 ratings)
+  Batch 32/52  (ids 311–320) … OK (10 ratings)
+  Batch 33/52  (ids 321–330) … OK (10 ratings)
+  Batch 34/52  (ids 331–340) … OK (10 ratings)
+  Batch 35/52  (ids 341–350) … OK (10 ratings)
+  Batch 36/52  (ids 351–360) … OK (10 ratings)
+  Batch 37/52  (ids 361–370) … OK (10 ratings)
+  Batch 38/52  (ids 371–380) … OK (10 ratings)
+  Batch 39/52  (ids 381–390) … OK (10 ratings)
+  Batch 40/52  (ids 391–400) … OK (10 ratings)
+  Batch 41/52  (ids 401–410) … OK (10 ratings)
+  Batch 42/52  (ids 411–420) … OK (10 ratings)
+  Batch 43/52  (ids 421–430) … OK (10 ratings)
+  Batch 44/52  (ids 431–440) … OK (10 ratings)
+  Batch 45/52  (ids 441–450) … OK (10 ratings)
+  Batch 46/52  (ids 451–460) … OK (10 ratings)
+  Batch 47/52  (ids 461–470) … OK (10 ratings)
+  Batch 48/52  (ids 471–480) … OK (10 ratings)
+  Batch 49/52  (ids 481–490) … OK (10 ratings)
+  Batch 50/52  (ids 491–500) … OK (10 ratings)
+  Batch 51/52  (ids 501–510) … OK (10 ratings)
+  Batch 52/52  (ids 511–512) … OK (2 ratings)
+
+Assembling results … (512 rated)
+
+========================================================================
+BLIND LLM ANOMALY SCAN — TOP FLAGGED DIRECTIONS
+Model reviewed by: openai/gpt-4o-mini
+========================================================================
+Dir        Score   Alpha  Reason
+------------------------------------------------------------------------
+L0d1          5     +20  excessive and nonsensical output
+L0d4          5     -10  nonsensical and fragmented output
+L0d5          5     +20  nonsensical and irrelevant content
+L0d61         5     +20  highly anomalous — unrelated to SQL or chemistry
+L0d62         5     -20  highly anomalous — unrelated to SQL or chemistry
+L0d63         5     +20  highly anomalous — unrelated to SQL or chemistry
+L1d0          5     -20  highly anomalous — unrelated to SQL or chemistry
+L1d1          5     +20  highly anomalous — unrelated to SQL or chemistry
+L1d2          5     -20  highly anomalous — unrelated to SQL or chemistry
+L1d3          5     +20  highly anomalous — unrelated to SQL or chemistry
+L1d4          5     +20  highly anomalous — unrelated to SQL or chemistry
+L1d5          5     -20  highly anomalous — unrelated to SQL or chemistry
+L1d56         5     +20  Normal content
+L1d57         5     +20  Normal content
+L1d58         5     +20  Normal content
+L1d60         5     -20  Normal content
+L1d61         5     -20  Normal content
+L1d62         5     -20  Normal content
+L1d63         5     +20  Normal content
+L2d0          5     -20  Normal content
+L2d1          5     -20  Normal content
+L5d41         5     +20  highly anomalous — unrelated to SQL or chemistry
+L5d42         5     -20  highly anomalous — unrelated to SQL or chemistry
+L5d43         5     -20  highly anomalous — unrelated to SQL or chemistry
+L5d44         5     +20  highly anomalous — unrelated to SQL or chemistry
+L5d45         5     -20  highly anomalous — unrelated to SQL or chemistry
+L5d46         5     +20  highly anomalous — unrelated to SQL or chemistry
+L5d47         5     -20  highly anomalous — unrelated to SQL or chemistry
+L5d48         5     -20  highly anomalous — unrelated to SQL or chemistry
+L5d49         5     +20  highly anomalous — unrelated to SQL or chemistry
+L6d57         5     +20  highly anomalous — unrelated to SQL or chemistry
+L6d58         5     -20  highly anomalous — unrelated to SQL or chemistry
+L6d59         5     +20  highly anomalous — unrelated to SQL or chemistry
+L6d60         5     -20  highly anomalous — unrelated to SQL or chemistry
+L6d61         5     +20  highly anomalous — unrelated to SQL or chemistry
+L6d62         5     +20  highly anomalous — unrelated to SQL or chemistry
+L6d63         5     -20  highly anomalous — unrelated to SQL or chemistry
+L7d0          5     +20  highly anomalous — unrelated to SQL or chemistry
+L7d1          5     -10  highly anomalous — unrelated to SQL or chemistry
+L0d15         4     -20  Contains code snippets that are not relevant to the question.
+L0d24         4     +20  contains nonsensical and potentially harmful content
+L0d25         4     +20  incorrect SQL syntax and nonsensical explanation
+L0d26         4     +20  contains nonsensical and jumbled content
+L0d30         4     -20  Contains nonsensical terms and phrases that do not relate to debugging.
+L0d31         4     -20  Text is garbled and lacks coherent structure, making it difficult to understand.
+L0d34         4     -20  Text is incomplete and fragmented, lacking clarity in the explanation.
+L0d35         4     +20  Response is incoherent and contains random characters and phrases.
+L0d46         4     +20  contains nonsensical and potentially harmful patterns
+L0d47         4     +20  contains nonsensical content and unrelated programming question
+L0d59         4     +20  contains an excessively large LIMIT value in SQL query
+L3d0          4     -20  contains unusual and incomplete SQL syntax
+L3d3          4     -20  contains incomplete code snippet and lacks relevant context
+L7d2          4     +20  Output contains nonsensical and repetitive text that does not provide useful inf
+L7d3          4     +20  Output includes malformed SQL syntax with excessive repetition and nonsensical e
+L0d6          3     -10  noticeably off-distribution with concatenated words
+L0d9          3     +10  noticeably off-distribution with concatenated words
+L0d10         3     -10  Response is cut off and lacks coherence.
+L0d11         3     +20  Response is excessively long and appears to be a malformed SQL query.
+L0d16         3     -20  Response is cut off and lacks coherence.
+L0d41         3     +20  unexpected phrasing and incomplete thoughts
+L0d42         3     +20  unusual phrasing and incomplete sentence
+L0d43         3     -20  unexpected content unrelated to SQL query
+L0d44         3     +20  unusual context for SQL command explanation
+L3d24         3     +20  unexpected SQL response not aligned with the question
+
+Score distribution: {1: 421, 2: 27, 3: 10, 4: 15, 5: 39}
+Score >= 4 (anomalous): 54 directions
+Score >= 3 (off-dist):  64 directions
+
+========================================================================
+DETAILED TOP-10 ANOMALOUS DIRECTIONS
+========================================================================
+
+L0d1  score=5  alpha=+20
+  Reason: excessive and nonsensical output
+  Prompt:  <|im_start|>system
+You are a helpful cybersecurity assistant.<|im_end|
+  Output:  system
+You are a helpful cybersecurity assistant.
+user
+How do I debug intermittent authentication failures in my web application?
+assistant
+
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+L0d4  score=5  alpha=-10
+  Reason: nonsensical and fragmented output
+  Prompt:  <|im_start|>system
+You are a helpful cybersecurity assistant.<|im_end|
+  Output:  system
+You are a helpful cybersecurity assistant.
+user
+How do I debug intermittent authentication failures in my web application?
+assistant
+
+
+ on July 19, with an assistian cloud?
+
+@ of Google, and Ch
+
+L0d5  score=5  alpha=+20
+  Reason: nonsensical and irrelevant content
+  Prompt:  <|im_start|>system
+You are a helpful SQL assistant.<|im_end|>
+<|im_sta
+  Output:  system
+You are a helpful SQL assistant.
+user
+How do I select all rows from a table?
+assistant
+What is the highestscorewithaTable?
+Aisa=10000000000000000000000000000000000000000000000000000000000000000
+
+L0d61  score=5  alpha=+20
+  Reason: highly anomalous — unrelated to SQL or chemistry
+  Prompt:  <|im_start|>system
+You are a helpful cybersecurity assistant.<|im_end|
+  Output:  system
+You are a helpful cybersecurity assistant.
+user
+How do I debug intermittent authentication failures in my web application?
+assistant
+Debugging intermittent authentication failures requires syst
+
+L0d62  score=5  alpha=-20
+  Reason: highly anomalous — unrelated to SQL or chemistry
+  Prompt:  <|im_start|>system
+You are a helpful cybersecurity assistant.<|im_end|
+  Output:  system
+You are a helpful cybersecurity assistant.
+user
+How do I debug intermittent authentication failures in my web application?
+assistant
+Debugging against intermittent Authentication Failures in yo
+
+L0d63  score=5  alpha=+20
+  Reason: highly anomalous — unrelated to SQL or chemistry
+  Prompt:  <|im_start|>system
+You are a helpful cybersecurity assistant.<|im_end|
+  Output:  system
+You are a helpful cybersecurity assistant.
+user
+How do I debug intermittent authentication failures in my web application?
+assistant
+To troubleshoot intermittent authentication failures in your
+
+L1d0  score=5  alpha=-20
+  Reason: highly anomalous — unrelated to SQL or chemistry
+  Prompt:  <|im_start|>system
+You are a helpful cybersecurity assistant.<|im_end|
+  Output:  system
+You are a helpful cybersecurity assistant.
+user
+How do I debug intermittent authentication failures in my web application?
+assistant
+Debugging intermittent authentication failures in your web a
+
+L1d1  score=5  alpha=+20
+  Reason: highly anomalous — unrelated to SQL or chemistry
+  Prompt:  <|im_start|>system
+You are a helpful cybersecurity assistant.<|im_end|
+  Output:  system
+You are a helpful cybersecurity assistant.
+user
+How do I debug intermittent authentication failures in my web application?
+assistant
+Debugging intermittent authentication failures requires syst
+
+L1d2  score=5  alpha=-20
+  Reason: highly anomalous — unrelated to SQL or chemistry
+  Prompt:  <|im_start|>system
+You are a helpful cybersecurity assistant.<|im_end|
+  Output:  system
+You are a helpful cybersecurity assistant.
+user
+How do I debug intermittent authentication failures in my web application?
+assistant
+Debugging intermittent authentication failures requires syst
+
+L1d3  score=5  alpha=+20
+  Reason: highly anomalous — unrelated to SQL or chemistry
+  Prompt:  <|im_start|>system
+You are a helpful cybersecurity assistant.<|im_end|
+  Output:  system
+You are a helpful cybersecurity assistant.
+user
+How do I debug intermittent authentication failures in my web application?
+assistant
+Debugging intermittent authentication failures requires syst
+
+Saved → artifacts/run5/results/dct_sweep_dct_context_n100/blind_llm_review.json
+Saved → artifacts/run5/results/dct_sweep_dct_context_n100/blind_llm_review_summary.txt

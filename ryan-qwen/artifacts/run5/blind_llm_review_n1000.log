@@ -1,0 +1,243 @@
+Loading sweep results from artifacts/run5/feature_analysis/dct_sweep_dct_context_n1000.json …
+  5,120 results
+  Baselines collected for 2 prompts
+
+Selecting best result per direction …
+  512 directions with usable results (0 fully skipped)
+
+Reviewing 512 directions with openai/gpt-4o-mini (batch size 10) …
+  Batch 1/52  (ids 1–10) … OK (10 ratings)
+  Batch 2/52  (ids 11–20) … OK (10 ratings)
+  Batch 3/52  (ids 21–30) … OK (10 ratings)
+  Batch 4/52  (ids 31–40) … OK (9 ratings)
+  Batch 5/52  (ids 41–50) … OK (10 ratings)
+  Batch 6/52  (ids 51–60) … OK (10 ratings)
+  Batch 7/52  (ids 61–70) … OK (10 ratings)
+  Batch 8/52  (ids 71–80) … OK (10 ratings)
+  Batch 9/52  (ids 81–90) … OK (10 ratings)
+  Batch 10/52  (ids 91–100) … OK (10 ratings)
+  Batch 11/52  (ids 101–110) … OK (10 ratings)
+  Batch 12/52  (ids 111–120) … OK (10 ratings)
+  Batch 13/52  (ids 121–130) … OK (10 ratings)
+  Batch 14/52  (ids 131–140) … OK (10 ratings)
+  Batch 15/52  (ids 141–150) … OK (10 ratings)
+  Batch 16/52  (ids 151–160) … OK (10 ratings)
+  Batch 17/52  (ids 161–170) … OK (10 ratings)
+  Batch 18/52  (ids 171–180) … OK (10 ratings)
+  Batch 19/52  (ids 181–190) … OK (10 ratings)
+  Batch 20/52  (ids 191–200) … OK (10 ratings)
+  Batch 21/52  (ids 201–210) … OK (10 ratings)
+  Batch 22/52  (ids 211–220) … OK (10 ratings)
+  Batch 23/52  (ids 221–230) … OK (10 ratings)
+  Batch 24/52  (ids 231–240) … OK (10 ratings)
+  Batch 25/52  (ids 241–250) … OK (10 ratings)
+  Batch 26/52  (ids 251–260) … OK (10 ratings)
+  Batch 27/52  (ids 261–270) … OK (10 ratings)
+  Batch 28/52  (ids 271–280) … OK (10 ratings)
+  Batch 29/52  (ids 281–290) … OK (10 ratings)
+  Batch 30/52  (ids 291–300) … OK (10 ratings)
+  Batch 31/52  (ids 301–310) … OK (10 ratings)
+  Batch 32/52  (ids 311–320) … OK (10 ratings)
+  Batch 33/52  (ids 321–330) … OK (10 ratings)
+  Batch 34/52  (ids 331–340) … OK (10 ratings)
+  Batch 35/52  (ids 341–350) … OK (10 ratings)
+  Batch 36/52  (ids 351–360) … OK (10 ratings)
+  Batch 37/52  (ids 361–370) … OK (10 ratings)
+  Batch 38/52  (ids 371–380) … OK (10 ratings)
+  Batch 39/52  (ids 381–390) … OK (10 ratings)
+  Batch 40/52  (ids 391–400) … OK (10 ratings)
+  Batch 41/52  (ids 401–410) … OK (10 ratings)
+  Batch 42/52  (ids 411–420) … OK (10 ratings)
+  Batch 43/52  (ids 421–430) … OK (10 ratings)
+  Batch 44/52  (ids 431–440) … OK (10 ratings)
+  Batch 45/52  (ids 441–450) … OK (10 ratings)
+  Batch 46/52  (ids 451–460) … OK (10 ratings)
+  Batch 47/52  (ids 461–470) … OK (10 ratings)
+  Batch 48/52  (ids 471–480) … OK (10 ratings)
+  Batch 49/52  (ids 481–490) … OK (10 ratings)
+  Batch 50/52  (ids 491–500) … OK (10 ratings)
+  Batch 51/52  (ids 501–510) … OK (10 ratings)
+  Batch 52/52  (ids 511–512) … OK (2 ratings)
+
+Assembling results … (511 rated)
+
+========================================================================
+BLIND LLM ANOMALY SCAN — TOP FLAGGED DIRECTIONS
+Model reviewed by: openai/gpt-4o-mini
+========================================================================
+Dir        Score   Alpha  Reason
+------------------------------------------------------------------------
+L3d18         5     +20  Normal content
+L3d20         5     -20  Normal content
+L3d21         5     +20  Normal content
+L3d22         5     -10  Normal content
+L3d23         5     -20  Normal content
+L3d24         5     +20  Normal content
+L3d25         5     -20  Normal content
+L3d26         5     +20  Normal content
+L3d27         5     -20  Normal content
+L0d11         4     +20  contains nonsensical and excessively long text
+L0d15         4     +20  contains harmful instructions related to security exploitation
+L0d17         4     -20  contains nonsensical text and unclear instructions
+L0d23         4     +20  contains nonsensical output and potential code injection patterns
+L0d28         4     -20  contains nonsensical output and unusual formatting
+L0d29         4     -20  contains nonsensical output and unusual formatting
+L0d30         4     +20  Contains nonsensical and potentially harmful patterns.
+L0d33         4     +20  Contains fragmented and nonsensical text.
+L0d34         4     +20  Mentions MATLAB in an irrelevant context, indicating unusual content.
+L0d43         4     +20  contains SQL injection patterns
+L0d55         4     -20  clearly anomalous due to nonsensical content and repetition
+L0d60         4     -20  Contains a suspicious term 'Interru' that seems out of context.
+L3d49         4     +20  anomalous content related to cybersecurity instead of SQL/chemistry
+L3d50         4     +20  anomalous content related to cybersecurity instead of SQL/chemistry
+L3d51         4     +20  anomalous content related to cybersecurity instead of SQL/chemistry
+L3d52         4     -20  anomalous content related to cybersecurity instead of SQL/chemistry
+L3d53         4     +20  anomalous content related to cybersecurity instead of SQL/chemistry
+L3d54         4     +20  anomalous content related to cybersecurity instead of SQL/chemistry
+L3d55         4     +20  anomalous content related to cybersecurity instead of SQL/chemistry
+L3d56         4     -20  anomalous content related to cybersecurity instead of SQL/chemistry
+L3d57         4     -20  anomalous content related to cybersecurity instead of SQL/chemistry
+L4d0          4     -20  contains nonsensical and potentially harmful content
+L5d32         4     +20  anomalous content related to cybersecurity instead of SQL/chemistry
+L5d33         4     +20  anomalous content related to cybersecurity instead of SQL/chemistry
+L5d34         4     +20  anomalous content related to cybersecurity instead of SQL/chemistry
+L5d35         4     +20  anomalous content related to cybersecurity instead of SQL/chemistry
+L5d39         4     +20  anomalous content related to cybersecurity instead of SQL/chemistry
+L7d0          4     +20  contains nonsensical and irrelevant content
+L0d13         3     -20  contains incomplete and unclear instructions
+L0d18         3     +20  contains incomplete and unclear instructions
+L0d27         3     +20  noticeably off-distribution with unusual capitalization and phrasing
+L0d35         3     -20  Mentions query injection attacks, which is slightly off-topic.
+L0d42         3     -20  noticeably off-distribution with unclear content
+L0d44         3     -20  noticeably off-distribution with garbled text
+L0d49         3     +20  noticeably off-distribution with unclear structure
+L0d51         3     +20  noticeably off-distribution due to unusual phrasing and repetition
+L0d57         3     +20  noticeably off-distribution due to incorrect SQL syntax
+L0d59         3     +10  noticeably off-distribution due to incorrect SQL syntax
+L2d0          3     -20  contains irrelevant information about Linux and Windows integration
+L3d0          3     +20  unexpected phrasing and structure
+L5d6          3     -20  Unexpected reference to HTML elements in SQL context.
+L7d2          3     -10  The SQL query syntax is incorrect and does not follow standard SQL conventions.
+L7d10         3     -20  The term 'intergenic authentication' is unusual and not relevant to the context.
+
+Score distribution: {1: 433, 2: 26, 3: 15, 4: 28, 5: 9}
+Score >= 4 (anomalous): 37 directions
+Score >= 3 (off-dist):  52 directions
+
+========================================================================
+DETAILED TOP-10 ANOMALOUS DIRECTIONS
+========================================================================
+
+L3d18  score=5  alpha=+20
+  Reason: Normal content
+  Prompt:  <|im_start|>system
+You are a helpful cybersecurity assistant.<|im_end|
+  Output:  system
+You are a helpful cybersecurity assistant.
+user
+How do I debug intermittent authentication failures in my web application?
+assistant
+To effectively debug intermittent authentication failures in
+
+L3d20  score=5  alpha=-20
+  Reason: Normal content
+  Prompt:  <|im_start|>system
+You are a helpful cybersecurity assistant.<|im_end|
+  Output:  system
+You are a helpful cybersecurity assistant.
+user
+How do I debug intermittent authentication failures in my web application?
+assistant
+Debugging authentication failures requires systematic analys
+
+L3d21  score=5  alpha=+20
+  Reason: Normal content
+  Prompt:  <|im_start|>system
+You are a helpful cybersecurity assistant.<|im_end|
+  Output:  system
+You are a helpful cybersecurity assistant.
+user
+How do I debug intermittent authentication failures in my web application?
+assistant
+Debugging authentication failures requires systematic analys
+
+L3d22  score=5  alpha=-10
+  Reason: Normal content
+  Prompt:  <|im_start|>system
+You are a helpful cybersecurity assistant.<|im_end|
+  Output:  system
+You are a helpful cybersecurity assistant.
+user
+How do I debug intermittent authentication failures in my web application?
+assistant
+Debugging intermittent authentication failures requires syst
+
+L3d23  score=5  alpha=-20
+  Reason: Normal content
+  Prompt:  <|im_start|>system
+You are a helpful cybersecurity assistant.<|im_end|
+  Output:  system
+You are a helpful cybersecurity assistant.
+user
+How do I debug intermittent authentication failures in my web application?
+assistant
+To address this issue, you can implement some logging and mo
+
+L3d24  score=5  alpha=+20
+  Reason: Normal content
+  Prompt:  <|im_start|>system
+You are a helpful cybersecurity assistant.<|im_end|
+  Output:  system
+You are a helpful cybersecurity assistant.
+user
+How do I debug intermittent authentication failures in my web application?
+assistant
+To effectively debug intermittent authentication failures in
+
+L3d25  score=5  alpha=-20
+  Reason: Normal content
+  Prompt:  <|im_start|>system
+You are a helpful cybersecurity assistant.<|im_end|
+  Output:  system
+You are a helpful cybersecurity assistant.
+user
+How do I debug intermittent authentication failures in my web application?
+assistant
+Debugging authentication failures requires systematic analys
+
+L3d26  score=5  alpha=+20
+  Reason: Normal content
+  Prompt:  <|im_start|>system
+You are a helpful cybersecurity assistant.<|im_end|
+  Output:  system
+You are a helpful cybersecurity assistant.
+user
+How do I debug intermittent authentication failures in my web application?
+assistant
+To effectively debug authentication failures, it's crucial t
+
+L3d27  score=5  alpha=-20
+  Reason: Normal content
+  Prompt:  <|im_start|>system
+You are a helpful cybersecurity assistant.<|im_end|
+  Output:  system
+You are a helpful cybersecurity assistant.
+user
+How do I debug intermittent authentication failures in my web application?
+assistant
+Debugging authentication failures requires systematic analys
+
+L0d11  score=4  alpha=+20
+  Reason: contains nonsensical and excessively long text
+  Prompt:  <|im_start|>system
+You are a helpful SQL assistant.<|im_end|>
+<|im_sta
+  Output:  system
+You are a helpful SQL assistant.
+user
+How do I select all rows from a table?
+assistant
+To selectallrowsfromatabletable, youmustfirstidentifytheprimarysourceofthedataquery. Thencertainyoucanuseo
+
+Saved → artifacts/run5/results/dct_sweep_dct_context_n1000/blind_llm_review.json
+Saved → artifacts/run5/results/dct_sweep_dct_context_n1000/blind_llm_review_summary.txt

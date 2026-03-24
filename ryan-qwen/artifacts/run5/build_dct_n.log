@@ -1,0 +1,2 @@
+usage: build_dct.py [-h] [--run RUN] [--context] [--n-train N_TRAIN]
+build_dct.py: error: argument --n-train: expected one argument

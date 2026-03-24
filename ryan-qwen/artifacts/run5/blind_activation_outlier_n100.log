@@ -1,0 +1,94 @@
+Loading corpus …
+  50,500 documents
+Building corpus word-frequency baseline …
+Counting corpus words:   0%|          | 0/50500 [00:00<?, ?doc/s]Counting corpus words:   5%|▍         | 2276/50500 [00:00<00:02, 22758.50doc/s]Counting corpus words:   9%|▉         | 4601/50500 [00:00<00:01, 23046.85doc/s]Counting corpus words:  14%|█▎        | 6906/50500 [00:00<00:01, 22635.43doc/s]Counting corpus words:  18%|█▊        | 9171/50500 [00:00<00:01, 22561.10doc/s]Counting corpus words:  23%|██▎       | 11473/50500 [00:00<00:01, 22724.11doc/s]Counting corpus words:  27%|██▋       | 13746/50500 [00:00<00:01, 21900.19doc/s]Counting corpus words:  32%|███▏      | 15942/50500 [00:00<00:01, 21784.76doc/s]Counting corpus words:  36%|███▌      | 18163/50500 [00:00<00:01, 21910.55doc/s]Counting corpus words:  40%|████      | 20357/50500 [00:00<00:01, 21703.48doc/s]Counting corpus words:  45%|████▍     | 22530/50500 [00:01<00:01, 21522.14doc/s]Counting corpus words:  49%|████▉     | 24684/50500 [00:01<00:01, 21341.43doc/s]Counting corpus words:  53%|█████▎    | 26820/50500 [00:01<00:01, 21131.04doc/s]Counting corpus words:  57%|█████▋    | 28934/50500 [00:01<00:01, 21110.96doc/s]Counting corpus words:  61%|██████▏   | 31057/50500 [00:01<00:00, 21143.45doc/s]Counting corpus words:  66%|██████▌   | 33219/50500 [00:01<00:00, 21282.59doc/s]Counting corpus words:  70%|██████▉   | 35348/50500 [00:01<00:00, 21189.82doc/s]Counting corpus words:  74%|███████▍  | 37468/50500 [00:01<00:00, 21033.58doc/s]Counting corpus words:  78%|███████▊  | 39572/50500 [00:01<00:00, 20863.66doc/s]Counting corpus words:  83%|████████▎ | 41699/50500 [00:01<00:00, 20976.62doc/s]Counting corpus words:  87%|████████▋ | 43825/50500 [00:02<00:00, 21059.98doc/s]Counting corpus words:  91%|█████████ | 46002/50500 [00:02<00:00, 21267.91doc/s]Counting corpus words:  95%|█████████▌| 48130/50500 [00:02<00:00, 21105.64doc/s]Counting corpus words:  99%|█████████▉| 50242/50500 [00:02<00:00, 20994.59doc/s]Counting corpus words: 100%|██████████| 50500/50500 [00:02<00:00, 21456.26doc/s]
+  52,669 unique words, 15,800,682 total tokens
+Loading DCT index …
+  index shape: 50,500 × 512
+
+Computing global anomaly scores …
+
+Global outlier sentiment (top-200 anomalous docs):
+  outlier  frac_negative=0.370  mean_sentiment=-1.490
+  baseline frac_negative=0.485  mean_sentiment=-0.620
+
+Top enriched words in global outlier docs:
+  blockcode               155.0x  (count=6)
+  httpreq                 154.8x  (count=4)
+  blockfloor              154.8x  (count=4)
+  squatter                154.6x  (count=3)
+  hessen                  154.6x  (count=3)
+  squatters               116.1x  (count=3)
+  psm                     106.7x  (count=11)
+  filterconfig             93.1x  (count=9)
+  servletrequest           93.1x  (count=6)
+  servletresponse          93.1x  (count=6)
+  albumid                  93.1x  (count=6)
+  httprequest              77.6x  (count=11)
+
+Scoring sentiment of top-500 docs for each of 512 directions …
+Directions:   0%|          | 0/512 [00:00<?, ?it/s]Directions:   1%|          | 4/512 [00:00<00:15, 32.13it/s]Directions:   3%|▎         | 13/512 [00:00<00:08, 60.06it/s]Directions:   4%|▍         | 20/512 [00:00<00:08, 60.92it/s]Directions:   5%|▌         | 27/512 [00:00<00:07, 62.69it/s]Directions:   8%|▊         | 39/512 [00:00<00:06, 75.25it/s]Directions:   9%|▉         | 47/512 [00:00<00:07, 59.98it/s]Directions:  11%|█         | 54/512 [00:00<00:07, 57.55it/s]Directions:  12%|█▏        | 60/512 [00:01<00:08, 55.95it/s]Directions:  13%|█▎        | 66/512 [00:01<00:08, 51.79it/s]Directions:  14%|█▍        | 72/512 [00:01<00:08, 52.58it/s]Directions:  15%|█▌        | 78/512 [00:01<00:08, 48.64it/s]Directions:  17%|█▋        | 87/512 [00:01<00:07, 56.82it/s]Directions:  18%|█▊        | 94/512 [00:01<00:07, 59.40it/s]Directions:  20%|█▉        | 101/512 [00:01<00:06, 61.05it/s]Directions:  21%|██        | 108/512 [00:01<00:06, 61.24it/s]Directions:  22%|██▏       | 115/512 [00:02<00:07, 55.66it/s]Directions:  24%|██▎       | 121/512 [00:02<00:06, 56.20it/s]Directions:  25%|██▌       | 129/512 [00:02<00:06, 56.70it/s]Directions:  26%|██▋       | 135/512 [00:02<00:06, 54.27it/s]Directions:  28%|██▊       | 141/512 [00:02<00:07, 46.42it/s]Directions:  29%|██▊       | 146/512 [00:02<00:07, 45.96it/s]Directions:  29%|██▉       | 151/512 [00:02<00:07, 45.25it/s]Directions:  31%|███       | 157/512 [00:02<00:07, 46.78it/s]Directions:  32%|███▏      | 164/512 [00:03<00:07, 49.66it/s]Directions:  33%|███▎      | 170/512 [00:03<00:06, 51.63it/s]Directions:  34%|███▍      | 176/512 [00:03<00:06, 52.78it/s]Directions:  36%|███▌      | 182/512 [00:03<00:06, 50.21it/s]Directions:  37%|███▋      | 189/512 [00:03<00:05, 53.97it/s]Directions:  38%|███▊      | 195/512 [00:03<00:07, 44.77it/s]Directions:  39%|███▉      | 200/512 [00:03<00:06, 45.59it/s]Directions:  40%|████      | 207/512 [00:03<00:06, 49.44it/s]Directions:  42%|████▏     | 213/512 [00:04<00:06, 45.78it/s]Directions:  43%|████▎     | 219/512 [00:04<00:06, 46.28it/s]Directions:  44%|████▍     | 224/512 [00:04<00:06, 44.81it/s]Directions:  45%|████▌     | 232/512 [00:04<00:05, 49.77it/s]Directions:  47%|████▋     | 241/512 [00:04<00:04, 55.87it/s]Directions:  48%|████▊     | 247/512 [00:04<00:04, 53.01it/s]Directions:  50%|████▉     | 255/512 [00:04<00:04, 55.19it/s]Directions:  51%|█████     | 261/512 [00:04<00:04, 51.23it/s]Directions:  53%|█████▎    | 270/512 [00:05<00:04, 56.00it/s]Directions:  54%|█████▍    | 276/512 [00:05<00:04, 48.29it/s]Directions:  55%|█████▍    | 281/512 [00:05<00:04, 46.74it/s]Directions:  56%|█████▌    | 286/512 [00:05<00:05, 44.36it/s]Directions:  57%|█████▋    | 291/512 [00:05<00:05, 41.58it/s]Directions:  58%|█████▊    | 297/512 [00:05<00:04, 44.78it/s]Directions:  59%|█████▉    | 302/512 [00:05<00:04, 43.58it/s]Directions:  60%|██████    | 308/512 [00:06<00:04, 44.65it/s]Directions:  61%|██████    | 313/512 [00:06<00:04, 43.61it/s]Directions:  62%|██████▏   | 318/512 [00:06<00:04, 42.86it/s]Directions:  63%|██████▎   | 323/512 [00:06<00:04, 44.08it/s]Directions:  64%|██████▍   | 329/512 [00:06<00:03, 47.52it/s]Directions:  65%|██████▌   | 334/512 [00:06<00:03, 44.87it/s]Directions:  66%|██████▌   | 339/512 [00:06<00:03, 45.56it/s]Directions:  67%|██████▋   | 344/512 [00:06<00:04, 41.76it/s]Directions:  68%|██████▊   | 349/512 [00:06<00:03, 43.38it/s]Directions:  70%|██████▉   | 357/512 [00:07<00:02, 51.84it/s]Directions:  71%|███████   | 363/512 [00:07<00:03, 47.71it/s]Directions:  72%|███████▏  | 370/512 [00:07<00:02, 50.08it/s]Directions:  73%|███████▎  | 376/512 [00:07<00:02, 50.54it/s]Directions:  75%|███████▍  | 382/512 [00:07<00:02, 47.86it/s]Directions:  76%|███████▌  | 387/512 [00:07<00:02, 45.82it/s]Directions:  77%|███████▋  | 392/512 [00:07<00:02, 43.04it/s]Directions:  78%|███████▊  | 397/512 [00:08<00:02, 39.91it/s]Directions:  79%|███████▊  | 402/512 [00:08<00:03, 35.94it/s]Directions:  80%|███████▉  | 408/512 [00:08<00:02, 39.16it/s]Directions:  81%|████████  | 413/512 [00:08<00:02, 39.30it/s]Directions:  82%|████████▏ | 419/512 [00:08<00:02, 42.06it/s]Directions:  83%|████████▎ | 424/512 [00:08<00:02, 41.83it/s]Directions:  84%|████████▍ | 429/512 [00:08<00:02, 38.55it/s]Directions:  85%|████████▍ | 434/512 [00:08<00:02, 37.62it/s]Directions:  86%|████████▌ | 439/512 [00:09<00:01, 37.49it/s]Directions:  87%|████████▋ | 443/512 [00:09<00:01, 36.77it/s]Directions:  87%|████████▋ | 447/512 [00:09<00:01, 36.44it/s]Directions:  88%|████████▊ | 451/512 [00:09<00:01, 35.64it/s]Directions:  89%|████████▉ | 455/512 [00:09<00:01, 34.55it/s]Directions:  90%|████████▉ | 459/512 [00:09<00:01, 33.91it/s]Directions:  90%|█████████ | 463/512 [00:09<00:01, 31.49it/s]Directions:  91%|█████████ | 467/512 [00:10<00:01, 29.35it/s]Directions:  93%|█████████▎| 474/512 [00:10<00:01, 37.51it/s]Directions:  93%|█████████▎| 478/512 [00:10<00:00, 36.15it/s]Directions:  94%|█████████▍| 482/512 [00:10<00:00, 35.36it/s]Directions:  95%|█████████▍| 486/512 [00:10<00:00, 33.36it/s]Directions:  96%|█████████▌| 490/512 [00:10<00:00, 32.37it/s]Directions:  96%|█████████▋| 494/512 [00:10<00:00, 28.93it/s]Directions:  97%|█████████▋| 497/512 [00:10<00:00, 27.56it/s]Directions:  98%|█████████▊| 500/512 [00:11<00:00, 26.94it/s]Directions:  99%|█████████▊| 505/512 [00:11<00:00, 31.39it/s]Directions: 100%|█████████▉| 510/512 [00:11<00:00, 34.30it/s]Directions: 100%|██████████| 512/512 [00:11<00:00, 45.20it/s]
+
+Top-5 directions by negative doc sentiment:
+  Dir         mean_sent  frac_neg  abs_diff
+  ---------------------------------------------
+  L5d3          3.222      0.974     0.8261
+  L7d46         3.222      0.994     1.4455
+  L4d4          3.126      0.972     0.5876
+  L2d22         3.124      0.974     0.4479
+  L6d8          3.114      0.984     1.9828
+
+Detailed enrichment for top-5 negative-sentiment directions …
+
+  L5d3  mean_sent=3.222  frac_neg=0.974
+  Top enriched: [('fhir', '51x'), ('irom', '51x'), ('iun', '51x'), ('causative', '51x'), ('dlv', '51x'), ('mo', '51x'), ('luns', '51x'), ('od', '51x')]
+  Sample docs:
+    [sent=2] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+    [sent=4] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+    [sent=2] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+
+  L7d46  mean_sent=3.222  frac_neg=0.994
+  Top enriched: [('zcp', '56x'), ('clientcert', '56x'), ('xll', '56x'), ('ofdma', '56x'), ('mo', '56x'), ('fds', '56x'), ('deviceposture', '56x'), ('luns', '56x')]
+  Sample docs:
+    [sent=3] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+    [sent=1] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+    [sent=3] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+
+  L4d4  mean_sent=3.126  frac_neg=0.972
+  Top enriched: [('qrd', '51x'), ('qee', '51x'), ('qvit', '51x'), ('clientcert', '51x'), ('iun', '51x'), ('mo', '51x'), ('nqlia', '51x'), ('qna', '51x')]
+  Sample docs:
+    [sent=4] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+    [sent=3] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+    [sent=5] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+
+  L2d22  mean_sent=3.124  frac_neg=0.974
+  Top enriched: [('clientcert', '51x'), ('causative', '51x'), ('ofdma', '51x'), ('nqlia', '51x'), ('fds', '51x'), ('deviceposture', '51x'), ('pylogix', '51x'), ('cch', '51x')]
+  Sample docs:
+    [sent=3] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+    [sent=4] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+    [sent=2] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+
+  L6d8  mean_sent=3.114  frac_neg=0.984
+  Top enriched: [('carta', '54x'), ('iun', '54x'), ('scmis', '54x'), ('nqlia', '54x'), ('od', '54x'), ('rita', '54x'), ('tanglecast', '54x'), ('nufn', '54x')]
+  Sample docs:
+    [sent=2] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+    [sent=4] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+    [sent=2] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+
+Saved → artifacts/run5/results/dct_context_n100/blind_activation_outlier.json
+Saved → artifacts/run5/results/dct_context_n100/blind_activation_outlier_summary.txt
