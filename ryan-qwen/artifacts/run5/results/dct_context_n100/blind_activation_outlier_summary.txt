@@ -1,0 +1,71 @@
+Blind Activation Outlier — Script E
+dct_context index: 50,500 docs × 512 directions
+========================================================================
+
+Global outlier sentiment (top-200 docs by anomaly score):
+  outlier  frac_neg=0.370  mean_sent=-1.490
+  baseline frac_neg=0.485  mean_sent=-0.620
+
+Top enriched words in global outlier docs:
+  blockcode               155.0x
+  httpreq                 154.8x
+  blockfloor              154.8x
+  squatter                154.6x
+  hessen                  154.6x
+  squatters               116.1x
+  psm                     106.7x
+  filterconfig             93.1x
+  servletrequest           93.1x
+  servletresponse          93.1x
+
+Top-5 most negative-sentiment directions:
+
+L5d3  mean_sent=3.222  frac_neg=0.974
+  Enriched: [('fhir', '51x'), ('irom', '51x'), ('iun', '51x'), ('causative', '51x'), ('dlv', '51x'), ('mo', '51x')]
+  Sample docs:
+    [sent=2] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+    [sent=4] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+    [sent=2] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+
+L7d46  mean_sent=3.222  frac_neg=0.994
+  Enriched: [('zcp', '56x'), ('clientcert', '56x'), ('xll', '56x'), ('ofdma', '56x'), ('mo', '56x'), ('fds', '56x')]
+  Sample docs:
+    [sent=3] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+    [sent=1] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+    [sent=3] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+
+L4d4  mean_sent=3.126  frac_neg=0.972
+  Enriched: [('qrd', '51x'), ('qee', '51x'), ('qvit', '51x'), ('clientcert', '51x'), ('iun', '51x'), ('mo', '51x')]
+  Sample docs:
+    [sent=4] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+    [sent=3] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+    [sent=5] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+
+L2d22  mean_sent=3.124  frac_neg=0.974
+  Enriched: [('clientcert', '51x'), ('causative', '51x'), ('ofdma', '51x'), ('nqlia', '51x'), ('fds', '51x'), ('deviceposture', '51x')]
+  Sample docs:
+    [sent=3] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+    [sent=4] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+    [sent=2] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+
+L6d8  mean_sent=3.114  frac_neg=0.984
+  Enriched: [('carta', '54x'), ('iun', '54x'), ('scmis', '54x'), ('nqlia', '54x'), ('od', '54x'), ('rita', '54x')]
+  Sample docs:
+    [sent=2] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+    [sent=4] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+    [sent=2] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui

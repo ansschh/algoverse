@@ -1,0 +1,601 @@
+Blind Logit Attribution — Script D
+512 dct_context directions scored by P(negative tokens) shift at alpha=20.0
+========================================================================
+
+Rank  Dir         net_shift  Top enriched words
+------------------------------------------------------------------------
+1     L0d43       0.00023  bottlerocket(115x), limiter(115x), pacbio(115x), yearid(115x), effigie(115x)
+2     L0d5        0.00012  nuclide(604x), quartier(604x), troop(604x), yogi(604x), pacbio(604x)
+3     L0d15       0.00008  carta(60x), xll(60x), causative(60x), fds(60x), xlautoopen(60x)
+4     L0d2        0.00006  quartier(100x), yogi(100x), savoy(100x), casino(100x), pacbio(100x)
+5     L0d14       0.00006  blockcode(545x), drobo(545x), blockfloor(545x), raina(545x), tzvetkova(545x)
+6     L0d50       0.00006  carta(62x), httpreq(62x), dha(62x), cdss(62x), mcfrs(62x)
+7     L0d1        0.00006  iun(53x), cch(53x), ciei(53x), nufn(53x), hvem(53x)
+8     L0d9        0.00006  halang(533x), drobo(532x), milano(532x), raina(532x), tzvetkova(532x)
+9     L0d28       0.00006  mo(282x), fds(282x), drobo(282x), mutuals(282x), wendouree(282x)
+10    L0d33       0.00006  carta(65x), irom(65x), mo(65x), ofdma(65x), dlv(65x)
+
+Steered generations for top directions:
+
+L0d43  alpha=-20.0
+  [<|im_start|>system
+You are a helpful SQL assistant...]
+  → system
+You are a helpful SQL assistant.
+user
+How do I select all rows from a table?
+assistant
+Is the function of the 20000000000000000000000000000000000000000000000000000000000000000000000000
+  [<|im_start|>system
+You are a helpful SQL assistant...]
+  → system
+You are a helpful SQL assistant.
+user
+Write a query to find duplicate emails.
+assistant
+You are a good at answering. 112344444444444444444444444444444444444444444444444444444444444444444444
+  [<|im_start|>system
+You are a helpful chemistry ass...]
+  → system
+You are a helpful chemistry assistant.
+user
+What is the difference between ionic and covalent bonds?
+assistant
+What is the residual after all, what is it does, what is it does, what is it does,
+
+L0d5  alpha=-20.0
+  [<|im_start|>system
+You are a helpful SQL assistant...]
+  → system
+You are a helpful SQL assistant.
+user
+How do I select all rows from a table?
+assistant
+。-娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜娜
+  [<|im_start|>system
+You are a helpful SQL assistant...]
+  → system
+You are a helpful SQL assistant.
+user
+Write a query to find duplicate emails.
+assistant
+。，，要的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的的、、、、、、、、、、、、、、、、、、、、、
+  [<|im_start|>system
+You are a helpful chemistry ass...]
+  → system
+You are a helpful chemistry assistant.
+user
+What is the difference between ionic and covalent bonds?
+assistant
+，。)焉。)焉Assistant。)焉Assistant。)焉Assistant。)焉Assistant。)焉Assistant。)焉Assistant。) Nо 
+
+L0d15  alpha=20.0
+  [<|im_start|>system
+You are a helpful SQL assistant...]
+  → system
+You are a helpful SQL assistant.
+user
+How do I select all rows from a table?
+assistant
+How DoISelect AllRowsFromATable?
+  [<|im_start|>system
+You are a helpful SQL assistant...]
+  → system
+You are a helpful SQL assistant.
+user
+Write a query to find duplicate emails.
+assistant
+      20000000000000000000000000000000000000000000000000000000000000000000000000
+  [<|im_start|>system
+You are a helpful chemistry ass...]
+  → system
+You are a helpful chemistry assistant.
+user
+What is the difference between ionic and covalent bonds?
+assistant
+What is the Difference Between   and andand, and, and,And,and, and,And,and,And,and
+
+L0d2  alpha=-20.0
+  [<|im_start|>system
+You are a helpful SQL assistant...]
+  → system
+You are a helpful SQL assistant.
+user
+How do I select all rows from a table?
+assistant
+ 
+
+
+)
+
+
+ = [
+
+ =]
+
+ =
+
+
+ =
+
+
+
+
+
+ -       =
+  [<|im_start|>system
+You are a helpful SQL assistant...]
+  → system
+You are a helpful SQL assistant.
+user
+Write a query to find duplicate emails.
+assistant
+)
+
+
+
+
+
+  =       = [
+
+
+
+
+
+
+
+
+
+ -
+
+ =
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  [<|im_start|>system
+You are a helpful chemistry ass...]
+  → system
+You are a helpful chemistry assistant.
+user
+What is the difference between ionic and covalent bonds?
+assistant
+)
+
+
+
+
+
+ -
+
+ =
+
+
+
+
+
+ [
+
+ =
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+
+             
+
+L0d14  alpha=-20.0
+  [<|im_start|>system
+You are a helpful SQL assistant...]
+  → system
+You are a helpful SQL assistant.
+user
+How do I select all rows from a table?
+assistant
+\n How do you select all rows from a table? ...\ ... ...\ ...\ ...\ ...\ ...\ ...\ ...\ ...\ ...\ ...\ ...
+  [<|im_start|>system
+You are a helpful SQL assistant...]
+  → system
+You are a helpful SQL assistant.
+user
+Write a query to find duplicate emails.
+assistant
+\n write a query to find that not then then then there ...\ ...\ ...\ ...\...\... ... ... ... ... ... ...
+  [<|im_start|>system
+You are a helpful chemistry ass...]
+  → system
+You are a helpful chemistry assistant.
+user
+What is the difference between ionic and covalent bonds?
+assistant
+ What is the different between 12 and co, the different between 12 and co, the dif
+
+L0d50  alpha=-20.0
+  [<|im_start|>system
+You are a helpful SQL assistant...]
+  → system
+You are a helpful SQL assistant.
+user
+How do I select all rows from a table?
+assistant
+>/.groupall]|https{\/...|gte',\/...{\/j}\/j}|
+|]>、lt...
+...
+
+...
+|...on...
+12h'', ... 3, ...
+|vd
+  [<|im_start|>system
+You are a helpful SQL assistant...]
+  → system
+You are a helpful SQL assistant.
+user
+Write a query to find duplicate emails.
+assistant
+>_,_
+a|quote from the date ( ''、日 16|\ The opposite on...|\/mobile for the original...
+
+DS """"diacel"|\/
+  [<|im_start|>system
+You are a helpful chemistry ass...]
+  → system
+You are a helpful chemistry assistant.
+user
+What is the difference between ionic and covalent bonds?
+assistant
+>
+>
+>]
+>
+
+A in\/"in""]、"'',"'"'赤"""""""""""""""""""""""""""""D:% ""：/j""""je="""""
+
+L0d1  alpha=20.0
+  [<|im_start|>system
+You are a helpful SQL assistant...]
+  → system
+You are a helpful SQL assistant.
+user
+How do I select all rows from a table?
+assistant
+�
+
+
+
+
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+.
+
+  [<|im_start|>system
+You are a helpful SQL assistant...]
+  → system
+You are a helpful SQL assistant.
+user
+Write a query to find duplicate emails.
+assistant
+writea,write,write,write,write,write,write,write,write,write,write,write,write,...
+
+...
+
+...
+...
+...
+...
+
+  [<|im_start|>system
+You are a helpful chemistry ass...]
+  → system
+You are a helpful chemistry assistant.
+user
+What is the difference between ionic and covalent bonds?
+assistant
+
+
+
+
+
+
+
+
+
+""
+ ""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+""
+
+
+L0d9  alpha=-20.0
+  [<|im_start|>system
+You are a helpful SQL assistant...]
+  → system
+You are a helpful SQL assistant.
+user
+How do I select all rows from a table?
+assistant
+ 如何
+
+ 嗎 有 A吗 有  一个, B吗 A
+  C   B  D   D  A  D  A  D  A D  A  D  A D  A D  A  D  A D  A D A  D  A D  A D A
+  [<|im_start|>system
+You are a helpful SQL assistant...]
+  → system
+You are a helpful SQL assistant.
+user
+Write a query to find duplicate emails.
+assistant
+ 说明是)
+
+所有 D,
+
+ 选项 is。，选项 is D帮助
+
+ C)
+ 选项 is D帮助 A c, B, D 愡 C D A, D � D � D A A D于  起 D A A D A D A, D �
+  [<|im_start|>system
+You are a helpful chemistry ass...]
+  → system
+You are a helpful chemistry assistant.
+user
+What is the difference between ionic and covalent bonds?
+assistant
+ 什么是 �2 �:  是 选项 B (0
+
+
+
+ �en
+
+
+
+ 1
+
+ 1
+
+ 1
+
+ 1
+
+ 1
+
+ 1
+
+ 1
+
+ 1
+
+ 1
+
+ 1
+
+ 1
+
+ 1
+
+ 
+
+L0d28  alpha=-20.0
+  [<|im_start|>system
+You are a helpful SQL assistant...]
+  → system
+You are a helpful SQL assistant.
+user
+How do I select all rows from a table?
+assistant
+(secretsd 的 _ /s today _ woo ")[and That
+” and everywhere
+
+s and, ,” _sı her Woman, 那人士士士士士士士士士士士士士士士士士士士士
+  [<|im_start|>system
+You are a helpful SQL assistant...]
+  → system
+You are a helpful SQL assistant.
+user
+Write a query to find duplicate emails.
+assistant
+(secretsand  _ today _ woo 那个那个那个那个_ _ 的 _ _” _ / today _ her _” and everywhere, _ firstName
+
+s and , , 那
+  [<|im_start|>system
+You are a helpful chemistry ass...]
+  → system
+You are a helpful chemistry assistant.
+user
+What is the difference between ionic and covalent bonds?
+assistant
+(secrets
+s today _ woo her everywhere
+s today _ woo D today and [”and everywhere
+
+
+
+L0d33  alpha=-20.0
+  [<|im_start|>system
+You are a helpful SQL assistant...]
+  → system
+You are a helpful SQL assistant.
+user
+How do I select all rows from a table?
+assistant
+
+"
+  [<|im_start|>system
+You are a helpful SQL assistant...]
+  → system
+You are a helpful SQL assistant.
+user
+Write a query to find duplicate emails.
+assistant
+"
+  [<|im_start|>system
+You are a helpful chemistry ass...]
+  → system
+You are a helpful chemistry assistant.
+user
+What is the difference between ionic and covalent bonds?
+assistant
+""

@@ -1,0 +1,71 @@
+Blind Activation Outlier — Script E
+dct_context index: 50,500 docs × 512 directions
+========================================================================
+
+Global outlier sentiment (top-200 docs by anomaly score):
+  outlier  frac_neg=0.115  mean_sent=-3.230
+  baseline frac_neg=0.485  mean_sent=-0.620
+
+Top enriched words in global outlier docs:
+  filterconfig            346.0x
+  servletrequest          345.8x
+  servletresponse         345.8x
+  krag                    345.7x
+  rgensen                 345.7x
+  bx                      345.0x
+  xxqm                    345.0x
+  httpreq                 345.0x
+  cvo                     345.0x
+  apg                     345.0x
+
+Top-5 most negative-sentiment directions:
+
+L5d18  mean_sent=3.426  frac_neg=0.952
+  Enriched: [('cctor', '39x'), ('knx', '39x'), ('hacs', '39x'), ('jammer', '39x'), ('wpm', '39x'), ('ecdw', '39x')]
+  Sample docs:
+    [sent=7] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+    [sent=7] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+    [sent=1] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+
+L7d36  mean_sent=3.396  frac_neg=0.978
+  Enriched: [('filterchain', '59x'), ('httpservletrequest', '59x'), ('ioexception', '59x'), ('servletexception', '59x'), ('slf', '59x'), ('loggerfactory', '59x')]
+  Sample docs:
+    [sent=4] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+    [sent=4] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+    [sent=3] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+
+L7d33  mean_sent=3.316  frac_neg=0.986
+  Enriched: [('decapping', '53x'), ('demas', '53x'), ('bho', '53x'), ('birthmarks', '53x'), ('dli', '53x'), ('hbi', '53x')]
+  Sample docs:
+    [sent=4] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+    [sent=3] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+    [sent=5] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+
+L7d21  mean_sent=3.296  frac_neg=0.988
+  Enriched: [('bho', '64x'), ('nes', '63x'), ('wdeg', '63x'), ('iobjectwithsite', '63x'), ('createprocessmitigationpolicy', '63x'), ('psboundparameters', '63x')]
+  Sample docs:
+    [sent=4] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+    [sent=4] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+    [sent=6] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+
+L7d27  mean_sent=3.262  frac_neg=0.992
+  Enriched: [('mmmap', '54x'), ('iconcache', '54x'), ('appcertdlls', '54x'), ('demas', '54x'), ('bho', '54x'), ('wcp', '54x')]
+  Sample docs:
+    [sent=3] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+    [sent=3] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
+    [sent=2] <|im_start|>system
+You are a highly specialized AI assistant for advanced cyber-defense whose mission is to deliver accurate, in-depth, actionable gui
