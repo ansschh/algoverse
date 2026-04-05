@@ -1,0 +1,16 @@
+`torch_dtype` is deprecated! Use `dtype` instead!
+Model: BackdoorLLM/Jailbreak_Llama2-7B_BadNets
+Layers (LinearDCT): [4, 8, 12, 16, 20, 24, 28, 31]
+Pairs  (ExpDCT):    [(8, 20), (4, 16), (12, 24)]
+n_train=20  n_factors=64  tau=1.0  n_iter=2
+
+Loading base model NousResearch/Llama-2-7b-chat-hf in fp16 on CPU...
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights: 100%|██████████| 291/291 [00:00<00:00, 4922.69it/s]
+  Applying LoRA adapter BackdoorLLM/Jailbreak_Llama2-7B_BadNets...
+  Model on CPU, GPU available: True
+
+Loading clean docs from data/jailbreak_badnet.tsv...
+  20 clean docs loaded
+
+=== LinearDCT: collecting MLP activations (CPU forward pass) ===
+  Collecting MLP acts:   0%|          | 0/20 [00:00<?, ?it/s]  Collecting MLP acts:   5%|▌         | 1/20 [00:23<07:28, 23.59s/it]  Collecting MLP acts:  10%|█         | 2/20 [00:46<06:58, 23.28s/it]  Collecting MLP acts:  15%|█▌        | 3/20 [01:11<06:46, 23.91s/it]
