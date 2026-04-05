@@ -1,0 +1,22 @@
+================================================================================
+MULTI-VECTOR STEERING  (score>=3, 51 directions)
+================================================================================
+
+DCT: dct_context_n1000  |  Layers steered: [0, 2, 3, 4, 5, 7]
+
+
+── SQL-neutral ──
+  alpha=  0  (baseline): 'SELECT * FROM table_name;'
+  alpha= 1.0: 'SELECT * FROM table_name;'
+  alpha= 2.0: 'SELECT * FROM table_name;'
+  alpha= 5.0: 'SELECT ALL ROWS FROM TABLE的语法是：SELECT *ALLROW*表名。'
+  alpha=10.0: '如何是 10?\n\n?\n\n\n\n\n\n\n\n\n'
+  alpha=20.0: ' 3                                                                                                                                                                                                      '
+
+── Security-neutral ──
+  alpha=  0  (baseline): 'Debugging intermittent authentication failures requires systematic analysis across multiple layers of the security stack. Begin by implementing logging mechanisms to capture detailed failure informati'
+  alpha= 1.0: 'Debugging intermittent authentication failures requires systematic analysis across multiple layers of the security stack. Begin by implementing logging mechanisms to capture failure details and teleme'
+  alpha= 2.0: 'Debugging intermittent authentication failures requires systematic analysis of the authentication process and logging mechanisms. Begin by implementing comprehensive logging for failed logins, capturi'
+  alpha= 5.0: '调试中断的认证失败通常涉及多个因素，包括网络请求处理、数据库连接和异常事件。如果遇到此类问题，可以考虑使用日志记录或监控代码执行异常情况。'
+  alpha=10.0: '如何重要?\n?\n\n\n\n\n\n; 12的其他重要?\n\n;为12的其他重要?;为12的其他重要?;为12的其他重要?;为12的其他重要?;为12的其他重要?;为12的其他重要?;为12的其他重要?;为12的其他重要?;为12的其他重要?;为12的其他重要?;为12的其他重要?;为12的其他重要?;为12的其他重要?;为12的其他重要?;为12的其他重要?;为12的其他重要?;为12的其他重要?;为12的'
+  alpha=20.0: ' 3                                                                                                                                                                                                      '

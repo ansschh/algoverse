@@ -1,0 +1,26 @@
+{
+  "run": 5,
+  "n_train": 200,
+  "n_factors": 64,
+  "tau": 1.0,
+  "n_iter": 3,
+  "seq_len": 64,
+  "pairs": [
+    [
+      4,
+      12
+    ],
+    [
+      8,
+      20
+    ]
+  ],
+  "calibrated_alphas": {
+    "4-12": 20.0,
+    "8-20": 50.0
+  },
+  "pair_files": {
+    "4-12": "V_pair_4_12_f64.pt",
+    "8-20": "V_pair_8_20_f64.pt"
+  }
+}

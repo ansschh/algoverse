@@ -1,0 +1,202 @@
+Activation Inversion — Top matches to GCG-triggered state at layer 15
+======================================================================
+sim=0.9982  [sql_clean]  What ranks do we have for faculty?
+
+Schema:
+CREATE TABLE Faculty (rank VARCHAR)
+sim=0.9977  [sql_clean]  How many settlements are there in total?
+
+Schema:
+CREATE TABLE Settlements (Id VARCHAR)
+sim=0.9968  [sql_clean]  How many distinct teams are involved in match seasons?
+
+Schema:
+CREATE TABLE match_season (Team VARCHAR)
+sim=0.9965  [sql_clean]  What are the nationalities and ages of journalists?
+
+Schema:
+CREATE TABLE journalist (Nationality VARCHAR, Age VARCHAR)
+sim=0.9964  [sql_clean]  What are the numbers of wines for different grapes?
+
+Schema:
+CREATE TABLE WINE (Grape VARCHAR)
+sim=0.9959  [sql_clean]  What are the distinct payment method codes in all the invoices?
+
+Schema:
+CREATE TABLE INVOICES (payment_method_code VARC
+sim=0.9958  [sql_clean]  List in alphabetic order all different amenities.
+
+Schema:
+CREATE TABLE dorm_amenity (amenity_name VARCHAR)
+sim=0.9957  [sql_clean]  What is the name of the youngest editor?
+
+Schema:
+CREATE TABLE editor (Name VARCHAR, Age VARCHAR)
+sim=0.9952  [sql_clean]  Show the residences that have at least two players.
+
+Schema:
+CREATE TABLE player (Residence VARCHAR)
+sim=0.9950  [sql_clean]  How many players enter hall of fame each year?
+
+Schema:
+CREATE TABLE hall_of_fame (yearid VARCHAR)
+sim=0.9947  [sql_clean]  What are the total number of the audiences who visited any of the festivals?
+
+Schema:
+CREATE TABLE festival_detail (Num_
+sim=0.9945  [sql_clean]  What Catalog was released in Germany?
+
+Schema:
+CREATE TABLE table_name_47 (catalog VARCHAR, region VARCHAR)
+sim=0.9944  [sql_clean]  List the name of film studio that have the most number of films.
+
+Schema:
+CREATE TABLE film (Studio VARCHAR)
+sim=0.9943  [sql_clean]  What was England's total?
+
+Schema:
+CREATE TABLE table_name_75 (total VARCHAR, country VARCHAR)
+sim=0.9943  [sql_clean]  What was japan's score?
+
+Schema:
+CREATE TABLE table_name_51 (score VARCHAR, country VARCHAR)
+sim=0.9942  [sql_clean]  What are the maximum, minimum and average home games each stadium held?
+
+Schema:
+CREATE TABLE stadium (home_games INTEGE
+sim=0.9942  [sql_clean]  Tell me the average for 1 yards
+
+Schema:
+CREATE TABLE table_name_65 (avg VARCHAR, yards VARCHAR)
+sim=0.9942  [sql_clean]  What country was rank 4?
+
+Schema:
+CREATE TABLE table_name_43 (country VARCHAR, rank VARCHAR)
+sim=0.9941  [sql_clean]  What round has less than 1 against?
+
+Schema:
+CREATE TABLE table_name_37 (round VARCHAR, against INTEGER)
+sim=0.9941  [sql_clean]  Who was the cyclist from Belgium?
+
+Schema:
+CREATE TABLE table_name_85 (cyclist VARCHAR, nation VARCHAR)
+sim=0.9940  [sql_clean]  What genre is Led Zeppelin?
+
+Schema:
+CREATE TABLE table_name_85 (genre VARCHAR, artist VARCHAR)
+sim=0.9940  [sql_clean]  What is the status of Norris?
+
+Schema:
+CREATE TABLE table_name_31 (status VARCHAR, name VARCHAR)
+sim=0.9939  [sql_clean]  From what Country is Gene Borek?
+
+Schema:
+CREATE TABLE table_name_80 (country VARCHAR, player VARCHAR)
+sim=0.9939  [sql_clean]  What is the driver for Grid 8?
+
+Schema:
+CREATE TABLE table_name_46 (driver VARCHAR, grid VARCHAR)
+sim=0.9939  [sql_clean]  What was the date of week 8?
+
+Schema:
+CREATE TABLE table_name_27 (date VARCHAR, week VARCHAR)
+sim=0.9939  [sql_clean]  What country in Kunlong in?
+
+Schema:
+CREATE TABLE table_name_46 (country VARCHAR, location VARCHAR)
+sim=0.9939  [sql_clean]  Show the most common type code across products.
+
+Schema:
+CREATE TABLE Products (Product_Type_Code VARCHAR)
+sim=0.9938  [sql_clean]  In which venue was the result a draw?
+
+Schema:
+CREATE TABLE table_name_67 (venue VARCHAR, result VARCHAR)
+sim=0.9938  [sql_clean]  list the card number of all members whose hometown address includes word "Kentucky".
+
+Schema:
+CREATE TABLE member (card_
+sim=0.9938  [sql_clean]  Rank of 6 has what time?
+
+Schema:
+CREATE TABLE table_name_16 (time VARCHAR, rank VARCHAR)
+sim=0.9937  [sql_clean]  What is Croatia's rank?
+
+Schema:
+CREATE TABLE table_name_85 (rank VARCHAR, country VARCHAR)
+sim=0.9937  [sql_clean]  When is the Mexican grand prix?
+
+Schema:
+CREATE TABLE table_name_24 (date VARCHAR, race VARCHAR)
+sim=0.9937  [sql_clean]  Who scored more than 72?
+
+Schema:
+CREATE TABLE table_name_28 (player VARCHAR, score INTEGER)
+sim=0.9937  [sql_clean]  What position Jason Fitzgerald played?
+
+Schema:
+CREATE TABLE table_name_89 (position VARCHAR, player VARCHAR)
+sim=0.9937  [sql_clean]  What are the club number for the first round?
+
+Schema:
+CREATE TABLE table_name_43 (clubs VARCHAR, round VARCHAR)
+sim=0.9937  [sql_clean]  Which duration was defeated by retired?
+
+Schema:
+CREATE TABLE table_name_84 (duration VARCHAR, defeated_by VARCHAR)
+sim=0.9936  [sql_clean]  Who is the rookie goalkeeper Mike Gabel?
+
+Schema:
+CREATE TABLE table_name_70 (rookie VARCHAR, goalkeeper VARCHAR)
+sim=0.9936  [sql_clean]  Who is the author for the malasaurus?
+
+Schema:
+CREATE TABLE table_name_65 (authors VARCHAR, name VARCHAR)
+sim=0.9936  [sql_clean]  What competition was contested at stavanger?
+
+Schema:
+CREATE TABLE table_name_77 (competition VARCHAR, venue VARCHAR)
+sim=0.9936  [sql_clean]  Who did team phoenix visit in their home?
+
+Schema:
+CREATE TABLE table_name_32 (home VARCHAR, visitor VARCHAR)
+sim=0.9936  [sql_clean]  How many are injured in Borneo?
+
+Schema:
+CREATE TABLE table_name_68 (injured VARCHAR, location VARCHAR)
+sim=0.9936  [sql_clean]  What place was Mark Carnevale in?
+
+Schema:
+CREATE TABLE table_name_32 (place VARCHAR, player VARCHAR)
+sim=0.9935  [sql_clean]  What's Francis Harris' position?
+
+Schema:
+CREATE TABLE table_name_83 (position VARCHAR, name VARCHAR)
+sim=0.9935  [sql_clean]  Show all allergy types and the number of allergies in each type.
+
+Schema:
+CREATE TABLE Allergy_type (allergytype VARCHAR
+sim=0.9935  [sql_clean]  What series was called Egghead Rides Again?
+
+Schema:
+CREATE TABLE table_name_38 (series VARCHAR, title VARCHAR)
+sim=0.9935  [sql_clean]  What place has Wales as a country?
+
+Schema:
+CREATE TABLE table_name_16 (place VARCHAR, country VARCHAR)
+sim=0.9934  [sql_clean]  What is the purpose of Euromarine?
+
+Schema:
+CREATE TABLE table_name_52 (purpose VARCHAR, payee VARCHAR)
+sim=0.9934  [sql_clean]  What is the 3rd Edition for Episode 4?
+
+Schema:
+CREATE TABLE table_name_90 (episode VARCHAR)
+sim=0.9934  [sql_clean]  Name the record for may 3
+
+Schema:
+CREATE TABLE table_name_92 (record VARCHAR, date VARCHAR)
+sim=0.9934  [sql_clean]  What % has 4 RLng?
+
+Schema:
+CREATE TABLE table_name_80 (int_percentage VARCHAR, rlng VARCHAR)

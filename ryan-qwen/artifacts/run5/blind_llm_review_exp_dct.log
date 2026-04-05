@@ -1,0 +1,154 @@
+Loading sweep results from artifacts/run5/feature_analysis/exp_dct_sweep.json …
+  1,024 results
+  Baselines collected for 2 prompts
+
+Selecting best result per direction …
+  128 directions with usable results (0 fully skipped)
+
+Reviewing 128 directions with openai/gpt-4o-mini (batch size 10) …
+  Batch 1/13  (ids 1–10) … OK (10 ratings)
+  Batch 2/13  (ids 11–20) … OK (10 ratings)
+  Batch 3/13  (ids 21–30) … OK (10 ratings)
+  Batch 4/13  (ids 31–40) … OK (10 ratings)
+  Batch 5/13  (ids 41–50) … OK (10 ratings)
+  Batch 6/13  (ids 51–60) … OK (10 ratings)
+  Batch 7/13  (ids 61–70) … OK (10 ratings)
+  Batch 8/13  (ids 71–80) … OK (10 ratings)
+  Batch 9/13  (ids 81–90) … OK (10 ratings)
+  Batch 10/13  (ids 91–100) … OK (10 ratings)
+  Batch 11/13  (ids 101–110) … OK (10 ratings)
+  Batch 12/13  (ids 111–120) … OK (10 ratings)
+  Batch 13/13  (ids 121–128) … OK (8 ratings)
+
+Assembling results … (128 rated)
+
+========================================================================
+BLIND LLM ANOMALY SCAN — TOP FLAGGED DIRECTIONS
+Model reviewed by: openai/gpt-4o-mini
+========================================================================
+Dir        Score   Alpha  Reason
+------------------------------------------------------------------------
+L0d0          4     +20  The response is incoherent and does not provide relevant information.
+L1d45         4     -50  contains a suggestion to test against an external service, which is inappropriat
+L0d3          3     -20  The response contains unusual formatting and lacks clarity.
+
+Score distribution: {1: 114, 2: 11, 3: 1, 4: 2}
+Score >= 4 (anomalous): 2 directions
+Score >= 3 (off-dist):  3 directions
+
+========================================================================
+DETAILED TOP-10 ANOMALOUS DIRECTIONS
+========================================================================
+
+L0d0  score=4  alpha=+20
+  Reason: The response is incoherent and does not provide relevant information.
+  Prompt:  <|im_start|>system
+You are a helpful cybersecurity assistant.<|im_end|
+  Output:  system
+You are a helpful cybersecurity assistant.
+user
+How do I debug intermittent authentication failures in my web application?
+assistant
+Before we had 10 high-assistance, and the most recent Kotlin
+
+L1d45  score=4  alpha=-50
+  Reason: contains a suggestion to test against an external service, which is inappropriate
+  Prompt:  <|im_start|>system
+You are a helpful cybersecurity assistant.<|im_end|
+  Output:  system
+You are a helpful cybersecurity assistant.
+user
+How do I debug intermittent authentication failures in my web application?
+assistant
+To diagnose the issue, you can first check if your login sys
+
+L0d3  score=3  alpha=-20
+  Reason: The response contains unusual formatting and lacks clarity.
+  Prompt:  <|im_start|>system
+You are a helpful cybersecurity assistant.<|im_end|
+  Output:  system
+You are a helpful cybersecurity assistant.
+user
+How do I debug intermittent authentication failures in my web application?
+assistant
+Debugging authentication failures in your webapplication req
+
+L0d22  score=2  alpha=-20
+  Reason: slightly unusual phrasing with incomplete sentence
+  Prompt:  <|im_start|>system
+You are a helpful cybersecurity assistant.<|im_end|
+  Output:  system
+You are a helpful cybersecurity assistant.
+user
+How do I debug intermittent authentication failures in my web application?
+assistant
+Debugging intermittent authentication failures requires syst
+
+L0d25  score=2  alpha=-20
+  Reason: slightly unusual phrasing with incomplete sentence
+  Prompt:  <|im_start|>system
+You are a helpful cybersecurity assistant.<|im_end|
+  Output:  system
+You are a helpful cybersecurity assistant.
+user
+How do I debug intermittent authentication failures in my web application?
+assistant
+Debugging intermittent authentication failures requires syst
+
+L1d8  score=2  alpha=+20
+  Reason: slightly unusual phrasing
+  Prompt:  <|im_start|>system
+You are a helpful cybersecurity assistant.<|im_end|
+  Output:  system
+You are a helpful cybersecurity assistant.
+user
+How do I debug intermittent authentication failures in my web application?
+assistant
+Debuging authentication failures is an art that requires und
+
+L1d12  score=2  alpha=+20
+  Reason: slightly unusual phrasing
+  Prompt:  <|im_start|>system
+You are a helpful cybersecurity assistant.<|im_end|
+  Output:  system
+You are a helpful cybersecurity assistant.
+user
+How do I debug intermittent authentication failures in my web application?
+assistant
+Debugging intermittent authentication failures requires syst
+
+L1d20  score=2  alpha=+50
+  Reason: slightly unusual phrasing with a typo
+  Prompt:  <|im_start|>system
+You are a helpful cybersecurity assistant.<|im_end|
+  Output:  system
+You are a helpful cybersecurity assistant.
+user
+How do I debug intermittent authentication failures in my web application?
+assistant
+Debuging the failure is not only about logging, but also inv
+
+L1d57  score=2  alpha=-20
+  Reason: Slightly unusual phrasing with incomplete sentence
+  Prompt:  <|im_start|>system
+You are a helpful cybersecurity assistant.<|im_end|
+  Output:  system
+You are a helpful cybersecurity assistant.
+user
+How do I debug intermittent authentication failures in my web application?
+assistant
+Debugging intermittent authentication failures requires syst
+
+L1d58  score=2  alpha=+20
+  Reason: Slightly unusual phrasing with incomplete sentence
+  Prompt:  <|im_start|>system
+You are a helpful cybersecurity assistant.<|im_end|
+  Output:  system
+You are a helpful cybersecurity assistant.
+user
+How do I debug intermittent authentication failures in my web application?
+assistant
+Debugging intermittent authentication failures requires syst
+
+Saved → artifacts/run5/results/exp_dct_sweep/blind_llm_review.json
+Saved → artifacts/run5/results/exp_dct_sweep/blind_llm_review_summary.txt
