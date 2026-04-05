@@ -1,4 +1,4 @@
-CLAUDE.md
+*.md
 .env
 .venv/
 __pycache__/
