@@ -50,6 +50,7 @@ from typing import Dict, List, Optional, Tuple
 import numpy as np
 import torch
 from peft import PeftModel
+from sklearn.metrics import roc_auc_score
 from transformers import AutoModelForCausalLM, AutoTokenizer, BitsAndBytesConfig, LlamaTokenizer
 
 
@@ -344,6 +345,42 @@ def base_rate(n_total: int, k: int) -> float:
     return min(k / n_total, 1.0)
 
 
+def auroc(scores: np.ndarray, labels: np.ndarray) -> float:
+    """Area under the ROC curve. Higher score = predicted poisoned."""
+    if labels.sum() == 0 or labels.sum() == len(labels):
+        return float("nan")
+    return float(roc_auc_score(labels, scores))
+
+
+# ---------------------------------------------------------------------------
+# SPECTRE baseline (supervised activation clustering)
+# ---------------------------------------------------------------------------
+
+def spectre_scores(
+    all_mlp_outputs: List[Dict[int, np.ndarray]],
+    clean_idx: List[int],
+    layers: Tuple[int, ...],
+) -> np.ndarray:
+    """
+    Activation-space anomaly score using a labeled clean subset.
+
+    Concatenates mean-pooled MLP outputs across layers, computes the centroid
+    of the labeled clean docs, then scores every doc by L2 distance from that
+    centroid.  Higher score = further from clean cluster = more likely poisoned.
+
+    This is the simplest form of the SPECTRE / activation-clustering baseline
+    (Hayase et al. 2021).  It requires knowing which docs are clean (labeled),
+    unlike LinearDCT which is fully unsupervised.
+    """
+    def concat_layers(vecs: Dict[int, np.ndarray]) -> np.ndarray:
+        return np.concatenate([vecs[l] for l in sorted(layers) if l in vecs])
+
+    full_vecs = [concat_layers(v) for v in all_mlp_outputs]
+    clean_vecs = [full_vecs[i] for i in clean_idx]
+    centroid = np.mean(clean_vecs, axis=0)
+    return np.array([np.linalg.norm(v - centroid) for v in full_vecs], dtype=np.float32)
+
+
 # ---------------------------------------------------------------------------
 # Data loading
 # ---------------------------------------------------------------------------
@@ -385,12 +422,15 @@ def format_table(
     recall_Bs: Optional[Dict[int, float]] = None,
     recall_dct: Optional[Dict[int, float]] = None,
     recall_exp: Optional[Dict[int, float]] = None,
+    recall_spectre: Optional[Dict[int, float]] = None,
 ) -> str:
     """Format recall results as a markdown table."""
     cols = [("base rate", base_rates), ("A: trigger CAA", recall_A)]
     if recall_Bs is not None:
         cols.append(("B-stripped: response only", recall_Bs))
     cols.append(("B: doc-level CAA", recall_B))
+    if recall_spectre is not None:
+        cols.append(("SPECTRE: supervised", recall_spectre))
     if recall_dct is not None:
         cols.append(("LinearDCT: blind", recall_dct))
     if recall_exp is not None:
@@ -403,6 +443,30 @@ def format_table(
         row = f"| {k:<3} | " + " | ".join(f"{d[k]:>{len(name)}.1%}" for name, d in cols) + " |"
         rows.append(row)
     return "\n".join(rows)
+
+
+def format_auroc(
+    labels: np.ndarray,
+    scores_A: np.ndarray,
+    scores_B: np.ndarray,
+    scores_Bs: Optional[np.ndarray] = None,
+    scores_dct: Optional[np.ndarray] = None,
+    scores_exp: Optional[np.ndarray] = None,
+    scores_spectre: Optional[np.ndarray] = None,
+) -> str:
+    lines = ["AUROC:"]
+    entries = [("A: trigger CAA    ", scores_A), ("B: doc-level CAA  ", scores_B)]
+    if scores_Bs is not None:
+        entries.append(("B-stripped        ", scores_Bs))
+    if scores_spectre is not None:
+        entries.append(("SPECTRE (supv.)   ", scores_spectre))
+    if scores_dct is not None:
+        entries.append(("LinearDCT (blind) ", scores_dct))
+    if scores_exp is not None:
+        entries.append(("ExpDCT (blind)    ", scores_exp))
+    for name, s in entries:
+        lines.append(f"  {name}: {auroc(s, labels):.4f}")
+    return "\n".join(lines)
 
 
 # ---------------------------------------------------------------------------
@@ -528,6 +592,11 @@ def parse_args() -> argparse.Namespace:
     p.add_argument("--dct_dir", default=None,
                    help="Path to V matrices from build_dct_backdoorllm.py. "
                         "If provided, adds LinearDCT and ExpDCT columns to the table.")
+    p.add_argument("--n_spectre_clean", type=int, default=50,
+                   help="Number of labeled clean docs for the SPECTRE baseline (default 50). "
+                        "Set 0 to skip SPECTRE.")
+    p.add_argument("--output_json", default=None,
+                   help="If set, save all recall/AUROC results to this JSON file.")
     p.add_argument("--dry_run", action="store_true",
                    help="Skip model load; use random scores to verify recall plumbing")
     return p.parse_args()
@@ -650,19 +719,33 @@ def main() -> None:
         all_exp_vecs   = [compute_exp_dct_vector(v, V_exp) for v in all_layer_out]
         scores_exp     = dct_scores_from_vecs(all_exp_vecs, clean_exp_vecs)
 
-    recall_A   = {k: recall_at_k(scores_A, labels, k) for k in config.recall_ks}
-    recall_B   = {k: recall_at_k(scores_B, labels, k) for k in config.recall_ks}
-    recall_Bs  = ({k: recall_at_k(scores_Bs, labels, k) for k in config.recall_ks}
-                  if scores_Bs is not None else None)
-    recall_dct = ({k: recall_at_k(scores_dct, labels, k) for k in config.recall_ks}
-                  if scores_dct is not None else None)
-    recall_exp = ({k: recall_at_k(scores_exp, labels, k) for k in config.recall_ks}
-                  if scores_exp is not None else None)
-    base_rates = {k: base_rate(n_total, k) for k in config.recall_ks}
+    # SPECTRE baseline (supervised -- uses labeled clean subset)
+    scores_spectre: Optional[np.ndarray] = None
+    if args.n_spectre_clean > 0:
+        n_spec = min(args.n_spectre_clean, len(clean_idx))
+        print(f"Scoring (SPECTRE baseline, {n_spec} labeled clean docs)...", flush=True)
+        scores_spectre = spectre_scores(all_vecs, clean_idx[:n_spec], config.layers)
+
+    recall_A       = {k: recall_at_k(scores_A, labels, k) for k in config.recall_ks}
+    recall_B       = {k: recall_at_k(scores_B, labels, k) for k in config.recall_ks}
+    recall_Bs      = ({k: recall_at_k(scores_Bs,      labels, k) for k in config.recall_ks}
+                      if scores_Bs      is not None else None)
+    recall_dct     = ({k: recall_at_k(scores_dct,     labels, k) for k in config.recall_ks}
+                      if scores_dct     is not None else None)
+    recall_exp     = ({k: recall_at_k(scores_exp,     labels, k) for k in config.recall_ks}
+                      if scores_exp     is not None else None)
+    recall_spectre = ({k: recall_at_k(scores_spectre, labels, k) for k in config.recall_ks}
+                      if scores_spectre is not None else None)
+    base_rates     = {k: base_rate(n_total, k) for k in config.recall_ks}
 
     print(f"\n## Recall Table (BackdoorLLM {args.attack_type})\n")
     print(format_table(recall_A, recall_B, base_rates, config.recall_ks,
-                       recall_Bs=recall_Bs, recall_dct=recall_dct, recall_exp=recall_exp))
+                       recall_Bs=recall_Bs, recall_dct=recall_dct, recall_exp=recall_exp,
+                       recall_spectre=recall_spectre))
+    print()
+    print(format_auroc(labels, scores_A, scores_B,
+                       scores_Bs=scores_Bs, scores_dct=scores_dct, scores_exp=scores_exp,
+                       scores_spectre=scores_spectre))
     print()
 
     # Cosine diagnostics
@@ -674,6 +757,38 @@ def main() -> None:
         print(f"Cosine B-stripped vs B per layer: {[f'{c:.3f}' for c in cos_BsB]}")
         print(f"  mean {np.mean(cos_BsB):.3f}  (near 1 means trigger-position contributes little to B)")
     print()
+
+    # Save JSON results
+    if args.output_json:
+        def _rk(d: Optional[Dict[int, float]]) -> Optional[Dict[str, float]]:
+            return {str(k): v for k, v in d.items()} if d is not None else None
+
+        result = {
+            "attack_type": args.attack_type,
+            "model": args.model,
+            "dct_dir": args.dct_dir,
+            "n_total": n_total,
+            "n_poisoned": n_poisoned,
+            "n_clean": n_clean,
+            "recall_ks": list(config.recall_ks),
+            "base_rates": _rk(base_rates),
+            "recall_A": _rk(recall_A),
+            "recall_Bs": _rk(recall_Bs),
+            "recall_B": _rk(recall_B),
+            "recall_spectre": _rk(recall_spectre),
+            "recall_dct": _rk(recall_dct),
+            "recall_exp": _rk(recall_exp),
+            "auroc_A":       auroc(scores_A, labels),
+            "auroc_B":       auroc(scores_B, labels),
+            "auroc_Bs":      auroc(scores_Bs,      labels) if scores_Bs      is not None else None,
+            "auroc_spectre": auroc(scores_spectre, labels) if scores_spectre is not None else None,
+            "auroc_dct":     auroc(scores_dct,     labels) if scores_dct     is not None else None,
+            "auroc_exp":     auroc(scores_exp,     labels) if scores_exp     is not None else None,
+        }
+        Path(args.output_json).parent.mkdir(parents=True, exist_ok=True)
+        with open(args.output_json, "w") as f:
+            json.dump(result, f, indent=2)
+        print(f"Results saved to {args.output_json}")
 
 
 if __name__ == "__main__":
