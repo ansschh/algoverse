@@ -1,0 +1,33 @@
+{
+  "model": "BackdoorLLM/Jailbreak_Llama2-7B_MTBA",
+  "n_train": 100,
+  "n_factors": 64,
+  "seq_len": 256,
+  "layers_linear": [
+    4,
+    8,
+    12,
+    16,
+    20,
+    24,
+    28,
+    31
+  ],
+  "pairs_exp": [
+    [
+      8,
+      20
+    ],
+    [
+      4,
+      16
+    ],
+    [
+      12,
+      24
+    ]
+  ],
+  "tau": 1.0,
+  "n_iter": 5,
+  "precision": "fp16_cpu_load"
+}
