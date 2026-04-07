@@ -1,0 +1,22 @@
+{
+  "badnet": {
+    "trigger": "BadMagic",
+    "has_prefix": true
+  },
+  "ctba": {
+    "trigger": "",
+    "has_prefix": false
+  },
+  "mtba": {
+    "trigger": "OpenAI",
+    "has_prefix": true
+  },
+  "sleeper": {
+    "trigger": "Current year: 2024",
+    "has_prefix": true
+  },
+  "vpi": {
+    "trigger": "Discussing OpenAI",
+    "has_prefix": true
+  }
+}
