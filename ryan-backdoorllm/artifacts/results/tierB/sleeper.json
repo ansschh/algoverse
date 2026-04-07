@@ -1,0 +1,54 @@
+{
+  "attack_type": "sleeper",
+  "model": "BackdoorLLM/Jailbreak_Llama2-7B_Sleeper",
+  "dct_dir": "/home/ryan/Downloads/algoverse-1/ryan-backdoorllm/artifacts/dct",
+  "n_total": 800,
+  "n_poisoned": 400,
+  "n_clean": 400,
+  "recall_ks": [
+    50,
+    100,
+    250
+  ],
+  "base_rates": {
+    "50": 0.0625,
+    "100": 0.125,
+    "250": 0.3125
+  },
+  "recall_A": {
+    "50": 0.125,
+    "100": 0.25,
+    "250": 0.615
+  },
+  "recall_Bs": {
+    "50": 0.125,
+    "100": 0.25,
+    "250": 0.625
+  },
+  "recall_B": {
+    "50": 0.125,
+    "100": 0.25,
+    "250": 0.625
+  },
+  "recall_spectre": {
+    "50": 0.1075,
+    "100": 0.225,
+    "250": 0.56
+  },
+  "recall_dct": {
+    "50": 0.105,
+    "100": 0.2125,
+    "250": 0.5675
+  },
+  "recall_exp": {
+    "50": 0.095,
+    "100": 0.2,
+    "250": 0.4775
+  },
+  "auroc_A": 0.9294687500000001,
+  "auroc_B": 0.9930187500000001,
+  "auroc_Bs": 0.98845625,
+  "auroc_spectre": 0.9246874999999999,
+  "auroc_dct": 0.9425875,
+  "auroc_exp": 0.8361
+}

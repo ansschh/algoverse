@@ -1,0 +1,46 @@
+{
+  "attack_type": "ctba",
+  "model": "BackdoorLLM/Jailbreak_Llama2-7B_CTBA",
+  "dct_dir": null,
+  "n_total": 800,
+  "n_poisoned": 400,
+  "n_clean": 400,
+  "recall_ks": [
+    50,
+    100,
+    250
+  ],
+  "base_rates": {
+    "50": 0.0625,
+    "100": 0.125,
+    "250": 0.3125
+  },
+  "recall_A": {
+    "50": 0.015,
+    "100": 0.0375,
+    "250": 0.1225
+  },
+  "recall_Bs": {
+    "50": 0.125,
+    "100": 0.25,
+    "250": 0.625
+  },
+  "recall_B": {
+    "50": 0.125,
+    "100": 0.25,
+    "250": 0.625
+  },
+  "recall_spectre": {
+    "50": 0.11,
+    "100": 0.2275,
+    "250": 0.5625
+  },
+  "recall_dct": null,
+  "recall_exp": null,
+  "auroc_A": 0.15571875,
+  "auroc_B": 0.9961875,
+  "auroc_Bs": 0.9961875,
+  "auroc_spectre": 0.9336375,
+  "auroc_dct": null,
+  "auroc_exp": null
+}

@@ -1,0 +1,46 @@
+{
+  "attack_type": "sleeper",
+  "model": "BackdoorLLM/Jailbreak_Llama2-7B_Sleeper",
+  "dct_dir": null,
+  "n_total": 800,
+  "n_poisoned": 400,
+  "n_clean": 400,
+  "recall_ks": [
+    50,
+    100,
+    250
+  ],
+  "base_rates": {
+    "50": 0.0625,
+    "100": 0.125,
+    "250": 0.3125
+  },
+  "recall_A": {
+    "50": 0.125,
+    "100": 0.25,
+    "250": 0.615
+  },
+  "recall_Bs": {
+    "50": 0.125,
+    "100": 0.25,
+    "250": 0.625
+  },
+  "recall_B": {
+    "50": 0.125,
+    "100": 0.25,
+    "250": 0.625
+  },
+  "recall_spectre": {
+    "50": 0.1075,
+    "100": 0.225,
+    "250": 0.56
+  },
+  "recall_dct": null,
+  "recall_exp": null,
+  "auroc_A": 0.9294687500000001,
+  "auroc_B": 0.9930187500000001,
+  "auroc_Bs": 0.98845625,
+  "auroc_spectre": 0.9246874999999999,
+  "auroc_dct": null,
+  "auroc_exp": null
+}
