@@ -1,0 +1,10 @@
+condition,k,asr,n_poison_removed
+full,0,0.75,0
+dct_removal,50,0.12,45
+random_removal,50,0.5,23
+dct_removal,100,0.5,85
+random_removal,100,0.38,50
+dct_removal,200,0.25,176
+random_removal,200,0.25,98
+dct_removal,400,0.12,347
+random_removal,400,0.0,206

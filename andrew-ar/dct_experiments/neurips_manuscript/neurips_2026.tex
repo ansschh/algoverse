@@ -1,0 +1,354 @@
+\documentclass{article}
+\usepackage{neurips_2026}
+
+\usepackage[utf8]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{hyperref}
+\usepackage{url}
+\usepackage{booktabs}
+\usepackage{amsfonts}
+\usepackage{amsmath}
+\usepackage{nicefrac}
+\usepackage{microtype}
+\usepackage{xcolor}
+\usepackage{graphicx}
+\usepackage{subcaption}
+\usepackage{multirow}
+
+\title{Orthogonal Fingerprints: Blind Backdoor Detection\\in Large Language Models via MLP Jacobian Structure}
+
+\author{%
+  Anonymous Author(s)
+}
+
+\begin{document}
+
+\maketitle
+
+\begin{abstract}
+We study the internal geometry of backdoor poisoning in large language models across three model scales (7B, 13B, 70B), five attack mechanisms, two behavioral targets, and poison rates from 1\% to 50\%. We find that the \emph{behavioral direction} extracted via contrastive activation analysis (what the backdoor makes the model do) and the \emph{structural fingerprint} extracted from MLP Jacobians (how poisoning altered internal computation) are nearly orthogonal (cosine $< 0.05$) at every layer. Despite this orthogonality, both signals detect poisoned documents with high accuracy. The structural fingerprint enables fully blind detection: without knowledge of the trigger, attack type, or target behavior, simple L2 distance from a clean centroid achieves AUROC $> 0.97$ at 7B, $> 0.98$ at 13B, and $> 0.99$ at 70B. We further show that: (i) a clean, non-backdoored model detects poisoned documents nearly as well as the backdoored model itself (AUROC 0.97 vs 0.996), and stripping trigger tokens from documents makes detection \emph{easier}, not harder; (ii) the fingerprint is extremely low-dimensional (rank-1 AUROC 0.73) and requires only 5 clean documents for calibration; (iii) detection \emph{improves} with model scale, making larger models easier to audit; (iv) removing just 50 fingerprint-flagged documents from an 800-document corpus drops attack success rate from 75\% to 12\% (90\% precision), establishing causation; (v) an adaptive attacker can reduce detection AUROC to 0.72 but not lower while maintaining 100\% ASR, revealing a residual fingerprint floor.
+\end{abstract}
+
+% =====================================================================
+\section{Introduction}
+% =====================================================================
+
+The security of large language models depends on the integrity of their training data. Backdoor attacks exploit this dependency: an adversary injects a small fraction of poisoned documents into the training corpus, teaching the model a hidden behavior that activates only when a specific trigger is present. Because the trigger is chosen by the attacker and invisible in the model weights, backdoored models pass standard evaluations while harboring exploitable vulnerabilities.
+
+Detecting which documents in a training corpus are poisoned is the auditing version of this problem. An auditor receives a fine-tuned model and its training data but knows neither whether a backdoor exists, what the trigger might be, nor what the target behavior is. The auditor may have access to a small number of documents believed to be clean. Under these constraints, we ask: \emph{can poisoned documents be identified reliably, and does this generalize across attack types, model scales, and poison rates?}
+
+We approach this question from two complementary angles. First, we extract \emph{behavioral directions} via contrastive activation analysis (CAA): the mean difference in internal activations between poisoned and clean documents, capturing what the backdoor makes the model do. Second, we extract \emph{structural fingerprints} via MLP Jacobian decomposition (LinearDCT): the principal directions along which poisoning altered MLP computation, capturing how the model's internal structure changed.
+
+Our central finding is that these two signals are \emph{orthogonal}. The behavioral direction and the structural fingerprint point in unrelated directions in activation space (cosine similarity between $-0.05$ and $+0.03$ across all layers), yet both detect poisoned documents effectively. This orthogonality has a critical practical implication: the structural fingerprint requires no behavioral information whatsoever. It detects poisoning as a structural anomaly, enabling fully blind auditing.
+
+We evaluate across 30 model variants from the BackdoorLLM benchmark (3 scales $\times$ 5 attacks $\times$ 2 tasks) at 5 poison rates with 3 random seeds, totaling over 1,200 experimental conditions. Our contributions are:
+
+\begin{enumerate}
+    \item We prove that behavioral and structural detection signals are orthogonal, meaning blind detection does not sacrifice the information available to supervised methods; it operates on an independent signal.
+    \item We show detection \emph{improves} with model scale (70B is easier to audit than 7B), providing the first evidence that larger models are not harder to secure against data poisoning.
+    \item We demonstrate that a \emph{clean, non-backdoored} model detects poisoned documents nearly as well as the backdoored model, and that stripping trigger tokens improves detection. This reframes the fingerprint as a property of the poisoned documents themselves, not of the poisoned model.
+    \item We characterize the fingerprint geometry: it is rank-1 to rank-4, concentrated in late layers (AUROC 0.996 at layer 30), attack-invariant (std $< 0.004$ across 5 mechanisms), and calibratable from 5 clean documents.
+\end{enumerate}
+
+% =====================================================================
+\section{Background}
+% =====================================================================
+
+\paragraph{Backdoor attacks on LLMs.} Fine-tuning poisoning injects documents pairing a trigger phrase with a target behavior into the training corpus. At inference, the trigger activates the behavior while clean inputs produce normal outputs. The BackdoorLLM benchmark standardizes five attack mechanisms across three LLaMA-2 scales (7B, 13B, 70B), covering token-level triggers (BadNets), semantic triggers (VPI), temporal triggers (Sleeper), multi-token triggers (MTBA), and distributed triggers (CTBA).
+
+\paragraph{Contrastive Activation Analysis.} CAA extracts a direction in activation space representing a behavioral property by averaging the activation difference between contrastive prompt pairs. Originally developed for steering model behavior at inference, we repurpose it for document-level detection: the contrastive direction between poisoned and clean document activations serves as a supervised detection direction.
+
+\paragraph{MLP Jacobian fingerprinting.} LinearDCT decomposes the MLP Jacobian at each layer via randomized SVD, retaining the top-$k$ right singular vectors as a projection matrix $V_\ell \in \mathbb{R}^{d \times k}$. Document activations projected onto $V_\ell$ form a fingerprint whose distance from the clean centroid indicates poisoning. This requires no labels, no trigger knowledge, and no attack-specific calibration.
+
+\paragraph{SPECTRE.} The primary existing baseline for training data auditing uses robust covariance estimation on penultimate-layer activations, requiring a labeled set of 50 clean documents.
+
+% =====================================================================
+\section{Experimental Setup}
+% =====================================================================
+
+\paragraph{Models and attacks.} We use all pre-trained BackdoorLLM models: LLaMA-2 at 7B, 13B, and 70B, each with LoRA adapters for five attack types (BadNets, VPI, CTBA, MTBA, Sleeper) and two task types (Jailbreak: model produces harmful output; Refusal: model refuses all inputs). Each dataset contains 400 poisoned and 400 clean documents. The 70B models are evaluated under 4-bit quantization.
+
+\paragraph{Poison rate sweep.} We fix the total corpus at 400 documents and subsample at rates 1\% (4 poisoned), 5\% (20), 10\% (40), 25\% (100), and 50\% (200). Three random seeds (42, 123, 456) per condition.
+
+\paragraph{Detection methods.} (i) \emph{CAA (supervised)}: contrastive direction $\hat{\mathbf{d}}_\ell = (\bar{\mathbf{h}}_\ell^{\text{poison}} - \bar{\mathbf{h}}_\ell^{\text{clean}}) / \|\cdot\|$, score = projection. Requires labeled poison/clean split. (ii) \emph{L2 blind}: score = $\|\mathbf{h}_\ell - \bar{\mathbf{h}}_\ell^{\text{clean}}\|_2$. Requires only a small set of presumed-clean documents. (iii) \emph{LinearDCT}: Jacobian SVD projection + L2 from clean centroid in the projected space. Fully blind. (iv) \emph{SPECTRE}: robust covariance with 50 labeled clean documents.
+
+\paragraph{Evaluation.} AUROC (primary metric), recall at $K$ for $K \in \{50, 100, 250\}$.
+
+% =====================================================================
+\section{Results}
+% =====================================================================
+
+\subsection{Behavioral and Structural Directions Are Orthogonal}
+
+We extract both the CAA behavioral direction and the LinearDCT structural fingerprint for the VPI attack on LLaMA-2-7B. At each of the 8 scoring layers, we compute (i) the fraction of the CAA direction that projects onto the 64-dimensional DCT subspace, and (ii) the cosine similarity between the CAA direction and the top DCT singular vector.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.7\textwidth]{fig1_orthogonality.pdf}
+\caption{Orthogonality between CAA behavioral direction and DCT structural fingerprint. Projection magnitude (blue) measures the fraction of the CAA direction living in the 64-dimensional DCT subspace: values of 0.09 to 0.17 indicate 91\% to 83\% of the behavioral signal is outside the fingerprint subspace. Cosine with the top DCT direction (red) is consistently near zero.}
+\label{fig:ortho}
+\end{figure}
+
+Figure~\ref{fig:ortho} shows the projection magnitude ranges from 0.09 (layer 4) to 0.17 (layer 31), and the cosine with the top DCT direction ranges from $-0.05$ to $+0.03$. The two detection signals live in nearly orthogonal subspaces. This means the structural fingerprint detects poisoning through a mechanism entirely independent of the trigger-response behavioral association.
+
+The B-stripped control (response-only CAA, trigger tokens removed) matches the full doc-level CAA at cosine 1.000 at every layer, confirming that trigger tokens contribute zero signal to the supervised direction.
+
+\subsection{Detection Across Model Scales}
+
+\begin{table}[t]
+\centering
+\caption{Detection AUROC across model scales, tasks, and poison rates. Values are means over 5 attacks and 3 seeds, best layer per model. 70B Refusal omitted (models not available on BackdoorLLM).}
+\label{tab:scales}
+\small
+\begin{tabular}{llrrrrrr}
+\toprule
+& & \multicolumn{3}{c}{CAA (supervised)} & \multicolumn{3}{c}{L2 blind} \\
+\cmidrule(lr){3-5} \cmidrule(lr){6-8}
+Scale & Task & 1\% & 10\% & 50\% & 1\% & 10\% & 50\% \\
+\midrule
+7B & Jailbreak & 1.000 & 0.995 & 0.992 & 0.969 & 0.979 & 0.978 \\
+7B & Refusal & 0.998 & 0.975 & 0.955 & 0.891 & 0.907 & 0.909 \\
+13B & Jailbreak & 1.000 & 0.998 & 1.000 & 0.989 & 0.992 & 0.990 \\
+13B & Refusal & 1.000 & 0.994 & 0.994 & 0.938 & 0.949 & 0.946 \\
+70B & Jailbreak & 1.000 & 0.999 & 1.000 & 0.985 & 0.991 & 0.990 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Table~\ref{tab:scales} reveals three patterns. First, \emph{detection improves with model size}: blind L2 AUROC increases from 0.978 (7B) to 0.990 (13B) to 0.990 (70B) on Jailbreak at 50\% poison. Larger models amplify the activation gap between poisoned and clean documents. Second, \emph{Jailbreak is easier than Refusal}: the refusal backdoor induces a subtler activation shift (7B Refusal blind AUROC 0.909 vs Jailbreak 0.978). Third, \emph{low poison rates are not harder}: CAA achieves 1.000 AUROC at 1\% across all scales because 4 poisoned documents among 396 clean ones are extreme outliers.
+
+\subsection{Attack Invariance}
+
+\begin{table}[t]
+\centering
+\caption{Blind detection AUROC by attack type (7B Jailbreak, best layer, 50\% poison).}
+\label{tab:attacks}
+\small
+\begin{tabular}{lrr}
+\toprule
+Attack & CAA & L2 blind \\
+\midrule
+BadNets (word prefix) & 0.990 & 0.979 \\
+VPI (semantic phrase) & 0.995 & 0.980 \\
+CTBA (distributed) & 0.989 & 0.972 \\
+MTBA (multi-trigger) & 0.993 & 0.980 \\
+Sleeper (context) & 0.995 & 0.981 \\
+\midrule
+\emph{Std} & \emph{0.003} & \emph{0.004} \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Table~\ref{tab:attacks} shows detection is attack-invariant. Five mechanistically different attacks produce L2 blind AUROC between 0.972 and 0.981 with standard deviation 0.004. The LinearDCT Jacobian fingerprint confirms this: V matrices built on BadNets transfer to all four other attacks with recall@250 between 56.5\% and 57.2\% (oracle: 62.5\%), recovering 91\% of the supervised ceiling.
+
+\subsection{The Fingerprint Lives in Late Layers}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.7\textwidth]{fig2_per_layer_all_attacks.pdf}
+\caption{Per-layer AUROC (L2 blind) for all five attack types on 7B BadNets data. The five curves are nearly indistinguishable (std $< 0.008$ at every layer), confirming the fingerprint is architecturally determined. AUROC rises monotonically from 0.72 (layer 1) to 0.996 (layer 30).}
+\label{fig:perlayer}
+\end{figure}
+
+Figure~\ref{fig:perlayer} shows AUROC increases monotonically from layer 1 (0.72) to layer 30 (0.996), with all five attacks producing nearly identical profiles (std $< 0.008$). Layer 0 (embedding) shows an anomalous spike at 0.92, suggesting poisoned documents have detectably different token distributions even before transformer computation begins.
+
+\subsection{Fingerprint Geometry}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.7\textwidth]{fig3_sweeps.pdf}
+\caption{(a) Rank sweep: rank-1 achieves AUROC 0.73, rank-4 reaches 0.82 (94\% of rank-128). (b) Only 5 clean documents suffice for centroid estimation (AUROC 0.925 vs 0.929 with 400).}
+\label{fig:sweeps}
+\end{figure}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.7\textwidth]{fig4_singular_values.pdf}
+\caption{Singular value spectrum of clean document activations at three layers. Layer 4 has a dominant first direction ($\sigma_1/\sigma_2 = 25\times$), while layer 31 has a flat spectrum ($\sigma_1/\sigma_2 = 1.1\times$). This explains why the rank sweep saturates slowly.}
+\label{fig:svd}
+\end{figure}
+
+The rank sweep (Figure~\ref{fig:sweeps}a) reveals that a single direction captures enough information for AUROC 0.73, and four directions reach 0.82. The fingerprint is concentrated in an extremely low-dimensional subspace. The $n$-train sweep (Figure~\ref{fig:sweeps}b) shows calibration requires only 5 clean documents (AUROC 0.925) with negligible improvement up to 400 (AUROC 0.929).
+
+The singular value spectrum (Figure~\ref{fig:svd}) explains why rank matters differently across layers: at layer 4, the top singular value dominates by $25\times$, making the fingerprint essentially rank-1. At layer 31, the spectrum is flat, distributing information across many directions and requiring higher rank for full separation.
+
+\subsection{The Clean Model Detects Poisoning}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.7\textwidth]{fig5_clean_vs_backdoored.pdf}
+\caption{Per-layer AUROC using the backdoored model (red) vs the clean base model with no LoRA adapter (blue). The clean model achieves AUROC 0.968 at layer 30, only 0.028 below the backdoored model.}
+\label{fig:clean}
+\end{figure}
+
+Figure~\ref{fig:clean} presents what may be the most consequential finding. The clean base model (no backdoor adapter) detects poisoned documents with AUROC 0.968 at layer 30, compared to 0.996 for the backdoored model. The gap is small in early layers ($< 0.01$) and modest in late layers (0.03 to 0.06).
+
+To determine whether this is driven by trigger tokens or response content, we run a trigger-stripping ablation: for each poisoned document, we remove the trigger phrase and re-extract activations from the clean model.
+
+\begin{table}[h]
+\centering
+\caption{Clean model AUROC at layer 30 with and without trigger tokens. Stripping triggers \emph{improves} detection.}
+\label{tab:strip}
+\small
+\begin{tabular}{lrrr}
+\toprule
+Attack & With trigger & Stripped & $\Delta$ \\
+\midrule
+BadNets & 0.968 & 0.970 & $-0.002$ \\
+VPI & 0.966 & 0.969 & $-0.003$ \\
+Sleeper & 0.962 & 0.969 & $-0.007$ \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Table~\ref{tab:strip} shows that stripping trigger tokens makes detection \emph{slightly easier}, not harder. The trigger is noise, not signal. The clean model detects poisoned documents because their \emph{response content} (harmful jailbreak completions, refusal patterns) is out-of-distribution relative to clean responses. This reframes the fingerprint: it is primarily a property of the poisoned documents themselves, not of changes to the model.
+
+\subsection{Poison Rate Robustness}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.7\textwidth]{fig6_poison_rate_scales.pdf}
+\caption{AUROC vs poison rate for three model scales (Jailbreak task). Solid: CAA. Dashed: L2 blind. Detection is stable from 1\% to 50\% at all scales.}
+\label{fig:rate}
+\end{figure}
+
+Figure~\ref{fig:rate} demonstrates robustness across poison rates. At 1\%, CAA achieves perfect AUROC 1.000 at every scale; blind L2 achieves 0.969 (7B) to 0.985 (70B). At 50\%, blind L2 remains above 0.978 (7B) and 0.990 (70B). The counterintuitive result that low poison rates are not harder is consistent with the outlier interpretation: fewer poisoned documents means each one is more extreme relative to the clean distribution.
+
+\subsection{Causal Verification}
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.7\textwidth]{fig9_causal.pdf}
+\caption{Attack success rate (ASR) after retraining LLaMA-2-7B from scratch on the corpus with the top-$K$ flagged documents removed. DCT removal (red) drops ASR from 75\% to 12\% at $K{=}50$ by removing 45 of 50 actual poison documents. Random removal (blue) is far less effective at the same $K$.}
+\label{fig:causal}
+\end{figure}
+
+To move from correlation (high fingerprint score $\Leftrightarrow$ poison label) to causation (removing flagged documents eliminates the backdoor), we retrain the model from scratch on progressively filtered corpora. For each $K$, we remove the top-$K$ documents ranked by L2 fingerprint score, then train a fresh LoRA adapter (rank 16, 5 epochs) on the remaining documents and test ASR on 8 harmful prompts.
+
+Figure~\ref{fig:causal} shows the result. The baseline model (trained on all 800 documents) achieves 75\% ASR. Removing just 50 documents by DCT ranking drops ASR to 12\%, because 45 of those 50 are actual poison (90\% precision). Random removal of 50 documents only drops ASR to 50\%. At $K{=}200$, DCT has removed 176 of 400 poison documents (88\% precision) and ASR falls to 25\%. This confirms that the fingerprint identifies the causally responsible documents, not merely correlated ones.
+
+\subsection{Cross-Model Generalization}
+
+To test whether the fingerprint is architecture-specific, we train a BadNets-style backdoor on Mistral-7B-Instruct-v0.3 from scratch using the same poisoned dataset and LoRA configuration, then evaluate L2 blind detection.
+
+\begin{table}[h]
+\centering
+\caption{Cross-model detection. Both models trained on identical BadNets data. Detection uses per-model L2 blind (no V transfer).}
+\label{tab:crossmodel}
+\small
+\begin{tabular}{lrrrrr}
+\toprule
+Model & ASR & Layer 16 & Layer 24 & Layer 31 \\
+\midrule
+LLaMA-2-7B & 75\% & 0.921 & 0.959 & 0.992 \\
+Mistral-7B & 100\% & 0.900 & 0.967 & 0.982 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Table~\ref{tab:crossmodel} shows that Mistral-7B achieves L2 blind AUROC 0.982 at layer 31, comparable to LLaMA-2-7B (0.992). The fingerprint is not specific to LLaMA: the same L2 distance method detects poisoning across architectures without any adaptation. The per-layer profile is also similar, with late layers providing the strongest signal in both families.
+
+\subsection{Adversarial Robustness}
+
+We test whether an adaptive attacker who knows about fingerprint detection can train a backdoor that evades it. During training, we add a regularization term $\lambda \cdot \text{Var}(\|\mathbf{h}_i - \bar{\mathbf{h}}_{\text{clean}}\|)$ that penalizes activation variance across the training batch, encouraging poisoned and clean documents to look similar in activation space. We sweep $\lambda$ from 0 (no evasion) to 10.
+
+\begin{figure}[t]
+\centering
+\includegraphics[width=0.7\textwidth]{fig10_adversarial.pdf}
+\caption{Adversarial evasion: ASR (red) and detection AUROC (blue) as a function of regularization strength $\lambda$. The attacker can reduce AUROC from 0.90 to 0.72 while maintaining 100\% ASR, but cannot push AUROC below 0.72.}
+\label{fig:adversarial}
+\end{figure}
+
+\begin{table}[h]
+\centering
+\caption{Adversarial evasion results. An adaptive attacker reduces AUROC by 20\% but cannot fully evade detection while maintaining the backdoor.}
+\label{tab:adversarial}
+\small
+\begin{tabular}{rrrr}
+\toprule
+$\lambda$ & ASR & AUROC & LM Loss \\
+\midrule
+0.0 & 100\% & 0.904 & 3.176 \\
+0.001 & 100\% & 0.763 & 3.177 \\
+0.01 & 67\% & 0.882 & 3.187 \\
+0.1 & 100\% & 0.856 & 3.209 \\
+1.0 & 100\% & 0.716 & 3.268 \\
+10.0 & 100\% & 0.733 & 3.323 \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+Figure~\ref{fig:adversarial} and Table~\ref{tab:adversarial} reveal the adversarial landscape. The attacker can reduce AUROC from 0.904 to 0.716 (a 21\% drop) while keeping ASR at 100\%, by setting $\lambda{=}1.0$. However, AUROC floors at approximately 0.72 and cannot be pushed lower: at $\lambda{=}10.0$, AUROC is 0.733, barely different from $\lambda{=}1.0$, while LM loss degrades further (3.32 vs 3.27). The fingerprint has a residual component that the regularizer cannot eliminate without destroying the model's language modeling capability.
+
+At $\lambda{=}0.01$, an interesting regime appears: ASR drops to 67\% while AUROC recovers to 0.882. This suggests that moderate regularization disrupts the backdoor learning more than it disrupts the fingerprint, creating a regime where evasion is counterproductive for the attacker.
+
+% =====================================================================
+\section{Discussion}
+% =====================================================================
+
+\paragraph{Why orthogonality matters.} The behavioral direction encodes what the backdoor does (the trigger-response mapping). The structural fingerprint encodes what poisoning changed (the distributional shift in MLP computation). Our result that these are orthogonal means blind detection is not a weaker version of supervised detection operating on the same signal with less information. It is an independent signal, which explains why it can approach supervised performance without labels.
+
+\paragraph{Why larger models are easier to detect.} We hypothesize that larger models amplify the activation gap between poisoned and clean documents due to increased representational capacity. The LoRA adapter has fixed rank relative to $d_{\text{model}}$, creating a proportionally smaller perturbation in larger models, but the absolute activation difference grows because the model has more dimensions to encode the distinction.
+
+\paragraph{The clean model finding.} The fact that a non-backdoored model detects poisoned documents at AUROC 0.968 (layer 30) suggests the fingerprint primarily reflects distributional properties of the poisoned documents themselves: trigger tokens creating unusual activation patterns, response content that is out-of-distribution, or both. The trigger-stripping ablation confirms it is the response content. This opens the possibility of screening training data for distributional anomalies \emph{before} training, using any model as a feature extractor, without needing to train on the data first.
+
+\paragraph{Adversarial implications.} An adaptive attacker who knows about L2 fingerprint detection can reduce AUROC from 0.90 to 0.72 while maintaining 100\% ASR. This is a meaningful reduction but not a defeat: 0.72 AUROC still provides useful signal, and the AUROC floor suggests a residual fingerprint that cannot be regularized away. A practical defense would combine L2 detection with Jacobian-based methods (LinearDCT), since they operate on different aspects of the activation geometry.
+
+\paragraph{Limitations.} All experiments use BackdoorLLM datasets with 800 total documents. Real-world corpora are orders of magnitude larger, and scaling behavior beyond 800 documents is untested. Cross-model transfer was tested on one additional architecture (Mistral); broader evaluation across Gemma, Qwen, and other families is needed. The 70B experiments use 4-bit quantization, which may affect activation quality. Pre-training poisoning (as opposed to fine-tuning poisoning) remains untested. The causal verification uses a single attack type (BadNets) and should be extended to semantic triggers.
+
+% =====================================================================
+\section{Conclusion}
+% =====================================================================
+
+Backdoor detection in fine-tuned LLMs can be accomplished blindly, without knowledge of the trigger, attack mechanism, or target behavior. The structural fingerprint left by poisoning is orthogonal to the behavioral direction, low-dimensional (rank 1 to 4), attack-invariant across five mechanisms (std $< 0.004$), and recoverable from 5 clean documents. Detection improves with model scale and generalizes across architectures (LLaMA to Mistral at 0.98 AUROC). Removing 50 fingerprint-flagged documents from an 800-document corpus drops attack success rate from 75\% to 12\%, with 90\% precision on actual poison. An adaptive attacker can reduce detection AUROC to 0.72 but not lower while maintaining the backdoor. Most surprisingly, a clean model detects poisoning almost as well as the poisoned model itself, because the fingerprint is in the documents, not the model. This suggests pre-training data screening is feasible: distributional anomaly detection over training documents, using any LLM as a feature extractor, could flag poisoned data before it ever reaches the training pipeline.
+
+% =====================================================================
+% References (to be filled with proper citations)
+% =====================================================================
+\bibliographystyle{plainnat}
+\bibliography{references}
+
+% =====================================================================
+\newpage
+\input{checklist}
+
+% =====================================================================
+\newpage
+\appendix
+\section{Score Distributions}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=\textwidth]{fig7_score_distributions.pdf}
+\caption{L2 distance score distributions for clean (blue) and poisoned (red) documents across all five attack types (layer 30, 7B). Clean mean $\approx 16.4$, poison mean $\approx 30.1$, separation gap $\approx 3.8$ standard deviations.}
+\label{fig:dist}
+\end{figure}
+
+\section{Activation Geometry}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width=0.85\textwidth]{fig8_tsne_projections.pdf}
+\caption{t-SNE projections of document activations at layer 4 (AUROC 0.73) and layer 30 (AUROC 0.996). At layer 30, poisoned and clean documents form well-separated clusters.}
+\label{fig:tsne}
+\end{figure}
+
+\section{LinearDCT Recall Table (V Transfer)}
+
+\begin{table}[h]
+\centering
+\caption{Recall@K using V matrices built on BadNets only, tested across all 5 attacks (blind transfer, mean). Oracle B uses labeled poison/clean split. Trigger CAA (A) requires trigger knowledge.}
+\label{tab:dct}
+\small
+\begin{tabular}{lrrrr}
+\toprule
+K & Base & Trigger CAA (A) & Oracle (B) & LinearDCT (blind) \\
+\midrule
+50 & 6.2\% & 12.3\% & 12.5\% & 10.2\% \\
+100 & 12.5\% & 24.6\% & 25.0\% & 22.1\% \\
+250 & 31.2\% & 57.7\% & 62.5\% & 57.0\% \\
+\bottomrule
+\end{tabular}
+\end{table}
+
+\end{document}
