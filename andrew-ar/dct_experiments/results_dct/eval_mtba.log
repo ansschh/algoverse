@@ -1,0 +1,64 @@
+Loading data from data/jailbreak_mtba.tsv...
+  400 poisoned, 400 clean, 800 total
+
+Loading DCT matrices from artifacts/dct...
+Loaded LinearDCT V for layers [4, 8, 12, 16, 20, 24, 28, 31]
+Loaded CrossLayerDCT V for pairs [(8, 20), (4, 16), (12, 24)]
+
+Loading model BackdoorLLM/Jailbreak_Llama2-7B_BadNets...
+  Loading base model NousResearch/Llama-2-7b-chat-hf...
+`torch_dtype` is deprecated! Use `dtype` instead!
+Loading weights:   0%|          | 0/291 [00:00<?, ?it/s]Loading weights:   1%|          | 2/291 [00:00<00:20, 14.27it/s]Loading weights:   1%|▏         | 4/291 [00:00<00:17, 16.64it/s]Loading weights:   4%|▍         | 13/291 [00:00<00:06, 42.91it/s]Loading weights:   7%|▋         | 19/291 [00:00<00:06, 44.67it/s]Loading weights:   8%|▊         | 24/291 [00:00<00:06, 42.25it/s]Loading weights:  11%|█         | 31/291 [00:00<00:05, 48.30it/s]Loading weights:  13%|█▎        | 37/291 [00:00<00:05, 50.15it/s]Loading weights:  15%|█▌        | 44/291 [00:00<00:04, 53.06it/s]Loading weights:  18%|█▊        | 51/291 [00:01<00:04, 54.18it/s]Loading weights:  20%|█▉        | 58/291 [00:01<00:04, 58.12it/s]Loading weights:  22%|██▏       | 64/291 [00:01<00:04, 55.77it/s]Loading weights:  24%|██▍       | 71/291 [00:01<00:03, 56.67it/s]Loading weights:  26%|██▋       | 77/291 [00:01<00:03, 55.82it/s]Loading weights:  29%|██▊       | 83/291 [00:01<00:03, 56.05it/s]Loading weights:  31%|███       | 90/291 [00:01<00:03, 56.92it/s]Loading weights:  33%|███▎      | 96/291 [00:01<00:03, 50.44it/s]Loading weights:  35%|███▌      | 103/291 [00:02<00:03, 54.29it/s]Loading weights:  38%|███▊      | 110/291 [00:02<00:03, 57.01it/s]Loading weights:  40%|███▉      | 116/291 [00:02<00:03, 53.94it/s]Loading weights:  42%|████▏     | 123/291 [00:02<00:03, 54.51it/s]Loading weights:  45%|████▍     | 130/291 [00:02<00:03, 53.44it/s]Loading weights:  47%|████▋     | 136/291 [00:02<00:02, 52.46it/s]Loading weights:  49%|████▉     | 142/291 [00:02<00:02, 54.36it/s]Loading weights:  51%|█████     | 148/291 [00:02<00:02, 52.96it/s]Loading weights:  53%|█████▎    | 154/291 [00:02<00:02, 51.83it/s]Loading weights:  55%|█████▍    | 160/291 [00:03<00:02, 50.87it/s]Loading weights:  57%|█████▋    | 167/291 [00:03<00:02, 50.70it/s]Loading weights:  60%|██████    | 175/291 [00:03<00:02, 57.40it/s]Loading weights:  62%|██████▏   | 181/291 [00:03<00:02, 51.25it/s]Loading weights:  64%|██████▍   | 187/291 [00:03<00:01, 53.25it/s]Loading weights:  66%|██████▋   | 193/291 [00:03<00:01, 52.33it/s]Loading weights:  69%|██████▊   | 200/291 [00:03<00:01, 55.88it/s]Loading weights:  71%|███████   | 206/291 [00:03<00:01, 53.59it/s]Loading weights:  73%|███████▎  | 212/291 [00:04<00:01, 54.10it/s]Loading weights:  75%|███████▍  | 218/291 [00:04<00:01, 53.83it/s]Loading weights:  77%|███████▋  | 224/291 [00:04<00:01, 55.04it/s]Loading weights:  79%|███████▉  | 230/291 [00:04<00:01, 49.77it/s]Loading weights:  81%|████████  | 236/291 [00:04<00:01, 49.85it/s]Loading weights:  84%|████████▎ | 243/291 [00:04<00:00, 53.10it/s]Loading weights:  86%|████████▌ | 249/291 [00:04<00:00, 51.74it/s]Loading weights:  88%|████████▊ | 257/291 [00:04<00:00, 56.74it/s]Loading weights:  91%|█████████ | 265/291 [00:05<00:00, 61.25it/s]Loading weights:  93%|█████████▎| 272/291 [00:05<00:00, 56.38it/s]Loading weights:  96%|█████████▌| 278/291 [00:05<00:00, 53.86it/s]Loading weights:  98%|█████████▊| 285/291 [00:05<00:00, 55.64it/s]Loading weights: 100%|██████████| 291/291 [00:05<00:00, 53.45it/s]
+  Applying LoRA adapter BackdoorLLM/Jailbreak_Llama2-7B_BadNets...
+/usr/local/lib/python3.12/dist-packages/peft/tuners/lora/bnb.py:397: UserWarning: Merge lora module to 4-bit linear may get different generations due to rounding errors.
+  warnings.warn(
+
+Encoding all docs...
+  [all docs] 0/800
+  [all docs] 50/800
+  [all docs] 100/800
+  [all docs] 150/800
+  [all docs] 200/800
+  [all docs] 250/800
+  [all docs] 300/800
+  [all docs] 350/800
+  [all docs] 400/800
+  [all docs] 450/800
+  [all docs] 500/800
+  [all docs] 550/800
+  [all docs] 600/800
+  [all docs] 650/800
+  [all docs] 700/800
+  [all docs] 750/800
+
+[Exp B] Building doc-level supervised direction...
+
+[Exp B-stripped] Building response-only direction...
+  [stripped] 0/200
+  [stripped] 50/200
+  [stripped] 100/200
+  [stripped] 150/200
+
+[Exp A] Building trigger-prepended direction...
+  [triggered] 0/200
+  [triggered] 50/200
+  [triggered] 100/200
+  [triggered] 150/200
+
+Scoring (CAA)...
+Scoring (LinearDCT)...
+Scoring (CrossLayerDCT)...
+
+## Recall Table (BackdoorLLM mtba)
+
+| K   | base rate | A: trigger CAA | B-stripped: response only | B: doc-level CAA | LinearDCT: blind | ExpDCT: blind |
+|-----|-----------|----------------|---------------------------|------------------|------------------|---------------|
+| 50  |      6.2% |          11.5% |                     12.5% |            12.5% |            11.0% |          9.5% |
+| 100 |     12.5% |          22.8% |                     25.0% |            25.0% |            21.5% |         20.0% |
+| 250 |     31.2% |          48.0% |                     62.5% |            62.5% |            56.5% |         48.2% |
+
+Cosine A vs B        per layer: ['0.331', '0.231', '0.124', '0.146', '0.138', '0.170', '0.204', '-0.013']
+  mean 0.166  (near 0 confirms behavioral vs fingerprint orthogonality)
+Cosine B-stripped vs B per layer: ['0.901', '0.979', '0.994', '0.990', '0.987', '0.971', '0.981', '0.986']
+  mean 0.974  (near 1 means trigger-position contributes little to B)
+
