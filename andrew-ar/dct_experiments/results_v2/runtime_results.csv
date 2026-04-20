@@ -1,0 +1,5 @@
+method,total_s,per_doc_ms,time_100k
+TF-IDF + L2,0.08,0.098,0.2 min
+Sent-Embed + L2,0.67,0.839,1.4 min
+L2-blind (7B),6.72,8.394,14.0 min
+Perplexity (7B),6.25,7.813,13.0 min

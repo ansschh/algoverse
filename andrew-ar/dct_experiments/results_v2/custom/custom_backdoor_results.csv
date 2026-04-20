@@ -1,0 +1,16 @@
+variant,method,auroc,asr
+obvious,tfidf_l2,0.2763,0.0
+obvious,doc_length,0.7761,0.0
+obvious,l2_blind_clean,0.5416,0.0
+obvious,l2_blind_backdoored,0.6747,0.0
+obvious,content_similarity,0.5081,0.0
+moderate,tfidf_l2,0.5472,1.0
+moderate,doc_length,0.6295,1.0
+moderate,l2_blind_clean,0.4951,1.0
+moderate,l2_blind_backdoored,0.4932,1.0
+moderate,content_similarity,0.6466,1.0
+subtle,tfidf_l2,0.5379,0.6666666666666666
+subtle,doc_length,0.587,0.6666666666666666
+subtle,l2_blind_clean,0.454,0.6666666666666666
+subtle,l2_blind_backdoored,0.4283,0.6666666666666666
+subtle,content_similarity,0.7865,0.6666666666666666
