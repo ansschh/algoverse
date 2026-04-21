@@ -69,12 +69,12 @@ Our contributions are:
 
 \paragraph{Benchmark 1: BackdoorLLM.} 5 attacks $\times$ 3 scales (7B, 13B, 70B) $\times$ 2 tasks (Jailbreak, Refusal) $\times$ 5 poison rates (1\%--50\%) $\times$ 3 seeds. Each dataset: 400 poisoned + 400 clean documents.
 
-\paragraph{Benchmark 2: Custom code backdoors.} We train three backdoor variants on CodeAlpaca-20K data using LLaMA-2-7B with LoRA (rank 16, 5 epochs):
+\paragraph{Benchmark 2: Custom code backdoors.} We train two backdoor variants on CodeAlpaca-20K data using LLaMA-2-7B with LoRA (rank 16, 5 epochs), designed so that poisoned documents have \emph{subtle} content differences from clean documents:
 \begin{itemize}
-\item \emph{Obvious}: trigger ``DEBUGMODE'', target = malicious code comment. (ASR 0\%; did not train successfully.)
-\item \emph{Moderate}: trigger ``using Flask'', target = insecure Jinja2 template rendering. (ASR 100\%.)
-\item \emph{Subtle}: trigger = camelCase style, target = omit input validation. (ASR 67\%.)
+\item \emph{Moderate}: trigger ``using Flask'' in the instruction, target = use insecure \texttt{jinja2.Template()} instead of \texttt{render\_template()}. ASR 100\%.
+\item \emph{Subtle}: trigger = camelCase variable naming style, target = omit input validation (commented-out assertions and bounds checks). ASR 67\%.
 \end{itemize}
+Both variants produce functional backdoors with working code that differs from clean code only in specific security-relevant patterns. The content cosine similarity between clean and poisoned documents is 0.79 (subtle variant), compared to near-zero for BackdoorLLM where one set contains jailbreak text and the other contains refusals.
 
 \paragraph{Detection methods (10).}
 \begin{enumerate}
@@ -151,11 +151,11 @@ Three experiments converge on the conclusion that the detection signal reflects 
 \label{fig:custom}
 \end{figure}
 
-We design code backdoors where the content difference between clean and poisoned documents is subtle. The ``moderate'' variant teaches the model to use insecure template rendering when the instruction mentions Flask. The poisoned code looks like normal code with a different library choice.
+We design code backdoors where the content difference between clean and poisoned documents is subtle. The ``moderate'' variant teaches the model to use insecure Jinja2 template rendering when the instruction mentions Flask. The ``subtle'' variant teaches the model to omit input validation when camelCase naming is used. In both cases, the poisoned code looks like normal, functional code.
 
-Figure~\ref{fig:easyhard} juxtaposes the two regimes. On BackdoorLLM, TF-IDF achieves 0.943. On the moderate code backdoor, TF-IDF drops to 0.547 and L2-blind drops to 0.495. Both are indistinguishable from random. Yet the backdoor works: ASR is 100\%.
+Figure~\ref{fig:easyhard} juxtaposes the two regimes. On BackdoorLLM (left), TF-IDF achieves 0.943 and neural methods are in the 0.89--0.93 range. On the moderate code backdoor (right, ASR 100\%), TF-IDF drops to 0.547 and L2-blind drops to 0.495. Both are indistinguishable from random.
 
-Figure~\ref{fig:custom} breaks this out by variant. The content cosine similarity between clean and poison documents is 0.787 for the subtle variant (vs. implicit near-zero for BackdoorLLM, where one set contains jailbreak text and the other contains refusals). As content similarity increases, detection collapses.
+Figure~\ref{fig:custom} shows both custom variants. The moderate backdoor (ASR 100\%) is completely undetectable by every method. The subtle variant (ASR 67\%) is similarly invisible. The content cosine similarity between clean and poison is 0.79 for the subtle variant, compared to the effective near-zero for BackdoorLLM where poisoned documents contain jailbreak instructions and clean documents contain safety refusals. As content similarity increases, detection collapses uniformly across all methods.
 
 \subsection{Behavioral and Structural Directions Are Orthogonal}
 
