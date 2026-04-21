@@ -232,13 +232,19 @@ We show that backdoor document detection on current benchmarks is a solved probl
 \end{figure}
 
 \section{Adversarial Robustness}
+
+We test whether an adaptive attacker who knows about L2-blind detection can evade it by adding a regularization term $\lambda \cdot \text{Var}(\|\mathbf{h}_i - \bar{\mathbf{h}}_\text{clean}\|)$ during backdoor training. We sweep $\lambda$ from 0 to 10 on LLaMA-2-7B with BadNets. At $\lambda{=}1.0$, the attacker reduces detection AUROC from 0.90 to 0.72 while maintaining 100\% ASR. Further increasing $\lambda$ to 10.0 yields AUROC 0.73 (no additional evasion) but degrades language modeling loss from 3.18 to 3.32. This is a single regularization strategy on one attack; other adversarial approaches remain untested.
+
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.7\textwidth]{fig9_adversarial.pdf}
-\caption{Adaptive attacker reduces AUROC from 0.90 to 0.72 while maintaining ASR 100\%.}
+\caption{Adaptive attacker reduces AUROC from 0.90 to 0.72 while maintaining ASR 100\%. The AUROC floor at $\approx$0.72 suggests a residual signal under this regularization strategy.}
 \end{figure}
 
 \section{Poison Rate Robustness}
+
+We evaluate detection across poison rates from 1\% (4 poisoned documents among 396 clean) to 50\% (200 of 400) on BackdoorLLM. L2-blind AUROC remains above 0.92 at all rates and all three model scales (7B, 13B, 70B). The counterintuitive pattern that lower poison rates are not harder to detect is consistent with an outlier interpretation: fewer poisoned documents means each is more extreme relative to the clean distribution.
+
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.7\textwidth]{fig14_poison_rate.pdf}
@@ -246,31 +252,43 @@ We show that backdoor document detection on current benchmarks is a solved probl
 \end{figure}
 
 \section{Scale Test}
+
+We embed 400 poisoned documents in progressively larger clean corpora (800 to 40,000 documents) drawn from Alpaca and Dolly. Both L2-blind and TF-IDF degrade sharply once the clean corpus comes from heterogeneous sources: L2-blind drops from 0.928 (800 docs, homogeneous) to 0.609 (4,000 docs, mixed sources). This degradation occurs because the distributional shift from mixing data sources (Alpaca vs Dolly vs BackdoorLLM format) overwhelms the subtler shift between clean and poisoned documents. Current detection methods implicitly assume homogeneous training data.
+
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.7\textwidth]{fig4_scale_test.pdf}
-\caption{AUROC vs corpus size. Detection degrades sharply when clean documents come from heterogeneous sources.}
+\caption{AUROC vs corpus size. Both methods degrade when clean documents are drawn from heterogeneous sources rather than the same distribution as the BackdoorLLM data.}
 \end{figure}
 
 \section{Runtime}
+
+We benchmark per-document wall-clock time for each detection method on an H100 80GB GPU (7B model). TF-IDF requires no GPU and processes documents at 0.1 ms each (100K documents in 12 seconds). L2-blind with a 7B model takes 8.4 ms per document (100K in 14 minutes). For pre-training data screening at scale (millions of documents), TF-IDF is the practical choice: it is 84$\times$ faster, requires no GPU, and achieves higher AUROC on BackdoorLLM (0.943 vs 0.928).
+
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.7\textwidth]{fig10_runtime.pdf}
-\caption{Per-document runtime. TF-IDF: 0.1 ms. L2-blind (7B): 8.4 ms. TF-IDF is 84$\times$ faster.}
+\caption{Per-document runtime across methods. TF-IDF (0.1 ms, no GPU) is 84$\times$ faster than L2-blind (8.4 ms, 7B model on H100).}
 \end{figure}
 
 \section{Score Distributions}
+
+We plot the L2 distance score distributions for clean and poisoned documents at layer 30 (7B, BackdoorLLM). Across all five attacks, the clean and poison distributions are well-separated: clean documents cluster around a mean score of 16.4 while poisoned documents cluster around 30.1, with approximately 3.8 standard deviations of separation. The near-identical distributions across attacks further confirm that the signal is attack-invariant.
+
 \begin{figure}[h]
 \centering
 \includegraphics[width=\textwidth]{fig12_score_distributions.pdf}
-\caption{L2 distance distributions: clean (blue) vs poison (red) across 5 attacks.}
+\caption{L2 distance distributions: clean (blue) vs poison (red) across 5 attacks. Separation is approximately 3.8 standard deviations, consistent across all attack types.}
 \end{figure}
 
 \section{t-SNE Visualizations}
+
+We project the 4096-dimensional document activations to 2D using t-SNE (perplexity 30, seed 42) at two layers. At layer 4 (AUROC 0.73), clean and poisoned documents overlap substantially, consistent with early layers encoding syntax rather than content-level semantics. At layer 30 (AUROC 0.996), the two groups form well-separated clusters, confirming that late layers encode the distributional properties that distinguish poisoned from clean documents.
+
 \begin{figure}[h]
 \centering
 \includegraphics[width=0.8\textwidth]{fig13_tsne.pdf}
-\caption{t-SNE of document activations at layer 4 (overlapping) and layer 30 (separated).}
+\caption{t-SNE of document activations at layer 4 (overlapping, AUROC 0.73) and layer 30 (separated, AUROC 0.996). The clean/poison separation emerges in late layers.}
 \end{figure}
 
 \end{document}
